@@ -1,7 +1,13 @@
 import matplotlib.pyplot as plt
+import sys
 
 if __name__ == "__main__":
 	#申请数据
+	argv = sys.argv
+	if len(argv) != 2 or not argv[1].isdigit():
+		print("Invalid arguments!")
+		sys.exit(-1)
+	assoc = int(argv[1])
 	test=[]
 	retest=[]
 	test_filename = "./result/test.txt"
@@ -24,4 +30,4 @@ if __name__ == "__main__":
 	plt.legend()
 	plt.grid()
 	# plt.show()
-	plt.savefig("./img/set_dueling",format='png')
+	plt.savefig("./img/set_dueling_{assoc}".format(assoc=assoc),format='png')

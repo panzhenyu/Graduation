@@ -7,12 +7,13 @@
 int main(int argc, char *argv[])
 {
     int i, assoc;
-    if(argc != 2 && !isdigit(argv[1]))
+    if(argc != 2)
     {
         printf("Invalid arguments!\n");
         exit(-1);
     }
     assoc = atoi(argv[1]);
+    printf("assoc: %d\n", assoc);
 
     hugepage_alloc();
     puts("hugepage_alloc finished!");

@@ -6,6 +6,7 @@ RM = rm
 PY = python3
 BUILD = ./build
 OBJS = $(BUILD)/cache.o $(BUILD)/set_dueling.o $(BUILD)/main.o
+PLOT_PARAM =
 
 $(BUILD)/cache.o: cache.c cache.h
 	$(CC) $(CFLAGS) $< -o $@
@@ -25,6 +26,6 @@ clean:
 	$(RM) $(BUILD)/*.o ./set_dueling
 
 plot:
-	$(PY) plot.py
+	$(PY) plot.py $(PLOT_PARAM)
 
 .PHONY: all clean plot
