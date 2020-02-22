@@ -1,0 +1,99 @@
+t_setup {
+  cpu: 1
+  sample_period: 100000
+  n_ctrs: 3
+  command: "pwd"
+  ctr {
+    id: 0
+    name: "PERF_COUNT_HW_INSTRUCTIONS"
+    config: 1
+    config1: 0
+    config2: 0
+    type: 0
+  }
+  ctr {
+    id: 1
+    name: "BRANCH_INSTRUCTIONS_RETIRED"
+    config: 5308612
+    config1: 0
+    config2: 0
+    type: 4
+  }
+  ctr {
+    id: 2
+    name: "MISPREDICTED_BRANCH_RETIRED"
+    config: 5308613
+    config1: 0
+    config2: 0
+    type: 4
+  }
+}
+p_setup {
+  ways: 16
+  cache_size: 4194304
+  stride: 64
+  way_size: 262144
+  no_sweep: true
+  n_pirates: 1
+  n_ctrs: 2
+  ctr {
+    id: 0
+    name: "PERF_COUNT_HW_INSTRUCTIONS"
+    config: 1
+    config1: 0
+    config2: 0
+    type: 0
+  }
+  ctr {
+    id: 1
+    name: "PERF_COUNT_HW_CPU_CYCLES"
+    config: 0
+    config1: 0
+    config2: 0
+    type: 0
+  }
+  cpu: 0
+}
+no_reference: false
+reference {
+  size: 2097152
+  ctr: 165780
+  ctr: 123874
+}
+
+t_sample {
+  size: 4190208
+  ctr: 100016
+  ctr: 19177
+  ctr: 1704
+}
+p_sample {
+  size: 4096
+  ctr: 1024626
+  ctr: 433542
+}
+
+t_sample {
+  size: 4190208
+  ctr: 99985
+  ctr: 24178
+  ctr: 2268
+}
+p_sample {
+  size: 4096
+  ctr: 934640
+  ctr: 394371
+}
+
+t_sample {
+  size: 4190208
+  ctr: 9208
+  ctr: 1865
+  ctr: 266
+}
+p_sample {
+  size: 4096
+  ctr: 318486
+  ctr: 136554
+}
+
