@@ -40,7 +40,7 @@ void backward_set_scan(int assoc, int repeat)
 
 void save_results(char *tag)
 {
-    char test[50] = "../result/test_", retest[50] = "../result/retest_";
+    char test[200] = "/home/panda/Desktop/Graduation/set_dueling/result/test_", retest[200] = "/home/panda/Desktop/Graduation/set_dueling/result/retest_";
     strcat(test, tag);
     strcat(retest, tag); FILE *test_out = fopen(test,"w+");
     FILE *retest_out = fopen(retest,"w+");

@@ -8,7 +8,7 @@ PIRATE=perfpirate
 DUMPTXT=pirate_dump.py
 DUMPCSV=pirate2csv.py
 
-PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e BRANCH_INSTRUCTIONS_RETIRED -e MISPREDICTED_BRANCH_RETIRED"
+PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e LLC_MISSES"
 OUTPUT=
 COMMAND=
 
