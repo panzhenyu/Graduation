@@ -77,3 +77,61 @@ void task_list_show(struct task_list *ptask)
 	puts("---------------------");
 	printf("\n");
 }
+
+char** cmd2env(char *_cmd, int *_num)
+{
+	if(!_cmd)
+	{
+		*_num = 0;
+		return NULL;
+	}
+	int num = 0, max_num = 2;
+	char *cmd = strdup(_cmd);
+	char *sep = " ";
+	char *p = strtok(cmd, sep);
+	char **argv = (char**)malloc(sizeof(char*) * max_num);
+	while(p)
+	{
+		while(num >= max_num && max_num > 0)
+		{
+			max_num <<= 1;
+			argv = (char**)realloc(argv, sizeof(char*) * max_num);
+		}
+		if(max_num < 0)
+		{
+			printf("too many arguments!\n");
+			exit(3);
+		}
+		argv[num++] = strdup(p);
+		p = strtok(NULL, sep);
+	}
+	argv = (char**)realloc(argv, sizeof(char*)*(num+1));
+	argv[num] = NULL;
+	*_num = num;
+	return argv;
+}
+
+void run_task(struct task_desc *task)
+{
+	if(!task)
+		return;
+	int num, i;
+	char *cmd = task->cmd;
+	char **argv = cmd2env(cmd, &num);
+	char * const envp[] = {NULL};
+	if(!argv)
+		printf("error occurs with task->cmd: %s\n", cmd);
+	else
+	{
+		if(pin_cpu(task->cpu))
+			printf("succeed to pin cpu %u\n", task->cpu);
+		if(set_fifo())
+			puts("succeed to set real time process");
+		printf("execute command: ");
+		for(i = 0; i < num-1; i++)
+			printf("%s ", argv[i]);
+		printf("%s\n", argv[i]);
+		// wait for other child
+		execve(argv[0], argv, envp);
+	}
+}

@@ -25,6 +25,7 @@ struct perf_event_attr *create_event_attr()
     attr->exclude_hv = 1;
     attr->exclude_idle = 1;
     attr->disabled = 1;
+    attr->inherit = 1;
     return attr;
 }
 

@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <signal.h>
+#include <sys/wait.h>
+#include <sys/types.h>
 #include "include/cpu.h"
 #include "include/corun.h"
 #include "include/process.h"
@@ -53,8 +56,25 @@ ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg)
 	return events;
 }
 
-void create_tasks(struct task_list *ptask)
+void create_process(struct task_list *ptask)
 {
+	if(!ptask)
+		return;
+	int task_num = ptask->num, i, cpu_idx;
+	struct task_desc *task = ptask->task;
+	for(i = 0; i < task_num; i++)
+	{
+		cpu_idx = malloc_cpu();
+		if(cpu_idx < 0)
+		{
+			printf("too many processes\n");
+			break;
+		}
+		task[i].cpu = cpu_idx;
+		task[i].pid = fork();
+		if(!task[i].pid)
+			run_task(&task[i]);
+	}
 }
 
 int main(int argc, char *argv[])
@@ -90,8 +110,27 @@ int main(int argc, char *argv[])
 	}
 
 	// run
-	create_tasks(tasks);
+	attach_ctrs(events, 0);
+	reset_all_event_counter(events);
+	enable_all_event_counter(events);
 
+	signal(SIGCHLD, SIG_IGN);
+	create_process(tasks);
+	wait(NULL);
+	disable_all_event_counter(events);
+	printf("all child process have finished!\n");
+
+	// collect data
+	int i, event_num;
+	event_num = ctrs_len(events);
+	uint64_t *data = (uint64_t*)malloc(sizeof(uint64_t) * event_num);
+	memset(data, 0, sizeof(uint64_t) * event_num);
+	read_counter(data, events);
+	printf("Results: ");
+	for(i = 0; i < event_num-1; i++)
+		printf("%lu ", data[i]);
+	printf("%lu\n", data[i]);
+	free(data);
 	// free all resources
 FREE:
 	event_counter_finitial(events);

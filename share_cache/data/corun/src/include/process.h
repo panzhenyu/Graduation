@@ -23,5 +23,7 @@ struct task_list* task_list_init(char *command[], int num);
 void task_list_free(struct task_list *ptask);
 void task_list_show(struct task_list *ptask);
 void task_desc_show(struct task_desc *desc);
+char** cmd2env(char *_cmd, int *_num);
+void run_task(struct task_desc *task);
 
 #endif
