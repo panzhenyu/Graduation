@@ -1,7 +1,12 @@
 #ifndef _CPU_H
 #define _CPU_H
 
-unsigned int core_num();
-int pin_cpu(unsigned int cpu);
+typedef unsigned int cpu_t;
+
+cpu_t core_num();
+int malloc_cpu();
+void cpu_err_report(int error);
+int valid_cpu(cpu_t cpu);
+int pin_cpu(cpu_t cpu);
 
 #endif

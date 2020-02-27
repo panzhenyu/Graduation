@@ -5,9 +5,18 @@
 #include <sys/sysinfo.h>
 #include "include/cpu.h"
 
-unsigned int core_num()
+cpu_t core_num()
 {
 	return get_nprocs_conf();
+}
+
+int malloc_cpu()
+{
+	static cpu_t pos = 0;
+	if(pos >= core_num())
+		return -1;
+	pos++;
+	return pos - 1;
 }
 
 void cpu_err_report(int error)
@@ -18,14 +27,14 @@ void cpu_err_report(int error)
 		perror("index of cpu is invalid!\n");
 }
 
-static int valid_cpu(unsigned int cpu)
+int valid_cpu(cpu_t cpu)
 {
 	if(cpu >= 0 && cpu < core_num())
 		return 1;
 	return 0;
 }
 
-int pin_cpu(unsigned int cpu)
+int pin_cpu(cpu_t cpu)
 {
 	if(!valid_cpu(cpu))
 		return -1;

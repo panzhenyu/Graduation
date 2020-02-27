@@ -6,7 +6,7 @@
 
 #define ARGQUEUE_INIT_SIZE 2
 
-int corun_arg_init(struct corun_arg *arg, enum option opt, char *param)
+int corun_arg_init(struct corun_arg *arg, enum arg_option opt, char *param)
 {
 	if(arg == NULL)
 		return 0;
@@ -23,7 +23,7 @@ void corun_arg_free(struct corun_arg *arg)
 	free(arg);
 }
 
-char *corun_arg2str(const struct corun_arg *arg)
+char* corun_arg2str(const struct corun_arg *arg)
 {
 	int num_ch = 0, init_ch = 9;
 	char *s = (char*)malloc(init_ch * sizeof(char));
@@ -109,4 +109,21 @@ struct corun_arg* get_all_arguments(int argc, char *argv[], unsigned int *num_ar
 	}
 	*num_arg = num;
 	return args;
+}
+
+void show_all_arguments(const struct corun_arg *args, unsigned int num_arg)
+{
+	if(!args)
+		return;
+	int i;
+	char *s;
+	puts("--------Arguments--------");
+	for(i = 0; i < num_arg; i++)
+	{
+		s = corun_arg2str(&args[i]);
+		printf("%s\n", s);
+		free(s);
+	}
+	puts("-------------------------");
+	printf("\n");
 }
