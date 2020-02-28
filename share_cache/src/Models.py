@@ -107,7 +107,8 @@ class LRU(Cache):
 			if sticky > rest:
 				Error.perror("The sticky part cannot larger than input cache size, error occurs within sticky cache curve!\n"
 							"Input cache size : " + str(rest) + "\n"
-							"Sticky cache : " + str(sticky) + "\n")
+							"Sticky cache : " + str(sticky) + "\n"
+							"Task name : " + task.name + "\n")
 			rest -= sticky
 		self.volatile = rest
 
@@ -136,6 +137,7 @@ class LRU(Cache):
 		self.__load_tasks(tasks)
 
 		self.init_allocation()
+		print("init_allocation done");
 		change = True
 		while(change):
 			print(self.allocation, self.volatile)
@@ -157,4 +159,10 @@ class LRU(Cache):
 		print("LRU Cache shared Model finished:")
 		alloc = self.allocation
 		for task in self.tasks:
-			print("\t{name} : {allocation}byte".format(name=task.name, allocation=alloc[task.name]))
+			size = alloc[task.name]
+			print("\t{name} : alloc->{allocation} hit_rate->{hit_rate} fetch_rate{fetch_rate} ".format(
+					name=task.name,
+					allocation=size,
+					hit_rate=task.hit_rate.getY(size),
+					fetch_rate=task.fetch_rate.getY(size)
+			))

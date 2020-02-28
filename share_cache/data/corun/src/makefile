@@ -1,2 +1,2 @@
 all: *.c include/*
-	gcc *.c -lpfm
+	gcc *.c -lpfm -o corun

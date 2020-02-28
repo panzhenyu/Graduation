@@ -8,9 +8,15 @@ PIRATE=perfpirate
 DUMPTXT=pirate_dump.py
 DUMPCSV=pirate2csv.py
 
-PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e LLC_MISSES"
+PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e LLC_MISSES -e PERF_COUNT_HW_CACHE_REFERENCES"
 OUTPUT=
 COMMAND=
+
+if [ $# -lt 2 ]
+then
+    echo usage: collect_by_pirate.sh OUTPUT_FILE COMMAND
+    exit -1
+fi
 
 # get arguments
 

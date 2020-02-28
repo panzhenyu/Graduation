@@ -110,13 +110,18 @@ int main(int argc, char *argv[])
 	}
 
 	// run
-	attach_ctrs(events, 0);
+	if(attach_ctrs(events, 0) == -1)
+	{
+		printf("attach ctrs failed\n");
+		goto FREE;
+	}
 	reset_all_event_counter(events);
 	enable_all_event_counter(events);
 
-	signal(SIGCHLD, SIG_IGN);
+//	signal(SIGCHLD, SIG_IGN);
 	create_process(tasks);
-	wait(NULL);
+	waitpid(-1, NULL, 0);
+//	wait(NULL);
 	disable_all_event_counter(events);
 	printf("all child process have finished!\n");
 

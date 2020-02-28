@@ -95,7 +95,7 @@ int attach_ctr(ctr_t *ctr, pid_t pid, int group_fd)
 
     if(ctr->fd == -1)
     {
-        perror("Failed to attach performance counter");
+        printf("Failed to attach performance counter %s\n", ctr->event_name);
         return -1;
     }
     return ctr->fd;
