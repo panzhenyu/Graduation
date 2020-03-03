@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <signal.h>
+#include <semaphore.h>
 #include "include/process.h"
 
 int set_fifo()
@@ -111,7 +112,7 @@ char** cmd2env(char *_cmd, int *_num)
 	return argv;
 }
 
-void run_task(struct task_desc *task)
+void run_task(struct task_desc *task, void *run_arg)
 {
 	if(!task)
 		return;
@@ -131,7 +132,8 @@ void run_task(struct task_desc *task)
 		for(i = 0; i < num-1; i++)
 			printf("%s ", argv[i]);
 		printf("%s\n", argv[i]);
-		// wait for other child
+		// wait for parent
+		sem_wait((sem_t*)run_arg);
 		execve(argv[0], argv, envp);
 	}
 }

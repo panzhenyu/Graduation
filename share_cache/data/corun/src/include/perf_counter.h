@@ -55,7 +55,8 @@ int attach_ctrs(ctr_list_t *list, pid_t pid);
 void reset_all_event_counter(ctr_list_t *list);
 void disable_all_event_counter(ctr_list_t *list);
 void enable_all_event_counter(ctr_list_t *list);
-void event_counter_finitial(ctr_list_t *list);
+void free_event_list(ctr_list_t *list);
+void event_counter_finitial();
 
 int ctrs_len(ctr_list_t *list);
 void read_counter(uint64_t *data, ctr_list_t *list);

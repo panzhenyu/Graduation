@@ -25,7 +25,6 @@ struct perf_event_attr *create_event_attr()
     attr->exclude_hv = 1;
     attr->exclude_idle = 1;
     attr->disabled = 1;
-    attr->inherit = 1;
     return attr;
 }
 
@@ -148,7 +147,7 @@ void event_counter_initialize()
     pfm_initialize();
 }
 
-void event_counter_finitial(ctr_list_t *list)
+void free_event_list(ctr_list_t *list)
 {
     if(!list)
         return;
@@ -163,6 +162,11 @@ void event_counter_finitial(ctr_list_t *list)
         free(var);
     }
     free(list);
+
+}
+
+void event_counter_finitial()
+{
     pfm_terminate();
 }
 

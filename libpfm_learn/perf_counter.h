@@ -62,7 +62,4 @@ void event_counter_finitial(ctr_list_t *list);
 int ctrs_len(ctr_list_t *list);
 void read_counter(uint64_t *data, ctr_list_t *list);
 
-
-
-
 #endif
