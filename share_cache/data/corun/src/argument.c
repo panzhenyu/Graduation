@@ -71,8 +71,8 @@ struct corun_arg* get_all_arguments(int argc, char *argv[], unsigned int *num_ar
 	int ch;
 	unsigned int num, max_num;
 	struct corun_arg *args = NULL;
-
 	num = max_num = 0;
+
 	while((ch = getopt(argc, argv, "e:p:t:h")) != -1)
 	{
 		if(max_num == 0)
@@ -113,7 +113,7 @@ struct corun_arg* get_all_arguments(int argc, char *argv[], unsigned int *num_ar
 
 void show_all_arguments(const struct corun_arg *args, unsigned int num_arg)
 {
-	if(!args)
+	if(!args || num_arg == 0)
 		return;
 	int i;
 	char *s;

@@ -198,13 +198,13 @@ void read_counter(uint64_t *data, ctr_list_t *list)
     }
 }
 
-void events_list_show(ctr_list_t *events_list)
+void event_list_show(ctr_list_t *event_list)
 {
-	if(!events_list)
+	if(!event_list)
 		return;
 	puts("--------EVENTS--------");
 	struct ctr *cur;
-	for(cur = events_list->head; cur; cur = cur->next)
+	for(cur = event_list->head; cur; cur = cur->next)
 		printf("fd: %-5devent_name: %s\n", cur->fd, cur->event_name);
 	puts("----------------------");
 	printf("\n");

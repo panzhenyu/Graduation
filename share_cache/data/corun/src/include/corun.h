@@ -17,11 +17,13 @@ struct corun_param
 	ctr_list_t **events;
 	sem_t *mutex;
 	unsigned int num_arg;
+	unsigned int period;
+	cpu_t core_num;
 };
 
 int corun_param_init(struct corun_param *param, int argc, char *argv[]);
 void corun_param_free(struct corun_param *param);
-int task_coruning(struct corun_param *param);
+int task_corunning(struct corun_param *param);
 void collect_data(struct corun_param *param);
 
 #endif

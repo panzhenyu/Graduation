@@ -60,6 +60,6 @@ void event_counter_finitial();
 
 int ctrs_len(ctr_list_t *list);
 void read_counter(uint64_t *data, ctr_list_t *list);
-void events_list_show(ctr_list_t *events_list);
+void event_list_show(ctr_list_t *event_list);
 
 #endif

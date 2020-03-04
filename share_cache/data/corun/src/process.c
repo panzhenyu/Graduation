@@ -128,12 +128,14 @@ void run_task(struct task_desc *task, void *run_arg)
 			printf("succeed to pin cpu %u\n", task->cpu);
 		if(set_fifo())
 			puts("succeed to set real time process");
-		printf("execute command: ");
-		for(i = 0; i < num-1; i++)
-			printf("%s ", argv[i]);
-		printf("%s\n", argv[i]);
 		// wait for parent
 		sem_wait((sem_t*)run_arg);
-		execve(argv[0], argv, envp);
+		printf("begin to execute cmd: %s\n", task->cmd);
+		if(execve(argv[0], argv, envp) == -1)
+		{
+			printf("failed to execute task->cmd: %s\n", task->cmd);
+			exit(-1);
+		}
 	}
+	exit(-1);
 }

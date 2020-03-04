@@ -9,6 +9,8 @@
 
 static struct task_list* args2tasks(struct corun_arg *args, unsigned int num_arg)
 {
+	if(!args || num_arg == 0)
+		return NULL;
 	int i, j;
 	char **command = (char**)malloc(sizeof(char*) * num_arg);
 	for(i = 0, j = 0; i < num_arg; i++)
@@ -27,6 +29,8 @@ static struct task_list* args2tasks(struct corun_arg *args, unsigned int num_arg
 
 static unsigned long args2period(struct corun_arg *args, unsigned int num_arg)
 {
+	if(!args || num_arg == 0)
+		return DEFAULT_PERIOD;
 	int i;
 	for(i = 0; i < num_arg; i++)
 	{
@@ -36,8 +40,10 @@ static unsigned long args2period(struct corun_arg *args, unsigned int num_arg)
 	return DEFAULT_PERIOD;
 }
 
-static ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg)
+static ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg, unsigned int period)
 {
+	if(!args || num_arg == 0)
+		return NULL;
 	int i, j;
 	char **events_name = (char**)malloc(sizeof(char*) * num_arg);
 	for(i = 0, j = 0; i < num_arg; i++)
@@ -46,7 +52,7 @@ static ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg)
 			events_name[j++] = strdup(args[i].param);
 	}
 	ctr_list_t *events = NULL;
-	init_events_list(&events, events_name, j, (uint64_t)args2period);
+	init_events_list(&events, events_name, j, period);
 
 	for(i = 0; i < j; i++)
 		free(events_name[i]);
@@ -54,18 +60,31 @@ static ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg)
 	return events;
 }
 
-static void mutex_init(sem_t *ptr)
+static void mutex_init(sem_t **ptr)
 {
 	int fd = open(MUTEX_MAP_FILE, O_RDWR|O_CREAT, S_IRWXU);
 	if(fd < 0)
-		goto FAILED;
+	{
+		printf("cannot open file: %s\n", MUTEX_MAP_FILE);
+		*ptr = NULL;
+		return;
+	}
 	write(fd, "init", 4);
-	ptr = (sem_t*)mmap(NULL, sizeof(sem_t), PROT_READ|PROT_WRITE, MAP_SHARED, fd, 0);
+	*ptr = (sem_t*)mmap(NULL, sizeof(sem_t), PROT_READ|PROT_WRITE, MAP_SHARED, fd, 0);
 	close(fd);
-	if(ptr == MAP_FAILED)
-		goto FAILED;
-FAILED:
-	ptr = NULL;
+	if(*ptr == MAP_FAILED)
+	{
+		printf("mmap failed\n");
+		*ptr = NULL;
+		return;
+	}
+	if(sem_init(*ptr, 1, 0) < 0)
+	{
+		printf("sem_init failed\n");
+		munmap(*ptr, sizeof(sem_t));
+		*ptr = NULL;
+		return;
+	}
 }
 
 static int create_process(struct task_list *ptask, void *run_arg)
@@ -102,18 +121,29 @@ int corun_param_init(struct corun_param *param, int argc, char *argv[])
 	param->mutex = NULL;
 
 	param->pargs = get_all_arguments(argc, argv, &param->num_arg);
-
+	param->period = args2period(param->pargs, param->num_arg);
+	param->core_num = core_num();
 	param->ptask = args2tasks(param->pargs, param->num_arg);
+	if(!param->ptask)
+		return 0;
 	num_task = param->ptask->num;
 
 	param->events = (ctr_list_t**)malloc(sizeof(ctr_list_t*) * num_task);
 	memset(param->events, 0, sizeof(ctr_list_t*) * num_task);
 	for(i = 0; i < num_task; i++)
-		param->events[i] = args2events(param->pargs, param->num_arg);
+		param->events[i] = args2events(param->pargs, param->num_arg, param->period);
 
-	mutex_init(param->mutex);
-	if(!param->ptask || !param->events[0] || !param->mutex)
+	mutex_init(&param->mutex);
+	if(!param->events[0])
+	{
+		puts("param->events[0] init failed");
 		return 0;
+	}
+	if(!param->mutex)
+	{
+		puts("param->mutex init failed");
+		return 0;
+	}
 	return 1;
 }
 
@@ -137,7 +167,7 @@ void corun_param_free(struct corun_param *param)
 		free_all_args(param->pargs, param->num_arg);
 }
 
-int task_coruning(struct corun_param *param)
+int task_corunning(struct corun_param *param)
 {
 	if(param == NULL)
 		return 0;
@@ -154,16 +184,14 @@ int task_coruning(struct corun_param *param)
 	{
 		if(attach_ctrs(events[i], task_list->task[i].pid) == -1)
 		{
-			printf("attach ctrs failed\n");
+			printf("attach ctrs failed with task->cmd: %s\n", task_list->task[i].cmd);
 			return 0;
 		}
 		reset_all_event_counter(events[i]);
-	}
-	for(i = 0; i < num_task; i++)
-	{
-		sem_post(mutex);
 		enable_all_event_counter(events[i]);
 	}
+	for(i = 0; i < num_task; i++)
+		sem_post(mutex);
 	waitpid(-1, NULL, 0);
 	for(i = 0; i < num_task; i++)
 		disable_all_event_counter(events[i]);
@@ -178,37 +206,71 @@ void collect_data(struct corun_param *param)
 	uint64_t *data;
 	int i, j, event_num, task_num;
 
+	struct task_list *t_list = param->ptask;
 	ctr_list_t **events = param->events;
 	event_num = ctrs_len(events[0]);
-	task_num = param->ptask->num;
+	task_num = t_list->num;
 
 	data = (uint64_t*)malloc(sizeof(uint64_t) * event_num);
 	memset(data, 0, sizeof(uint64_t) * event_num);
 
-	printf("Results: ");
+	printf("----------Results----------\n");
 	for(j = 0; j < task_num; j++)
 	{
 		read_counter(data, events[j]);
+		printf("%s: ", t_list->task[j].cmd);
 		for(i = 0; i < event_num-1; i++)
 			printf("%lu ", data[i]);
 		printf("%lu\n", data[i]);
 	}
+	printf("---------------------------\n");
 	free(data);
+}
+
+void corun_param_show(struct corun_param *param)
+{
+	printf("num of core: %u\n", param->core_num);
+	printf("period: %u\n", param->period);
+	show_all_arguments(param->pargs, param->num_arg);
+	task_list_show(param->ptask);
+	if(param->events)
+		event_list_show(param->events[0]);
 }
 
 int main(int argc, char *argv[])
 {
 	event_counter_initialize();
+	printf("event_counter_initialize done\n");
 
 	struct corun_param *param = (struct corun_param*)malloc(sizeof(struct corun_param));
 
 	// initialize all parameters
-	corun_param_init(param, argc, argv);
+	if(corun_param_init(param, argc, argv) == 0)
+	{
+		puts("corun_param_init failed");
+		goto FREE;
+	}
+	puts("corun_param_init done");
+
+	// show parameters
+	corun_param_show(param);
+
+	// run task
+	if(task_corunning(param) == 0)
+	{
+		puts("task corunning failed");
+		goto FREE;
+	}
+
+	// show results
+	collect_data(param);
 
 	// free all resources
+FREE:
 	corun_param_free(param);
+	puts("corun_param_free done");
 	free(param);
 	event_counter_finitial();
-
+	puts("event_counter_finitial done");
 }
 
