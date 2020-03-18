@@ -3,7 +3,7 @@ LD = gcc
 LDFLAGS =
 RM = rm
 PY = python3
-HOME = /home/panda/Desktop/Graduation/set_dueling
+HOME = ..
 BIN_DIR = $(HOME)/bin
 BUILD_DIR = $(HOME)/build
 INCLUDE_DIR = $(HOME)/src/include
@@ -30,9 +30,12 @@ $(BUILD_DIR)/main.o: main.c $(INCLUDE_DIR)/*
 $(BIN_DIR)/set_dueling: $(OBJS)
 	$(CC) $(LDFLAGS) $^ -o $@
 
-all: $(BIN_DIR)/set_dueling
+bind: strategy_bind.c pincpu.c process_prio.c ${INCLUDE_DIR}/*
+	$(CC) strategy_bind.c pincpu.c process_prio.c -I ${INCLUDE_DIR}/ -o $(BIN_DIR)/strategy_bind
+
+all: $(BIN_DIR)/set_dueling $(INCLUDE_DIR)/* ./*.c
 
 clean:
-	$(RM) $(BUILD_DIR)/*.o $(BIN_DIR)/set_dueling
+	$(RM) $(BUILD_DIR)/*.o $(BIN_DIR)/set_dueling $(BIN_DIR)/strategy_bind
 
-.PHONY: all clean
+.PHONY: all clean bind

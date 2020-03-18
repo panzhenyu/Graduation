@@ -3,6 +3,8 @@
 
 #include "cache.h"
 
+#define RESULT_HOME "../result"
+
 double access_list_test[SET_NUM];
 double access_list_retest[SET_NUM];
 

@@ -30,5 +30,5 @@ if __name__ == "__main__":
 
 	tasks, lru = [task2, task1], LRU(size=4194304, association=64, sets=2048, cache_line_size=64, shrink=512)
 	lru.solve(tasks)
-	tasks = [task2, task1]
+	tasks = [task1, task2]
 	lru.solve(tasks)

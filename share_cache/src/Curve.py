@@ -5,13 +5,20 @@ class Curve:
 	def __init__(self, x_axis, y_axis):
 		self.x = []
 		self.y = []
-		self.x_axis = None
-		self.y_axis = None
+		self.x_axis = str(x_axis)
+		self.y_axis = str(y_axis)
 		self.point_num = 0
 
-	def load(self, filename, format):
+	def load_file(self, filename, format):
 		if format == 'csv':
 			pass
+
+	def load_data(self, x, y):
+		point_num = len(x)
+		if point_num != len(y):
+			Error.perror("len(x) != len(y), something error while build load_data!\n")
+		self.x, self.y = x[:], y[:]
+		self.point_num = point_num
 
 	def plot(self):
 		pass
@@ -30,10 +37,17 @@ class Curve:
 		if x == self.x[i]:
 			return self.y[i]
 		elif i-1 >= 0:
-			return self.y[i-1] + self.y[i] * (x - self.x[i-1]) / (self.x[i] - self.x[i-1])
+			bias = (x - self.x[i-1]) / (self.x[i] - self.x[i-1]) * abs(self.y[i] - self.y[i-1])
+			if self.y[i] > self.y[i-1]:
+				return self.y[i] - bias
+			else:
+				return self.y[i-1] - bias
 
 	def getX(self, y):
 		pass
+	
+	def show(self):
+		print("point_num: ", self.point_num, "\n", self.x_axis, self.x, "\n", self.y_axis, self.y, "\n")
 
 # class MissRate(Curve):
 
@@ -48,7 +62,7 @@ class HitRate(Curve):
 class FetchRate(Curve):
 
 	def __init__(self):
-		Curve.__init__(self, "fetch rate", "hit rate")
+		Curve.__init__(self, "cache size", "fetch rate")
 
 class StickyCache(Curve):
 	
@@ -65,17 +79,22 @@ class StickyCache(Curve):
 			self.y[i] = self.y[i-1] + (h - preh) * (self.x[i] - self.y[i-1]) / (1 - preh) if preh != 1 else self.y[i-1]
 
 	def getY(self, x):
-		return int(super(StickyCache, self).getY(x))
+		return super(StickyCache, self).getY(x)
 
 	# this way, when the neighbour points is close enough, we use one of their x directly to decrease the error
 	def getX(self, y):
 		for i in range(1, self.point_num):
-			if y >= self.y[i-1] and y <= self.y[i]:
-				if abs(self.y[i-1] - self.y[i]) <= 1e-3:
-					return self.y[i]
-				return self.x[i] - (self.y[i] - y) / (self.y[i] - self.y[i-1]) * (self.x[i] - self.x[i-1])
-			elif y <= self.y[i-1] and y >=self.y[i]:
-				if abs(self.y[i-1] - self.y[i]) <= 1e-3:
-					return self.y[i]
-				return (self.y[i-1] - y) / (self.y[i-1] - self.y[i]) * (self.x[i] - self.x[i-1]) + self.x[i-1]
+			if self.y[i-1] > self.y[i]:
+				max_idx, min_idx = i-1, i
+			else:
+				max_idx, min_idx = i, i-1
+			max_x, min_x = self.x[max_idx], self.x[min_idx]
+			max_y, min_y = self.y[max_idx], self.y[min_idx]
+
+			if y <= max_y and y >= min_y:
+				bias = (y - min_y) / (max_y - min_y) * (max_x - min_x)
+				if max_idx == i:
+					return bias + min_x
+				else:
+					return max_x - bias
 		return None

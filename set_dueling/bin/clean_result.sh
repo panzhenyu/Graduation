@@ -1,2 +1,2 @@
-HOME=/home/panda/Desktop/Graduation/set_dueling
+HOME=..
 rm -rf ${HOME}/result/* ${HOME}/img/*
