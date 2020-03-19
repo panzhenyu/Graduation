@@ -89,12 +89,8 @@ void access_set(int set, int repeat)
 
 void bind(int begin, int end)
 {
-	int i;
-	for(i = begin; i <= end; i++)
-	{
-		access_set(begin, 100);
-		delay(1000);
-	}
+	while(1)
+		access_set((begin+end)/2, 1000);
 }
 
 int main(int argc, char *argv[])
@@ -129,13 +125,11 @@ int main(int argc, char *argv[])
 	if(!strcmp(argv[1], "A"))
 	{
 		puts("begin to bind strategy A");
-		while(1)
-			bind(POLICY_A_START, POLICY_A_END);
+		bind(POLICY_A_START, POLICY_A_END);
 	}
 	else if(!strcmp(argv[1], "B"))
 	{
 		puts("begin to bind strategy B");
-		while(1)
-			bind(POLICY_B_START, POLICY_B_END);
+		bind(POLICY_B_START, POLICY_B_END);
 	}
 }

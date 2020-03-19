@@ -1,4 +1,4 @@
-PIRATE_HOME=/home/panda/Desktop/pirate
+PIRATE_HOME=/home/cuiran/桌面/pirate
 TMPFILE_HOME=/tmp
 
 PYTHON=python2
@@ -8,7 +8,7 @@ PIRATE=perfpirate
 DUMPTXT=pirate_dump.py
 DUMPCSV=pirate2csv.py
 
-PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e LLC_MISSES -e PERF_COUNT_HW_CACHE_REFERENCES"
+PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e PERF_COUNT_HW_CACHE_MISSES -e PERF_COUNT_HW_CACHE_REFERENCES"
 OUTPUT=
 COMMAND=
 
@@ -23,11 +23,11 @@ fi
 i=1
 for arg in "$@"
 do
-    if [ $i == 1 ]
+    if [ $i -eq 1 ]
     then
-        OUTPUT+=$arg
+        OUTPUT=$OUTPUT$arg
     else
-        COMMAND+="$arg "
+        COMMAND=$COMMAND"$arg "
     fi
     i=`expr $i + 1`
 done

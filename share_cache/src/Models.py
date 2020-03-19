@@ -160,7 +160,7 @@ class LRU(Cache):
 		alloc = self.allocation
 		for task in self.tasks:
 			size = alloc[task.name]
-			print("\t{name} : alloc->{allocation} hit_rate->{hit_rate} fetch_rate{fetch_rate} ".format(
+			print("\t{name} : alloc:{allocation} hit_rate:{hit_rate} fetch_rate:{fetch_rate} ".format(
 					name=task.name,
 					allocation=size,
 					hit_rate=task.hit_rate.getY(size),
