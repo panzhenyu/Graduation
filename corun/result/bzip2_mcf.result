@@ -1,0 +1,46 @@
+PERF_COUNT_HW_CPU_CYCLES
+PERF_COUNT_HW_INSTRUCTIONS
+PERF_COUNT_HW_CACHE_MISSES
+PERF_COUNT_HW_CACHE_REFERENCES
+
+real data:
+
+self adaptive:
+bzip2: 7528436672 15601128703 6873036 199522067 -> fetch:0.03 hit:0.97
+mcf: 7331709767 3219589007 83937949 207090886 -> fetch:0.4 hit:0.6
+
+strategy A:
+bzip2: 7141472288 14248410300 13142621 182176549 -> fetch: 0.07 hit:0.93
+mcf: 7171794652 3219587501 83516505 210304603 -> fetch: 0.397 hit:0.603
+
+strategy B:
+bzip2: 7499216859 14975185460 16979984 198208909 -> fetch:0.086 hit:0.914
+mcf: 7514304621 3219590947 92021593 218070284 -> fetch:0.422 hit:0.578
+
+
+predict data:
+
+self adaptive:
+LRU Cache shared Model finished:
+	bzip -> alloc:5037733.423467388 hit:0.7782921388532155 fetch:0.21143513863388336 
+	mcf -> alloc:3350874.5765326116 hit:0.5021518360810509 fetch:0.5019752508155595 
+
+strategy A:
+LRU Cache shared Model finished:
+	bzip -> alloc:4397368.059851484 hit:0.8166242750465468 fetch:0.19103843567399237 
+	mcf -> alloc:3991239.9401485156 hit:0.51889590332094 fetch:0.47991743527908376 
+
+strategy B:
+LRU Cache shared Model finished:
+	bzip -> alloc:5164699.571223959 hit:0.8134481427606605 fetch:0.1576516803996554 
+	mcf -> alloc:3223908.428776041 hit:0.5209751370135385 fetch:0.4844217035856364
+
+fetch error:
+	self adaptive	A		B
+bzip2	6		1.71
+mcf	0.25		
+
+hit error:
+	self adaptive	A		B
+bzip2	-0.198		
+mcf	-0.25

@@ -60,6 +60,32 @@ static ctr_list_t* args2events(struct corun_arg *args, unsigned int num_arg, uns
 	return events;
 }
 
+static char* args2output(struct corun_arg *args, unsigned int num_arg)
+{
+	if(!args || num_arg == 0)
+		return NULL;
+	int i;
+	for(i = 0; i < num_arg; i++)
+	{
+		if(args[i].type == OUTPUT)
+			return strdup(args[i].param);
+	}
+	return NULL;
+}
+
+static unsigned long args2time(struct corun_arg *args, unsigned int num_arg)
+{
+	if(!args || num_arg == 0)
+		return DEFAULT_TIME;
+	int i;
+	for(i = 0; i < num_arg; i++)
+	{
+		if(args[i].type == TIME)
+			return atol(args[i].param);
+	}
+	return DEFAULT_TIME;
+}
+
 static void mutex_init(sem_t **ptr)
 {
 	int fd = open(MUTEX_MAP_FILE, O_RDWR|O_CREAT, S_IRWXU);
@@ -122,8 +148,10 @@ int corun_param_init(struct corun_param *param, int argc, char *argv[])
 
 	param->pargs = get_all_arguments(argc, argv, &param->num_arg);
 	param->period = args2period(param->pargs, param->num_arg);
+	param->time = args2time(param->pargs, param->num_arg);
 	param->core_num = core_num();
 	param->ptask = args2tasks(param->pargs, param->num_arg);
+
 	if(!param->ptask)
 		return 0;
 	num_task = param->ptask->num;
@@ -165,6 +193,7 @@ void corun_param_free(struct corun_param *param)
 	}
 	if(param->pargs)
 		free_all_args(param->pargs, param->num_arg);
+	munmap(param->mutex, sizeof(sem_t));
 }
 
 int task_corunning(struct corun_param *param)
@@ -199,12 +228,21 @@ int task_corunning(struct corun_param *param)
 	return 1;
 }
 
+// show the data collected from events counter and save file if the output file has been assigned
 void collect_data(struct corun_param *param)
 {
 	if(param == NULL)
 		return;
-	uint64_t *data;
+	char *output = NULL;
+	uint64_t *data = NULL;
+	FILE *fp = NULL;
 	int i, j, event_num, task_num;
+
+	output = args2output(param->pargs, param->num_arg);
+	if(output != NULL && (fp=fopen(output, "w+")) != NULL)
+		printf("succeed to open output file: %s\n", output);
+	else
+		printf("failed to open output file:%s\n", output);
 
 	struct task_list *t_list = param->ptask;
 	ctr_list_t **events = param->events;
@@ -224,6 +262,20 @@ void collect_data(struct corun_param *param)
 		printf("%lu\n", data[i]);
 	}
 	printf("---------------------------\n");
+	if(fp)
+	{
+		for(j = 0; j < task_num; j++)
+		{
+			fprintf(fp, "%s: ", t_list->task[j].cmd);
+			for(i = 0; i < event_num-1; i++)
+				fprintf(fp, "%lu ", data[i]);
+			fprintf(fp, "%lu\n", data[i]);
+		}
+		printf("succeed to save file: %s\n", output);
+		fclose(fp);
+	}
+	if(output)
+		free(output);
 	free(data);
 }
 
@@ -231,6 +283,7 @@ void corun_param_show(struct corun_param *param)
 {
 	printf("num of core: %u\n", param->core_num);
 	printf("period: %u\n", param->period);
+	printf("time: %u\n", param->time);
 	show_all_arguments(param->pargs, param->num_arg);
 	task_list_show(param->ptask);
 	if(param->events)
@@ -264,6 +317,7 @@ int main(int argc, char *argv[])
 
 	// show results
 	collect_data(param);
+	puts("collect_data done");
 
 	// free all resources
 FREE:

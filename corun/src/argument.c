@@ -41,6 +41,14 @@ char* corun_arg2str(const struct corun_arg *arg)
 			num_ch = 4;
 			strcpy(s, "TASK: ");
 			break;
+		case OUTPUT:
+			num_ch = 6;
+			strcpy(s, "OUTPUT: ");
+			break;
+		case TIME:
+			num_ch = 4;
+			strcpy(s, "TIME: ");
+			break;
 	}
 	int param_len = strlen(arg->param);
 	num_ch += param_len + 1;	// 1 for '\0' character
@@ -73,7 +81,7 @@ struct corun_arg* get_all_arguments(int argc, char *argv[], unsigned int *num_ar
 	struct corun_arg *args = NULL;
 	num = max_num = 0;
 
-	while((ch = getopt(argc, argv, "e:p:t:h")) != -1)
+	while((ch = getopt(argc, argv, "e:p:t:o:T:h")) != -1)
 	{
 		if(max_num == 0)
 		{
@@ -97,8 +105,15 @@ struct corun_arg* get_all_arguments(int argc, char *argv[], unsigned int *num_ar
 			case 't':
 				corun_arg_init(&args[num], TASK, strdup(optarg));
 				break;
+			case 'o':
+				corun_arg_init(&args[num], OUTPUT, strdup(optarg));
+				break;
+			case 'T':
+				corun_arg_init(&args[num], TIME, strdup(optarg));
+				break;
 			case 'h':
 				helper_info();
+				num--;
 				break;
 			default:
 				printf("Unknown option: %c\n", (char)optopt);

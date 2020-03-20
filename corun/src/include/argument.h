@@ -5,7 +5,9 @@ enum arg_option
 {
 	PERIOD,
 	EVENT,
-	TASK
+	TASK,
+	OUTPUT,
+	TIME		// millisecond
 };
 
 struct corun_arg

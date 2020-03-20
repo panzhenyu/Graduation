@@ -1,13 +1,8 @@
-PIRATE_HOME=/home/cuiran/桌面/pirate
-TMPFILE_HOME=/tmp
+eval `cat ../config/pirate.cfg`
 
+TMPFILE_HOME=/tmp
 PYTHON=python2
 RM=rm
-
-PIRATE=perfpirate
-DUMPTXT=pirate_dump.py
-DUMPCSV=pirate2csv.py
-
 PIRATE_ARGS="-c 1 -C 0 --sample-period=100000 -e PERF_COUNT_HW_CACHE_MISSES -e PERF_COUNT_HW_CACHE_REFERENCES"
 OUTPUT=
 COMMAND=

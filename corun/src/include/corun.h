@@ -8,6 +8,7 @@
 #include "perf_counter.h"
 
 #define DEFAULT_PERIOD 100000
+#define DEFAULT_TIME 10
 #define MUTEX_MAP_FILE "/tmp/corun_lock.lck"
 
 struct corun_param
@@ -18,6 +19,7 @@ struct corun_param
 	sem_t *mutex;
 	unsigned int num_arg;
 	unsigned int period;
+	unsigned int time;
 	cpu_t core_num;
 };
 
@@ -25,5 +27,6 @@ int corun_param_init(struct corun_param *param, int argc, char *argv[]);
 void corun_param_free(struct corun_param *param);
 int task_corunning(struct corun_param *param);
 void collect_data(struct corun_param *param);
+void corun_param_show(struct corun_param *param);
 
 #endif
