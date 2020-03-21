@@ -260,20 +260,18 @@ void collect_data(struct corun_param *param)
 		for(i = 0; i < event_num-1; i++)
 			printf("%lu ", data[i]);
 		printf("%lu\n", data[i]);
-	}
-	printf("---------------------------\n");
-	if(fp)
-	{
-		for(j = 0; j < task_num; j++)
+
+		if(fp)
 		{
 			fprintf(fp, "%s: ", t_list->task[j].cmd);
 			for(i = 0; i < event_num-1; i++)
 				fprintf(fp, "%lu ", data[i]);
 			fprintf(fp, "%lu\n", data[i]);
 		}
-		printf("succeed to save file: %s\n", output);
-		fclose(fp);
 	}
+	printf("---------------------------\n");
+	if(fp)
+		fclose(fp);
 	if(output)
 		free(output);
 	free(data);

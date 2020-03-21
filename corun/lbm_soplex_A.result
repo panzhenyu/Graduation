@@ -1,0 +1,2 @@
+/home/cuiran/spec2006/benchspec/CPU2006/470.lbm/exe/lbm_base.amd64-m64-gcc42-nn reference.dat 3000 0 0 /home/cuiran/spec2006/benchspec/CPU2006/470.lbm/data/ref/input/100_100_130_ldc.of: 1194061243 1643657887 1226038 7119897
+/home/cuiran/spec2006/benchspec/CPU2006/450.soplex/exe/soplex_base.amd64-m64-gcc42-nn -m3500 /home/cuiran/spec2006/benchspec/CPU2006/450.soplex/data/ref/input/ref.mps: 1194061243 1643657887 1226038 7119897

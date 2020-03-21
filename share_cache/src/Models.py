@@ -83,7 +83,7 @@ class LRU(Cache):
 		# check for the task's constraint
 		age_sticky = self.sticky_age(task)
 		age_volatile = self.max_volatile_age()
-		print("!!!age_sticky: {sticky}  age_volatile: {volatile}".format(sticky=age_sticky, volatile=age_volatile));
+		# print("-->age_sticky: {sticky}  age_volatile: {volatile}".format(sticky=age_sticky, volatile=age_volatile));
 		return age_sticky <= age_volatile
 
 	def adjust_allocation(self, task):
@@ -132,15 +132,15 @@ class LRU(Cache):
 		alloc[task_name] += rest
 
 	def solve(self, tasks):
-		print("---solve start---")
+		print("-->solve start")
 		self.__clean()
 		self.__load_tasks(tasks)
 
 		self.init_allocation()
-		print("init_allocation done");
+		print("-->init_allocation done");
 		change = True
 		while(change):
-			print(self.allocation, self.volatile)
+			print("!!!" + str(self.allocation), self.volatile)
 			change = False
 			max_age, max_task = -1, None
 			for task in self.tasks:
@@ -151,12 +151,13 @@ class LRU(Cache):
 			if max_task != None:
 				change = True
 				self.adjust_allocation(max_task)
+		print("-->adjust_allocation done with rest cache size: " + str(self.volatile));
 		self.allocate_volatile()
 		self.result()
-		print("---solve end---")
+		print("-->solve end")
 
 	def result(self):
-		print("LRU Cache shared Model finished:")
+		print("-->LRU Cache shared Model finished:")
 		alloc = self.allocation
 		for task in self.tasks:
 			size = alloc[task.name]
