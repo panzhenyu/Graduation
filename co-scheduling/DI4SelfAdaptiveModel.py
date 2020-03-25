@@ -4,7 +4,7 @@ import sys
 if __name__ == "__main__":
     argc = len(sys.argv)
     if argc <= 2:
-        print("usage: python3 $thisfile $processor_num $tasks")
+        print("usage: python3 thisfile processor_num taskName [taskName]")
         sys.exit(-1)
     di, argv = DI4SelfAdaptive(), sys.argv
     for i in range(2, argc):
