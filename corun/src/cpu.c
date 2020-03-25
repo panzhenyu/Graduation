@@ -12,7 +12,7 @@ cpu_t core_num()
 
 int malloc_cpu()
 {
-	static cpu_t pos = 0;
+	static cpu_t pos = 1;
 	if(pos >= core_num())
 		return -1;
 	pos++;

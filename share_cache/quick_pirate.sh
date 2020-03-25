@@ -1,4 +1,4 @@
-eval `cat ../config/pirate.cfg`
+source ../config/pirate.cfg
 
 TMPFILE_HOME=/tmp
 PYTHON=python2

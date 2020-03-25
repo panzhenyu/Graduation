@@ -1,0 +1,116 @@
+from .task import *
+from .profile import *
+from .schedule import *
+import sys
+import numpy as np
+
+class DI4SelfAdaptive:
+    # check for this path every time before using this module
+    CO_SCHEDULING_HOME = "/home/panda/Desktop/Graduation/co-scheduling"
+
+    def __init__(self):
+        self.taskSet = TaskSet()
+    
+    def clean(self):
+        del self.taskSet
+        self.taskSet = TaskSet()
+
+    # DI profile format: one line with miss under A strategy and miss under B strategy
+    # two misses are divided by space
+    # DI profile path: ${CO_SCHEDULING_HOME}/profile/${taskName}/DI
+    def importTask(self, taskName):
+        profile_fd = open(DI4SelfAdaptive.CO_SCHEDULING_HOME + "/profile/"
+                            + str(taskName) + "/DI", "r")
+        miss = profile_fd.readline().strip().split(' ')
+        if len(miss) != 2:
+            print("in DI4SelfAdaptive importProfile, the {taskName} profile format is wrong!"
+                    .format(taskName=taskName))
+            sys.exit(-1)
+        miss_A, miss_B = [float(m) for m in miss]
+
+        task, profile = Task(taskName), DIProfile(miss_A, miss_B)
+        task.loadProfile(profile)
+        self.taskSet.addTask(task)
+
+        profile_fd.close()
+
+    def addTask(self, task):
+        self.taskSet.addTask(task)
+
+    def taskMiss(self, task):
+        profile = task.profile
+        if not isinstance(profile, DIProfile):
+            print("in DI4SelfAdaptive.taskSort, the profile isn't a instance of DIProfile")
+            sys.exit(-1)
+        m_A, m_B = profile.miss_A, profile.miss_B
+        return min(m_A, m_B)
+
+    # from big to small
+    def taskSort(self, tasks):
+        miss = []
+        _tasks = []
+        task_num = len(tasks)
+
+        for task in tasks:
+            miss.append(self.taskMiss(task))
+
+        idx = sorted(range(task_num), key=lambda k: miss[k])
+        idx.reverse()
+        for i in idx:
+            _tasks.append(tasks[i])
+
+        return _tasks
+
+    # return a standard deviation list for every possible situation
+    def stdDeviation(self, schedule, task):
+        std = []
+        miss_sum, task_miss = [], self.taskMiss(task)
+        for t_set in schedule.taskSets:
+            s_sum = 0
+            for task in t_set.tasks:
+                s_sum += self.taskMiss(task)
+            miss_sum.append(s_sum)
+
+        for i in range(len(miss_sum)):
+            miss_sum[i] += task_miss
+            std.append(np.std(miss_sum, ddof=1))
+            miss_sum[i] -= task_miss
+        return std
+
+    def chooseTaskSet(self, schedule, task):
+        std = self.stdDeviation(schedule, task)
+        min_idx, min_var = 0, std[0]
+        for i in range(1, len(std)):
+            if std[i] < min_var:
+                min_idx, min_var = i, std[i]
+        schedule.taskSets[min_idx].addTask(task)
+
+    def solve(self, processor_num):
+        taskSetLen = self.taskSet.length()
+        if taskSetLen == 0 or processor_num <= 0:
+            print("in DI4SelfAdaptive.solve, the processor_num {0} or taskSet length {1} is invalid"
+                    .format(processor_num, taskSetLen))
+            return
+        if processor_num > taskSetLen:
+            print("in DI4SelfAdaptive.solve, the processor_num {0} smaller than taskSet length {1}".
+                    format(processor_num, taskSetLen))
+            return
+
+        tasks = self.taskSort(self.taskSet.getTaskList())
+
+        schedule = Schedule()
+        for i in range(processor_num):
+            t_set = TaskSet()
+            t_set.addTask(tasks.pop(0))
+            schedule.addTaskSet(t_set)
+
+        if processor_num == 1:
+            for task in tasks:
+                schedule.taskSets[0].addTask(task)
+        else:
+            for task in tasks:
+                self.chooseTaskSet(schedule, task)
+        
+        print("DI4SelfAdaptive finished for {0} processor situation:".format(processor_num))
+        schedule.show()
+

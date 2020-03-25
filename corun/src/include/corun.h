@@ -8,7 +8,7 @@
 #include "perf_counter.h"
 
 #define DEFAULT_PERIOD 100000
-#define DEFAULT_TIME 10
+#define DEFAULT_TIME 0
 #define MUTEX_MAP_FILE "/tmp/corun_lock.lck"
 
 struct corun_param

@@ -1,0 +1,9 @@
+set_dueling:
+1. must enable huge page to ensure the memroy map for accessed cache line is continuous.
+2. modify cache.h and strategy_bind.h to set your cache config and huge page path.
+3. use sudo to make the process run in real-time mode.
+
+corun:
+1. quick_start.sh needs process config, make sure the config file in your computer is all right.
+2. the number of corun programs cannot larger than core number - 1.
+3. the main process binds to core 0, while the other corun processes bind to the core number starting from 1.
