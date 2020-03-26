@@ -1,9 +1,9 @@
-from src.algorithm import DI4SelfAdaptive
+from src.algorithm import DI
 from corun_utils import *
 import sys
 
 def getSchedule(argc, argv, processor_num, profile_home):
-    di = DI4SelfAdaptive(profile_home)
+    di = DI(profile_home)
     for i in range(2, argc):
         di.importTask(argv[i])
     return di.solve(processor_num)
@@ -30,4 +30,3 @@ if __name__ == "__main__":
 
     # simulate schedule
     test4Schedule(schedule, nameIdMap, PROFILE_STRATEGY_PATH)
-

@@ -16,3 +16,9 @@ class Schedule:
     def show(self):
         for t_set in self.taskSets:
             t_set.show()
+
+    def __str__(self):
+        s = ""
+        for t_set in self.taskSets:
+            s += str(t_set) + "\n"
+        return s[0: -1]

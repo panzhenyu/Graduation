@@ -4,23 +4,34 @@ from .schedule import *
 import sys
 import numpy as np
 
-class DI4SelfAdaptive:
-    # check for this path every time before using this module
-    CO_SCHEDULING_HOME = "/home/panda/Desktop/Graduation/co-scheduling"
-
+class CoScheduleAlgorithm:
     def __init__(self):
         self.taskSet = TaskSet()
+
+    def importTask(self, taskName):
+        pass
+
+    def addTask(self, task):
+        pass
+    
+    def solve(self):
+        pass
     
     def clean(self):
         del self.taskSet
         self.taskSet = TaskSet()
 
+class DI4SelfAdaptive(CoScheduleAlgorithm):
+
+    def __init__(self, profile_home):
+        CoScheduleAlgorithm.__init__(self)
+        self.PROFILE_HOME = str(profile_home)
+
     # DI profile format: one line with miss under A strategy and miss under B strategy
     # two misses are divided by space
-    # DI profile path: ${CO_SCHEDULING_HOME}/profile/${taskName}/DI
+    # DI profile path: PROFILE_HOME/${taskName}/DI
     def importTask(self, taskName):
-        profile_fd = open(DI4SelfAdaptive.CO_SCHEDULING_HOME + "/profile/"
-                            + str(taskName) + "/DI", "r")
+        profile_fd = open(self.PROFILE_HOME + "/" + str(taskName) + "/DI", "r")
         miss = profile_fd.readline().strip().split(' ')
         if len(miss) != 2:
             print("in DI4SelfAdaptive importProfile, the {taskName} profile format is wrong!"
@@ -110,7 +121,37 @@ class DI4SelfAdaptive:
         else:
             for task in tasks:
                 self.chooseTaskSet(schedule, task)
-        
-        print("DI4SelfAdaptive finished for {0} processor situation:".format(processor_num))
-        schedule.show()
+        return schedule
 
+class DI(CoScheduleAlgorithm):
+    def __init__(self, profile_home):
+        CoScheduleAlgorithm.__init__(self)
+        self.PROFILE_HOME = profile_home
+        self.DI4SelfAdaptive = DI4SelfAdaptive(self.PROFILE_HOME)
+    
+    def clean(self):
+        self.DI4SelfAdaptive.clean()
+        CoScheduleAlgorithm.clean(self)
+
+    def importTask(self, taskName):
+        self.DI4SelfAdaptive.importTask(taskName)
+
+    def solve(self, processor_num):
+        orig_tasks = self.DI4SelfAdaptive.taskSet.getTaskList()
+        tasks = self.DI4SelfAdaptive.taskSort(orig_tasks)
+        schedule = Schedule()
+
+        for i in range(processor_num):
+            schedule.addTaskSet(TaskSet())
+    
+        i, d = 0, 1
+        for task in tasks:
+            schedule.taskSets[i].addTask(task)
+            i += d
+            if i == processor_num:
+                d = -1
+                i -= 1
+            elif i == -1:
+                d = 1
+                i += 1
+        return schedule

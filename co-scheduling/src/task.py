@@ -32,4 +32,4 @@ class TaskSet:
         sequence = ""
         for task in self.tasks:
             sequence += task.name + " "
-        return sequence[0:-1]
+        return sequence[0: -1]
