@@ -22,3 +22,15 @@ class Schedule:
         for t_set in self.taskSets:
             s += str(t_set) + "\n"
         return s[0: -1]
+
+    def __eq__(self, _sched):
+        sets_len = len(self.taskSets)
+        if sets_len != len(_sched.taskSets):
+            return False
+        self.taskSets.sort()
+        _sched.taskSets.sort()
+
+        for i in range(sets_len):
+            if self.taskSets[i] != _sched.taskSets[i]:
+                return False
+        return True
