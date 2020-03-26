@@ -27,3 +27,9 @@ class TaskSet:
         for task in self.tasks:
             names.append(task.name)
         print(names)
+
+    def __str__(self):
+        sequence = ""
+        for task in self.tasks:
+            sequence += task.name + " "
+        return sequence[0:-1]
