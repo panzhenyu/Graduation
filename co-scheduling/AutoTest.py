@@ -44,36 +44,43 @@ if __name__ == "__main__":
 	taskSetPath = CO_SCHEDULING_HOME + "/input/task_set"
 	profile_home = CO_SCHEDULING_HOME + "/profile"
 	output = CO_SCHEDULING_HOME + "/output/task_set_result"
-	needcorun = CO_SCHEDULING_HOME + "output/corun_set_needed"
+	needcorun = CO_SCHEDULING_HOME + "/output/corun_set_needed"
 
 	if len(sys.argv) != 3:
 		print("usage: python3 autoTest.py corun_task_num processor_num")
 		sys.exit(-1)
 	corun_task_num = int(sys.argv[1])
 	processor_num = int(sys.argv[2])
-	print("corun_task_num:", corun_task_num)
-	print("processor_num:", processor_num)
 
 	taskName = getAllTask(taskSetPath)
 	DITaskObjs = buildDITaskObject(taskName, profile_home)
 	taskSets = sub(taskName, corun_task_num)
-	print(taskName)
-	print(DITaskObjs)
 
 	result = open(output, "w")
 	needed = open(needcorun, "w")
-	t_set = set([])
-	seq = 0
+	diff = set([])
 
+	seq = 0
 	for tasks in taskSets:
 		di_result = getFromDI(tasks, processor_num, DITaskObjs)
 		diImprove_result = getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs)
 		if di_result != diImprove_result:
-			result.write("seq:" + str(seq) + "---------")
+			result.write("seq:" + str(seq) + "\n")
 			result.write(str(di_result) + "\n")
-			result.write("-->")
-			result.write(str(diImprove_result) + "\n")
+			result.write("---\n")
+			result.write(str(diImprove_result) + "\n\n")
+			seq += 1
 		for t_set in di_result.getTaskSets():
+			diff.add(str(t_set))
+		for t_set in diImprove_result.getTaskSets():
+			diff.add(str(t_set))
+
+	seq = 0
+	for t_set_str in diff:
+		needed.write(str(seq) + ":" + t_set_str + "\n")
+		seq += 1
+
+	needed.close()
 	result.close()
 
 
