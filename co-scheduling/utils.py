@@ -1,3 +1,4 @@
+from itertools import combinations
 import os
 
 def taskSet2IdSet(taskSet, nameIdMap):
@@ -28,3 +29,9 @@ def test4Schedule(schedule, nameIdMap, exec_path):
         cmd = exec_path + " " + str(task_num) + task_arg
         print("-->going to run cmd: " + cmd)
         os.system(cmd)
+
+def sub(_list, _n):
+	result = []
+	for s in combinations(_list, _n):
+		result.append(list(s))
+	return result

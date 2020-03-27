@@ -1,5 +1,6 @@
 from src.algorithm import DI4SelfAdaptive
-from corun_utils import *
+from config.home import *
+from utils import *
 import sys
 
 def getSchedule(argc, argv, processor_num, profile_home):
@@ -10,9 +11,9 @@ def getSchedule(argc, argv, processor_num, profile_home):
 
 if __name__ == "__main__":
     # config parameters
-    PROFILE_STRATEGY_PATH = "../profile_strategy"
-    MAPFILE_PATH = "./benchmark_list"
-    PROFILE_HOME = "/home/panda/Desktop/Graduation/co-scheduling/profile"
+    PROFILE_STRATEGY = PROFILE_STRATEGY_HOME + "/profile_strategy"
+    MAPFILE_PATH = CO_SCHEDULING_HOME + "/config/txt/benchmark_list"
+    PROFILE_HOME = CO_SCHEDULING_HOME + "/profile"
 
     argc, argv = len(sys.argv), sys.argv
     if argc <= 2:
@@ -29,5 +30,5 @@ if __name__ == "__main__":
     nameIdMap = loadNameIdMap(MAPFILE_PATH)
 
     # simulate schedule
-    test4Schedule(schedule, nameIdMap, PROFILE_STRATEGY_PATH)
+    test4Schedule(schedule, nameIdMap, PROFILE_STRATEGY)
 

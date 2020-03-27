@@ -36,6 +36,7 @@ class TaskSet:
 
     def __str__(self):
         sequence = ""
+        self.tasks.sort()
         for task in self.tasks:
             sequence += task.name + " "
         return sequence[0: -1]

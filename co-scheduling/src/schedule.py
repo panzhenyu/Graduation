@@ -10,6 +10,9 @@ class Schedule:
         else:
             print("in Schedule.addTaskSet, the taskSet isn't a instance of TaskSet")
 
+    def getTaskSets(self):
+        return self.taskSets
+
     def save(self, filename):
         pass
 

@@ -21,10 +21,14 @@ class CoScheduleAlgorithm:
         del self.taskSet
         self.taskSet = TaskSet()
 
+    def getTaskSet(self):
+        return self.taskSet
+
 class DI4SelfAdaptive(CoScheduleAlgorithm):
 
     def __init__(self, profile_home):
         CoScheduleAlgorithm.__init__(self)
+	# this attribute is only useful for importTask method
         self.PROFILE_HOME = str(profile_home)
 
     # DI profile format: one line with miss under A strategy and miss under B strategy
@@ -101,11 +105,11 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
         if taskSetLen == 0 or processor_num <= 0:
             print("in DI4SelfAdaptive.solve, the processor_num {0} or taskSet length {1} is invalid"
                     .format(processor_num, taskSetLen))
-            return
+            return None
         if processor_num > taskSetLen:
             print("in DI4SelfAdaptive.solve, the processor_num {0} smaller than taskSet length {1}".
                     format(processor_num, taskSetLen))
-            return
+            return None
 
         tasks = self.taskSort(self.taskSet.getTaskList())
 
@@ -135,6 +139,12 @@ class DI(CoScheduleAlgorithm):
 
     def importTask(self, taskName):
         self.DI4SelfAdaptive.importTask(taskName)
+
+    def addTask(self, task):
+        self.DI4SelfAdaptive.addTask(task)
+
+    def getTaskSet(self):
+        return self.DI4SelfAdaptive.getTaskSet()
 
     def solve(self, processor_num):
         orig_tasks = self.DI4SelfAdaptive.taskSet.getTaskList()
