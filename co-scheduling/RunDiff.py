@@ -1,5 +1,4 @@
-from AutoTest import *
-from config.home import *
+from config.path import *
 from utils import *
 
 def loadDiff(diff_file):
@@ -24,14 +23,9 @@ def runTaskSets(begin, end, taskSets, nameIdMap, idPhaseMap, exec_path):
 		taskCorun(t_set, nameIdMap, idPhaseMap, exec_path)
 
 if __name__ == "__main__":
-	MAPFILE_PATH = CO_SCHEDULING_HOME + "/config/txt/benchmark_list"
-	PHASE_PATH = CO_SCHEDULING_HOME + "/config/txt/benchmark_phase"
-	DIFF_FILE = CO_SCHEDULING_HOME + "/output/corun_set_needed"
-	PROFILE_STRATEGY_PATH = "../profile_strategy"
-
-	taskSets = loadDiff(DIFF_FILE)
-	nameIdMap = loadNameIdMap(MAPFILE_PATH)
+	taskSets = loadDiff(AUTOTEST_DIFFFILE)
+	nameIdMap = loadNameIdMap(TASKID_PATH)
 	idPhaseMap = loadIdPhaseMap(PHASE_PATH)
 	set_num = len(taskSets)
 
-	runTaskSets(0, set_num, taskSets, nameIdMap, idPhaseMap, PROFILE_STRATEGY_PATH)
+	runTaskSets(0, set_num, taskSets, nameIdMap, idPhaseMap, PROFILE_STRATEGY)

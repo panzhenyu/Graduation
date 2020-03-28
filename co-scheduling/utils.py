@@ -1,17 +1,6 @@
 from itertools import combinations
 import os
 
-def taskNameSet2IdSet(taskNameSet, nameIdMap):
-    idSet = []
-    for name in taskNameSet:
-        idSet.append(nameIdMap[name])
-    return idSet
-
-def taskSet2IdSet(taskSet, nameIdMap):
-    idSet = []
-    names = [x.name for x in taskSet.getTaskList()]
-    return taskNameSet2IdSet(names, nameIdMap)
-
 def loadNameIdMap(filename):
     mapfile = open(filename, "r")
     nameIdMap = {}
@@ -36,6 +25,16 @@ def loadIdPhaseMap(filename):
     mapfile.close()
     return idPhaseMap
 
+def taskNameSet2IdSet(taskNameSet, nameIdMap):
+    idSet = []
+    for name in taskNameSet:
+        idSet.append(nameIdMap[name])
+    return idSet
+
+def taskSet2NameSet(taskSet):
+    nameSet = [x.name for x in taskSet.getTaskList()]
+    return nameSet
+
 def taskCorun(taskNameSet, nameIdMap, idPhaseMap, exec_path):
     idSet = taskNameSet2IdSet(taskNameSet, nameIdMap)
     task_arg, task_num = "", len(taskNameSet)
@@ -43,17 +42,13 @@ def taskCorun(taskNameSet, nameIdMap, idPhaseMap, exec_path):
         phase_start, phase_end = idPhaseMap[_id]
         task_arg += " " + str(_id) + " " + str(phase_start) + " " + str(phase_end)
     cmd = exec_path + " " + str(task_num) + task_arg
+    print("-->execute:", cmd)
     os.system(cmd)
 
-def test4Schedule(schedule, nameIdMap, exec_path):
+def runSchedule(schedule, nameIdMap, idPhaseMap, exec_path):
     for t_set in schedule.taskSets:
-        idSet = taskSet2IdSet(t_set, nameIdMap)
-        task_arg, task_num = "", len(idSet)
-        for _id in idSet:
-            task_arg += " " + str(_id) + " 100 200"
-        cmd = exec_path + " " + str(task_num) + task_arg
-        print("-->going to run cmd: " + cmd)
-        os.system(cmd)
+        nameSet = taskSet2NameSet(t_set)
+        taskCorun(nameSet, nameIdMap, idPhaseMap, exec_path)
 
 def sub(_list, _n):
 	result = []

@@ -25,7 +25,6 @@ class CoScheduleAlgorithm:
         return self.taskSet
 
 class DI4SelfAdaptive(CoScheduleAlgorithm):
-
     def __init__(self, profile_home):
         CoScheduleAlgorithm.__init__(self)
 	# this attribute is only useful for importTask method
@@ -37,13 +36,14 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
     def importTask(self, taskName):
         profile_fd = open(self.PROFILE_HOME + "/" + str(taskName) + "/DI", "r")
         miss = profile_fd.readline().strip().split(' ')
-        if len(miss) != 2:
+        if len(miss) < 2:
             print("in DI4SelfAdaptive importProfile, the {taskName} profile format is wrong!"
                     .format(taskName=taskName))
             sys.exit(-1)
+        # modify
         miss_A, miss_B = [float(m) for m in miss]
-
-        task, profile = Task(taskName), DIProfile(miss_A, miss_B)
+        miss_Adaptive = 0
+        task, profile = Task(taskName), DIProfile(miss_A, miss_B, miss_Adaptive)
         task.loadProfile(profile)
         self.taskSet.addTask(task)
 
@@ -55,7 +55,7 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
-            print("in DI4SelfAdaptive.taskSort, the profile isn't a instance of DIProfile")
+            print("in DI4SelfAdaptive.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
         m_A, m_B = profile.miss_A, profile.miss_B
         return min(m_A, m_B)
@@ -165,3 +165,36 @@ class DI(CoScheduleAlgorithm):
                 d = 1
                 i += 1
         return schedule
+
+class DI4StrategyA(DI4SelfAdaptive):
+    def __init__(self, profile_home):
+        DI4SelfAdaptive.__init__(self, profile_home)
+
+    def taskMiss(self, task):
+        profile = task.profile
+        if not isinstance(profile, DIProfile):
+            print("in DI4StrategyA.taskMiss, the profile isn't a instance of DIProfile")
+            sys.exit(-1)
+        return profile.miss_A
+
+class DI4StrategyB(DI4SelfAdaptive):
+    def __init__(self, profile_home):
+        DI4SelfAdaptive.__init__(self, profile_home)
+
+    def taskMiss(self, task):
+        profile = task.profile
+        if not isinstance(profile, DIProfile):
+            print("in DI4StrategyB.taskMiss, the profile isn't a instance of DIProfile")
+            sys.exit(-1)
+        return profile.miss_B
+
+class DICompare(DI4SelfAdaptive):
+    def __init__(self, profile_home):
+        DI4SelfAdaptive.__init__(self, profile_home)
+
+    def taskMiss(self, task):
+        profile = task.profile
+        if not isinstance(profile, DIProfile):
+            print("in DI4StrategyB.taskMiss, the profile isn't a instance of DIProfile")
+            sys.exit(-1)
+        return profile.miss_Adaptive
