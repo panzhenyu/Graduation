@@ -17,8 +17,7 @@ class Schedule:
         pass
 
     def show(self):
-        for t_set in self.taskSets:
-            t_set.show()
+        print(str(self))
 
     def __str__(self):
         s = ""

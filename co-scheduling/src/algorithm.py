@@ -36,13 +36,11 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
     def importTask(self, taskName):
         profile_fd = open(self.PROFILE_HOME + "/" + str(taskName) + "/DI", "r")
         miss = profile_fd.readline().strip().split(' ')
-        if len(miss) < 2:
+        if len(miss) != 3:
             print("in DI4SelfAdaptive importProfile, the {taskName} profile format is wrong!"
                     .format(taskName=taskName))
             sys.exit(-1)
-        # modify
-        miss_A, miss_B = [float(m) for m in miss]
-        miss_Adaptive = 0
+        miss_A, miss_B, miss_Adaptive = [float(m) for m in miss]
         task, profile = Task(taskName), DIProfile(miss_A, miss_B, miss_Adaptive)
         task.loadProfile(profile)
         self.taskSet.addTask(task)

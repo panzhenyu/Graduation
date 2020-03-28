@@ -40,6 +40,12 @@ def getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs):
 		scheduler.addTask(DITaskObjs[task])
 	return scheduler.solve(processor_num)
 
+def getFromDICompare(tasks, processor_num, DITaskObjs):
+	scheduler = DICompare("")
+	for task in tasks:
+		scheduler.addTask(DITaskObjs[task])
+	return scheduler.solve(processor_num)
+
 if __name__ == "__main__":
 	if len(sys.argv) != 3:
 		print("usage: python3 autoTest.py corun_task_num processor_num")
@@ -56,19 +62,23 @@ if __name__ == "__main__":
 	diff = set([])
 
 	seq = 0
+	diff_num = 0
 	for tasks in taskSets:
-		di_result = getFromDI(tasks, processor_num, DITaskObjs)
+		# di_result = getFromDI(tasks, processor_num, DITaskObjs)
 		diImprove_result = getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs)
-		if di_result != diImprove_result:
+		diCompare_result = getFromDICompare(tasks, processor_num, DITaskObjs)
+		if diImprove_result != diCompare_result:
 			result.write("seq:" + str(seq) + "\n")
-			result.write(str(di_result) + "\n")
+			result.write(str(diImprove_result) + "\n")
 			result.write("---\n")
-			result.write(str(diImprove_result) + "\n\n")
+			result.write(str(diCompare_result) + "\n\n")
 			seq += 1
-		for t_set in di_result.getTaskSets():
-			diff.add(str(t_set))
 		for t_set in diImprove_result.getTaskSets():
-			diff.add(str(t_set))
+			if t_set.length() != 1:
+				diff.add(str(t_set))
+		for t_set in diCompare_result.getTaskSets():
+			if t_set.length() != 1:
+				diff.add(str(t_set))
 
 	seq = 0
 	for t_set_str in diff:
