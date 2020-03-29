@@ -125,8 +125,4 @@ if __name__ == "__main__":
     corun_result = loadCorunResult(AUTOTEST_CORUNOUT)
     merge(sched_result, corun_result)
     saveMergeResult(output_file, sched_result)
-
-    # print(sched_result)
-    # print(corun_result)
-    # print(len(sched_result))
-    # print(len(corun_result))
+    print("sched_result length: {0} corun_result length: {1}".format(len(sched_result), len(corun_result)))
