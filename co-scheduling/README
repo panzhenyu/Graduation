@@ -1,0 +1,21 @@
+data process part:
+
+-->MergeOutput.py
+schedule result format:
+# txt file name: AUTOTEST_COMBINATION
+# note that the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '
+# schedule result is list format:
+# schedule_result = [scheduleObj, scheduleObj, ...]
+# scheduleObj = {algorithmName: taskSets, ...}
+# taskSets = {taskNameSeq: taskSet, ...}
+# taskSet = {taskName: taskAttr, ...}
+# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+
+corun result format:
+# txt file name: AUTOTEST_CORUNOUT
+# note that the result file separator is '*'， so the first letter of taskName cannot be '*'
+# the taskNameSeq must consist of sorted taskNames
+# corun result is list format:
+# corun_result = {taskNameSeq: taskSet, ...}
+# taskSet = {taskName: taskAttr, ...}
+# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
