@@ -3,7 +3,8 @@ data process part:
 -->MergeOutput.py
 schedule result format:
 # txt file name: AUTOTEST_COMBINATION
-# note that the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '
+# note: the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '.
+# note: some attribute order must check for real json file
 # schedule result is list format:
 # schedule_result = [scheduleObj, scheduleObj, ...]
 # scheduleObj = {algorithmName: taskSets, ...}
@@ -13,7 +14,7 @@ schedule result format:
 
 corun result format:
 # txt file name: AUTOTEST_CORUNOUT
-# note that the result file separator is '*'， so the first letter of taskName cannot be '*'
+# note: the result file separator is '*'， so the first letter of taskName cannot be '*'
 # the taskNameSeq must consist of sorted taskNames
 # corun result is list format:
 # corun_result = {taskNameSeq: taskSet, ...}

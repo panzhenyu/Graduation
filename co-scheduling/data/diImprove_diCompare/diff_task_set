@@ -1,0 +1,229 @@
+0:625 gromacs lbm
+1:625 gromacs mcf
+2:557 620 calculix
+3:625 638 calculix
+4:505 520 625
+5:519 520
+6:calculix lbm
+7:620 calculix hmmer
+8:hmmer lbm
+9:625 mcf
+10:620 625 hmmer
+11:502 620
+12:502 505
+13:520 mcf
+14:505 557 620
+15:502 505 557
+16:502 557 calculix
+17:502 520 638
+18:519 625
+19:502 625 hmmer
+20:502 hmmer
+21:505 620 calculix
+22:520 lbm
+23:620 638 hmmer
+24:519 557 gromacs
+25:520 557
+26:557 calculix lbm
+27:638 calculix gromacs
+28:557 638 calculix
+29:557 hmmer lbm
+30:calculix mcf
+31:620 gromacs hmmer
+32:520 625 638
+33:638 gromacs mcf
+34:520 gromacs
+35:calculix hmmer
+36:557 638 gromacs
+37:calculix gromacs lbm
+38:520 625 gromacs
+39:502 620 625
+40:519 calculix gromacs
+41:505 calculix hmmer
+42:502 505 638
+43:519 638 gromacs
+44:557 620 625
+45:638 calculix lbm
+46:519 625 gromacs
+47:620 625 gromacs
+48:502 638 hmmer
+49:505 557 hmmer
+50:557 lbm
+51:520 638 hmmer
+52:505 557 calculix
+53:505 625 hmmer
+54:625 638 lbm
+55:502 520 calculix
+56:502 520 hmmer
+57:502 mcf
+58:519 620
+59:620 638 gromacs
+60:502 505 620
+61:625 calculix hmmer
+62:502 557 620
+63:520 557 625
+64:502 625
+65:557 625 gromacs
+66:519 625 hmmer
+67:502 557
+68:520 620
+69:620 calculix
+70:620 lbm
+71:gromacs mcf
+72:557 calculix gromacs
+73:557 620
+74:638 lbm
+75:505 520 557
+76:gromacs hmmer mcf
+77:calculix gromacs mcf
+78:502 lbm
+79:557 mcf
+80:505 620
+81:505 620 gromacs
+82:620 calculix gromacs
+83:520 620 625
+84:620 625 638
+85:520 calculix gromacs
+86:502 505 520
+87:625 lbm
+88:502 505 gromacs
+89:519 hmmer
+90:505 620 625
+91:625 638 gromacs
+92:502 520
+93:502 638 calculix
+94:502 505 hmmer
+95:520 625 calculix
+96:557 625 hmmer
+97:625 638 hmmer
+98:620 625 calculix
+99:502 620 638
+100:557 620 hmmer
+101:520 638 calculix
+102:502 625 638
+103:625 gromacs hmmer
+104:505 620 hmmer
+105:505 calculix gromacs
+106:520 calculix
+107:505 557 gromacs
+108:520 638
+109:519 mcf
+110:505 638 hmmer
+111:505 638
+112:502 557 638
+113:502 505 calculix
+114:557 638 lbm
+115:505 520 hmmer
+116:520 calculix hmmer
+117:519 lbm
+118:502 620 gromacs
+119:502 505 625
+120:505 557 625
+121:505 lbm
+122:620 638
+123:520 625
+124:502 520 557
+125:gromacs lbm
+126:502 620 hmmer
+127:519 calculix hmmer
+128:520 557 620
+129:calculix gromacs
+130:620 mcf
+131:505 625 gromacs
+132:505 557 638
+133:502 557 hmmer
+134:638 gromacs hmmer
+135:519 557 625
+136:519 557 hmmer
+137:520 gromacs hmmer
+138:638 mcf
+139:638 calculix mcf
+140:519 625 638
+141:505 520 638
+142:519 557
+143:519 gromacs
+144:505 625 638
+145:502 625 gromacs
+146:625 638
+147:502 557 625
+148:520 hmmer
+149:502 519
+150:520 620 638
+151:519 638 hmmer
+152:gromacs hmmer
+153:505 520 gromacs
+154:625 gromacs
+155:519 calculix
+156:620 638 calculix
+157:519 638
+158:638 calculix hmmer
+159:620 gromacs
+160:505 520 620
+161:505 557
+162:505 gromacs
+163:505 hmmer
+164:502 520 gromacs
+165:520 557 gromacs
+166:calculix gromacs hmmer
+167:502 520 620
+168:625 hmmer mcf
+169:505 620 638
+170:557 gromacs hmmer
+171:638 calculix
+172:502 gromacs hmmer
+173:505 520 calculix
+174:638 hmmer mcf
+175:502 gromacs
+176:502 calculix
+177:557 620 gromacs
+178:gromacs hmmer lbm
+179:557 620 638
+180:hmmer mcf
+181:520 625 hmmer
+182:625 hmmer lbm
+183:502 638 gromacs
+184:520 620 gromacs
+185:502 520 625
+186:520 557 calculix
+187:505 calculix
+188:502 638
+189:557 625 calculix
+190:625 calculix mcf
+191:638 gromacs lbm
+192:502 625 calculix
+193:625 calculix gromacs
+194:502 620 calculix
+195:620 hmmer
+196:calculix hmmer mcf
+197:505 520
+198:520 638 gromacs
+199:625 calculix lbm
+200:620 625
+201:557 gromacs lbm
+202:638 hmmer lbm
+203:520 557 638
+204:557 638 hmmer
+205:625 638 mcf
+206:502 calculix gromacs
+207:625 hmmer
+208:519 638 calculix
+209:520 620 hmmer
+210:520 557 hmmer
+211:519 625 calculix
+212:505 625
+213:calculix hmmer lbm
+214:519 gromacs hmmer
+215:519 557 calculix
+216:557 625 638
+217:505 mcf
+218:502 calculix hmmer
+219:502 557 gromacs
+220:557 calculix hmmer
+221:505 638 gromacs
+222:505 gromacs hmmer
+223:557 625 lbm
+224:505 519
+225:505 638 calculix
+226:520 620 calculix
+227:519 557 638
+228:505 625 calculix
