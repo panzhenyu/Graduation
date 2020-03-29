@@ -1,22 +1,31 @@
-data process part:
+Overview:
+This project is composed of four portions:
+1. co-shceduling algorithm
+2. schedule result execution
+3. auto test
+4. data process
 
+data process part:
 -->MergeOutput.py
+[INPUT]
 schedule result format:
-# txt file name: AUTOTEST_COMBINATION
-# note: the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '.
-# note: some attribute order must check for real json file
-# schedule result is list format:
-# schedule_result = [scheduleObj, scheduleObj, ...]
-# scheduleObj = {algorithmName: taskSets, ...}
-# taskSets = {taskNameSeq: taskSet, ...}
-# taskSet = {taskName: taskAttr, ...}
-# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+note: txt file name -> AUTOTEST_COMBINATION(in CO_SCHEDULING_HOME/config/path.py)
+note: the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '.
+note: some attribute order must check for real json file
+schedule result is list format:
+schedule_result = [scheduleObj, scheduleObj, ...]
+scheduleObj = {algorithmName: taskSets, ...}
+taskSets = {taskNameSeq: taskSet, ...}
+taskSet = {taskName: taskAttr, ...}
+taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
 
 corun result format:
-# txt file name: AUTOTEST_CORUNOUT
-# note: the result file separator is '*'， so the first letter of taskName cannot be '*'
-# the taskNameSeq must consist of sorted taskNames
-# corun result is list format:
-# corun_result = {taskNameSeq: taskSet, ...}
-# taskSet = {taskName: taskAttr, ...}
-# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+note: txt file name -> AUTOTEST_CORUNOUT(in CO_SCHEDULING_HOME/config/path.py)
+note: the result file separator is '*'， so the first letter of taskName cannot be '*'
+the taskNameSeq must consist of sorted taskNames
+corun result is list format:
+corun_result = {taskNameSeq: taskSet, ...}
+taskSet = {taskName: taskAttr, ...}
+taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+
+[OUTPUT]
