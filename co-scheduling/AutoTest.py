@@ -67,6 +67,8 @@ if __name__ == "__main__":
 		# di_result = getFromDI(tasks, processor_num, DITaskObjs)
 		diImprove_result = getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs)
 		diCompare_result = getFromDICompare(tasks, processor_num, DITaskObjs)
+		# head line, used to differ schedule result order
+		result.write("diImprove diCompare")
 		if diImprove_result != diCompare_result:
 			result.write("seq:" + str(seq) + "\n")
 			result.write(str(diImprove_result) + "\n")

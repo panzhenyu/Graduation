@@ -1,3 +1,105 @@
 # merge output data
-# usage: python3 MergeOutput.py output_folder
-# the data file must named corun_set_needed, task_set_result and PARALLEL_OUT
+# usage: python3 MergeOutput.py output_file
+# the data file must named task_set_combination and PARALLEL_OUT
+
+from config.path import AUTOTEST_COMBINATION, AUTOTEST_CORUNOUT
+import sys, json
+
+# note that the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '
+# schedule result is list format:
+# schedule_result = [scheduleObj, scheduleObj, ...]
+# scheduleObj = {algorithmName: taskSets, ...}
+# taskSets = [taskSet, taskSet, ...]
+# taskSet = {taskName: taskAttr, ...}
+# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+def loadSchedResult(filename):
+    fp = open(AUTOTEST_COMBINATION, "r")
+
+    sched_result, scheduleObj, taskSets = [], {}, []
+    algorithmName, nameSelector = fp.readline().strip().split(' '), 0
+
+    for line in fp.readlines():
+        line = line.strip()
+        if len(line) <= 0:
+            pass
+        tag = line[0:3]
+        if tag == "seq" or tag == "---":
+            if len(taskSets) != 0:
+                algorithm = algorithmName[nameSelector]
+                scheduleObj[algorithm] = taskSets
+            nameSelector += 1
+            taskSets = []
+            if tag == "seq":
+                if len(scheduleObj) != 0:
+                    sched_result.append(scheduleObj)
+                nameSelector = 0
+                scheduleObj = {}
+        else:
+            names = line.split(' ')
+            t_set = {}
+            for name in names:
+                t_set[name] = None
+            taskSets.append(t_set)
+    if len(taskSets) != 0:
+        algorithm = algorithmName[nameSelector]
+        scheduleObj[algorithm] = taskSets
+        sched_result.append(scheduleObj)
+
+    fp.close()
+    return sched_result
+
+# note that the result file separator is '*‘， so the first letter of taskName cannot be '*'
+# corun result is list format:
+# corun_result = [taskSet, taskSet, ...]
+# taskSet = {taskName: taskAttr, ...}
+# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+def loadCorunResult(filename):
+    fp = open(AUTOTEST_CORUNOUT, "r")
+
+    corun_result, collector = [], {}
+    for line in fp.readlines():
+        line = line.strip()
+        if len(line) <= 0:
+            pass
+        if line[0] == '*':
+            if len(collector) != 0:
+                corun_result.append(collector)
+            collector = {}
+        else:
+            taskAttr = {}
+            data = line.split(' ')
+            taskName = data.pop(0)
+            attrName = ["cycle", "instructions", "miss", "access"]
+            for i in range(len(attrName)):
+                taskAttr[attrName[i]] = int(data[i])
+            collector[taskName] = taskAttr
+    if len(collector) != 0:
+        corun_result.append(collector)
+
+    fp.close()
+    return corun_result
+
+# fill the sched_result with corun_result
+# mainly fill the taskAttr in sched_result
+def merge(sched_result, corun_result):
+    pass
+
+def saveMergeResult(filename, merge_result):
+    pass
+
+if __name__ == "__main__":
+    arg_len = len(sys.argv)
+    if arg_len != 2:
+        print("usage: python3 MergeOutput.py output_file")
+        sys.exit(-1)
+    output_file  = sys.argv[1]
+
+    sched_result = loadSchedResult(AUTOTEST_COMBINATION)
+    corun_result = loadCorunResult(AUTOTEST_CORUNOUT)
+    # merge_result = merge(sched_result, corun_result)
+    # saveMergeResult(output_file, merge_result)
+
+    # print(sched_result)
+    # print(corun_result)
+    # print(len(sched_result))
+    # print(len(corun_result))
