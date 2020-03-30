@@ -17,7 +17,7 @@ schedule_result = [scheduleObj, scheduleObj, ...]
 scheduleObj = {algorithmName: taskSets, ...}
 taskSets = {taskNameSeq: taskSet, ...}
 taskSet = {taskName: taskAttr, ...}
-taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
 
 corun result format:
 note: txt file name -> AUTOTEST_CORUNOUT(in CO_SCHEDULING_HOME/config/path.py)
@@ -26,6 +26,6 @@ the taskNameSeq must consist of sorted taskNames
 corun result is list format:
 corun_result = {taskNameSeq: taskSet, ...}
 taskSet = {taskName: taskAttr, ...}
-taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
 
 [OUTPUT]

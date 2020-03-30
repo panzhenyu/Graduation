@@ -53,7 +53,7 @@ def loadSchedResult(filename):
 # corun result is list format:
 # corun_result = {taskNameSeq: taskSet, ...}
 # taskSet = {taskName: taskAttr, ...}
-# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+# taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
 def loadCorunResult(filename):
     fp = open(AUTOTEST_CORUNOUT, "r")
 
@@ -75,7 +75,7 @@ def loadCorunResult(filename):
             taskAttr = {}
             data = line.split(' ')
             taskName = data.pop(0)
-            attrName = ["cycle", "instructions", "miss", "access"]
+            attrName = ["instructions", "cycle", "miss", "access"]
             for i in range(len(attrName)):
                 taskAttr[attrName[i]] = int(data[i])
             collector[taskName] = taskAttr

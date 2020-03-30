@@ -13,7 +13,7 @@ def loadFromJson(json_file):
 
 # single data format:
 # single data  = {taskName: taskAttr}
-# taskAttr = {cycle: cycle_num, instructions: instruction_num, miss: miss_num, access: access_num}
+# taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
 def loadSingle(filename):
     fp = open(filename, 'r')
 
@@ -24,10 +24,10 @@ def loadSingle(filename):
             continue
         raw = line.split(' ')
         taskName = raw[0]
-        cycle, instructions, miss, access = [int(x) for x in raw[1:-1]]
+        instructions, cycle, miss, access = [int(x) for x in raw[1:-1]]
         single[taskName] = {
-            "cycle": cycle,
             "instructions": instructions,
+            "cycle": cycle,
             "miss": miss,
             "access": access
         }
@@ -59,11 +59,11 @@ def calcMetrics(data, single):
                     slow = float(cycle) / single[taskName]['cycle']
                     slowdown.append(slow)
             # used for get pure metrics
-            # keys = []
-            # for key in taskSets.keys():
-            #     keys.append(key)
-            # for key in keys:
-            #     del taskSets[key]
+            keys = []
+            for key in taskSets.keys():
+                keys.append(key)
+            for key in keys:
+                del taskSets[key]
             taskSets['CPI'] = float(cycle_schedule) / instructions_schedule
             taskSets['IPC'] = float(instructions_schedule) / cycle_schedule
             taskSets['Unfairness'] = np.std(slowdown, ddof=1) / np.mean(slowdown)
