@@ -190,7 +190,7 @@ class DI4NonStrategy(DI4SelfAdaptive):
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
-            print("in DI4StrategyCompare.taskMiss, the profile isn't a instance of DIProfile")
+            print("in DI4NonStrategy.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
         return profile.miss_Adaptive
     
@@ -209,6 +209,6 @@ class DI4Compare(DI4SelfAdaptive):
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
-            print("in DI4StrategyCompare.taskMiss, the profile isn't a instance of DIProfile")
+            print("in DI4Compare.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
         return profile.miss_Adaptive

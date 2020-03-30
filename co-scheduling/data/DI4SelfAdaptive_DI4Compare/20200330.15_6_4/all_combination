@@ -1,0 +1,1573 @@
+DI4SelfAdaptive DI4Compare
+seq:0
+520 638
+620 gromacs
+libquantum
+mcf
+---
+520 gromacs
+620 638
+libquantum
+mcf
+---
+
+seq:1
+520 hmmer
+620 gromacs
+libquantum
+mcf
+---
+520 gromacs
+620 hmmer
+libquantum
+mcf
+---
+
+seq:2
+625 gromacs
+638 calculix
+libquantum
+mcf
+---
+625
+638 calculix gromacs
+libquantum
+mcf
+---
+
+seq:3
+625 gromacs
+calculix hmmer
+libquantum
+mcf
+---
+625
+calculix gromacs hmmer
+libquantum
+mcf
+---
+
+seq:4
+502
+520 638
+620 gromacs
+mcf
+---
+502
+520 gromacs
+620 638
+mcf
+---
+
+seq:5
+502
+520 hmmer
+620 gromacs
+mcf
+---
+502
+520 gromacs
+620 hmmer
+mcf
+---
+
+seq:6
+502
+625 gromacs
+638 calculix
+mcf
+---
+502
+625
+638 calculix gromacs
+mcf
+---
+
+seq:7
+502
+625 gromacs
+calculix hmmer
+mcf
+---
+502
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:8
+505
+520 638
+620 gromacs
+mcf
+---
+505
+520 gromacs
+620 638
+mcf
+---
+
+seq:9
+505
+520 hmmer
+620 gromacs
+mcf
+---
+505
+520 gromacs
+620 hmmer
+mcf
+---
+
+seq:10
+505
+625 gromacs
+638 calculix
+mcf
+---
+505
+625
+638 calculix gromacs
+mcf
+---
+
+seq:11
+505
+625 gromacs
+calculix hmmer
+mcf
+---
+505
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:12
+519
+520 638
+620 gromacs
+mcf
+---
+519
+520 gromacs
+620 638
+mcf
+---
+
+seq:13
+519
+520 hmmer
+620 gromacs
+mcf
+---
+519
+520 gromacs
+620 hmmer
+mcf
+---
+
+seq:14
+519
+625 gromacs
+638 calculix
+mcf
+---
+519
+625
+638 calculix gromacs
+mcf
+---
+
+seq:15
+519
+625 gromacs
+calculix hmmer
+mcf
+---
+519
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:16
+520
+625 gromacs
+638 calculix
+mcf
+---
+520
+625
+638 calculix gromacs
+mcf
+---
+
+seq:17
+520
+625 gromacs
+calculix hmmer
+mcf
+---
+520
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:18
+520 638
+620 gromacs
+lbm
+mcf
+---
+520 gromacs
+620 638
+lbm
+mcf
+---
+
+seq:19
+520 638
+620 gromacs
+mcf
+soplex
+---
+520 gromacs
+620 638
+mcf
+soplex
+---
+
+seq:20
+520 hmmer
+620 gromacs
+lbm
+mcf
+---
+520 gromacs
+620 hmmer
+lbm
+mcf
+---
+
+seq:21
+520 hmmer
+620 gromacs
+mcf
+soplex
+---
+520 gromacs
+620 hmmer
+mcf
+soplex
+---
+
+seq:22
+557
+625 gromacs
+calculix hmmer
+mcf
+---
+557
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:23
+625 gromacs
+638 calculix
+lbm
+mcf
+---
+625
+638 calculix gromacs
+lbm
+mcf
+---
+
+seq:24
+620
+625 gromacs
+638 calculix
+mcf
+---
+620
+625
+638 calculix gromacs
+mcf
+---
+
+seq:25
+625 gromacs
+638 calculix
+mcf
+soplex
+---
+625
+638 calculix gromacs
+mcf
+soplex
+---
+
+seq:26
+625 gromacs
+calculix hmmer
+lbm
+mcf
+---
+625
+calculix gromacs hmmer
+lbm
+mcf
+---
+
+seq:27
+620
+625 gromacs
+calculix hmmer
+mcf
+---
+620
+625
+calculix gromacs hmmer
+mcf
+---
+
+seq:28
+625 gromacs
+calculix hmmer
+mcf
+soplex
+---
+625
+calculix gromacs hmmer
+mcf
+soplex
+---
+
+seq:29
+502
+520 638
+620 gromacs
+libquantum
+---
+502
+520 gromacs
+620 638
+libquantum
+---
+
+seq:30
+502
+520 hmmer
+620 gromacs
+libquantum
+---
+502
+520 gromacs
+620 hmmer
+libquantum
+---
+
+seq:31
+502
+625 gromacs
+638 calculix
+libquantum
+---
+502
+625
+638 calculix gromacs
+libquantum
+---
+
+seq:32
+502
+625 gromacs
+calculix hmmer
+libquantum
+---
+502
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:33
+505
+520 638
+620 gromacs
+libquantum
+---
+505
+520 gromacs
+620 638
+libquantum
+---
+
+seq:34
+505
+520 hmmer
+620 gromacs
+libquantum
+---
+505
+520 gromacs
+620 hmmer
+libquantum
+---
+
+seq:35
+505
+625 gromacs
+638 calculix
+libquantum
+---
+505
+625
+638 calculix gromacs
+libquantum
+---
+
+seq:36
+505
+625 gromacs
+calculix hmmer
+libquantum
+---
+505
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:37
+519
+520 638
+620 gromacs
+libquantum
+---
+519
+520 gromacs
+620 638
+libquantum
+---
+
+seq:38
+519
+520 hmmer
+620 gromacs
+libquantum
+---
+519
+520 gromacs
+620 hmmer
+libquantum
+---
+
+seq:39
+519
+625 gromacs
+638 calculix
+libquantum
+---
+519
+625
+638 calculix gromacs
+libquantum
+---
+
+seq:40
+519
+625 gromacs
+calculix hmmer
+libquantum
+---
+519
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:41
+520
+625 gromacs
+638 calculix
+libquantum
+---
+520
+625
+638 calculix gromacs
+libquantum
+---
+
+seq:42
+520
+625 gromacs
+calculix hmmer
+libquantum
+---
+520
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:43
+520 638
+620 gromacs
+lbm
+libquantum
+---
+520 gromacs
+620 638
+lbm
+libquantum
+---
+
+seq:44
+520 638
+620 gromacs
+libquantum
+soplex
+---
+520 gromacs
+620 638
+libquantum
+soplex
+---
+
+seq:45
+520 hmmer
+620 gromacs
+lbm
+libquantum
+---
+520 gromacs
+620 hmmer
+lbm
+libquantum
+---
+
+seq:46
+520 hmmer
+620 gromacs
+libquantum
+soplex
+---
+520 gromacs
+620 hmmer
+libquantum
+soplex
+---
+
+seq:47
+557
+625 gromacs
+calculix hmmer
+libquantum
+---
+557
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:48
+625 gromacs
+638 calculix
+lbm
+libquantum
+---
+625
+638 calculix gromacs
+lbm
+libquantum
+---
+
+seq:49
+620
+625 gromacs
+638 calculix
+libquantum
+---
+620
+625
+638 calculix gromacs
+libquantum
+---
+
+seq:50
+625 gromacs
+638 calculix
+libquantum
+soplex
+---
+625
+638 calculix gromacs
+libquantum
+soplex
+---
+
+seq:51
+625 gromacs
+calculix hmmer
+lbm
+libquantum
+---
+625
+calculix gromacs hmmer
+lbm
+libquantum
+---
+
+seq:52
+620
+625 gromacs
+calculix hmmer
+libquantum
+---
+620
+625
+calculix gromacs hmmer
+libquantum
+---
+
+seq:53
+625 gromacs
+calculix hmmer
+libquantum
+soplex
+---
+625
+calculix gromacs hmmer
+libquantum
+soplex
+---
+
+seq:54
+502
+505
+520 638
+620 gromacs
+---
+502
+505
+520 gromacs
+620 638
+---
+
+seq:55
+502
+505
+520 hmmer
+620 gromacs
+---
+502
+505
+520 gromacs
+620 hmmer
+---
+
+seq:56
+502
+505
+625 gromacs
+638 calculix
+---
+502
+505
+625
+638 calculix gromacs
+---
+
+seq:57
+502
+505
+625 gromacs
+calculix hmmer
+---
+502
+505
+625
+calculix gromacs hmmer
+---
+
+seq:58
+502
+519
+520 638
+620 gromacs
+---
+502
+519
+520 gromacs
+620 638
+---
+
+seq:59
+502
+519
+520 hmmer
+620 gromacs
+---
+502
+519
+520 gromacs
+620 hmmer
+---
+
+seq:60
+502
+519
+625 gromacs
+638 calculix
+---
+502
+519
+625
+638 calculix gromacs
+---
+
+seq:61
+502
+519
+625 gromacs
+calculix hmmer
+---
+502
+519
+625
+calculix gromacs hmmer
+---
+
+seq:62
+502
+520
+625 gromacs
+638 calculix
+---
+502
+520
+625
+638 calculix gromacs
+---
+
+seq:63
+502
+520
+625 gromacs
+calculix hmmer
+---
+502
+520
+625
+calculix gromacs hmmer
+---
+
+seq:64
+502
+520 638
+620 gromacs
+lbm
+---
+502
+520 gromacs
+620 638
+lbm
+---
+
+seq:65
+502
+520 638
+620 gromacs
+soplex
+---
+502
+520 gromacs
+620 638
+soplex
+---
+
+seq:66
+502
+520 hmmer
+620 gromacs
+lbm
+---
+502
+520 gromacs
+620 hmmer
+lbm
+---
+
+seq:67
+502
+520 hmmer
+620 gromacs
+soplex
+---
+502
+520 gromacs
+620 hmmer
+soplex
+---
+
+seq:68
+502
+557
+625 gromacs
+638 calculix
+---
+502
+557
+625
+638 calculix gromacs
+---
+
+seq:69
+502
+557
+625 gromacs
+calculix hmmer
+---
+502
+557
+625
+calculix gromacs hmmer
+---
+
+seq:70
+502
+625 gromacs
+638 calculix
+lbm
+---
+502
+625
+638 calculix gromacs
+lbm
+---
+
+seq:71
+502
+620
+625 gromacs
+638 calculix
+---
+502
+620
+625
+638 calculix gromacs
+---
+
+seq:72
+502
+625 gromacs
+638 calculix
+soplex
+---
+502
+625
+638 calculix gromacs
+soplex
+---
+
+seq:73
+502
+625 gromacs
+calculix hmmer
+lbm
+---
+502
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:74
+502
+620
+625 gromacs
+calculix hmmer
+---
+502
+620
+625
+calculix gromacs hmmer
+---
+
+seq:75
+502
+625 gromacs
+calculix hmmer
+soplex
+---
+502
+625
+calculix gromacs hmmer
+soplex
+---
+
+seq:76
+505
+519
+520 638
+620 gromacs
+---
+505
+519
+520 gromacs
+620 638
+---
+
+seq:77
+505
+519
+520 hmmer
+620 gromacs
+---
+505
+519
+520 gromacs
+620 hmmer
+---
+
+seq:78
+505
+519
+625 gromacs
+638 calculix
+---
+505
+519
+625
+638 calculix gromacs
+---
+
+seq:79
+505
+519
+625 gromacs
+calculix hmmer
+---
+505
+519
+625
+calculix gromacs hmmer
+---
+
+seq:80
+505
+520
+625 gromacs
+638 calculix
+---
+505
+520
+625
+638 calculix gromacs
+---
+
+seq:81
+505
+520
+625 gromacs
+calculix hmmer
+---
+505
+520
+625
+calculix gromacs hmmer
+---
+
+seq:82
+505
+520 638
+620 gromacs
+lbm
+---
+505
+520 gromacs
+620 638
+lbm
+---
+
+seq:83
+505
+520 638
+620 gromacs
+soplex
+---
+505
+520 gromacs
+620 638
+soplex
+---
+
+seq:84
+505
+520 hmmer
+620 gromacs
+lbm
+---
+505
+520 gromacs
+620 hmmer
+lbm
+---
+
+seq:85
+505
+520 hmmer
+620 gromacs
+soplex
+---
+505
+520 gromacs
+620 hmmer
+soplex
+---
+
+seq:86
+505
+557
+625 gromacs
+638 calculix
+---
+505
+557
+625
+638 calculix gromacs
+---
+
+seq:87
+505
+557
+625 gromacs
+calculix hmmer
+---
+505
+557
+625
+calculix gromacs hmmer
+---
+
+seq:88
+505
+625 gromacs
+638 calculix
+lbm
+---
+505
+625
+638 calculix gromacs
+lbm
+---
+
+seq:89
+505
+620
+625 gromacs
+638 calculix
+---
+505
+620
+625
+638 calculix gromacs
+---
+
+seq:90
+505
+625 gromacs
+638 calculix
+soplex
+---
+505
+625
+638 calculix gromacs
+soplex
+---
+
+seq:91
+505
+625 gromacs
+calculix hmmer
+lbm
+---
+505
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:92
+505
+620
+625 gromacs
+calculix hmmer
+---
+505
+620
+625
+calculix gromacs hmmer
+---
+
+seq:93
+505
+625 gromacs
+calculix hmmer
+soplex
+---
+505
+625
+calculix gromacs hmmer
+soplex
+---
+
+seq:94
+519
+520
+625 gromacs
+638 calculix
+---
+519
+520
+625
+638 calculix gromacs
+---
+
+seq:95
+519
+520
+625 gromacs
+calculix hmmer
+---
+519
+520
+625
+calculix gromacs hmmer
+---
+
+seq:96
+519
+520 638
+620 gromacs
+lbm
+---
+519
+520 gromacs
+620 638
+lbm
+---
+
+seq:97
+519
+520 638
+620 gromacs
+soplex
+---
+519
+520 gromacs
+620 638
+soplex
+---
+
+seq:98
+519
+520 hmmer
+620 gromacs
+lbm
+---
+519
+520 gromacs
+620 hmmer
+lbm
+---
+
+seq:99
+519
+520 hmmer
+620 gromacs
+soplex
+---
+519
+520 gromacs
+620 hmmer
+soplex
+---
+
+seq:100
+519
+557
+625
+638 gromacs hmmer
+---
+519
+557 638
+625
+gromacs hmmer
+---
+
+seq:101
+519
+557
+625 gromacs
+calculix hmmer
+---
+519
+557
+625
+calculix gromacs hmmer
+---
+
+seq:102
+519
+625 gromacs
+638 calculix
+lbm
+---
+519
+625
+638 calculix gromacs
+lbm
+---
+
+seq:103
+519
+620
+625 gromacs
+638 calculix
+---
+519
+620
+625
+638 calculix gromacs
+---
+
+seq:104
+519
+625 gromacs
+638 calculix
+soplex
+---
+519
+625
+638 calculix gromacs
+soplex
+---
+
+seq:105
+519
+625 gromacs
+calculix hmmer
+lbm
+---
+519
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:106
+519
+620
+625 gromacs
+calculix hmmer
+---
+519
+620
+625
+calculix gromacs hmmer
+---
+
+seq:107
+519
+625 gromacs
+calculix hmmer
+soplex
+---
+519
+625
+calculix gromacs hmmer
+soplex
+---
+
+seq:108
+520
+557
+625 gromacs
+638 calculix
+---
+520
+557
+625
+638 calculix gromacs
+---
+
+seq:109
+520
+557
+625 gromacs
+calculix hmmer
+---
+520
+557
+625
+calculix gromacs hmmer
+---
+
+seq:110
+520
+557
+620
+638 gromacs hmmer
+---
+520
+557 638
+620
+gromacs hmmer
+---
+
+seq:111
+520
+625 gromacs
+638 calculix
+lbm
+---
+520
+625
+638 calculix gromacs
+lbm
+---
+
+seq:112
+520
+620
+625 gromacs
+638 calculix
+---
+520
+620
+625
+638 calculix gromacs
+---
+
+seq:113
+520
+625 gromacs
+638 calculix
+soplex
+---
+520
+625
+638 calculix gromacs
+soplex
+---
+
+seq:114
+520
+625 gromacs
+calculix hmmer
+lbm
+---
+520
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:115
+520
+620
+625 gromacs
+calculix hmmer
+---
+520
+620
+625
+calculix gromacs hmmer
+---
+
+seq:116
+520
+625 gromacs
+calculix hmmer
+soplex
+---
+520
+625
+calculix gromacs hmmer
+soplex
+---
+
+seq:117
+520 638
+620 gromacs
+lbm
+soplex
+---
+520 gromacs
+620 638
+lbm
+soplex
+---
+
+seq:118
+520 hmmer
+620 gromacs
+lbm
+soplex
+---
+520 gromacs
+620 hmmer
+lbm
+soplex
+---
+
+seq:119
+557
+625
+638 gromacs hmmer
+lbm
+---
+557 638
+625
+gromacs hmmer
+lbm
+---
+
+seq:120
+557
+620
+625 gromacs
+638 calculix
+---
+557
+620
+625
+638 calculix gromacs
+---
+
+seq:121
+557
+625 gromacs
+calculix hmmer
+lbm
+---
+557
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:122
+557
+620
+625 gromacs
+calculix hmmer
+---
+557
+620
+625
+calculix gromacs hmmer
+---
+
+seq:123
+557
+625 gromacs
+calculix hmmer
+soplex
+---
+557
+625
+calculix gromacs hmmer
+soplex
+---
+
+seq:124
+557
+638 gromacs hmmer
+calculix
+lbm
+---
+557 638
+calculix
+gromacs hmmer
+lbm
+---
+
+seq:125
+620
+625 gromacs
+638 calculix
+lbm
+---
+620
+625
+638 calculix gromacs
+lbm
+---
+
+seq:126
+625 gromacs
+638 calculix
+lbm
+soplex
+---
+625
+638 calculix gromacs
+lbm
+soplex
+---
+
+seq:127
+620
+625 gromacs
+638 calculix
+soplex
+---
+620
+625
+638 calculix gromacs
+soplex
+---
+
+seq:128
+620
+625 gromacs
+calculix hmmer
+lbm
+---
+620
+625
+calculix gromacs hmmer
+lbm
+---
+
+seq:129
+625 gromacs
+calculix hmmer
+lbm
+soplex
+---
+625
+calculix gromacs hmmer
+lbm
+soplex
+---
+
+seq:130
+620
+625 gromacs
+calculix hmmer
+soplex
+---
+620
+625
+calculix gromacs hmmer
+soplex
+---
+
