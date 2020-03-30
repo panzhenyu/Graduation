@@ -6,8 +6,9 @@ import numpy as np
 
 class CoScheduleAlgorithm:
     name = "CoScheduleAlgorithm"
-    def __init__(self):
+    def __init__(self, coreNum=3):
         self.taskSet = TaskSet()
+        self.coreNum = coreNum
 
     def importTask(self, taskName):
         pass
@@ -27,8 +28,8 @@ class CoScheduleAlgorithm:
 
 class DI4SelfAdaptive(CoScheduleAlgorithm):
     name = "DI4SelfAdaptive"
-    def __init__(self, profile_home):
-        CoScheduleAlgorithm.__init__(self)
+    def __init__(self, profile_home, coreNum=3):
+        CoScheduleAlgorithm.__init__(self, coreNum)
 	    # this attribute is only useful for importTask method
         self.PROFILE_HOME = str(profile_home)
 
@@ -97,14 +98,15 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
 
         for i in range(len(taskSets)):
             tasks = taskSets[i].getTaskList()
-            tasks.append(task)
-
-            orig, predicted = miss_predicted[i], self.predict(tasks)
-            miss_predicted[i] = predicted
-            std.append(np.std(miss_predicted, ddof=1))
-            miss_predicted[i] = orig
-
-            tasks.remove(task)
+            if len(tasks) >= self.coreNum:
+                std.append(float("inf"))
+            else:
+                tasks.append(task)
+                orig, predicted = miss_predicted[i], self.predict(tasks)
+                miss_predicted[i] = predicted
+                std.append(np.std(miss_predicted, ddof=1))
+                miss_predicted[i] = orig
+                tasks.remove(task)
         return std
 
     def chooseTaskSet(self, schedule, task):
@@ -113,6 +115,9 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
         for i in range(1, len(std)):
             if std[i] < min_var:
                 min_idx, min_var = i, std[i]
+        if min_var == float("inf"):
+            print("severe error! In DI4SelfAdaptive.chooseTaskSet the min_std is inf, there are too many tasks!")
+            sys.exit(-1)
         schedule.taskSets[min_idx].addTask(task)
 
     def solve(self, processor_num):
@@ -144,8 +149,8 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
 
 class DI(CoScheduleAlgorithm):
     name = "DI"
-    def __init__(self, profile_home):
-        CoScheduleAlgorithm.__init__(self)
+    def __init__(self, profile_home, coreNum=3):
+        CoScheduleAlgorithm.__init__(self, coreNum)
         self.PROFILE_HOME = profile_home
         self.DI4SelfAdaptive = DI4SelfAdaptive(self.PROFILE_HOME)
     
@@ -184,8 +189,8 @@ class DI(CoScheduleAlgorithm):
 
 class DI4NonStrategy(DI4SelfAdaptive):
     name = "DI4NonStrategy"
-    def __init__(self, profile_home):
-        DI4SelfAdaptive.__init__(self, profile_home)
+    def __init__(self, profile_home, coreNum=3):
+        DI4SelfAdaptive.__init__(self, profile_home, coreNum)
 
     def taskMiss(self, task):
         profile = task.profile
@@ -203,8 +208,8 @@ class DI4NonStrategy(DI4SelfAdaptive):
 
 class DI4Compare(DI4SelfAdaptive):
     name = "DI4Compare"
-    def __init__(self, profile_home):
-        DI4SelfAdaptive.__init__(self, profile_home)
+    def __init__(self, profile_home, coreNum=3):
+        DI4SelfAdaptive.__init__(self, profile_home, coreNum)
 
     def taskMiss(self, task):
         profile = task.profile

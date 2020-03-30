@@ -59,11 +59,11 @@ def calcMetrics(data, single):
                     slow = float(cycle) / single[taskName]['cycle']
                     slowdown.append(slow)
             # used for get pure metrics
-            keys = []
-            for key in taskSets.keys():
-                keys.append(key)
-            for key in keys:
-                del taskSets[key]
+            # keys = []
+            # for key in taskSets.keys():
+            #     keys.append(key)
+            # for key in keys:
+            #     del taskSets[key]
             taskSets['CPI'] = float(cycle_schedule) / instructions_schedule
             taskSets['IPC'] = float(instructions_schedule) / cycle_schedule
             taskSets['Unfairness'] = np.std(slowdown, ddof=1) / np.mean(slowdown)

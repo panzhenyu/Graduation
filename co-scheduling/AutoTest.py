@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
 	seq = 0
 	diff = set([])
-	diSeriesAlgorithm = [DI4SelfAdaptive, DI4NonStrategy]
+	diSeriesAlgorithm = [DI4Compare, DI4NonStrategy]
 
 	# save head line, used to differ schedule result order
 	headLine = ""
@@ -88,5 +88,6 @@ if __name__ == "__main__":
 	for t_set_str in diff:
 		needed.write(t_set_str + "\n")
 
+	print("total:{0}, diff:{1}".format(len(taskSets), seq))
 	needed.close()
 	combinations.close()
