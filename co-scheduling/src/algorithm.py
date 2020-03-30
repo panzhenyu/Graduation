@@ -5,6 +5,7 @@ import sys
 import numpy as np
 
 class CoScheduleAlgorithm:
+    name = "CoScheduleAlgorithm"
     def __init__(self):
         self.taskSet = TaskSet()
 
@@ -25,9 +26,10 @@ class CoScheduleAlgorithm:
         return self.taskSet
 
 class DI4SelfAdaptive(CoScheduleAlgorithm):
+    name = "DI4SelfAdaptive"
     def __init__(self, profile_home):
         CoScheduleAlgorithm.__init__(self)
-	# this attribute is only useful for importTask method
+	    # this attribute is only useful for importTask method
         self.PROFILE_HOME = str(profile_home)
 
     # DI profile format: one line with miss under A strategy and miss under B strategy
@@ -44,12 +46,12 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
         task, profile = Task(taskName), DIProfile(miss_A, miss_B, miss_Adaptive)
         task.loadProfile(profile)
         self.taskSet.addTask(task)
-
         profile_fd.close()
 
     def addTask(self, task):
         self.taskSet.addTask(task)
 
+    # used for taskSort part
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
@@ -57,6 +59,16 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
             sys.exit(-1)
         m_A, m_B = profile.miss_A, profile.miss_B
         return min(m_A, m_B)
+
+    # used for chooseTaskSet part
+    def predict(self, tasks):
+        missA_sum, missB_sum = 0, 0
+        for task in tasks:
+            profile = task.profile
+            miss_A, miss_B = profile.miss_A, profile.miss_B
+            missA_sum += miss_A
+            missB_sum += miss_B
+        return min(missA_sum, missB_sum)
 
     # from big to small
     def taskSort(self, tasks):
@@ -76,18 +88,23 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
 
     # return a standard deviation list for every possible situation
     def stdDeviation(self, schedule, task):
-        std = []
-        miss_sum, task_miss = [], self.taskMiss(task)
-        for t_set in schedule.taskSets:
-            s_sum = 0
-            for task in t_set.tasks:
-                s_sum += self.taskMiss(task)
-            miss_sum.append(s_sum)
+        std, miss_predicted = [], []
+        taskSets = schedule.getTaskSets()
 
-        for i in range(len(miss_sum)):
-            miss_sum[i] += task_miss
-            std.append(np.std(miss_sum, ddof=1))
-            miss_sum[i] -= task_miss
+        for t_set in taskSets:
+            tasks = t_set.getTaskList()
+            miss_predicted.append(self.predict(tasks))
+
+        for i in range(len(taskSets)):
+            tasks = taskSets[i].getTaskList()
+            tasks.append(task)
+
+            orig, predicted = miss_predicted[i], self.predict(tasks)
+            miss_predicted[i] = predicted
+            std.append(np.std(miss_predicted, ddof=1))
+            miss_predicted[i] = orig
+
+            tasks.remove(task)
         return std
 
     def chooseTaskSet(self, schedule, task):
@@ -126,6 +143,7 @@ class DI4SelfAdaptive(CoScheduleAlgorithm):
         return schedule
 
 class DI(CoScheduleAlgorithm):
+    name = "DI"
     def __init__(self, profile_home):
         CoScheduleAlgorithm.__init__(self)
         self.PROFILE_HOME = profile_home
@@ -164,35 +182,33 @@ class DI(CoScheduleAlgorithm):
                 i += 1
         return schedule
 
-class DI4StrategyA(DI4SelfAdaptive):
+class DI4NonStrategy(DI4SelfAdaptive):
+    name = "DI4NonStrategy"
     def __init__(self, profile_home):
         DI4SelfAdaptive.__init__(self, profile_home)
 
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
-            print("in DI4StrategyA.taskMiss, the profile isn't a instance of DIProfile")
+            print("in DI4StrategyCompare.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
-        return profile.miss_A
+        return profile.miss_Adaptive
+    
+    def predict(self, tasks):
+        miss_sum = 0
+        for task in tasks:
+            profile = task.profile
+            miss_sum += profile.miss_Adaptive
+        return miss_sum
 
-class DI4StrategyB(DI4SelfAdaptive):
+class DI4Compare(DI4SelfAdaptive):
+    name = "DI4Compare"
     def __init__(self, profile_home):
         DI4SelfAdaptive.__init__(self, profile_home)
 
     def taskMiss(self, task):
         profile = task.profile
         if not isinstance(profile, DIProfile):
-            print("in DI4StrategyB.taskMiss, the profile isn't a instance of DIProfile")
-            sys.exit(-1)
-        return profile.miss_B
-
-class DICompare(DI4SelfAdaptive):
-    def __init__(self, profile_home):
-        DI4SelfAdaptive.__init__(self, profile_home)
-
-    def taskMiss(self, task):
-        profile = task.profile
-        if not isinstance(profile, DIProfile):
-            print("in DI4StrategyB.taskMiss, the profile isn't a instance of DIProfile")
+            print("in DI4StrategyCompare.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
         return profile.miss_Adaptive

@@ -3,7 +3,7 @@
 # the data file must named task_set_combination and PARALLEL_OUT
 
 from config.path import AUTOTEST_COMBINATION, AUTOTEST_CORUNOUT
-import sys, json, os
+import sys, json
 
 # note that the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '
 # schedule result is list format:
@@ -42,9 +42,7 @@ def loadSchedResult(filename):
                 taskNameSeq += name + " "
             taskNameSeq = taskNameSeq[0:-1]
             taskSets[taskNameSeq] = None
-    if len(taskSets) != 0:
-        algorithm = algorithmName[nameSelector]
-        scheduleObj[algorithm] = taskSets
+    if len(scheduleObj) != 0:
         sched_result.append(scheduleObj)
 
     fp.close()
@@ -102,8 +100,8 @@ def merge(sched_result, corun_result):
                 if taskNameSeq in corun_result:
                     taskSets[taskNameSeq] = corun_result[taskNameSeq]
                 else:
-                    pass
-                    # print(taskNameSeq, "is not in " + AUTOTEST_CORUNOUT)
+                    # pass
+                    print(taskNameSeq, "is not in " + AUTOTEST_CORUNOUT)
 
 def saveMergeResult(filename, merge_result):
     output = open(filename, "w")
@@ -117,9 +115,6 @@ if __name__ == "__main__":
         print("usage: python3 MergeOutput.py output_file")
         sys.exit(-1)
     output_file  = sys.argv[1]
-    if os.path.exists(output_file):
-        print(output_file, "is already exists, please choose other file")
-        sys.exit(-1)
 
     sched_result = loadSchedResult(AUTOTEST_COMBINATION)
     corun_result = loadCorunResult(AUTOTEST_CORUNOUT)

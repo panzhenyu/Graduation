@@ -28,23 +28,11 @@ def getAllTask(filename):
 			taskName.append(line)
 	return taskName
 
-def getFromDI(tasks, processor_num, DITaskObjs):
-	scheduler = DI("")
+def getDISeriesResult(scheduleAlgorithm, tasks, processor_num, DITaskObjs):
+	diSeries = scheduleAlgorithm("")
 	for task in tasks:
-		scheduler.addTask(DITaskObjs[task])
-	return scheduler.solve(processor_num)
-
-def getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs):
-	scheduler = DI4SelfAdaptive("")
-	for task in tasks:
-		scheduler.addTask(DITaskObjs[task])
-	return scheduler.solve(processor_num)
-
-def getFromDICompare(tasks, processor_num, DITaskObjs):
-	scheduler = DICompare("")
-	for task in tasks:
-		scheduler.addTask(DITaskObjs[task])
-	return scheduler.solve(processor_num)
+		diSeries.addTask(DITaskObjs[task])
+	return diSeries.solve(processor_num)
 
 if __name__ == "__main__":
 	if len(sys.argv) != 3:
@@ -57,35 +45,48 @@ if __name__ == "__main__":
 	DITaskObjs = buildDITaskObject(taskName, PROFILE_HOME)
 	taskSets = sub(taskName, corun_task_num)
 
-	result = open(AUTOTEST_COMBINATION, "w")
-	needed = open(AUTOTEST_DIFFFILE, "w")
+	combinations = open(AUTOTEST_COMBINATION, "w")
+	needed = open(AUTOTEST_CURDIFF, "w")
+
+	seq = 0
 	diff = set([])
+	diSeriesAlgorithm = [DI4SelfAdaptive, DI4NonStrategy]
 
-	seq = 0
-	diff_num = 0
+	# save head line, used to differ schedule result order
+	headLine = ""
+	for diSeries in diSeriesAlgorithm:
+		headLine += diSeries.name + " "
+	headLine = headLine[:-1] + '\n'
+	combinations.write(headLine)
+	# collect result for every taskSet
 	for tasks in taskSets:
-		# di_result = getFromDI(tasks, processor_num, DITaskObjs)
-		diImprove_result = getFromDI4SelfAdaptive(tasks, processor_num, DITaskObjs)
-		diCompare_result = getFromDICompare(tasks, processor_num, DITaskObjs)
-		# head line, used to differ schedule result order
-		result.write("diImprove diCompare")
-		if diImprove_result != diCompare_result:
-			result.write("seq:" + str(seq) + "\n")
-			result.write(str(diImprove_result) + "\n")
-			result.write("---\n")
-			result.write(str(diCompare_result) + "\n\n")
+		# collect schedule result
+		results = []
+		for diSeries in diSeriesAlgorithm:
+			schedule = getDISeriesResult(diSeries, tasks, processor_num, DITaskObjs)
+			results.append(schedule)
+		# make sure that there are difference in results
+		diff_result = False
+		for i in range(1, len(results)):
+			if results[i] != results[0]:
+				diff_result = True
+				break
+		# if the difference exists, save all schedule results
+		if diff_result:
+			combinations.write("seq:" + str(seq) + "\n")
+			for result in results:
+				# save combination result file
+				combinations.write(str(result) + "\n")
+				combinations.write("---\n")
+				# add task set into diff set
+				for t_set in result.getTaskSets():
+					if t_set.length() != 1:
+						diff.add(str(t_set))
+			combinations.write("\n")
 			seq += 1
-		for t_set in diImprove_result.getTaskSets():
-			if t_set.length() != 1:
-				diff.add(str(t_set))
-		for t_set in diCompare_result.getTaskSets():
-			if t_set.length() != 1:
-				diff.add(str(t_set))
 
-	seq = 0
 	for t_set_str in diff:
-		needed.write(str(seq) + ":" + t_set_str + "\n")
-		seq += 1
+		needed.write(t_set_str + "\n")
 
 	needed.close()
-	result.close()
+	combinations.close()
