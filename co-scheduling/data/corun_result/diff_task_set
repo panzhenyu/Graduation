@@ -377,3 +377,12 @@ gromacs hmmer soplex
 620 hmmer mcf
 502 calculix mcf
 557 625 soplex
+520 soplex
+620 soplex
+mcf soplex
+gromacs soplex
+hmmer soplex
+505 soplex
+502 soplex
+557 gromacs
+557 soplex

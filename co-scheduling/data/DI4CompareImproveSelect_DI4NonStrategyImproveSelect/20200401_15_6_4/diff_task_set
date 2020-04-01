@@ -1,0 +1,71 @@
+557 lbm
+hmmer soplex
+505 519
+638 lbm
+620 hmmer
+620 mcf
+calculix hmmer mcf
+505 gromacs
+calculix mcf
+502 557 gromacs
+520 calculix
+505 soplex
+505 hmmer
+519 hmmer
+519 620
+mcf soplex
+505 625
+519 gromacs
+625 638 calculix
+502 557 hmmer
+gromacs soplex
+625 lbm
+505 lbm
+620 gromacs
+519 638
+502 557 625
+520 638
+519 calculix
+calculix lbm
+557 638
+calculix gromacs mcf
+625 calculix hmmer
+505 calculix
+620 soplex
+620 638
+502 557
+502 557 638
+505 625 638
+520 557
+520 gromacs
+502 557 calculix
+625 calculix
+505 620
+557 soplex
+502 mcf
+638 mcf
+519 625
+620 625
+505 mcf
+gromacs lbm
+557 hmmer
+502 soplex
+519 520
+557 gromacs
+520 lbm
+505 625 calculix
+505 638
+502 505
+520 soplex
+625 calculix gromacs
+520 hmmer
+520 mcf
+519 557
+hmmer lbm
+505 520
+620 lbm
+620 calculix
+502 519
+502 lbm
+520 625
+557 620

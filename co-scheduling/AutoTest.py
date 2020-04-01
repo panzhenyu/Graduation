@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
 	seq = 0
 	diff = set([])
-	diSeriesAlgorithm = [DI4Compare, DI4NonStrategy]
+	diSeriesAlgorithm = [DI4CompareImproveSelect, DI4NonStrategyImproveSelect]
 
 	# save head line, used to differ schedule result order
 	headLine = ""

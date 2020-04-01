@@ -217,3 +217,41 @@ class DI4Compare(DI4SelfAdaptive):
             print("in DI4Compare.taskMiss, the profile isn't a instance of DIProfile")
             sys.exit(-1)
         return profile.miss_Adaptive
+
+class DI4CompareImproveSelect(DI4Compare):
+    name = "DI4CompareImproveSelect"
+    def __init__(self, profile_home, coreNum=3):
+        DI4Compare.__init__(self, profile_home, coreNum)
+
+    def stdDeviation(self, schedule, task):
+        miss_predicted = []
+        taskSets = schedule.getTaskSets()
+
+        for t_set in taskSets:
+            tasks = t_set.getTaskList()
+            if len(tasks) >= self.coreNum:
+                miss_predicted.append(float("inf"))
+            else:
+                tasks.append(task)
+                miss_predicted.append(self.predict(tasks))
+                tasks.remove(task)
+        return miss_predicted
+
+class DI4NonStrategyImproveSelect(DI4NonStrategy):
+    name = "DI4NonStrategyImproveSelect"
+    def __init__(self, profile_home, coreNum=3):
+        DI4NonStrategy.__init__(self, profile_home, coreNum)
+
+    def stdDeviation(self, schedule, task):
+        miss_predicted = []
+        taskSets = schedule.getTaskSets()
+
+        for t_set in taskSets:
+            tasks = t_set.getTaskList()
+            if len(tasks) >= self.coreNum:
+                miss_predicted.append(float("inf"))
+            else:
+                tasks.append(task)
+                miss_predicted.append(self.predict(tasks))
+                tasks.remove(task)
+        return miss_predicted
