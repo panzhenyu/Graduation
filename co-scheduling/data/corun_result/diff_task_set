@@ -386,3 +386,34 @@ hmmer soplex
 502 soplex
 557 gromacs
 557 soplex
+520 625 mcf
+625 hmmer libquantum
+502 calculix soplex
+519 520 620
+505 calculix soplex
+calculix mcf soplex
+502 gromacs soplex
+505 557 soplex
+505 520 mcf
+502 520 mcf
+gromacs mcf soplex
+625 mcf soplex
+502 620 soplex
+505 638 lbm
+557 mcf soplex
+638 calculix libquantum
+505 gromacs soplex
+520 calculix mcf
+519 520 557
+502 519 620
+505 625 soplex
+502 557 soplex
+520 mcf soplex
+520 620 soplex
+520 557 soplex
+502 520 soplex
+625 638 libquantum
+557 620 mcf
+502 625 soplex
+620 mcf soplex
+502 hmmer soplex

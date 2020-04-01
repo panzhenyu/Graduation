@@ -1,0 +1,4778 @@
+[
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1400577195839885,
+            "Unfairness": 0.5396574391835314,
+            "IPC": 0.8771485713590921
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1777240886803335,
+            "Unfairness": 0.5215870963130714,
+            "IPC": 0.8490953098535351
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5417825544526131,
+            "CPI": 1.1486908873817299,
+            "IPC": 0.8705562227270308
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1576196786003614,
+            "Unfairness": 0.5234822291823202,
+            "IPC": 0.8638415694600717
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4330153248421925,
+            "CPI": 1.4171574312646769,
+            "IPC": 0.7056379043982404
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.443254179353312,
+            "Unfairness": 0.4034743484779099,
+            "IPC": 0.6928786448746515
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.472793603507081,
+            "Unfairness": 0.42256278806496905,
+            "IPC": 0.6789817647352323
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4102444992457297,
+            "Unfairness": 0.5522722053724178,
+            "IPC": 0.7090968981157882
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.517346850904136,
+            "CPI": 1.1740147076813205,
+            "IPC": 0.8517780854509057
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1709866422939699,
+            "Unfairness": 0.5193914906290213,
+            "IPC": 0.8539807064246215
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4016653183273122,
+            "Unfairness": 0.42636149685958946,
+            "IPC": 0.7134370715495462
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4730978608329166,
+            "Unfairness": 0.37552770687067555,
+            "IPC": 0.6788415261390588
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.483560540918213,
+            "Unfairness": 0.39834395893548635,
+            "IPC": 0.6740540560488855
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4313925545156896,
+            "Unfairness": 0.5277083363599021,
+            "IPC": 0.6986203727588545
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4171147133323319,
+            "Unfairness": 0.4302608610247833,
+            "IPC": 0.7056591753595652
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.39872190117041484,
+            "CPI": 1.4713958165533496,
+            "IPC": 0.6796267793817954
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4975640706317521,
+            "Unfairness": 0.4220392047347895,
+            "IPC": 0.6677510629499457
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4468586073525598,
+            "Unfairness": 0.5556879580357409,
+            "IPC": 0.6911525389683966
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6459055068740538,
+            "Unfairness": 0.4534567416397745,
+            "IPC": 0.6075682934552092
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.595980401376336,
+            "Unfairness": 0.47534116207122945,
+            "IPC": 0.6265741102695394
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.209468716925812,
+            "Unfairness": 0.5515430831394461,
+            "IPC": 0.8268093138793761
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2132548025038694,
+            "Unfairness": 0.5433433934937266,
+            "IPC": 0.8242291709344466
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.220391833801646,
+            "Unfairness": 0.5524872529788739,
+            "IPC": 0.8194089572730894
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2242505352534196,
+            "Unfairness": 0.5446178148634144,
+            "IPC": 0.8168262714240923
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4967448719892043,
+            "Unfairness": 0.4379925229900771,
+            "IPC": 0.6681165365684398
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.42742936570707674,
+            "CPI": 1.5175615611235957,
+            "IPC": 0.6589518511918584
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2468894149226106,
+            "Unfairness": 0.5308967214978337,
+            "IPC": 0.8019957407867369
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2395287778733997,
+            "Unfairness": 0.5245877746353844,
+            "IPC": 0.8067581954133024
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.43211365683314934,
+            "CPI": 1.4777458525094973,
+            "IPC": 0.6767063485928972
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4984981735602254,
+            "Unfairness": 0.42086491081052874,
+            "IPC": 0.6673348140452768
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.43565251968177815,
+            "CPI": 1.495735709923486,
+            "IPC": 0.6685673099635728
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5163517761205734,
+            "Unfairness": 0.42472636339881686,
+            "IPC": 0.6594775801683662
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5396248395538638,
+            "CPI": 1.1331050203139794,
+            "IPC": 0.8825307293430785
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2283028869734085,
+            "Unfairness": 0.5247563615564639,
+            "IPC": 0.814131441524202
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4091708681574504,
+            "Unfairness": 0.43237265570532313,
+            "IPC": 0.7096371508925255
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4061929745922948,
+            "CPI": 1.456034906199163,
+            "IPC": 0.6867967215225645
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4859818659547377,
+            "Unfairness": 0.4254808529367137,
+            "IPC": 0.6729557223482695
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4236068172413774,
+            "Unfairness": 0.5416600233160225,
+            "IPC": 0.7024411430803416
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3886167780088676,
+            "Unfairness": 0.43411655894283446,
+            "IPC": 0.7201410899225171
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4008284613260796,
+            "CPI": 1.4358010699101795,
+            "IPC": 0.6964753132984903
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.464944205820927,
+            "Unfairness": 0.4204082389413081,
+            "IPC": 0.682619854071247
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.416037173836383,
+            "Unfairness": 0.5591767366986574,
+            "IPC": 0.7061961497033027
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6470593775114033,
+            "Unfairness": 0.46796784787404494,
+            "IPC": 0.6071426529327274
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5947397248217834,
+            "Unfairness": 0.4871009177090253,
+            "IPC": 0.6270615727665233
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.400264733084251,
+            "Unfairness": 0.4296762103266938,
+            "IPC": 0.7141506719214301
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.465480057681073,
+            "Unfairness": 0.37282671692628405,
+            "IPC": 0.6823702545515132
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.475724298714792,
+            "Unfairness": 0.3962811971476807,
+            "IPC": 0.6776333498546441
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4371791591314207,
+            "Unfairness": 0.5346685615838647,
+            "IPC": 0.6958074737212053
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6569553837665547,
+            "Unfairness": 0.4423546356691651,
+            "IPC": 0.6035165519827226
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6496294794675268,
+            "Unfairness": 0.45490490031032965,
+            "IPC": 0.6061967323248755
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6523505884533847,
+            "Unfairness": 0.46005532113498643,
+            "IPC": 0.6051984409289369
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6121082521834906,
+            "Unfairness": 0.4765575006348505,
+            "IPC": 0.6203057385541996
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2039745554401677,
+            "Unfairness": 0.5491158184691453,
+            "IPC": 0.830582337044826
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2078645667598134,
+            "Unfairness": 0.5415850264376136,
+            "IPC": 0.8279073892221
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4876591466286897,
+            "Unfairness": 0.4373276763206974,
+            "IPC": 0.6721969896573315
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5086039218592575,
+            "Unfairness": 0.4267791167162768,
+            "IPC": 0.6628645103663553
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4661866601156834,
+            "Unfairness": 0.43912139903391556,
+            "IPC": 0.6820413984131455
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4878509806276548,
+            "Unfairness": 0.42854188915427527,
+            "IPC": 0.6721103208724215
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4777225901109856,
+            "Unfairness": 0.43472313223123277,
+            "IPC": 0.6767170013452215
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.498841561637935,
+            "Unfairness": 0.4240804415479704,
+            "IPC": 0.6671819260917742
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2027900079621605,
+            "Unfairness": 0.4890409229471172,
+            "IPC": 0.8314003220680728
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.192453471910517,
+            "Unfairness": 0.48871331942105506,
+            "IPC": 0.8386071436379204
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.428316531149788,
+            "Unfairness": 0.389518815219578,
+            "IPC": 0.7001249220262156
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4374116936015973,
+            "Unfairness": 0.3722851823123018,
+            "IPC": 0.6956949108257128
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4704463821918885,
+            "Unfairness": 0.3997595912626118,
+            "IPC": 0.680065599202177
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49246936886471315,
+            "CPI": 1.4506631163832933,
+            "IPC": 0.6893399223474712
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.444304751199899,
+            "Unfairness": 0.39352102593197436,
+            "IPC": 0.6923746523503578
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4167873810999898,
+            "Unfairness": 0.3744595533444389,
+            "IPC": 0.7058222096978325
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4883376238552695,
+            "Unfairness": 0.40126286232634417,
+            "IPC": 0.6718905602948347
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.521786433054176,
+            "CPI": 1.4657626377119093,
+            "IPC": 0.6822387024143446
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.660246026933157,
+            "Unfairness": 0.4174252937301858,
+            "IPC": 0.6023203692570926
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6219640666999036,
+            "Unfairness": 0.44008383192661543,
+            "IPC": 0.6165364699075176
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4618485735867914,
+            "Unfairness": 0.3660593664761478,
+            "IPC": 0.6840653800047156
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3698022240340262,
+            "CPI": 1.4282520222707427,
+            "IPC": 0.7001565440881538
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4667155167521482,
+            "Unfairness": 0.38881566699912384,
+            "IPC": 0.6817954733405771
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4978244448028463,
+            "CPI": 1.4784699429616737,
+            "IPC": 0.6763749271742368
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6688896990970086,
+            "Unfairness": 0.39231866391356773,
+            "IPC": 0.5992007743478033
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6378148913109012,
+            "Unfairness": 0.41380958507552007,
+            "IPC": 0.6105696103419865
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6808881136479055,
+            "Unfairness": 0.4201996513570235,
+            "IPC": 0.594923595378264
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.65148621226865,
+            "Unfairness": 0.43817928192137634,
+            "IPC": 0.6055151975058259
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2779585085062564,
+            "Unfairness": 0.4944282104288201,
+            "IPC": 0.7824980180059612
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.267045696018727,
+            "Unfairness": 0.49592655782887207,
+            "IPC": 0.7892375177487047
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4989708082362385,
+            "Unfairness": 0.4028038868879079,
+            "IPC": 0.6671243992914367
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.38221880191467633,
+            "CPI": 1.5215669234224278,
+            "IPC": 0.6572172308732379
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.517338125376888,
+            "Unfairness": 0.406124509838224,
+            "IPC": 0.6590488851992777
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3863502625743659,
+            "CPI": 1.539752883234077,
+            "IPC": 0.649454864406302
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5375309201075154,
+            "Unfairness": 0.3825687424391228,
+            "IPC": 0.6503934242376554
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.36202090034379814,
+            "CPI": 1.5506964935349055,
+            "IPC": 0.644871516875904
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.39286419721570043,
+            "CPI": 1.4274130580748445,
+            "IPC": 0.7005680621618402
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4785833710470233,
+            "Unfairness": 0.3745037529602764,
+            "IPC": 0.6763230397294906
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.470287943334819,
+            "Unfairness": 0.39810898024443814,
+            "IPC": 0.6801388833617583
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49966567652965926,
+            "CPI": 1.4564141263051076,
+            "IPC": 0.6866178938657916
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6710253026575206,
+            "Unfairness": 0.4058818759132229,
+            "IPC": 0.5984349838447369
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6744962625679392,
+            "Unfairness": 0.41900421928389653,
+            "IPC": 0.5971945249172672
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6666444347877314,
+            "Unfairness": 0.42452968250182516,
+            "IPC": 0.6000080035831775
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6377229972184084,
+            "Unfairness": 0.44131619347866097,
+            "IPC": 0.6106038699453147
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.6752467530691784,
+            "Unfairness": 0.39989744152957285,
+            "IPC": 0.5969269889154685
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.6532637624972748,
+            "Unfairness": 0.4151630377209668,
+            "IPC": 0.6048641618379683
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4048446482795164,
+            "CPI": 1.49933225301053,
+            "IPC": 0.6669635752796528
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3857822157484014,
+            "CPI": 1.5223032145780286,
+            "IPC": 0.6568993551506049
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9173756885599981,
+            "Unfairness": 0.616280650646897,
+            "IPC": 1.0900659484117103
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8581769735081527,
+            "Unfairness": 0.6208723038717019,
+            "IPC": 1.1652608155076534
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5411999636869,
+            "CPI": 1.1640344831433798,
+            "IPC": 0.8590810791958516
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2177407506355207,
+            "Unfairness": 0.5124901139031628,
+            "IPC": 0.8211928519909636
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1559738364370684,
+            "Unfairness": 0.5609251448924779,
+            "IPC": 0.8650714821385496
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3362926661857857,
+            "Unfairness": 0.4964441836980632,
+            "IPC": 0.7483390617224036
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5428500697623058,
+            "CPI": 1.1735382658080247,
+            "IPC": 0.8521238967111676
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.197023988744357,
+            "Unfairness": 0.5145410757273551,
+            "IPC": 0.8354051459310942
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1652343463633255,
+            "Unfairness": 0.5621979081058065,
+            "IPC": 0.8581964676212825
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3161613167193003,
+            "Unfairness": 0.4918154187353959,
+            "IPC": 0.7597852841417854
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5527597042402073,
+            "Unfairness": 0.4014204215353689,
+            "IPC": 0.644014651635565
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4207527963461408,
+            "Unfairness": 0.5633366435121775,
+            "IPC": 0.7038522131167202
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.518383107039035,
+            "CPI": 1.1985732058515604,
+            "IPC": 0.8343253420966653
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5104973697341598,
+            "CPI": 1.2104197948366726,
+            "IPC": 0.8261596549112404
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1458302367299351,
+            "Unfairness": 0.5505827265435804,
+            "IPC": 0.872729631270582
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.331123067301345,
+            "Unfairness": 0.4670101629691792,
+            "IPC": 0.7512453390409288
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.562387130437164,
+            "Unfairness": 0.3766613693389182,
+            "IPC": 0.6400462347127724
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4420921267244338,
+            "Unfairness": 0.5388384856863285,
+            "IPC": 0.6934369735943283
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5752271741429098,
+            "Unfairness": 0.4004952425965742,
+            "IPC": 0.6348290687304234
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.45781155380217,
+            "Unfairness": 0.5678909614505833,
+            "IPC": 0.6859597163926053
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9395370651191031,
+            "Unfairness": 0.6445293658809323,
+            "IPC": 1.0643539644422992
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9276568586140453,
+            "Unfairness": 0.645856979767004,
+            "IPC": 1.077984807328475
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2752520512262477,
+            "Unfairness": 0.5419956075295334,
+            "IPC": 0.7841587073225462
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2799147224715033,
+            "Unfairness": 0.5349322940824102,
+            "IPC": 0.7813020527406774
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2881759297884325,
+            "Unfairness": 0.5432241519764979,
+            "IPC": 0.7762914807484704
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2929235145464515,
+            "Unfairness": 0.5367113984757523,
+            "IPC": 0.7734409566762293
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3133863159920551,
+            "Unfairness": 0.521627059670345,
+            "IPC": 0.7613906036813385
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3089656149264899,
+            "Unfairness": 0.5144023554856832,
+            "IPC": 0.7639620083191865
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1575362124562483,
+            "Unfairness": 0.540203851908808,
+            "IPC": 0.863903858245642
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2644277324675723,
+            "Unfairness": 0.5166244382171005,
+            "IPC": 0.7908716127638762
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.149286178109362,
+            "Unfairness": 0.5591670684379269,
+            "IPC": 0.8701053045335099
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3734620926858225,
+            "Unfairness": 0.5070120260070866,
+            "IPC": 0.7280870766840659
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5659807968965647,
+            "Unfairness": 0.40438484639538386,
+            "IPC": 0.6385774346542331
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4813084346346146,
+            "Unfairness": 0.5479328451974986,
+            "IPC": 0.6750788536802357
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5444659142105372,
+            "Unfairness": 0.3991745566002969,
+            "IPC": 0.6474730136800435
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4392062457577073,
+            "Unfairness": 0.5679572180936299,
+            "IPC": 0.6948274459950834
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5541197577187842,
+            "Unfairness": 0.37449278080783355,
+            "IPC": 0.6434510564796183
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4601289558132122,
+            "Unfairness": 0.5435243131657569,
+            "IPC": 0.6848710150009008
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.271167896536941,
+            "Unfairness": 0.5401434384146573,
+            "IPC": 0.7866781427727311
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2759450998305861,
+            "Unfairness": 0.5341946007889115,
+            "IPC": 0.7837327798294575
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.227122033936277,
+            "Unfairness": 0.48990069491639915,
+            "IPC": 0.8149148759005405
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4787554503644453,
+            "CPI": 1.231705670145162,
+            "IPC": 0.811882273694612
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1777087112393414,
+            "Unfairness": 0.5290245014274312,
+            "IPC": 0.8491063965619031
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3281382541125726,
+            "Unfairness": 0.45046244098191246,
+            "IPC": 0.7529336625185711
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5462455399047066,
+            "Unfairness": 0.3776623844125318,
+            "IPC": 0.6467278153388426
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4614734670504228,
+            "Unfairness": 0.50364432935643,
+            "IPC": 0.6842409544514151
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5660869006984308,
+            "Unfairness": 0.3793296481163002,
+            "IPC": 0.6385341704563317
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4768142669424869,
+            "Unfairness": 0.5339974223114315,
+            "IPC": 0.6771332200564014
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5438445652310318,
+            "Unfairness": 0.36678085205970007,
+            "IPC": 0.6477336012452477
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4895422330860564,
+            "Unfairness": 0.5100913164528353,
+            "IPC": 0.6713471949890167
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.343835370019332,
+            "Unfairness": 0.48665533225053303,
+            "IPC": 0.7441387704995549
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4857794570331148,
+            "CPI": 1.3349587400381469,
+            "IPC": 0.749086821942845
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5474665904340184,
+            "Unfairness": 0.3762188200417935,
+            "IPC": 0.646217505555018
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4790504357192866,
+            "Unfairness": 0.5088759265622068,
+            "IPC": 0.6761094658098549
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9075365282676287,
+            "Unfairness": 0.6057468209308714,
+            "IPC": 1.1018840221328308
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.88869329161338,
+            "Unfairness": 0.6031152127755645,
+            "IPC": 1.1252476072870405
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5396714379031996,
+            "CPI": 1.1435130248759424,
+            "IPC": 0.8744981283518727
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1771917463682149,
+            "Unfairness": 0.5222365452856818,
+            "IPC": 0.8494792824407121
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5590505911952203,
+            "CPI": 1.121875714542241,
+            "IPC": 0.8913643347810857
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.248091255235857,
+            "Unfairness": 0.5123616474414852,
+            "IPC": 0.8012234648747907
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5417145398600207,
+            "CPI": 1.152306659199297,
+            "IPC": 0.8678245430733428
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1570878451235014,
+            "Unfairness": 0.524134576554109,
+            "IPC": 0.8642386178495077
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5601985475881854,
+            "CPI": 1.1299823586909294,
+            "IPC": 0.8849695681607698
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.228157798663466,
+            "Unfairness": 0.50791247010036,
+            "IPC": 0.8142276188680664
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4787862692665252,
+            "Unfairness": 0.4205225229840965,
+            "IPC": 0.6762302442096638
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.408353493494051,
+            "Unfairness": 0.5502810472764786,
+            "IPC": 0.710049007312115
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5172709656237687,
+            "CPI": 1.1776894938995117,
+            "IPC": 0.8491202521378072
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1704594462443032,
+            "Unfairness": 0.5200462276703401,
+            "IPC": 0.8543653547405997
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.111063435884179,
+            "Unfairness": 0.5483290240667067,
+            "IPC": 0.9000386185908501
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2453273535472797,
+            "Unfairness": 0.48312499187560404,
+            "IPC": 0.8030017144901928
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4897037561736295,
+            "Unfairness": 0.3956960691456344,
+            "IPC": 0.6712744032870969
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.429702445066748,
+            "Unfairness": 0.5256972706288275,
+            "IPC": 0.6994462403352142
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5039214226418147,
+            "Unfairness": 0.4224374096020333,
+            "IPC": 0.6649283565915182
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4452942759170386,
+            "Unfairness": 0.5548309483698857,
+            "IPC": 0.6919006161326561
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2061802509942472,
+            "Unfairness": 0.5527796777902236,
+            "IPC": 0.8290634829874772
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2112837203843667,
+            "Unfairness": 0.5459690415018973,
+            "IPC": 0.8255704119284937
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2169930181986095,
+            "Unfairness": 0.553544331902647,
+            "IPC": 0.8216974009269156
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2222091517216749,
+            "Unfairness": 0.547318372142644,
+            "IPC": 0.8181905679493088
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2435355475055225,
+            "Unfairness": 0.5319265647131385,
+            "IPC": 0.8041587568654197
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2395223276670517,
+            "Unfairness": 0.5248899490518865,
+            "IPC": 0.8067623936086209
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1365978390729448,
+            "Unfairness": 0.539472405218468,
+            "IPC": 0.8798186707935681
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.223554069130208,
+            "Unfairness": 0.5235659910066464,
+            "IPC": 0.8172912217200775
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1144673848669187,
+            "Unfairness": 0.5570386744231577,
+            "IPC": 0.897289605401429
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.288334580406551,
+            "Unfairness": 0.5266741490326269,
+            "IPC": 0.7761958851437776
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4922750078016656,
+            "Unfairness": 0.42357105540406187,
+            "IPC": 0.6701177696952407
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4218351837592969,
+            "Unfairness": 0.5396438234802596,
+            "IPC": 0.7033163980061492
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4707269189924088,
+            "Unfairness": 0.41858053212052454,
+            "IPC": 0.6799358787048634
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4141840992546422,
+            "Unfairness": 0.5573608353763724,
+            "IPC": 0.7071215130526913
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.48165923553075,
+            "Unfairness": 0.39386193691943827,
+            "IPC": 0.6749190205275417
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4355271811411918,
+            "Unfairness": 0.5328326732897011,
+            "IPC": 0.6966081960252654
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2006186811362378,
+            "Unfairness": 0.5499874850812249,
+            "IPC": 0.8329039150495502
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2058554896403455,
+            "Unfairness": 0.5443639003298156,
+            "IPC": 0.8292867666077108
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.206543227637691,
+            "Unfairness": 0.4889306012393254,
+            "IPC": 0.8288140674063662
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.489356678802201,
+            "CPI": 1.191936596904982,
+            "IPC": 0.8389707997863559
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.143315111959766,
+            "Unfairness": 0.5266897236819699,
+            "IPC": 0.8746495078560552
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2445177769520566,
+            "Unfairness": 0.46717715426719636,
+            "IPC": 0.8035240785785285
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4760648485006977,
+            "Unfairness": 0.39981232336305406,
+            "IPC": 0.6774770099130419
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49031106076018294,
+            "CPI": 1.449157865235064,
+            "IPC": 0.690055944897206
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4944986473173338,
+            "Unfairness": 0.40052183462655866,
+            "IPC": 0.669120712685172
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5208147578988326,
+            "CPI": 1.4643772692545798,
+            "IPC": 0.6828841317026422
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4723557105769334,
+            "Unfairness": 0.386460420311319,
+            "IPC": 0.6791837005258439
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49677342609884045,
+            "CPI": 1.4772055854971067,
+            "IPC": 0.6769538443516525
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2759551624091727,
+            "Unfairness": 0.4972260704921363,
+            "IPC": 0.7837265990694118
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2670338387760913,
+            "Unfairness": 0.496236970187382,
+            "IPC": 0.7892449036451652
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4760092284887851,
+            "Unfairness": 0.3965519386290949,
+            "IPC": 0.6775025390754852
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49768914435697054,
+            "CPI": 1.4549467554846356,
+            "IPC": 0.6873103749194621
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9136284170745468,
+            "Unfairness": 0.6170222037195449,
+            "IPC": 1.094536883169655
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.857496017570287,
+            "Unfairness": 0.6213996472300031,
+            "IPC": 1.1661861740576913
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8602732304918923,
+            "Unfairness": 0.6547788384228315,
+            "IPC": 1.162421384922339
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8707029355119186,
+            "Unfairness": 0.6218768077643118,
+            "IPC": 1.1484973338375883
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1552611408854365,
+            "Unfairness": 0.560920810757539,
+            "IPC": 0.8656051559334556
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3339427536230337,
+            "Unfairness": 0.4946209365089042,
+            "IPC": 0.7496573576969223
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1647100645842519,
+            "Unfairness": 0.5613773497826535,
+            "IPC": 0.8585827755828264
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3136873078739417,
+            "Unfairness": 0.4900326264977747,
+            "IPC": 0.7612161539555329
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.144873462931097,
+            "Unfairness": 0.5481055171035212,
+            "IPC": 0.8734589737452793
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3288025208985763,
+            "Unfairness": 0.46512707883543414,
+            "IPC": 0.7525572718839891
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9373760395182539,
+            "Unfairness": 0.647316123786955,
+            "IPC": 1.066807724799463
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9277212475462032,
+            "Unfairness": 0.6461687356628143,
+            "IPC": 1.0779099892828499
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.148406330372882,
+            "Unfairness": 0.5575020308966098,
+            "IPC": 0.8707719328535091
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3714287046808997,
+            "Unfairness": 0.5064538874176877,
+            "IPC": 0.7291665958185389
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.177477654109468,
+            "Unfairness": 0.5260880233173093,
+            "IPC": 0.8492730172075365
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3258563522789633,
+            "Unfairness": 0.4486845179155864,
+            "IPC": 0.754229519873053
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8863333311707206,
+            "Unfairness": 0.6262706942111852,
+            "IPC": 1.1282437033922013
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.47912000807213273,
+            "CPI": 1.0822609125386096,
+            "IPC": 0.9239916072126693
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5415829523108056,
+            "CPI": 1.1648902737704825,
+            "IPC": 0.8584499523403432
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.326782866713311,
+            "CPI": 1.354386013635052,
+            "IPC": 0.7383419423507546
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2088539928782716,
+            "Unfairness": 0.562084035266989,
+            "IPC": 0.8272297613204785
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5364255365143389,
+            "CPI": 1.2639488197459894,
+            "IPC": 0.7911712755908629
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5450690316457959,
+            "CPI": 1.1738253207125846,
+            "IPC": 0.8519155127723247
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.33261740307889087,
+            "CPI": 1.3669572632174254,
+            "IPC": 0.7315517660342115
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2197914539866697,
+            "Unfairness": 0.5630217488351521,
+            "IPC": 0.8198122693282358
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.537664958448129,
+            "CPI": 1.2764118995829152,
+            "IPC": 0.7834461589763959
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5226268519490076,
+            "Unfairness": 0.4371265290667583,
+            "IPC": 0.656759729883898
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5425686371303353,
+            "Unfairness": 0.42343482672633603,
+            "IPC": 0.6482693709242758
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1930666768504719,
+            "Unfairness": 0.5235798454727297,
+            "IPC": 0.8381761215893309
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4974900689222708,
+            "Unfairness": 0.4004764225049964,
+            "IPC": 0.6677840613124669
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.246380930377626,
+            "Unfairness": 0.5414874476517175,
+            "IPC": 0.8023229300347382
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2941621170400897,
+            "Unfairness": 0.5149201607263081,
+            "IPC": 0.7727007202831163
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4302026769979793,
+            "CPI": 1.5027924476592402,
+            "IPC": 0.665427884973475
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3998176775231259,
+            "CPI": 1.556206889129617,
+            "IPC": 0.6425880819479586
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4342244392414531,
+            "CPI": 1.5213194463623094,
+            "IPC": 0.6573241421393395
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.417171194953322,
+            "CPI": 1.5725909122873893,
+            "IPC": 0.6358932842524598
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.54431076257193,
+            "CPI": 1.158811181319761,
+            "IPC": 0.8629533578206485
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3333464134123683,
+            "CPI": 1.352361874622178,
+            "IPC": 0.7394470509451321
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2033297972736037,
+            "Unfairness": 0.559644494361543,
+            "IPC": 0.8310273727665599
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5345926670940686,
+            "CPI": 1.2596670606011762,
+            "IPC": 0.7938605614746724
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5133343973338593,
+            "Unfairness": 0.4364961696175328,
+            "IPC": 0.6607924869491936
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4258878801829834,
+            "CPI": 1.5551053136055377,
+            "IPC": 0.6430432661061927
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4919168749527711,
+            "Unfairness": 0.4382107314013023,
+            "IPC": 0.6702786306587333
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.42050849052712974,
+            "CPI": 1.5347501996202344,
+            "IPC": 0.6515718325024128
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5032241407128173,
+            "Unfairness": 0.43377951718493074,
+            "IPC": 0.6652367886573507
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5483770459750337,
+            "Unfairness": 0.3969076085826796,
+            "IPC": 0.6458375255558549
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2318924200360846,
+            "Unfairness": 0.49781894291977163,
+            "IPC": 0.8117591956371547
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3766586574101742,
+            "Unfairness": 0.3106714169480892,
+            "IPC": 0.7263964778903438
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2803098076519956,
+            "Unfairness": 0.5075283718885585,
+            "IPC": 0.7810609541716583
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4861401522113386,
+            "CPI": 1.320353398887604,
+            "IPC": 0.7573729888092829
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.523428453016784,
+            "Unfairness": 0.401038892172841,
+            "IPC": 0.6564141545470943
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.535622791028625,
+            "Unfairness": 0.39397234698149775,
+            "IPC": 0.6512015879434543
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5423033808791597,
+            "Unfairness": 0.4048692953464776,
+            "IPC": 0.6483808648788474
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5151470444669495,
+            "Unfairness": 0.3958440846426355,
+            "IPC": 0.660001947435943
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.561982286492454,
+            "Unfairness": 0.3813953708464219,
+            "IPC": 0.640212125737721
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.525793228815229,
+            "Unfairness": 0.3912286463175121,
+            "IPC": 0.6553968002443524
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.5242234323071895,
+            "Unfairness": 0.4040995418795147,
+            "IPC": 0.656071792890835
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5771402043917637,
+            "Unfairness": 0.3930621054203286,
+            "IPC": 0.6340590375005104
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6358563924741562,
+            "CPI": 0.9218158260490887,
+            "IPC": 1.0848153955937265
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0951094393093415,
+            "Unfairness": 0.4789229099049838,
+            "IPC": 0.9131507446695697
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9405491248715432,
+            "Unfairness": 0.6574703791370473,
+            "IPC": 1.0632086868791426
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3386345918179647,
+            "Unfairness": 0.5333648958843774,
+            "IPC": 0.7470298512471024
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.284414522838953,
+            "Unfairness": 0.5497516499391626,
+            "IPC": 0.7785648497571415
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2896025277306367,
+            "Unfairness": 0.5397914999170953,
+            "IPC": 0.7754327232591104
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.297668872288786,
+            "Unfairness": 0.5515575962192579,
+            "IPC": 0.7706126126276209
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2681068578765393,
+            "Unfairness": 0.5418414742955111,
+            "IPC": 0.7885770775457459
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3228097558967595,
+            "Unfairness": 0.5301303061302456,
+            "IPC": 0.7559666048290367
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5378455789444969,
+            "CPI": 1.2813322775935954,
+            "IPC": 0.7804376877776379
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.54907535329054,
+            "CPI": 1.280506408227716,
+            "IPC": 0.7809410351831424
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.340075342983712,
+            "Unfairness": 0.5464650696507417,
+            "IPC": 0.7462266992939923
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.349430592564564,
+            "Unfairness": 0.49744795769138433,
+            "IPC": 0.7410533046383078
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3076384312440776,
+            "Unfairness": 0.509123853574163,
+            "IPC": 0.7647373892556885
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9003767422834633,
+            "Unfairness": 0.6252773165051493,
+            "IPC": 1.1106461917973138
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0752349367791532,
+            "Unfairness": 0.4864206360751073,
+            "IPC": 0.9300293041030473
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9105816783446209,
+            "Unfairness": 0.655522202522778,
+            "IPC": 1.098199122365317
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2695614753443372,
+            "Unfairness": 0.5433907734839856,
+            "IPC": 0.787673554546679
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2153612855777935,
+            "Unfairness": 0.5607633252044816,
+            "IPC": 0.822800604122083
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5370640367465347,
+            "CPI": 1.277285682479889,
+            "IPC": 0.7829102085122175
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2265066087508762,
+            "Unfairness": 0.5621392429817333,
+            "IPC": 0.8153237763785393
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5387415163539779,
+            "CPI": 1.2901270185845208,
+            "IPC": 0.7751174772675969
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2529808336362138,
+            "Unfairness": 0.5406847201414289,
+            "IPC": 0.7980968049590585
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3076078697146198,
+            "Unfairness": 0.5161441512875999,
+            "IPC": 0.764755262767152
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2099762005214543,
+            "Unfairness": 0.5592149742598137,
+            "IPC": 0.8264625366755458
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5361213143774058,
+            "CPI": 1.2732884136533489,
+            "IPC": 0.7853680197487831
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2812313855489494,
+            "Unfairness": 0.5079736617235182,
+            "IPC": 0.7804991442443829
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.48755588032994057,
+            "CPI": 1.3334717766350264,
+            "IPC": 0.7499221337278456
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9410749190375552,
+            "Unfairness": 0.657884612559929,
+            "IPC": 1.0626146545513167
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.351910304743066,
+            "Unfairness": 0.5347512907060539,
+            "IPC": 0.7396940436740383
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9131691246782986,
+            "Unfairness": 0.6151424016245347,
+            "IPC": 1.0950873972576451
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49997018239044116,
+            "CPI": 1.276199843618998,
+            "IPC": 0.7835763379849967
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5158323927134962,
+            "CPI": 1.2228793111462883,
+            "IPC": 0.8177421850915375
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2752167888504677,
+            "Unfairness": 0.5063704171013584,
+            "IPC": 0.7841803909290127
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1437004404238968,
+            "Unfairness": 0.5833568585626535,
+            "IPC": 0.8743548263646411
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1287539064879826,
+            "Unfairness": 0.5562858950989752,
+            "IPC": 0.8859327035344764
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5179476150928156,
+            "CPI": 1.234069013698476,
+            "IPC": 0.8103274524356003
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2876997630080018,
+            "Unfairness": 0.5088270157980099,
+            "IPC": 0.7765785385127745
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5850030410301243,
+            "CPI": 1.1526878720397573,
+            "IPC": 0.8675375392216403
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1075543191881927,
+            "Unfairness": 0.5584847715670096,
+            "IPC": 0.9028902534847889
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4594570991082871,
+            "CPI": 1.4264269390670765,
+            "IPC": 0.7010523796290808
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4965616632107939,
+            "Unfairness": 0.4298187677176133,
+            "IPC": 0.6681983272607378
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2490359568968554,
+            "Unfairness": 0.49804132138850266,
+            "IPC": 0.8006174637953831
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.48618434399839006,
+            "CPI": 1.3048205130815764,
+            "IPC": 0.7663889324044377
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.186047889390529,
+            "Unfairness": 0.5698093990576406,
+            "IPC": 0.8431362754786125
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5545749866714561,
+            "CPI": 1.1221434275078024,
+            "IPC": 0.8911516794434434
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.45289507859678235,
+            "CPI": 1.4099568597410133,
+            "IPC": 0.7092415580599283
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.527092178388007,
+            "Unfairness": 0.4024419651718007,
+            "IPC": 0.6548393175948268
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4567390021871166,
+            "CPI": 1.4262673680047318,
+            "IPC": 0.7011308135016396
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.524996120304704,
+            "Unfairness": 0.42839850194495127,
+            "IPC": 0.6557393731599748
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5157598550228284,
+            "CPI": 1.217742985705057,
+            "IPC": 0.8211913447573779
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5069779523768084,
+            "CPI": 1.2712692145883928,
+            "IPC": 0.7866154458273235
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5823532983545538,
+            "CPI": 1.1366439129067851,
+            "IPC": 0.8797830073647778
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1837399657638294,
+            "Unfairness": 0.5662422880339413,
+            "IPC": 0.8447801281717577
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.418011656688977,
+            "Unfairness": 0.45883000465459783,
+            "IPC": 0.7052128205595826
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5100060816943266,
+            "Unfairness": 0.432675309126083,
+            "IPC": 0.662248988347076
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3965906905395093,
+            "Unfairness": 0.4605322079255784,
+            "IPC": 0.7160294041582759
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.488431135557713,
+            "Unfairness": 0.42760996146978897,
+            "IPC": 0.6718483483115942
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.45619145420804963,
+            "CPI": 1.408658200094791,
+            "IPC": 0.709895416739638
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5187908376735864,
+            "Unfairness": 0.40021157148307446,
+            "IPC": 0.6584185097743636
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2768005293958014,
+            "Unfairness": 0.4648592078070101,
+            "IPC": 0.7832076953110388
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.33440272057376,
+            "Unfairness": 0.45022460590671226,
+            "IPC": 0.7493989517422632
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.221585130542163,
+            "Unfairness": 0.5361342871397987,
+            "IPC": 0.8186085234650661
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1545602779573847,
+            "Unfairness": 0.5330192930590958,
+            "IPC": 0.8661306118803702
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4326682331909717,
+            "CPI": 1.4363530755146174,
+            "IPC": 0.6962076505052348
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4888455441973985,
+            "Unfairness": 0.39846440550306156,
+            "IPC": 0.671661344521185
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.43622007230848714,
+            "CPI": 1.4533448903732997,
+            "IPC": 0.6880679229161802
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4670843908864561,
+            "Unfairness": 0.4008181261853113,
+            "IPC": 0.681624047131856
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4803948192905816,
+            "Unfairness": 0.4196041619247094,
+            "IPC": 0.6754954738893296
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4787664672327532,
+            "Unfairness": 0.3964332581342763,
+            "IPC": 0.6762392995503348
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.4353060033367014,
+            "CPI": 1.4355573319781259,
+            "IPC": 0.6965935652476173
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5311084548745555,
+            "Unfairness": 0.405431502123228,
+            "IPC": 0.6531215975042934
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9234609413331467,
+            "Unfairness": 0.6187179305907355,
+            "IPC": 1.0828828326581506
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4983506974738135,
+            "CPI": 1.3523509782005738,
+            "IPC": 0.739453008959694
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.928331228686761,
+            "Unfairness": 0.6626056755344201,
+            "IPC": 1.0772017240167857
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6612083414613772,
+            "CPI": 0.870173674420245,
+            "IPC": 1.1491958782437908
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5846614519184269,
+            "CPI": 1.1683115247066638,
+            "IPC": 0.8559360914042827
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1636597916136722,
+            "Unfairness": 0.5591482199292259,
+            "IPC": 0.8593576981922512
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5857895742846576,
+            "CPI": 1.1782170162386978,
+            "IPC": 0.848740076078996
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1421860282394265,
+            "Unfairness": 0.5613277018508638,
+            "IPC": 0.8755141240358253
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.211534301567583,
+            "Unfairness": 0.5706652276125417,
+            "IPC": 0.8253996595111814
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1566065158277519,
+            "Unfairness": 0.5574118866496854,
+            "IPC": 0.864598276350127
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5826032398273375,
+            "CPI": 1.161734104353792,
+            "IPC": 0.8607821671519613
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2135703958706898,
+            "Unfairness": 0.5660471542750971,
+            "IPC": 0.8240148271600995
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2468077322578743,
+            "Unfairness": 0.5369929047595855,
+            "IPC": 0.8020482822873385
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5359256354946125,
+            "CPI": 1.1886561399625362,
+            "IPC": 0.8412861940304434
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9288089312053189,
+            "Unfairness": 0.6138168735053597,
+            "IPC": 1.0766477005149984
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.274202041736678,
+            "Unfairness": 0.5027426634955093,
+            "IPC": 0.7848048953343746
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6520082369715513,
+            "CPI": 0.9180184910606073,
+            "IPC": 1.0893026771657701
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9138298914752968,
+            "Unfairness": 0.6512280521384387,
+            "IPC": 1.0942955678387682
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5833322684921861,
+            "CPI": 1.1472617676647323,
+            "IPC": 0.8716406561995997
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.128170173482765,
+            "Unfairness": 0.5568750793524061,
+            "IPC": 0.8863910990599124
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5848891332740798,
+            "CPI": 1.1564194137468902,
+            "IPC": 0.8647381634314847
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1069713645135504,
+            "Unfairness": 0.5590781751577353,
+            "IPC": 0.9033657347039342
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1899107649800382,
+            "Unfairness": 0.569706766720394,
+            "IPC": 0.8403991538111482
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5551709054106564,
+            "CPI": 1.1215659292983469,
+            "IPC": 0.8916105365518737
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.140245458102932,
+            "Unfairness": 0.5821470556052321,
+            "IPC": 0.8770041510743981
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1784601921489413,
+            "Unfairness": 0.564214895968528,
+            "IPC": 0.8485649380964525
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2255507801289882,
+            "Unfairness": 0.536029713833282,
+            "IPC": 0.8159596617406182
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1539947024426396,
+            "Unfairness": 0.5336055062555278,
+            "IPC": 0.8665551045280523
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9244497073609109,
+            "Unfairness": 0.6633403536953651,
+            "IPC": 1.0817246109090861
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6617486076977944,
+            "CPI": 0.8694804852969732,
+            "IPC": 1.1501120691149813
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1421426551595517,
+            "Unfairness": 0.4586114819831137,
+            "IPC": 0.875547371847613
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.106898728730994,
+            "Unfairness": 0.47862472446814924,
+            "IPC": 0.9034250144513688
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9035761448934025,
+            "Unfairness": 0.6684246056257943,
+            "IPC": 1.1067135909370127
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.124134847134941,
+            "Unfairness": 0.5056550688832725,
+            "IPC": 0.8895729925539441
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5605017848893591,
+            "CPI": 1.2232083280796158,
+            "IPC": 0.8175222298968131
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3477197524716831,
+            "CPI": 1.4300388743217465,
+            "IPC": 0.6992816894395897
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5623934948593298,
+            "CPI": 1.2345732320146923,
+            "IPC": 0.8099965024902624
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.35281757775589057,
+            "CPI": 1.444854874177825,
+            "IPC": 0.692111033344464
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.540134750034637,
+            "CPI": 1.2540502171950594,
+            "IPC": 0.7974162328496741
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.5813496132482407,
+            "Unfairness": 0.41793565022930695,
+            "IPC": 0.6323712300064411
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5600016080702911,
+            "CPI": 1.21800434138458,
+            "IPC": 0.8210151360078395
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4292319500009962,
+            "Unfairness": 0.3529873973978911,
+            "IPC": 0.699676494077328
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2774707505390595,
+            "Unfairness": 0.5164187454166205,
+            "IPC": 0.7827967877761788
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4531685147945814,
+            "Unfairness": 0.33164991941593985,
+            "IPC": 0.6881514358583245
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.916240439443229,
+            "Unfairness": 0.6675400063926772,
+            "IPC": 1.0914165724967009
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4986481372708718,
+            "CPI": 1.2053587637257894,
+            "IPC": 0.8296285140110309
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9027261774062053,
+            "Unfairness": 0.668751634476018,
+            "IPC": 1.1077556240512385
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.505202097987093,
+            "CPI": 1.1264773028926118,
+            "IPC": 0.8877231679965157
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9186224392904659,
+            "Unfairness": 0.6037359657898725,
+            "IPC": 1.0885865152307723
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9057540268221467,
+            "Unfairness": 0.5952506715659102,
+            "IPC": 1.1040525025414647
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1787123557304104,
+            "Unfairness": 0.5286639983563164,
+            "IPC": 0.8483834034134069
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.17929054787416,
+            "Unfairness": 0.519434486448966,
+            "IPC": 0.847967451110876
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.558265696894818,
+            "CPI": 1.1368921181519074,
+            "IPC": 0.879590933945048
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2641586606583153,
+            "Unfairness": 0.49187227405837136,
+            "IPC": 0.7910399470579478
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1885744242570702,
+            "Unfairness": 0.5311556831612076,
+            "IPC": 0.8413440333154228
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.159014912857865,
+            "Unfairness": 0.5214151009086039,
+            "IPC": 0.8628016679563071
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5603294846713912,
+            "CPI": 1.145446574149058,
+            "IPC": 0.8730219484421532
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2844656986059961,
+            "Unfairness": 0.5221407249256055,
+            "IPC": 0.77853383012507
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.477454098563679,
+            "Unfairness": 0.4221077472300736,
+            "IPC": 0.6768399782924962
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4205284402814427,
+            "Unfairness": 0.5483660324660938,
+            "IPC": 0.7039633784465975
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2154167554363022,
+            "Unfairness": 0.5097232091982873,
+            "IPC": 0.8227630526954737
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1724811862608446,
+            "Unfairness": 0.5173556038491625,
+            "IPC": 0.8528921501837451
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5503134893446944,
+            "CPI": 1.1264479090603217,
+            "IPC": 0.8877463324817176
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3005218684005384,
+            "Unfairness": 0.49830655331991197,
+            "IPC": 0.7689220952738468
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4881642947213436,
+            "Unfairness": 0.3980878017196697,
+            "IPC": 0.6719688165796562
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.454401404680697,
+            "Unfairness": 0.5227763132856004,
+            "IPC": 0.687568092812412
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.502112678062704,
+            "Unfairness": 0.4206582740234298,
+            "IPC": 0.6657290192701882
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4526069195164533,
+            "Unfairness": 0.5508096413887351,
+            "IPC": 0.6884174834668156
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.19887937605939,
+            "Unfairness": 0.5514278340769279,
+            "IPC": 0.8341122718174626
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2026756949861452,
+            "Unfairness": 0.5431413867495879,
+            "IPC": 0.8314793457362751
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2093274580120086,
+            "Unfairness": 0.5526682065752645,
+            "IPC": 0.8269058916795636
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5446996075941315,
+            "CPI": 1.213198281335685,
+            "IPC": 0.8242675705895646
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2356734686112616,
+            "Unfairness": 0.5311353364817081,
+            "IPC": 0.8092752862322695
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5247809768159443,
+            "CPI": 1.2284665682335976,
+            "IPC": 0.8140229664026528
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1726047229911358,
+            "Unfairness": 0.52936737174691,
+            "IPC": 0.8528022959426195
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2302494464244125,
+            "Unfairness": 0.5244371766882929,
+            "IPC": 0.8128432838611651
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5581148140761413,
+            "CPI": 1.129850992874342,
+            "IPC": 0.8850724620385552
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2574267814283908,
+            "Unfairness": 0.49036608899055883,
+            "IPC": 0.795274933514647
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.49065789956495,
+            "Unfairness": 0.4249797147984821,
+            "IPC": 0.6708447325787165
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4338345749998338,
+            "Unfairness": 0.5377620282002826,
+            "IPC": 0.6974305247173412
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.469570313077084,
+            "Unfairness": 0.4198702288889164,
+            "IPC": 0.6804710132624641
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4263742835258093,
+            "Unfairness": 0.5551177319741286,
+            "IPC": 0.7010782594370194
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4802944942293408,
+            "Unfairness": 0.39593556217237547,
+            "IPC": 0.6755412547289195
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4603564860045295,
+            "Unfairness": 0.5296534340702636,
+            "IPC": 0.6847643089777042
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.549602806276701,
+            "CPI": 1.1932319458246996,
+            "IPC": 0.8380600297361736
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5419595366607277,
+            "CPI": 1.1971320111278894,
+            "IPC": 0.8353297637224155
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2470639473015048,
+            "Unfairness": 0.47294259526501065,
+            "IPC": 0.8018834977659957
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.48234795190557606,
+            "CPI": 1.2050327153053957,
+            "IPC": 0.8298529884697499
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1583128629947552,
+            "Unfairness": 0.5291944258159281,
+            "IPC": 0.8633246093931429
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2416515588231252,
+            "Unfairness": 0.46289076560670417,
+            "IPC": 0.805378926876901
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4748573604715527,
+            "Unfairness": 0.39848076926757636,
+            "IPC": 0.6780316705883153
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.473384120439578,
+            "Unfairness": 0.4875217023029516,
+            "IPC": 0.6787096359513188
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4928820831972476,
+            "Unfairness": 0.40028797880072925,
+            "IPC": 0.6698452685950512
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.471502899369519,
+            "Unfairness": 0.5167703458037831,
+            "IPC": 0.6795773222250943
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4712016251860862,
+            "Unfairness": 0.3884345459949136,
+            "IPC": 0.6797164867687759
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4841828699047697,
+            "Unfairness": 0.49269605257078386,
+            "IPC": 0.6737714201378455
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2666367653528299,
+            "Unfairness": 0.49467983685598105,
+            "IPC": 0.7894923212034222
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2558597052849643,
+            "Unfairness": 0.49623511393785963,
+            "IPC": 0.7962672866975156
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4747805172739537,
+            "Unfairness": 0.3974393285867098,
+            "IPC": 0.6780669993175948
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4792983365274626,
+            "Unfairness": 0.4946400392249335,
+            "IPC": 0.675996163388801
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.93372166480959,
+            "Unfairness": 0.6115544467172889,
+            "IPC": 1.0709829681460008
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8731904447079207,
+            "Unfairness": 0.616767389826917,
+            "IPC": 1.1452255416451524
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8629776329445635,
+            "Unfairness": 0.6498710694978682,
+            "IPC": 1.1587785845479017
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8688590177901783,
+            "Unfairness": 0.6177602766949243,
+            "IPC": 1.1509347080765306
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5597771750027476,
+            "CPI": 1.1609299687983536,
+            "IPC": 0.8613784008307342
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.366464726213551,
+            "Unfairness": 0.4736928407420567,
+            "IPC": 0.7318154510808207
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5613578098687235,
+            "CPI": 1.1703596433610957,
+            "IPC": 0.8544382110853989
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4998009800870047,
+            "CPI": 1.3653255606451629,
+            "IPC": 0.7324260446185934
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5503655195469773,
+            "CPI": 1.1508814090815118,
+            "IPC": 0.868899255917318
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.47575720189650655,
+            "CPI": 1.3794031596727603,
+            "IPC": 0.7249512174796183
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.928404025489982,
+            "Unfairness": 0.6419924495890494,
+            "IPC": 1.0771172598828749
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.643180522370006,
+            "CPI": 0.9165483870341546,
+            "IPC": 1.0910498716122181
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5586448993008464,
+            "CPI": 1.1543455533067108,
+            "IPC": 0.8662917244627691
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3591726673180093,
+            "Unfairness": 0.47179390439746355,
+            "IPC": 0.7357416934915653
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1827118416205606,
+            "Unfairness": 0.5289765411868951,
+            "IPC": 0.8455144903510837
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3246357891676999,
+            "Unfairness": 0.44676955991855066,
+            "IPC": 0.7549244918320709
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9191017288231361,
+            "Unfairness": 0.6041199266709854,
+            "IPC": 1.088018843442336
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9036551888253973,
+            "Unfairness": 0.5981045098924039,
+            "IPC": 1.1066167852140982
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8535914273006852,
+            "Unfairness": 0.6391121528967317,
+            "IPC": 1.1715206690422173
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6632781373486416,
+            "CPI": 0.9201336498645926,
+            "IPC": 1.0867986407704584
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5582756908627448,
+            "CPI": 1.140343725178359,
+            "IPC": 0.8769285768144968
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2802826640521963,
+            "Unfairness": 0.4907296999221737,
+            "IPC": 0.7810775136444639
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5602560630406719,
+            "CPI": 1.1490586799301679,
+            "IPC": 0.870277573692558
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2796644465722464,
+            "Unfairness": 0.5191709379877778,
+            "IPC": 0.7814548592630158
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1299142419619073,
+            "Unfairness": 0.5500714049813243,
+            "IPC": 0.8850229184328778
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2958648312469303,
+            "Unfairness": 0.49517968860110395,
+            "IPC": 0.7716854226514984
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1333397329538153,
+            "Unfairness": 0.5579554032709182,
+            "IPC": 0.8823479588011153
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2733800797529087,
+            "Unfairness": 0.4891347975637443,
+            "IPC": 0.7853114839004264
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1619017168871784,
+            "Unfairness": 0.5289041320745581,
+            "IPC": 0.8606579932415237
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2411315847456033,
+            "Unfairness": 0.4634647763207596,
+            "IPC": 0.8057163416761903
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8591704983889934,
+            "Unfairness": 0.6500658642883655,
+            "IPC": 1.163913334867843
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8681898221832345,
+            "Unfairness": 0.6182851997851493,
+            "IPC": 1.1518218417779913
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8847808672680485,
+            "Unfairness": 0.6232325800916151,
+            "IPC": 1.1302233547247866
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0937854490998684,
+            "Unfairness": 0.4828568117366205,
+            "IPC": 0.9142560826924062
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9046335350330165,
+            "Unfairness": 0.6536297620354617,
+            "IPC": 1.1054199974617378
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5468847544203219,
+            "CPI": 1.2732821310915206,
+            "IPC": 0.7853718948704248
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5619686876193054,
+            "CPI": 1.1982386457042074,
+            "IPC": 0.834558294030233
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5393005567891006,
+            "CPI": 1.2561586207592788,
+            "IPC": 0.7960778069536751
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5632045694770014,
+            "CPI": 1.2086985276992015,
+            "IPC": 0.8273361612374376
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.541283693649425,
+            "CPI": 1.268132358922238,
+            "IPC": 0.788561219942279
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2351353059507744,
+            "Unfairness": 0.5417280291702694,
+            "IPC": 0.8096278967835241
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2856596686670354,
+            "Unfairness": 0.518805327307188,
+            "IPC": 0.7778108191235354
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1925605037607323,
+            "Unfairness": 0.5601356152586193,
+            "IPC": 0.8385318789667325
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5389796145994972,
+            "CPI": 1.2518051763053892,
+            "IPC": 0.7988463531932553
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.268914033620009,
+            "Unfairness": 0.5077353220973958,
+            "IPC": 0.7880754515317004
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3114947165798374,
+            "Unfairness": 0.49037850954437756,
+            "IPC": 0.76248877510375
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.929360223544689,
+            "Unfairness": 0.6550240155275807,
+            "IPC": 1.076009037901238
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5375117279466398,
+            "CPI": 1.329269210586104,
+            "IPC": 0.7522930584987205
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9039746492113943,
+            "Unfairness": 0.6541483800170153,
+            "IPC": 1.1062257120510801
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2581531405457567,
+            "Unfairness": 0.5438346424393287,
+            "IPC": 0.7948158040333817
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9062560055276738,
+            "Unfairness": 0.6006249149347545,
+            "IPC": 1.1034409635914557
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5060864470963505,
+            "CPI": 1.2872223209817097,
+            "IPC": 0.7768665782903318
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6473381638784873,
+            "CPI": 0.9283013149621469,
+            "IPC": 1.0772364359311253
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9170640970270876,
+            "Unfairness": 0.647281235831667,
+            "IPC": 1.0904363209090528
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5663442364288942,
+            "CPI": 1.1892429979677321,
+            "IPC": 0.8408710429314069
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1479564210620514,
+            "Unfairness": 0.5581577395985122,
+            "IPC": 0.8711132074811977
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5687085493922702,
+            "CPI": 1.1997038482372517,
+            "IPC": 0.8335390450479254
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1266499662723175,
+            "Unfairness": 0.5602015247000831,
+            "IPC": 0.8875871210546812
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2322645425574974,
+            "Unfairness": 0.5533896479466128,
+            "IPC": 0.8115140584379349
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1411162473582102,
+            "Unfairness": 0.5562246313731167,
+            "IPC": 0.8763349065575856
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5668039798607197,
+            "CPI": 1.1832107673330847,
+            "IPC": 0.8451579613782292
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2025572217953346,
+            "Unfairness": 0.5647749601630219,
+            "IPC": 0.8315612611822906
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5173177264843569,
+            "CPI": 1.264404445827294,
+            "IPC": 0.7908861783111689
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1732651408988362,
+            "Unfairness": 0.5351369719020312,
+            "IPC": 0.8523222630086
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6551484324376303,
+            "CPI": 0.9439452663127129,
+            "IPC": 1.0593834575878016
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.656563928566445,
+            "CPI": 0.8691526963963879,
+            "IPC": 1.150545817951346
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9288104326403179,
+            "Unfairness": 0.6477275743072999,
+            "IPC": 1.076645960098997
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9132118467714386,
+            "Unfairness": 0.64794202594723,
+            "IPC": 1.095036166619379
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.902168300776417,
+            "Unfairness": 0.6532103552195735,
+            "IPC": 1.1084406303562073
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.138106300771092,
+            "Unfairness": 0.5094590126185665,
+            "IPC": 0.8786525470621487
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9080047759400451,
+            "Unfairness": 0.611264780433742,
+            "IPC": 1.1013157931517634
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9013799340174594,
+            "Unfairness": 0.6332750121547334,
+            "IPC": 1.109410096964318
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9847965384978064,
+            "Unfairness": 0.6535610580671471,
+            "IPC": 1.0154381752045807
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5201762347829009,
+            "CPI": 1.1635295350864905,
+            "IPC": 0.8594539028402621
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6833535504688885,
+            "CPI": 1.0134976999423917,
+            "IPC": 0.9866820615940629
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.247830173682836,
+            "Unfairness": 0.519978014624704,
+            "IPC": 0.8013911036055555
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6927651614038918,
+            "CPI": 1.0131013247895901,
+            "IPC": 0.9870681002294504
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5374738980701111,
+            "CPI": 1.1921931873053973,
+            "IPC": 0.8387902318584847
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.7221852435208519,
+            "CPI": 1.03975081849213,
+            "IPC": 0.9617688990620104
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2782420745515297,
+            "Unfairness": 0.5527312893176968,
+            "IPC": 0.7823244281415548
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3480956046529682,
+            "Unfairness": 0.5987836333767879,
+            "IPC": 0.7417871525939911
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3949448965774067,
+            "Unfairness": 0.5762664750095154,
+            "IPC": 0.7168741951410187
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0449221523032568,
+            "Unfairness": 0.6714719344193014,
+            "IPC": 0.9570090918215892
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1780342351705488,
+            "Unfairness": 0.5372921712355947,
+            "IPC": 0.8488717646267945
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.7029972461427886,
+            "CPI": 1.0768128242494106,
+            "IPC": 0.9286665031102755
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.303746426607812,
+            "Unfairness": 0.5315675143762832,
+            "IPC": 0.7670203189755826
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3628152427562779,
+            "Unfairness": 0.5780778163356463,
+            "IPC": 0.7337751799558037
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4106962476090446,
+            "Unfairness": 0.5529153793955988,
+            "IPC": 0.7088698234611995
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3944057044293858,
+            "Unfairness": 0.6107913548721892,
+            "IPC": 0.7171513977771747
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4305414355984911,
+            "Unfairness": 0.5789350720743783,
+            "IPC": 0.6990360258817901
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8822667070829218,
+            "Unfairness": 0.6527068172451657,
+            "IPC": 1.1334441070618488
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8677146724774683,
+            "Unfairness": 0.642920620728832,
+            "IPC": 1.152452565017525
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.051209426451947,
+            "Unfairness": 0.6805803041919475,
+            "IPC": 0.9512852290292054
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1993951297416698,
+            "Unfairness": 0.5223403523830378,
+            "IPC": 0.8337535939598018
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6925680599292069,
+            "CPI": 1.0243206927880946,
+            "IPC": 0.976256759275363
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2674662838542055,
+            "Unfairness": 0.5201324372869552,
+            "IPC": 0.7889756222620187
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3729273219585907,
+            "Unfairness": 0.5873882375217339,
+            "IPC": 0.7283706748390876
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4119348929184603,
+            "Unfairness": 0.5643221179004297,
+            "IPC": 0.7082479546440037
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3579175346691055,
+            "Unfairness": 0.6044000995352476,
+            "IPC": 0.7364217446707306
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4303618265331342,
+            "Unfairness": 0.5857572451450334,
+            "IPC": 0.699123803117543
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3724934973437768,
+            "Unfairness": 0.5840473917352401,
+            "IPC": 0.7286009018879336
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4452092486302828,
+            "Unfairness": 0.5642841155249746,
+            "IPC": 0.6919413233396922
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.088670877158404,
+            "Unfairness": 0.6384000927298528,
+            "IPC": 0.9185512545445798
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2167262640271428,
+            "Unfairness": 0.5116773999336377,
+            "IPC": 0.821877549260901
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.105755278841393,
+            "Unfairness": 0.6692290852575186,
+            "IPC": 0.9043592367452201
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2949763084980341,
+            "Unfairness": 0.5082452366408257,
+            "IPC": 0.7722148995604718
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3912864196945172,
+            "Unfairness": 0.5447669698611907,
+            "IPC": 0.7187592618201281
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4369775664700093,
+            "Unfairness": 0.5236530607949199,
+            "IPC": 0.6959050881055426
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4220673214640076,
+            "Unfairness": 0.5792591329372689,
+            "IPC": 0.7032015889166959
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.456463866027789,
+            "Unfairness": 0.5510582442905255,
+            "IPC": 0.6865944451662216
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4564130557412933,
+            "Unfairness": 0.5546707292056641,
+            "IPC": 0.686618398577191
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4804358978505543,
+            "Unfairness": 0.5295398556003108,
+            "IPC": 0.6754767305034285
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.400805734839332,
+            "Unfairness": 0.5510911155350687,
+            "IPC": 0.7138748615379541
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5366842873806343,
+            "CPI": 1.4702988327483353,
+            "IPC": 0.6801338460772387
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.937260194568203,
+            "Unfairness": 0.6298679412649546,
+            "IPC": 1.0669395817675809
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9062317850278653,
+            "Unfairness": 0.6539006573533557,
+            "IPC": 1.1034704548232674
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6422991343126362,
+            "CPI": 0.9872104313007025,
+            "IPC": 1.012955260898577
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9723250147876717,
+            "Unfairness": 0.6595235564019052,
+            "IPC": 1.028462689729701
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0378648041438048,
+            "Unfairness": 0.6920146403137143,
+            "IPC": 0.9635166314604515
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5108761560151418,
+            "CPI": 1.3183042346599279,
+            "IPC": 0.7585502448590418
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0770322778406916,
+            "Unfairness": 0.7307400004748588,
+            "IPC": 0.9284772801840896
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.33714552573981,
+            "Unfairness": 0.5350278485447372,
+            "IPC": 0.7478617553214519
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1201810610671719,
+            "Unfairness": 0.7055423840060943,
+            "IPC": 0.892712825413529
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.361656090783742,
+            "Unfairness": 0.513579734629891,
+            "IPC": 0.7343998288322715
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0486762218395607,
+            "Unfairness": 0.699438118504673,
+            "IPC": 0.9535831738854781
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5102463924033035,
+            "CPI": 1.3377246545586703,
+            "IPC": 0.7475379904169522
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1471973063418168,
+            "Unfairness": 0.6819023224996016,
+            "IPC": 0.8716896339207771
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3521763993878375,
+            "Unfairness": 0.4889581335232327,
+            "IPC": 0.7395484793646183
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9310776689628851,
+            "Unfairness": 0.6175590285493282,
+            "IPC": 1.0740242552631367
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9152784835795736,
+            "Unfairness": 0.6311752517211883,
+            "IPC": 1.0925636491410657
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6119639760162011,
+            "CPI": 0.9136083782744778,
+            "IPC": 1.094560890398892
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9034841117763662,
+            "Unfairness": 0.6704014834208007,
+            "IPC": 1.106826325959259
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0314870100286895,
+            "Unfairness": 0.6832132357843935,
+            "IPC": 0.9694741574808453
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2478218948456794,
+            "Unfairness": 0.5203068740331644,
+            "IPC": 0.8013964205393846
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.7180503044093295,
+            "CPI": 1.0327464378439595,
+            "IPC": 0.9682918898153515
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2670668263868126,
+            "Unfairness": 0.5458757466089884,
+            "IPC": 0.789224355949414
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6988797910258191,
+            "CPI": 1.070073052357239,
+            "IPC": 0.9345156368503283
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.292878835448542,
+            "Unfairness": 0.5244243859143447,
+            "IPC": 0.7734676851238479
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0424028276507598,
+            "Unfairness": 0.6919887614774222,
+            "IPC": 0.9593220331660822
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.267453921653145,
+            "Unfairness": 0.5204428526308019,
+            "IPC": 0.7889833175912985
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.664777005155879,
+            "CPI": 1.0992899648056769,
+            "IPC": 0.9096780940566227
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2835917120443534,
+            "Unfairness": 0.4992327172334922,
+            "IPC": 0.7790639271169163
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9806133659144237,
+            "Unfairness": 0.6385861454873861,
+            "IPC": 1.0197699060194823
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9413129639558678,
+            "Unfairness": 0.6488330500038558,
+            "IPC": 1.0623459341274766
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8799812342787744,
+            "Unfairness": 0.6637473336418138,
+            "IPC": 1.1363878694749576
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9018951062865227,
+            "Unfairness": 0.6543928638598183,
+            "IPC": 1.1087763898813199
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6433020348875468,
+            "CPI": 0.92433591774409,
+            "IPC": 1.0818577757321968
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6758747195777658,
+            "CPI": 0.9343644941442437,
+            "IPC": 1.0702461472659766
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0038583826119694,
+            "Unfairness": 0.7031108479454372,
+            "IPC": 0.9961564472849943
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1619350198299132,
+            "Unfairness": 0.5878774241729368,
+            "IPC": 0.860633325387148
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0330222864281156,
+            "Unfairness": 0.7420551277929419,
+            "IPC": 0.9680333262292947
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1829544428968501,
+            "Unfairness": 0.5950707719798931,
+            "IPC": 0.8453410915395639
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.06527167346715,
+            "Unfairness": 0.7204713043841299,
+            "IPC": 0.9387276738010789
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5765003222729969,
+            "CPI": 1.2060234429809922,
+            "IPC": 0.8291712784025549
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0121152617999631,
+            "Unfairness": 0.7115396318782992,
+            "IPC": 0.9880297607819716
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1815204743264176,
+            "Unfairness": 0.5938164573607437,
+            "IPC": 0.846367051379366
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.109634243239025,
+            "Unfairness": 0.686943998639557,
+            "IPC": 0.9011978551427879
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.245137525395883,
+            "Unfairness": 0.5511623886276976,
+            "IPC": 0.8031241365744373
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1031561516831694,
+            "Unfairness": 0.7215259776473112,
+            "IPC": 0.9064899819252459
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6949880183925267,
+            "CPI": 0.93381813661486,
+            "IPC": 1.0708723259810018
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6436376850357564,
+            "CPI": 0.9239123781803544,
+            "IPC": 1.082353720565472
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.937658071327407,
+            "Unfairness": 0.6749695381520291,
+            "IPC": 1.0664868469423379
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.127351496220963,
+            "Unfairness": 0.46799071222505706,
+            "IPC": 0.887034792034372
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.151569453469857,
+            "Unfairness": 0.4594080933376993,
+            "IPC": 0.8683801024652444
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9200725495178596,
+            "Unfairness": 0.6203942146318048,
+            "IPC": 1.0868708130940592
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9249875663941867,
+            "Unfairness": 0.6743259756599617,
+            "IPC": 1.0810956128829157
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9966181026013464,
+            "Unfairness": 0.6956588210697334,
+            "IPC": 1.0033933734394611
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5364072068882189,
+            "CPI": 1.2217983495305142,
+            "IPC": 0.8184656661095163
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9828879936570144,
+            "Unfairness": 0.713832922685682,
+            "IPC": 1.0174099250915836
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5597311856974918,
+            "CPI": 1.2514442697956485,
+            "IPC": 0.7990767340868424
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0289121236835044,
+            "Unfairness": 0.6913955042551795,
+            "IPC": 0.9719002983656184
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2377967231399276,
+            "Unfairness": 0.5555288875284538,
+            "IPC": 0.8078870959225785
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0647944287462143,
+            "Unfairness": 0.7246419484016002,
+            "IPC": 0.9391484149456819
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5395985037994802,
+            "CPI": 1.2611395610262424,
+            "IPC": 0.7929336537395257
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0596589731478132,
+            "Unfairness": 0.6554779419334403,
+            "IPC": 0.9436998367780619
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2612663881497839,
+            "Unfairness": 0.532466200420595,
+            "IPC": 0.7928539199930247
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9408896258443891,
+            "Unfairness": 0.6335150715091511,
+            "IPC": 1.0628239195458906
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9005183290047302,
+            "Unfairness": 0.6859383798406389,
+            "IPC": 1.110471567086501
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9236930824409475,
+            "Unfairness": 0.620258481135331,
+            "IPC": 1.0826106842300953
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9241478569092711,
+            "Unfairness": 0.6747331618256391,
+            "IPC": 1.082077929980176
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9164616458384084,
+            "Unfairness": 0.6732870089838346,
+            "IPC": 1.0911531372217635
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9292626457555938,
+            "Unfairness": 0.6887654449256632,
+            "IPC": 1.0761220248844596
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8955641730518948,
+            "Unfairness": 0.608546766994246,
+            "IPC": 1.116614565533824
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8998032686463724,
+            "Unfairness": 0.6303288478574289,
+            "IPC": 1.1113540424279182
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9182843015122196,
+            "Unfairness": 0.6081645937506832,
+            "IPC": 1.088987363012971
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.897660749081117,
+            "Unfairness": 0.6685259816056147,
+            "IPC": 1.114006601072445
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.00570702445625,
+            "Unfairness": 0.6819467118726341,
+            "IPC": 0.9943253608481698
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2364870247802495,
+            "Unfairness": 0.5208598621805574,
+            "IPC": 0.8087428173196735
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0318509293700833,
+            "Unfairness": 0.7207972162918271,
+            "IPC": 0.9691322375514771
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2666533413129233,
+            "Unfairness": 0.5522952451654084,
+            "IPC": 0.7894819895737777
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.7006946978854142,
+            "CPI": 1.0631595957871274,
+            "IPC": 0.9405925544599293
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2920249263710926,
+            "Unfairness": 0.5311815907596986,
+            "IPC": 0.7739788757858548
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0164617059020482,
+            "Unfairness": 0.6911656354889165,
+            "IPC": 0.9838048931834187
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.52052663897722,
+            "CPI": 1.2558857667499996,
+            "IPC": 0.7962507629876364
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.0921856902300608,
+            "Unfairness": 0.6668303151088739,
+            "IPC": 0.9155952224473453
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2838646045281281,
+            "Unfairness": 0.5075416722066262,
+            "IPC": 0.7788983327938542
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6401364586104258,
+            "CPI": 0.9752063664398091,
+            "IPC": 1.0254239865667665
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9616223427332619,
+            "Unfairness": 0.6592249355419999,
+            "IPC": 1.0399092820136184
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9169599580148612,
+            "Unfairness": 0.6084000100152244,
+            "IPC": 1.09056016160718
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8970146072898607,
+            "Unfairness": 0.6690412247849407,
+            "IPC": 1.114809047559758
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6398245465865491,
+            "CPI": 0.9197349351666592,
+            "IPC": 1.0872697793291897
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9218906641738092,
+            "Unfairness": 0.6750193405971249,
+            "IPC": 1.0847273314088628
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9791589275884108,
+            "Unfairness": 0.6321949246908372,
+            "IPC": 1.021284667712645
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.9177898972556593,
+            "Unfairness": 0.6596891515159201,
+            "IPC": 1.0895739896354952
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5854790837467235,
+            "CPI": 0.8827752499540833,
+            "IPC": 1.1327911606629366
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49364677587429484,
+            "CPI": 1.205089292913937,
+            "IPC": 0.8298140277904006
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5057214890124365,
+            "CPI": 1.155421990747275,
+            "IPC": 0.8654846523677856
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49580027388898873,
+            "CPI": 1.1516115986364255,
+            "IPC": 0.8683483226324376
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1152171774579025,
+            "Unfairness": 0.5581722997106909,
+            "IPC": 0.8966863317864813
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.105345342513125,
+            "Unfairness": 0.5338494350237509,
+            "IPC": 0.9046946339199199
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5094451943544772,
+            "CPI": 1.163891198213933,
+            "IPC": 0.8591868394009382
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1600997485914464,
+            "Unfairness": 0.4972736009660643,
+            "IPC": 0.8619948424384765
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.122996864933597,
+            "Unfairness": 0.5595526247336565,
+            "IPC": 0.8904744360609859
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0848294841136286,
+            "Unfairness": 0.5360916559501994,
+            "IPC": 0.92180385456343
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.43664597071209676,
+            "CPI": 1.3988702364282921,
+            "IPC": 0.714862589794805
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4239651666895193,
+            "CPI": 1.4198683620305839,
+            "IPC": 0.7042906418239214
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.179008265804118,
+            "Unfairness": 0.4901262671637944,
+            "IPC": 0.8481704742909251
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4741586639739522,
+            "CPI": 1.1788454091047005,
+            "IPC": 0.8482876484707792
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1471645294780346,
+            "Unfairness": 0.5383253528040132,
+            "IPC": 0.8717145398969098
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5321729102686485,
+            "CPI": 1.099182085495798,
+            "IPC": 0.9097673744827629
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3838694125686135,
+            "Unfairness": 0.43033516953268774,
+            "IPC": 0.7226115346706667
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4493995395305042,
+            "Unfairness": 0.39682638741314014,
+            "IPC": 0.6899408842946951
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3990493389935692,
+            "Unfairness": 0.4340740574777284,
+            "IPC": 0.7147710749925142
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.41830762429585205,
+            "CPI": 1.4478632252971502,
+            "IPC": 0.6906729741649225
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5088932480422653,
+            "CPI": 1.1492760207297215,
+            "IPC": 0.8701129945833724
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.145291164451351,
+            "Unfairness": 0.4943981841199735,
+            "IPC": 0.873140412708106
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1077633592777096,
+            "Unfairness": 0.5566327770970028,
+            "IPC": 0.9027198739016118
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1593531619446293,
+            "Unfairness": 0.5446392673312603,
+            "IPC": 0.8625499397635316
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3909687037829053,
+            "Unfairness": 0.43599461428918423,
+            "IPC": 0.7189234360775917
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4265576990096356,
+            "CPI": 1.432361367240413,
+            "IPC": 0.6981478437432306
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3701979350324034,
+            "Unfairness": 0.43775762236622306,
+            "IPC": 0.7298215640474974
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.42126990393944896,
+            "CPI": 1.4127040120937908,
+            "IPC": 0.707862362844064
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.3821164640099755,
+            "Unfairness": 0.4333416716882924,
+            "IPC": 0.7235280282377003
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4420733302288113,
+            "Unfairness": 0.3940895942397957,
+            "IPC": 0.6934460120979643
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2064335150249452,
+            "Unfairness": 0.4574730598433501,
+            "IPC": 0.8288894394477454
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.43807784414655365,
+            "CPI": 1.2108297219831954,
+            "IPC": 0.8258799580523335
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1821916489289603,
+            "Unfairness": 0.5043192053402471,
+            "IPC": 0.8458865370145171
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5064825609935647,
+            "CPI": 1.1256853444760584,
+            "IPC": 0.8883477118247838
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4042272348170748,
+            "Unfairness": 0.4057686656733904,
+            "IPC": 0.7121354544375202
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4148122869923565,
+            "Unfairness": 0.3939312029071486,
+            "IPC": 0.7068075455619807
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4198469759306183,
+            "Unfairness": 0.40917768663363197,
+            "IPC": 0.7043012500305283
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3946802336171842,
+            "Unfairness": 0.3959663901000539,
+            "IPC": 0.7170102335260334
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4367976052780866,
+            "Unfairness": 0.3857668763665906,
+            "IPC": 0.6959922513278785
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.39141437664610274,
+            "CPI": 1.4060444835543846,
+            "IPC": 0.7112150516547443
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.4028649737845809,
+            "Unfairness": 0.40800250427035706,
+            "IPC": 0.7128269781390639
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4554935848186124,
+            "Unfairness": 0.39456203739788254,
+            "IPC": 0.6870521522254752
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5973044682540584,
+            "CPI": 0.9012806890407115,
+            "IPC": 1.1095322602155846
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2264914467496568,
+            "Unfairness": 0.48665221449516644,
+            "IPC": 0.8153338554868156
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8951555626487855,
+            "Unfairness": 0.6299649377568387,
+            "IPC": 1.1171242650171076
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6346154852005415,
+            "CPI": 0.8463925141643289,
+            "IPC": 1.1814849295865202
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1390266114756669,
+            "Unfairness": 0.5593439830024016,
+            "IPC": 0.8779426133902607
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1394993393991786,
+            "Unfairness": 0.5367493518602282,
+            "IPC": 0.8775783937946536
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1476651984502564,
+            "Unfairness": 0.5601976035384176,
+            "IPC": 0.8713342544065505
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1187208557080581,
+            "Unfairness": 0.5389713372525377,
+            "IPC": 0.8938780348088552
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1715448277283618,
+            "Unfairness": 0.5389361253822087,
+            "IPC": 0.8535738252022425
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5350477339665821,
+            "CPI": 1.1329120122875933,
+            "IPC": 0.882681081279017
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5567333787081085,
+            "CPI": 1.1320203616550037,
+            "IPC": 0.8833763365687247
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1884689798100123,
+            "Unfairness": 0.5443534343601208,
+            "IPC": 0.841418679821041
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.504940948520398,
+            "CPI": 1.2063340010796872,
+            "IPC": 0.8289578169105611
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5094479004913015,
+            "CPI": 1.1589473144950162,
+            "IPC": 0.8628519929188724
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.897699983306925,
+            "Unfairness": 0.5842775738738784,
+            "IPC": 1.1139579131061412
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2032205991893468,
+            "Unfairness": 0.49628102608130065,
+            "IPC": 0.8311027925167972
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6193772732101311,
+            "CPI": 0.8855889358001825,
+            "IPC": 1.1291920659515018
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6167810108551931,
+            "CPI": 0.876705281000242,
+            "IPC": 1.1406341693973714
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1185507847312581,
+            "Unfairness": 0.5581234989808526,
+            "IPC": 0.8940139452320522
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.10477005350932,
+            "Unfairness": 0.5344369047091007,
+            "IPC": 0.9051657372712846
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1264824134552411,
+            "Unfairness": 0.5594130784130715,
+            "IPC": 0.8877191406235241
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0842550223445773,
+            "Unfairness": 0.5366832444615042,
+            "IPC": 0.9222922461891065
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1507063126879555,
+            "Unfairness": 0.5381782689965748,
+            "IPC": 0.8690314713439626
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.532767318271518,
+            "CPI": 1.0986128748756614,
+            "IPC": 0.9102387409333591
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5563994929277938,
+            "CPI": 1.1111295053317407,
+            "IPC": 0.8999851009279412
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.154102840567871,
+            "Unfairness": 0.5424876843796909,
+            "IPC": 0.866473909299066
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5041701229658822,
+            "CPI": 1.1858360354096809,
+            "IPC": 0.843286904883542
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5070677522220398,
+            "CPI": 1.1251286251212689,
+            "IPC": 0.8887872707817898
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8914192396492995,
+            "Unfairness": 0.6305904369859442,
+            "IPC": 1.121806615250326
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8457139339213992,
+            "Unfairness": 0.6351448217978855,
+            "IPC": 1.182432924290615
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5118551420451918,
+            "CPI": 1.2150462047535597,
+            "IPC": 0.8230139694175859
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0762575078745364,
+            "Unfairness": 0.46933283577120516,
+            "IPC": 0.9291456669834204
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6378217192511519,
+            "CPI": 0.8782507399821547,
+            "IPC": 1.1386269939497222
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.0638454569926954,
+            "Unfairness": 0.496490702691618,
+            "IPC": 0.9399861544051942
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5507901136850897,
+            "CPI": 1.1548269756033882,
+            "IPC": 0.8659305862486523
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.33769637361743504,
+            "CPI": 1.3241090609735515,
+            "IPC": 0.7552247994321176
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5543504758633994,
+            "CPI": 1.1633946787790104,
+            "IPC": 0.8595535274834727
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3420606775834369,
+            "CPI": 1.3360048482322677,
+            "IPC": 0.7485002777670666
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.532964651265042,
+            "CPI": 1.18265908982791,
+            "IPC": 0.8455522040130019
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.4665734410473816,
+            "Unfairness": 0.4067436375683187,
+            "IPC": 0.681861522929142
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.5536729935114252,
+            "CPI": 1.1485853477320225,
+            "IPC": 0.8706362152142925
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.3414036940558735,
+            "CPI": 1.3215640808174791,
+            "IPC": 0.7566791610902671
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2057707108017175,
+            "Unfairness": 0.5101856612304966,
+            "IPC": 0.8293450745167791
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.346422380424593,
+            "Unfairness": 0.32036053973629164,
+            "IPC": 0.742708985336868
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8937303327090268,
+            "Unfairness": 0.6457023584735295,
+            "IPC": 1.1189057408053438
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4885476441219816,
+            "CPI": 1.085662397057833,
+            "IPC": 0.9210966527992681
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6381482105511813,
+            "CPI": 0.8774328864763457,
+            "IPC": 1.1396883059807201
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49586776702487584,
+            "CPI": 1.0660603134607516,
+            "IPC": 0.9380332307406699
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1568069642529912,
+            "Unfairness": 0.40800099032527126,
+            "IPC": 0.8644484610669254
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1363321732453198,
+            "Unfairness": 0.4431705878924246,
+            "IPC": 0.8800243657134511
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.620638503953396,
+            "CPI": 0.9035255178968966,
+            "IPC": 1.1067756031148555
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2604715031855245,
+            "Unfairness": 0.5079911338651041,
+            "IPC": 0.7933539135734141
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.207335247174669,
+            "Unfairness": 0.5252189098047074,
+            "IPC": 0.8282703601507021
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2486645754980514,
+            "Unfairness": 0.5102241031342666,
+            "IPC": 0.8008555857373728
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.218013103584702,
+            "Unfairness": 0.5267340912419403,
+            "IPC": 0.8210092297504245
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.2604713117118858,
+            "Unfairness": 0.5111155389994765,
+            "IPC": 0.7933540340889381
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.233213766858701,
+            "Unfairness": 0.5066672057303561,
+            "IPC": 0.810889423126735
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4879973586214013,
+            "CPI": 1.2782127947373232,
+            "IPC": 0.7823423487209757
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2018848528935968,
+            "Unfairness": 0.5239381448257364,
+            "IPC": 0.8320264604320878
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5076610572248625,
+            "CPI": 1.2441361347634674,
+            "IPC": 0.8037705618044105
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.2612532764872957,
+            "Unfairness": 0.47341656856948355,
+            "IPC": 0.7928621622970847
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.3087643562494566,
+            "Unfairness": 0.4524242143454769,
+            "IPC": 0.7640794885839596
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9256249620256967,
+            "Unfairness": 0.6242356251322818,
+            "IPC": 1.0803511584341203
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5005263849837526,
+            "CPI": 1.326509121226022,
+            "IPC": 0.7538583670466985
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9189037178621811,
+            "Unfairness": 0.619296591122812,
+            "IPC": 1.0882532963589358
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.258478488008214,
+            "Unfairness": 0.5108068757098021,
+            "IPC": 0.7946103247125771
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1198966932542507,
+            "Unfairness": 0.47062283237355496,
+            "IPC": 0.8929395059593855
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.4959304011585489,
+            "CPI": 1.0882458241131419,
+            "IPC": 0.9189100273506151
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8812785164723994,
+            "Unfairness": 0.5824647058557968,
+            "IPC": 1.1347150546717302
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.49914739792401225,
+            "CPI": 1.2157046343269193,
+            "IPC": 0.8225682223821206
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.614923322097664,
+            "CPI": 0.8955042065179115,
+            "IPC": 1.1166893384994931
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6124987205828779,
+            "CPI": 0.879497339577761,
+            "IPC": 1.1370131039624194
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.159887290287567,
+            "Unfairness": 0.5412803190459984,
+            "IPC": 0.862152735333511
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1241824015493507,
+            "Unfairness": 0.5359181143915646,
+            "IPC": 0.8895353624303297
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1690849589822383,
+            "Unfairness": 0.5433978435681293,
+            "IPC": 0.855369827758765
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.103563231764403,
+            "Unfairness": 0.5380033599710226,
+            "IPC": 0.9061555978094489
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1922143259919855,
+            "Unfairness": 0.5221331113036768,
+            "IPC": 0.8387753595964776
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5340171840083621,
+            "CPI": 1.1177979159555151,
+            "IPC": 0.8946160891212441
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.541233173670141,
+            "CPI": 1.1534175018921204,
+            "IPC": 0.8669887515661526
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1778205771114454,
+            "Unfairness": 0.5433298891700432,
+            "IPC": 0.8490257509785211
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.48557411072386275,
+            "CPI": 1.22409636607159,
+            "IPC": 0.8169291468524106
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5088770686464158,
+            "CPI": 1.1439906862556402,
+            "IPC": 0.874132990779032
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6229093282502003,
+            "CPI": 0.9102838904491748,
+            "IPC": 1.0985583843591424
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6298016875741579,
+            "CPI": 0.8451868054512556,
+            "IPC": 1.1831703873631674
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8959443275639646,
+            "Unfairness": 0.6152910253926939,
+            "IPC": 1.1161407793260532
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6129899861343948,
+            "CPI": 0.8757744247884561,
+            "IPC": 1.1418465436936578
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8767341982220492,
+            "Unfairness": 0.6347818016630449,
+            "IPC": 1.1405965479935931
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5003986328777152,
+            "CPI": 1.0755673372188792,
+            "IPC": 0.9297418816991267
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8971130090648345,
+            "Unfairness": 0.6192749306182413,
+            "IPC": 1.1146867673253524
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.50838228266705,
+            "CPI": 1.249359856888299,
+            "IPC": 0.80040990150799
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.1167073568942434,
+            "Unfairness": 0.43632429907561754,
+            "IPC": 0.895489757299686
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1069249703062056,
+            "Unfairness": 0.46428215387448246,
+            "IPC": 0.9034035971953662
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9317844270268486,
+            "Unfairness": 0.637030985248482,
+            "IPC": 1.0732096083541713
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.6451123776784616,
+            "CPI": 0.8938255363145695,
+            "IPC": 1.11878656334122
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6638957402179868,
+            "CPI": 0.9597501492883834,
+            "IPC": 1.041937842616081
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5295891644914298,
+            "CPI": 1.1534699762369904,
+            "IPC": 0.8669493099962069
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9462062181675592,
+            "Unfairness": 0.6822865843034888,
+            "IPC": 1.0568520696647068
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5464936715265601,
+            "CPI": 1.1820631568478455,
+            "IPC": 0.8459784861805988
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9727732643018927,
+            "Unfairness": 0.6577416873196916,
+            "IPC": 1.0279887787804762
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1677771078128099,
+            "Unfairness": 0.5465477422725131,
+            "IPC": 0.8563277986095752
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "Unfairness": 0.6947353890226757,
+            "CPI": 1.025941826675546,
+            "IPC": 0.9747141348553771
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.5316952015083007,
+            "CPI": 1.1888846882098536,
+            "IPC": 0.8411244672565645
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.018440175354959,
+            "Unfairness": 0.6252199466316701,
+            "IPC": 0.9818937078473636
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.190919684331731,
+            "Unfairness": 0.5243474478091019,
+            "IPC": 0.8396871872691709
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8926881799104431,
+            "Unfairness": 0.6309508059134793,
+            "IPC": 1.1202119872364869
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8785448929447552,
+            "Unfairness": 0.6645082250935627,
+            "IPC": 1.1382457607238996
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9352874942266878,
+            "Unfairness": 0.6364217355148428,
+            "IPC": 1.069189961560234
+        },
+        "DI4NonStrategyImproveSelect": {
+            "Unfairness": 0.645505311387767,
+            "CPI": 0.8930147302086064,
+            "IPC": 1.1198023573098308
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.8656143269878087,
+            "Unfairness": 0.6453441595145055,
+            "IPC": 1.1552489010664029
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8905075623617507,
+            "Unfairness": 0.6616676836855121,
+            "IPC": 1.122955090182345
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 1.115930117232601,
+            "Unfairness": 0.47646093978460563,
+            "IPC": 0.8961134613696988
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 1.1292844685793006,
+            "Unfairness": 0.4715508398260866,
+            "IPC": 0.885516473327622
+        }
+    },
+    {
+        "DI4CompareImproveSelect": {
+            "CPI": 0.9196753908084666,
+            "Unfairness": 0.635950789403222,
+            "IPC": 1.0873401745815137
+        },
+        "DI4NonStrategyImproveSelect": {
+            "CPI": 0.8922804703638751,
+            "Unfairness": 0.6421608326177267,
+            "IPC": 1.1207238454879511
+        }
+    }
+]
