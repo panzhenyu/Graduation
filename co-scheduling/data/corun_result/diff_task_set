@@ -417,3 +417,8 @@ gromacs mcf soplex
 502 625 soplex
 620 mcf soplex
 502 hmmer soplex
+502 638 soplex
+625 soplex
+625 638 soplex
+638 soplex
+557 638 soplex

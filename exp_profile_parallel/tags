@@ -1,0 +1,334 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR	cache.h	65;"	d
+ASSOCIATION	cache.h	27;"	d
+BENCHMARK_H	benchmark.h	2;"	d
+BLOCKSIZE	cache.h	28;"	d
+BUBBLE_ACCESS_LENGTH	cache.h	45;"	d
+BUBBLE_SPAN	cache.h	54;"	d
+CACHESPAN	cache.h	60;"	d
+CACHE_H	cache.h	2;"	d
+EXPECT	expect.h	9;"	d
+EXPECT_ERRNO	expect.h	18;"	d
+EXPECT_H	expect.h	2;"	d
+EXP_DATA_H	exp_data.h	2;"	d
+FILE_NAME	cache.h	64;"	d
+GET_BIT	pagemap.h	9;"	d
+GET_PFN	pagemap.h	10;"	d
+L3_CACHE_SIZE	cache.h	29;"	d
+MASK	lfsr.h	2;"	d
+MAX_DATA_IN_EACH_PROFILE	exp_data.h	14;"	d
+NO	profile_strategy.c	53;"	d	file:
+PAGEMAP_ENTRY	pagemap.h	8;"	d
+PAGEMAP_H	pagemap.h	2;"	d
+PERF_COUNTER_H	perf_counter.h	2;"	d
+PFM_INC	perf_counter.h	6;"	d
+PFM_INC	profile_strategy.c	13;"	d	file:
+POINTER_LENGTH	cache.h	51;"	d
+POLICY_HIGH_FIRST_START	cache.h	34;"	d
+POLICY_HIGH_SECOND_START	cache.h	35;"	d
+POLICY_LOW_FIRST_START	cache.h	32;"	d
+POLICY_LOW_SECOND_START	cache.h	33;"	d
+POLICY_NUM	cache.h	48;"	d
+PSEUDO_HIGH_END	cache.h	42;"	d
+PSEUDO_HIGH_START	cache.h	41;"	d
+PSEUDO_LOW_END	cache.h	40;"	d
+PSEUDO_LOW_START	cache.h	39;"	d
+REDIRECT_H	redirect.h	2;"	d
+RING_BUFFER	profile_strategy.c	148;"	d	file:
+SAMPLE_INSTRUCTIONS	profile_strategy.c	146;"	d	file:
+SET_NUM	cache.h	26;"	d
+SIZE	cache.h	63;"	d
+STRATEGY_A	profile_strategy.c	54;"	d	file:
+STRATEGY_B	profile_strategy.c	55;"	d	file:
+SYNC_ABORT	profile_strategy.c	/^    SYNC_ABORT,\/\/终止$/;"	e	enum:__anon3	file:
+SYNC_GO	profile_strategy.c	/^    SYNC_GO,  \/\/执行$/;"	e	enum:__anon3	file:
+SYNC_WAITING	profile_strategy.c	/^    SYNC_WAITING = 0,\/\/等待$/;"	e	enum:__anon3	file:
+USE_THREAD	profile_strategy.c	45;"	d	file:
+WAYSPAN	cache.h	58;"	d
+YES	profile_strategy.c	52;"	d	file:
+_GNU_SOURCE	profile_strategy.c	1;"	d	file:
+__anon1::ctr	perf_counter.h	/^    } ctr[];$/;"	m	struct:__anon1	typeref:struct:__anon1::ctr_data	access:public
+__anon1::ctr_data	perf_counter.h	/^    struct ctr_data {$/;"	s	struct:__anon1	access:public
+__anon1::ctr_data::val	perf_counter.h	/^        uint64_t val;$/;"	m	struct:__anon1::ctr_data	access:public
+__anon1::nr	perf_counter.h	/^    uint64_t nr;$/;"	m	struct:__anon1	access:public
+__anon1::time_enabled	perf_counter.h	/^    uint64_t time_enabled;$/;"	m	struct:__anon1	access:public
+__anon1::time_running	perf_counter.h	/^    uint64_t time_running;$/;"	m	struct:__anon1	access:public
+__anon2::head	perf_counter.h	/^    struct ctr *head;$/;"	m	struct:__anon2	typeref:struct:__anon2::ctr	access:public
+__anon2::tail	perf_counter.h	/^    struct ctr *tail;$/;"	m	struct:__anon2	typeref:struct:__anon2::ctr	access:public
+__anon4::type	profile_strategy.c	/^    sync_type_t type;$/;"	m	struct:__anon4	file:	access:public
+__anon5::head	exp_data.h	/^    struct benchmark_feature *head;$/;"	m	struct:__anon5	typeref:struct:__anon5::benchmark_feature	access:public
+__anon5::tail	exp_data.h	/^    struct benchmark_feature *tail;$/;"	m	struct:__anon5	typeref:struct:__anon5::benchmark_feature	access:public
+__endian_bit	pagemap.h	/^static int __endian_bit = 1;$/;"	v
+add_Item	exp_data.c	/^void add_Item(benchmark_data_list_t *data_list, benchmark_feature_t *item)$/;"	f	signature:(benchmark_data_list_t *data_list, benchmark_feature_t *item)
+add_Item	exp_data.h	/^void add_Item(benchmark_data_list_t *data_list, benchmark_feature_t *item);$/;"	p	signature:(benchmark_data_list_t *data_list, benchmark_feature_t *item)
+add_profile_data	exp_data.c	/^void add_profile_data(profile_data_list_t* list, profile_data_t* item)$/;"	f	signature:(profile_data_list_t* list, profile_data_t* item)
+add_profile_data	exp_data.h	/^void add_profile_data(profile_data_list_t* list, profile_data_t* item);$/;"	p	signature:(profile_data_list_t* list, profile_data_t* item)
+assign_A	profile_strategy.c	/^static void *assign_A(void *arg)$/;"	f	file:	signature:(void *arg)
+assign_B	profile_strategy.c	/^static void *assign_B(void *arg)$/;"	f	file:	signature:(void *arg)
+assign_class	exp_data.h	/^    char *assign_class;$/;"	m	struct:profile_data	access:public
+assign_class	profile_strategy.c	/^const char *assign_class[] = {"no_assign", "assign_a", "assign_b", "worst_case"};$/;"	v
+assign_high_policy	cache.c	/^void assign_high_policy(){$/;"	f
+assign_high_policy	cache.h	/^void assign_high_policy();$/;"	p
+assign_low_policy	cache.c	/^void assign_low_policy(){$/;"	f
+assign_low_policy	cache.h	/^void assign_low_policy();$/;"	p
+assign_state_num	profile_strategy.c	/^static int assign_state_num = 3;$/;"	v	file:
+attach_ctr	perf_counter.c	/^int attach_ctr(ctr_t *ctr, pid_t pid, int group_fd)$/;"	f	signature:(ctr_t *ctr, pid_t pid, int group_fd)
+attach_ctr	perf_counter.h	/^int attach_ctr(ctr_t *ctr, pid_t pid, int group_fd);   \/\/为事件绑定文件描述符（绑定到特定进程中）$/;"	p	signature:(ctr_t *ctr, pid_t pid, int group_fd)
+attach_ctrs	perf_counter.c	/^int attach_ctrs(ctr_list_t *list, pid_t pid)$/;"	f	signature:(ctr_list_t *list, pid_t pid)
+attach_ctrs	perf_counter.h	/^int attach_ctrs(ctr_list_t *list, pid_t pid);   \/\/为事件列表中的所有事件绑定文件描述符$/;"	p	signature:(ctr_list_t *list, pid_t pid)
+attr	perf_counter.h	/^    struct perf_event_attr attr;$/;"	m	struct:ctr	typeref:struct:ctr::perf_event_attr	access:public
+benchmark	exp_data.h	/^    char *benchmark;$/;"	m	struct:benchmark_feature	access:public
+benchmark_data_list	profile_strategy.c	/^benchmark_data_list_t benchmark_data_list = {NULL, NULL};$/;"	v
+benchmark_data_list_t	exp_data.h	/^}benchmark_data_list_t;$/;"	t	typeref:struct:__anon5
+benchmark_events_id	profile_strategy.c	/^static uint64_t benchmark_events_id[4] = {PERF_COUNT_HW_INSTRUCTIONS, PERF_COUNT_HW_CPU_CYCLES, PERF_COUNT_HW_CACHE_MISSES, PERF_COUNT_HW_CACHE_REFERENCES};$/;"	v	file:
+benchmark_events_name	profile_strategy.c	/^static char *benchmark_events_name[4] = {"PERF_COUNT_HW_INSTRUCTIONS", "PERF_COUNT_HW_CPU_CYCLES", "PERF_COUNT_HW_CACHE_MISSES", "PERF_COUNT_HW_CACHE_REFERENCES"};$/;"	v	file:
+benchmark_feature	exp_data.h	/^typedef struct benchmark_feature{$/;"	s
+benchmark_feature::benchmark	exp_data.h	/^    char *benchmark;$/;"	m	struct:benchmark_feature	access:public
+benchmark_feature::next	exp_data.h	/^    struct benchmark_feature *next;$/;"	m	struct:benchmark_feature	typeref:struct:benchmark_feature::benchmark_feature	access:public
+benchmark_feature::strategy_a	exp_data.h	/^    uint64_t *strategy_a;$/;"	m	struct:benchmark_feature	access:public
+benchmark_feature::strategy_b	exp_data.h	/^    uint64_t *strategy_b;$/;"	m	struct:benchmark_feature	access:public
+benchmark_feature_t	exp_data.h	/^}benchmark_feature_t;$/;"	t	typeref:struct:benchmark_feature
+benchmark_name	profile_strategy.c	/^const char *benchmark_name[] = {"gromacs", "bzip", "mcf", "calculix", "sphinx3", "lbm", "libquantum", "soplex", "gcc", "dealII", "povray", \/*"reporter",*\/ "reporter_policy"};$/;"	v
+benchmark_num	profile_strategy.c	/^static int benchmark_num = 12;$/;"	v	file:
+bin_bzip	profile_strategy.c	/^const char *bin_bzip = ".\/bzip2_base.i386-m32-gcc42-nn";$/;"	v
+bin_calculix	profile_strategy.c	/^const char *bin_calculix = ".\/calculix_base.i386-m32-gcc42-nn";$/;"	v
+bin_dealII	profile_strategy.c	/^const char *bin_dealII = ".\/dealII_base.i386-m32-gcc42-nn";$/;"	v
+bin_gcc	profile_strategy.c	/^const char *bin_gcc = ".\/gcc_base.i386-m32-gcc42-nn";$/;"	v
+bin_gromacs	profile_strategy.c	/^const char *bin_gromacs = ".\/gromacs_base.i386-m32-gcc42-nn";$/;"	v
+bin_lbm	profile_strategy.c	/^const char *bin_lbm = ".\/lbm_base.i386-m32-gcc42-nn";$/;"	v
+bin_libquantum	profile_strategy.c	/^const char *bin_libquantum = ".\/libquantum_base.i386-m32-gcc42-nn";$/;"	v
+bin_mcf	profile_strategy.c	/^const char *bin_mcf = ".\/mcf_base.i386-m32-gcc42-nn";$/;"	v
+bin_povray	profile_strategy.c	/^const char *bin_povray = ".\/povray_base.i386-m32-gcc42-nn";$/;"	v
+bin_reporter	profile_strategy.c	/^const char *bin_reporter = ".\/reporter";$/;"	v
+bin_reporter_policy	profile_strategy.c	/^const char *bin_reporter_policy = ".\/reporter_policy";$/;"	v
+bin_soplex	profile_strategy.c	/^const char *bin_soplex = ".\/soplex_base.i386-m32-gcc42-nn";$/;"	v
+bin_sphinx3	profile_strategy.c	/^const char *bin_sphinx3 = ".\/sphinx_livepretend_base.i386-m32-gcc42-nn";$/;"	v
+bin_table	profile_strategy.c	/^const char *bin_table[] = {".\/gromacs_base.i386-m32-gcc42-nn", ".\/bzip2_base.i386-m32-gcc42-nn", $/;"	v
+bubble	profile_strategy.c	/^static void *bubble(void *arg)$/;"	f	file:	signature:(void *arg)
+bubble_num	profile_strategy.c	/^static int bubble_num = 17; $/;"	v	file:
+bubble_random	profile_strategy.c	/^static void *bubble_random(void *arg)$/;"	f	file:	signature:(void *arg)
+bubble_size	profile_strategy.c	166;"	d	file:
+bubble_stream	profile_strategy.c	/^static void *bubble_stream(void *arg)$/;"	f	file:	signature:(void *arg)
+bw_data	profile_strategy.c	178;"	d	file:
+bw_stream_size	profile_strategy.c	176;"	d	file:
+c	pagemap.h	/^int i, c, pid, status;$/;"	v
+cache_mapping	pagemap.c	/^int cache_mapping(unsigned long long n,int x)$/;"	f	signature:(unsigned long long n,int x)
+cache_mapping	pagemap.h	/^int cache_mapping(unsigned long long n,int x);$/;"	p	signature:(unsigned long long n,int x)
+change_strategy	profile_strategy.c	/^static void change_strategy()$/;"	f	file:
+choice	profile_strategy.c	/^static pid_t choice(int cur_idx)$/;"	f	file:	signature:(int cur_idx)
+close_ctrs	perf_counter.c	/^void close_ctrs(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+close_ctrs	perf_counter.h	/^void close_ctrs(ctr_list_t *list);   \/\/关闭事件的文件描述符$/;"	p	signature:(ctr_list_t *list)
+cpu_assign_num	profile_strategy.c	248;"	d	file:
+cpu_assign_threads	profile_strategy.c	/^static int cpu_assign_threads[cpu_assign_num] = {3};$/;"	v	file:
+cpu_benchmark_num	profile_strategy.c	244;"	d	file:
+cpu_benchmarks	profile_strategy.c	/^static int cpu_benchmarks[cpu_benchmark_num] = {0};$/;"	v	file:
+cpu_bubble_random_num	profile_strategy.c	252;"	d	file:
+cpu_bubble_randoms	profile_strategy.c	/^static int cpu_bubble_randoms[cpu_bubble_random_num] = {2};$/;"	v	file:
+cpu_bubble_stream_num	profile_strategy.c	256;"	d	file:
+cpu_bubble_streams	profile_strategy.c	/^static int cpu_bubble_streams[cpu_bubble_stream_num] = {6};$/;"	v	file:
+cpu_main_num	profile_strategy.c	240;"	d	file:
+cpu_mains	profile_strategy.c	/^static int cpu_mains[cpu_main_num] = {7};$/;"	v	file:
+create_Item	exp_data.c	/^benchmark_feature_t *create_Item(const char *name)$/;"	f	signature:(const char *name)
+create_Item	exp_data.h	/^benchmark_feature_t *create_Item(const char *name);$/;"	p	signature:(const char *name)
+create_ctr	perf_counter.c	/^ctr_t *create_ctr(const struct perf_event_attr *base_attr)$/;"	f	signature:(const struct perf_event_attr *base_attr)
+create_ctr	perf_counter.h	/^ctr_t *create_ctr(const struct perf_event_attr *base_attr);   \/\/创建事件结构$/;"	p	signature:(const struct perf_event_attr *base_attr)
+create_event_attr	perf_counter.c	/^struct perf_event_attr *create_event_attr(uint64_t perf_event_id)$/;"	f	signature:(uint64_t perf_event_id)
+create_event_attr	perf_counter.h	/^struct perf_event_attr *create_event_attr(uint64_t perf_event_id);   \/\/创建事件属性$/;"	p	signature:(uint64_t perf_event_id)
+create_profile_data	exp_data.c	/^profile_data_t* create_profile_data(const char* assign_class)$/;"	f	signature:(const char* assign_class)
+create_profile_data	exp_data.h	/^profile_data_t* create_profile_data(const char* assign_class);$/;"	p	signature:(const char* assign_class)
+create_sample_event_attr	perf_counter.c	/^struct perf_event_attr *create_sample_event_attr(uint64_t perf_event_id, uint64_t sample_period)$/;"	f	signature:(uint64_t perf_event_id, uint64_t sample_period)
+create_sample_event_attr	perf_counter.h	/^struct perf_event_attr *create_sample_event_attr(uint64_t perf_event_id, uint64_t sample_period);$/;"	p	signature:(uint64_t perf_event_id, uint64_t sample_period)
+create_sig_fd	profile_strategy.c	/^static int create_sig_fd()$/;"	f	file:
+ctr	perf_counter.h	/^    } ctr[];$/;"	m	struct:__anon1	typeref:struct:__anon1::ctr_data	access:public
+ctr	perf_counter.h	/^typedef struct ctr {$/;"	s
+ctr::attr	perf_counter.h	/^    struct perf_event_attr attr;$/;"	m	struct:ctr	typeref:struct:ctr::perf_event_attr	access:public
+ctr::event_name	perf_counter.h	/^    const char *event_name;$/;"	m	struct:ctr	access:public
+ctr::fd	perf_counter.h	/^    int fd;$/;"	m	struct:ctr	access:public
+ctr::next	perf_counter.h	/^    struct ctr *next;$/;"	m	struct:ctr	typeref:struct:ctr::ctr	access:public
+ctr_data	perf_counter.h	/^    struct ctr_data {$/;"	s	struct:__anon1	access:public
+ctr_list_t	perf_counter.h	/^} ctr_list_t;$/;"	t	typeref:struct:__anon2
+ctr_t	perf_counter.h	/^} ctr_t;$/;"	t	typeref:struct:ctr
+ctrs_execvp_cb	profile_strategy.c	/^ctrs_execvp_cb(ctr_list_t *list,$/;"	f	file:	signature:(ctr_list_t *list, void (*child_callback)(void *data), void *callback_data, const char *file, char *const argv[])
+ctrs_len	perf_counter.c	/^int ctrs_len(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+ctrs_len	perf_counter.h	/^int ctrs_len(ctr_list_t *list);$/;"	p	signature:(ctr_list_t *list)
+cur_assign_state	profile_strategy.c	/^static int cur_assign_state = 0;$/;"	v	file:
+cur_benchmark	profile_strategy.c	/^static int cur_benchmark = 11;$/;"	v	file:
+cur_bubble	profile_strategy.c	/^static int cur_bubble = 0;$/;"	v	file:
+cur_restart	profile_strategy.c	/^static int cur_restart = 0;$/;"	v	file:
+cur_strategy	profile_strategy.c	/^static int cur_strategy = STRATEGY_A;$/;"	v	file:
+cycles	exp_data.h	/^    uint64_t cycles;$/;"	m	struct:events_data_item	access:public
+data_all	exp_data.h	/^    events_data_item_t data_all[MAX_DATA_IN_EACH_PROFILE];$/;"	m	struct:profile_data	access:public
+data_chunk	profile_strategy.c	172;"	d	file:
+destruct_profile_data_list	exp_data.c	/^void destruct_profile_data_list(profile_data_list_t* list)$/;"	f	signature:(profile_data_list_t* list)
+destruct_profile_data_list	exp_data.h	/^void destruct_profile_data_list(profile_data_list_t* list);$/;"	p	signature:(profile_data_list_t* list)
+dir_pb	profile_strategy.c	/^static const char *dir_pb = "\/exp_data_pb";$/;"	v	file:
+dir_txt	profile_strategy.c	/^static const char *dir_txt = "\/exp_data_txt_100";$/;"	v	file:
+disable_all_event_counter	perf_counter.c	/^void disable_all_event_counter(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+disable_all_event_counter	perf_counter.h	/^void disable_all_event_counter(ctr_list_t *list);$/;"	p	signature:(ctr_list_t *list)
+do_start	profile_strategy.c	/^static void do_start()$/;"	f	file:
+dump	profile_strategy.c	/^static unsigned long dump[100];$/;"	v	file:
+dump1	profile_strategy.c	/^static unsigned long dump1[100];$/;"	v	file:
+enable_all_event_counter	perf_counter.c	/^void enable_all_event_counter(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+enable_all_event_counter	perf_counter.h	/^void enable_all_event_counter(ctr_list_t *list);$/;"	p	signature:(ctr_list_t *list)
+end	pagemap.h	/^char *end;$/;"	v
+env_bzip	profile_strategy.c	/^char *env_bzip[7] = {"bzip2_base.i386-m32-gcc42-nn", "chicken.jpg", "30", NULL};$/;"	v
+env_calculix	profile_strategy.c	/^char *env_calculix[7] = {"calculix_base.i386-m32-gcc42-nn", "-i", \/*"stairs""beampic"*\/"hyperviscoplastic", NULL};$/;"	v
+env_dealII	profile_strategy.c	/^char *env_dealII[7] = {"dealII_base.i386-m32-gcc42-nn", "23", NULL};$/;"	v
+env_gcc	profile_strategy.c	/^char *env_gcc[7] = {"gcc_base.i386-m32-gcc42-nn", "s04.i", "-o", "s04.s", NULL};$/;"	v
+env_gromacs	profile_strategy.c	/^char *env_gromacs[7] = {".\/gromacs_base.i386-m32-gcc42-nn", "-silent", "-deffnm", "gromacs", "-nice", "0", NULL};$/;"	v
+env_lbm	profile_strategy.c	/^char *env_lbm[7] = {"lbm_base.i386-m32-gcc42-nn", "3000", "reference.dat", "0", "0", "100_100_130_ldc.of", NULL};$/;"	v
+env_libquantum	profile_strategy.c	/^char *env_libquantum[7] = {"libquantum_base.i386-m32-gcc42-nn", "1397", "8", NULL};$/;"	v
+env_mcf	profile_strategy.c	/^char *env_mcf[7]={"mcf_base.i386-m32-gcc42-nn", "inp.in", NULL};$/;"	v
+env_povray	profile_strategy.c	/^char *env_povray[7] = {"povray_base.i386-m32-gcc42-nn", "SPEC-benchmark-ref.ini", NULL};$/;"	v
+env_reporter	profile_strategy.c	/^char *env_reporter[7] = {NULL};$/;"	v
+env_reporter_policy	profile_strategy.c	/^char *env_reporter_policy[7] = {NULL};$/;"	v
+env_soplex	profile_strategy.c	/^char *env_soplex[7] = {"soplex_base.i386-m32-gcc42-nn", "-m3500", "ref.mps", NULL};$/;"	v
+env_sphinx3	profile_strategy.c	/^char *env_sphinx3[7] = {"sphinx_livepretend_base.i386-m32-gcc42-nn", "ctlfile", ".", "args.an4", NULL};$/;"	v
+event_arrive	profile_strategy.c	/^static struct pollfd event_arrive;$/;"	v	typeref:struct:pollfd	file:
+event_counter_finitial	perf_counter.c	/^void event_counter_finitial(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+event_counter_finitial	perf_counter.h	/^void event_counter_finitial(ctr_list_t *list);$/;"	p	signature:(ctr_list_t *list)
+event_counter_initialize	perf_counter.c	/^void event_counter_initialize()$/;"	f
+event_counter_initialize	perf_counter.h	/^void event_counter_initialize();$/;"	p
+event_name	perf_counter.h	/^    const char *event_name;$/;"	m	struct:ctr	access:public
+events_data_item	exp_data.h	/^typedef struct events_data_item{$/;"	s
+events_data_item::cycles	exp_data.h	/^    uint64_t cycles;$/;"	m	struct:events_data_item	access:public
+events_data_item::instructions	exp_data.h	/^    uint64_t instructions;$/;"	m	struct:events_data_item	access:public
+events_data_item::ipc	exp_data.h	/^    double ipc;$/;"	m	struct:events_data_item	access:public
+events_data_item::misses	exp_data.h	/^    uint64_t misses;$/;"	m	struct:events_data_item	access:public
+events_data_item::references	exp_data.h	/^    uint64_t references;$/;"	m	struct:events_data_item	access:public
+events_data_item_t	exp_data.h	/^} events_data_item_t;$/;"	t	typeref:struct:events_data_item
+events_list	profile_strategy.c	/^ctr_list_t *events_list;$/;"	v
+f	pagemap.h	/^FILE * f;$/;"	v
+fd	perf_counter.h	/^    int fd;$/;"	m	struct:ctr	access:public
+file_name	profile_strategy.c	/^const char *file_name = "no_assign_policy_benchmark_feature_data_v2.txt";$/;"	v
+file_offset	pagemap.h	/^uint64_t read_val, file_offset;$/;"	v
+fill_all_space	cache.c	/^void fill_all_space(){$/;"	f
+fill_all_space	cache.h	/^void fill_all_space();$/;"	p
+finitialize	profile_strategy.c	/^static void finitialize(ctr_list_t *event_list, benchmark_data_list_t *data_list)$/;"	f	file:	signature:(ctr_list_t *event_list, benchmark_data_list_t *data_list)
+footprint_size	profile_strategy.c	170;"	d	file:
+gb_base_addr	cache.h	/^unsigned long *gb_base_addr;  \/\/申请空间的基地址指针$/;"	v
+gb_bubble_zone	cache.h	/^unsigned long *gb_bubble_zone[BUBBLE_ACCESS_LENGTH];$/;"	v
+gb_cache_start	cache.h	/^unsigned long *gb_cache_start[SET_NUM];$/;"	v
+gb_cache_zone	cache.h	/^unsigned long *gb_cache_zone[SET_NUM][ASSOCIATION * 3];   \/\/三倍于cache大小的所申请的地址空间的结构$/;"	v
+gb_policy_high_first	cache.h	/^unsigned long *gb_policy_high_first[POLICY_NUM];$/;"	v
+gb_policy_high_second	cache.h	/^unsigned long *gb_policy_high_second[POLICY_NUM];$/;"	v
+gb_policy_low_first	cache.h	/^unsigned long *gb_policy_low_first[POLICY_NUM];$/;"	v
+gb_policy_low_second	cache.h	/^unsigned long *gb_policy_low_second[POLICY_NUM];$/;"	v
+generate_worst_case	exp_data.c	/^void generate_worst_case(profile_data_list_t* list, const char* assign_class)$/;"	f	signature:(profile_data_list_t* list, const char* assign_class)
+generate_worst_case	exp_data.h	/^void generate_worst_case(profile_data_list_t* list, const char* assign_class);$/;"	p	signature:(profile_data_list_t* list, const char* assign_class)
+handle_child_sig_status	profile_strategy.c	/^static void handle_child_sig_status(int *flag, pthread_t tid, pid_t pid, pid_t pid_policy, pid_t sig_pid, int status)$/;"	f	file:	signature:(int *flag, pthread_t tid, pid_t pid, pid_t pid_policy, pid_t sig_pid, int status)
+handle_child_stopped	profile_strategy.c	/^static void handle_child_stopped(pthread_t tid, pid_t pid, pid_t pid_policy, int signal)$/;"	f	file:	signature:(pthread_t tid, pid_t pid, pid_t pid_policy, int signal)
+handle_sig_from_childprocess	profile_strategy.c	/^static void handle_sig_from_childprocess(int *flag, int sfd, pthread_t tid, pid_t pid, pid_t pid_policy)$/;"	f	file:	signature:(int *flag, int sfd, pthread_t tid, pid_t pid, pid_t pid_policy)
+head	exp_data.h	/^    profile_data_t *head;$/;"	m	struct:profile_data_list	access:public
+head	exp_data.h	/^    struct benchmark_feature *head;$/;"	m	struct:__anon5	typeref:struct:__anon5::benchmark_feature	access:public
+head	perf_counter.h	/^    struct ctr *head;$/;"	m	struct:__anon2	typeref:struct:__anon2::ctr	access:public
+hugepage_alloc	cache.c	/^void hugepage_alloc(){$/;"	f
+hugepage_alloc	cache.h	/^void hugepage_alloc();$/;"	p
+i	pagemap.h	/^int i, c, pid, status;$/;"	v
+init_bubble_zone	cache.c	/^void init_bubble_zone()$/;"	f
+init_bubble_zone	cache.h	/^void init_bubble_zone();$/;"	p
+init_cache	profile_strategy.c	/^static void init_cache()$/;"	f	file:
+init_cache_zone	cache.c	/^void init_cache_zone(int init_start){$/;"	f	signature:(int init_start)
+init_cache_zone	cache.h	/^void init_cache_zone(int init_start);$/;"	p	signature:(int init_start)
+init_events_list	perf_counter.c	/^void init_events_list(ctr_list_t **events_list, const uint64_t *events_id, const char **events_name, const int len, uint64_t sample_period) $/;"	f	signature:(ctr_list_t **events_list, const uint64_t *events_id, const char **events_name, const int len, uint64_t sample_period)
+init_events_list	perf_counter.h	/^void init_events_list(ctr_list_t **events_list, const uint64_t *events_id, const char **events_name, int len, uint64_t sample_period);   \/\/初始化事件，把需要测量的事件加入事件列表$/;"	p	signature:(ctr_list_t **events_list, const uint64_t *events_id, const char **events_name, int len, uint64_t sample_period)
+init_policy_pointer_chase	cache.c	/^void init_policy_pointer_chase(){$/;"	f
+init_policy_pointer_chase	cache.h	/^void init_policy_pointer_chase();$/;"	p
+initialize	profile_strategy.c	/^static void initialize()$/;"	f	file:
+instructions	exp_data.h	/^    uint64_t instructions;$/;"	m	struct:events_data_item	access:public
+ipc	exp_data.h	/^    double ipc;$/;"	m	struct:events_data_item	access:public
+is_bigendian	pagemap.h	13;"	d
+is_finish	profile_strategy.c	/^static int is_finish = NO;$/;"	v	file:
+join3	profile_strategy.c	/^char* join3(char *s1, char *s2)$/;"	f	signature:(char *s1, char *s2)
+lfsr	lfsr.h	/^unsigned lfsr = 0xACE1u;$/;"	v
+main	profile_strategy.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main_sleep	profile_strategy.c	/^static void main_sleep()$/;"	f	file:
+misses	exp_data.h	/^    uint64_t misses;$/;"	m	struct:events_data_item	access:public
+mtx	profile_strategy.c	/^static pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+my_ptrace_cont	profile_strategy.c	/^my_ptrace_cont(int pid, int signal)$/;"	f	file:	signature:(int pid, int signal)
+next	exp_data.h	/^    struct benchmark_feature *next;$/;"	m	struct:benchmark_feature	typeref:struct:benchmark_feature::benchmark_feature	access:public
+next	exp_data.h	/^    struct profile_data *next;$/;"	m	struct:profile_data	typeref:struct:profile_data::profile_data	access:public
+next	perf_counter.h	/^    struct ctr *next;$/;"	m	struct:ctr	typeref:struct:ctr::ctr	access:public
+nr	perf_counter.h	/^    uint64_t nr;$/;"	m	struct:__anon1	access:public
+oldpath	profile_strategy.c	/^char oldpath[PATH_MAX];$/;"	v
+path1	profile_strategy.c	/^const char *path1 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/435.gromacs\/run\/run_base_test_i386-m32-gcc42-nn.0000\/";$/;"	v
+path10	profile_strategy.c	/^const char *path10 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/447.dealII\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path11	profile_strategy.c	/^const char *path11 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/453.povray\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path12	profile_strategy.c	/^const char *path12 = "..\/bubble_reporter\/";$/;"	v
+path13	profile_strategy.c	/^const char *path13 = "..\/bubble_reporter_policy\/";$/;"	v
+path2	profile_strategy.c	/^const char *path2 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/401.bzip2\/run\/run_base_test_i386-m32-gcc42-nn.0000\/";$/;"	v
+path3	profile_strategy.c	/^const char *path3 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/429.mcf\/run\/run_base_test_i386-m32-gcc42-nn.0000\/";$/;"	v
+path4	profile_strategy.c	/^const char *path4 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/454.calculix\/run\/run_base_test_i386-m32-gcc42-nn.0000\/";$/;"	v
+path5	profile_strategy.c	/^const char *path5 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/482.sphinx3\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path6	profile_strategy.c	/^const char *path6 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/470.lbm\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path7	profile_strategy.c	/^const char *path7 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/462.libquantum\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path8	profile_strategy.c	/^const char *path8 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/450.soplex\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path9	profile_strategy.c	/^const char *path9 = "\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/403.gcc\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/";$/;"	v
+path_buf	pagemap.h	/^char path_buf [0x100];$/;"	v
+path_table	profile_strategy.c	/^const char *path_table[] = {"\/home\/zhangyi\/spec2006\/benchspec\/CPU2006\/435.gromacs\/run\/run_base_ref_i386-m32-gcc42-nn.0000\/",$/;"	v
+pbt	profile_strategy.c	/^static pthread_barrier_t pbt;$/;"	v	file:
+pid	pagemap.h	/^int i, c, pid, status;$/;"	v
+pin_process	profile_strategy.c	/^static void pin_process(pid_t pid, int *cpus, int num)$/;"	f	file:	signature:(pid_t pid, int *cpus, int num)
+profile_data	exp_data.h	/^typedef struct profile_data{$/;"	s
+profile_data::assign_class	exp_data.h	/^    char *assign_class;$/;"	m	struct:profile_data	access:public
+profile_data::data_all	exp_data.h	/^    events_data_item_t data_all[MAX_DATA_IN_EACH_PROFILE];$/;"	m	struct:profile_data	access:public
+profile_data::next	exp_data.h	/^    struct profile_data *next;$/;"	m	struct:profile_data	typeref:struct:profile_data::profile_data	access:public
+profile_data_list	exp_data.h	/^typedef struct profile_data_list{$/;"	s
+profile_data_list::head	exp_data.h	/^    profile_data_t *head;$/;"	m	struct:profile_data_list	access:public
+profile_data_list::tail	exp_data.h	/^    profile_data_t *tail;$/;"	m	struct:profile_data_list	access:public
+profile_data_list_t	exp_data.h	/^} profile_data_list_t;$/;"	t	typeref:struct:profile_data_list
+profile_data_t	exp_data.h	/^} profile_data_t;$/;"	t	typeref:struct:profile_data
+profile_global	profile_strategy.c	/^static profile_data_list_t profile_global = {NULL, NULL};$/;"	v	file:
+r	profile_strategy.c	174;"	d	file:
+rand	lfsr.h	3;"	d
+read_counter	perf_counter.c	/^void read_counter(uint64_t *data, ctr_list_t *list)$/;"	f	signature:(uint64_t *data, ctr_list_t *list)
+read_counter	perf_counter.h	/^void read_counter(uint64_t *data, ctr_list_t *list);$/;"	p	signature:(uint64_t *data, ctr_list_t *list)
+read_format_t	perf_counter.h	/^} read_format_t;$/;"	t	typeref:struct:__anon1
+read_pagemap	pagemap.c	/^unsigned long long read_pagemap(char * path_buf,unsigned long *temp)$/;"	f	signature:(char * path_buf,unsigned long *temp)
+read_pagemap	pagemap.h	/^unsigned long long read_pagemap(char * path_buf,unsigned long *temp);$/;"	p	signature:(char * path_buf,unsigned long *temp)
+read_sample_data	exp_data.c	/^void read_sample_data(profile_data_t* data, int idx, ctr_list_t* list)$/;"	f	signature:(profile_data_t* data, int idx, ctr_list_t* list)
+read_sample_data	exp_data.h	/^void read_sample_data(profile_data_t* data, int idx, ctr_list_t* list);$/;"	p	signature:(profile_data_t* data, int idx, ctr_list_t* list)
+read_val	pagemap.h	/^uint64_t read_val, file_offset;$/;"	v
+record_data	profile_strategy.c	/^static void record_data()$/;"	f	file:
+record_data_strategy_a	exp_data.c	/^void record_data_strategy_a(benchmark_feature_t *item, ctr_list_t *list)$/;"	f	signature:(benchmark_feature_t *item, ctr_list_t *list)
+record_data_strategy_a	exp_data.h	/^void record_data_strategy_a(benchmark_feature_t *item, ctr_list_t *list);$/;"	p	signature:(benchmark_feature_t *item, ctr_list_t *list)
+record_data_strategy_b	exp_data.c	/^void record_data_strategy_b(benchmark_feature_t *item, ctr_list_t *list)$/;"	f	signature:(benchmark_feature_t *item, ctr_list_t *list)
+record_data_strategy_b	exp_data.h	/^void record_data_strategy_b(benchmark_feature_t *item, ctr_list_t *list);$/;"	p	signature:(benchmark_feature_t *item, ctr_list_t *list)
+redirect_to_file	redirect.c	/^void redirect_to_file(const char *filename, const char *path, benchmark_data_list_t *data_list)$/;"	f	signature:(const char *filename, const char *path, benchmark_data_list_t *data_list)
+redirect_to_file	redirect.h	/^void redirect_to_file(const char *filename, const char *path, benchmark_data_list_t *data_list);$/;"	p	signature:(const char *filename, const char *path, benchmark_data_list_t *data_list)
+references	exp_data.h	/^    uint64_t references;$/;"	m	struct:events_data_item	access:public
+reset_all_event_counter	perf_counter.c	/^void reset_all_event_counter(ctr_list_t *list)$/;"	f	signature:(ctr_list_t *list)
+reset_all_event_counter	perf_counter.h	/^void reset_all_event_counter(ctr_list_t *list);$/;"	p	signature:(ctr_list_t *list)
+restart_num	profile_strategy.c	/^static int restart_num = 1;$/;"	v	file:
+serialize_to_file	redirect.c	/^void serialize_to_file(const char* filename, const char* path, profile_data_list_t* list)$/;"	f	signature:(const char* filename, const char* path, profile_data_list_t* list)
+serialize_to_file	redirect.h	/^void serialize_to_file(const char* filenam, const char* path, profile_data_list_t* list);$/;"	p	signature:(const char* filenam, const char* path, profile_data_list_t* list)
+setup_target	profile_strategy.c	/^setup_target(void *data\/*NULL*\/)$/;"	f	file:	signature:(void *data )
+shared_mem	profile_strategy.c	/^static void* shared_mem;$/;"	v	file:
+sleep_time	profile_strategy.c	/^static int sleep_time = 20;$/;"	v	file:
+status	pagemap.h	/^int i, c, pid, status;$/;"	v
+strategy_a	exp_data.h	/^    uint64_t *strategy_a;$/;"	m	struct:benchmark_feature	access:public
+strategy_b	exp_data.h	/^    uint64_t *strategy_b;$/;"	m	struct:benchmark_feature	access:public
+sync_msg_t	profile_strategy.c	/^} sync_msg_t;$/;"	t	typeref:struct:__anon4	file:
+sync_send	profile_strategy.c	/^sync_send(int fd, const sync_msg_t *msg)$/;"	f	file:	signature:(int fd, const sync_msg_t *msg)
+sync_send_simple	profile_strategy.c	/^sync_send_simple(int fd, sync_type_t type)$/;"	f	file:	signature:(int fd, sync_type_t type)
+sync_type_t	profile_strategy.c	/^} sync_type_t;\/\/同步信息（target的状态）$/;"	t	typeref:enum:__anon3	file:
+sync_wait	profile_strategy.c	/^sync_wait(int fd, sync_msg_t *msg)$/;"	f	file:	signature:(int fd, sync_msg_t *msg)
+sync_wait_simple	profile_strategy.c	/^sync_wait_simple(int fd, sync_type_t type)$/;"	f	file:	signature:(int fd, sync_type_t type)
+tail	exp_data.h	/^    profile_data_t *tail;$/;"	m	struct:profile_data_list	access:public
+tail	exp_data.h	/^    struct benchmark_feature *tail;$/;"	m	struct:__anon5	typeref:struct:__anon5::benchmark_feature	access:public
+tail	perf_counter.h	/^    struct ctr *tail;$/;"	m	struct:__anon2	typeref:struct:__anon2::ctr	access:public
+tid_assign	profile_strategy.c	/^static pthread_t tid_assign, tid_bubble_random, tid_bubble_stream;$/;"	v	file:
+tid_bubble_random	profile_strategy.c	/^static pthread_t tid_assign, tid_bubble_random, tid_bubble_stream;$/;"	v	file:
+tid_bubble_stream	profile_strategy.c	/^static pthread_t tid_assign, tid_bubble_random, tid_bubble_stream;$/;"	v	file:
+time_enabled	perf_counter.h	/^    uint64_t time_enabled;$/;"	m	struct:__anon1	access:public
+time_running	perf_counter.h	/^    uint64_t time_running;$/;"	m	struct:__anon1	access:public
+type	profile_strategy.c	/^    sync_type_t type;$/;"	m	struct:__anon4	file:	access:public
+unmap	profile_strategy.c	/^static void unmap()$/;"	f	file:
+val	perf_counter.h	/^        uint64_t val;$/;"	m	struct:__anon1::ctr_data	access:public
+virt_addr	pagemap.h	/^unsigned long virt_addr; $/;"	v
+wait_subprocess	profile_strategy.c	/^static void wait_subprocess(int sfd,pthread_t tid, pid_t pid, pid_t pid_policy)$/;"	f	file:	signature:(int sfd,pthread_t tid, pid_t pid, pid_t pid_policy)
