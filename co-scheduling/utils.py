@@ -1,4 +1,5 @@
 from itertools import combinations
+from src.algorithm import DI
 import os
 
 def loadNameIdMap(filename):
@@ -51,34 +52,34 @@ def runSchedule(schedule, nameIdMap, idPhaseMap, exec_path):
         taskCorun(nameSet, nameIdMap, idPhaseMap, exec_path)
 
 def sub(_list, _n):
-	result = []
-	for s in combinations(_list, _n):
-		result.append(list(s))
-	return result
+    result = []
+    for s in combinations(_list, _n):
+        result.append(list(s))
+    return result
 
 # result is a list:
 # result = [taskSet, ...]
 # taskSet = [taskName, ...]
 def loadDiff(diff_file):
-	result = []
-	diff = open(diff_file, "r")
-	for line in diff.readlines():
-		line = line.strip()
-		if len(line) > 0:
-			task_set = line.split(" ")
-			result.append(task_set)
-	diff.close()
-	return result
+    result = []
+    diff = open(diff_file, "r")
+    for line in diff.readlines():
+        line = line.strip()
+        if len(line) > 0:
+            task_set = line.split(" ")
+            result.append(task_set)
+    diff.close()
+    return result
 
 def saveDiff(taskSets, filename):
-	diff = open(filename, "w")
-	for t_set in taskSets:
-		t_set_str = ""
-		for taskName in t_set:
-			t_set_str += taskName + " "
-		t_set_str = t_set_str[:-1] + '\n'
-		diff.write(t_set_str)
-	diff.close()
+    diff = open(filename, "w")
+    for t_set in taskSets:
+        t_set_str = ""
+        for taskName in t_set:
+            t_set_str += taskName + " "
+            t_set_str = t_set_str[:-1] + '\n'
+            diff.write(t_set_str)
+    diff.close()
 
 # note that the result file separator is '*'， so the first letter of taskName cannot be '*'
 # the taskNameSeq must consist of sorted taskNames
@@ -146,3 +147,12 @@ def loadSingle(filename):
 
     fp.close()
     return single
+
+def buildDITaskObject(tasks, profile_home):
+    result = {}
+    di = DI(profile_home)
+    for task in tasks:
+        di.importTask(task)
+    for task in di.getTaskSet().getTaskList():
+        result[task.name] = task
+    return result

@@ -10,15 +10,6 @@ from src.algorithm import *
 from utils import *
 import sys
 
-def buildDITaskObject(tasks, profile_home):
-	result = {}
-	di = DI(profile_home)
-	for task in tasks:
-		di.importTask(task)
-	for task in di.getTaskSet().getTaskList():
-		result[task.name] = task
-	return result
-
 def getAllTask(filename):
 	taskName = []
 	fp = open(filename, "r")
