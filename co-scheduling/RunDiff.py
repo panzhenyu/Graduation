@@ -1,31 +1,6 @@
 from config.path import *
 from utils import *
 
-# result is a list:
-# result = [taskSet, ...]
-# taskSet = [taskName, ...]
-def loadDiff(diff_file):
-	result = []
-	diff = open(diff_file, "r")
-	for line in diff.readlines():
-		line = line.strip()
-		if len(line) > 0:
-			task_set = line.split(" ")
-			result.append(task_set)
-	diff.close()
-	return result
-
-def saveDiff(taskSets, filename):
-	diff = open(filename, "w")
-	# use '\n' to mark appended result
-	for t_set in taskSets:
-		t_set_str = ""
-		for taskName in t_set:
-			t_set_str += taskName + " "
-		t_set_str = t_set_str[:-1] + '\n'
-		diff.write(t_set_str)
-	diff.close()
-
 # run [begin, end)
 def runTaskSets(begin, end, taskSets, nameIdMap, idPhaseMap, exec_path):
 	set_num = len(taskSets)

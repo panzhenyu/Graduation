@@ -3,6 +3,7 @@
 
 import json, sys
 import numpy as np
+from utils import loadSingle
 from config.path import CO_SCHEDULING_HOME
 
 def loadFromJson(json_file):
@@ -11,30 +12,6 @@ def loadFromJson(json_file):
     data = json.loads(s)
     fp.close()
     return data
-
-# single data format:
-# single data  = {taskName: taskAttr}
-# taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
-def loadSingle(filename):
-    fp = open(filename, 'r')
-
-    single = {}
-    for line in fp.readlines():
-        line = line.strip()
-        if len(line) <= 0 or line[0] == '*':
-            continue
-        raw = line.split(' ')
-        taskName = raw[0]
-        instructions, cycle, miss, access = [int(x) for x in raw[1:-1]]
-        single[taskName] = {
-            "instructions": instructions,
-            "cycle": cycle,
-            "miss": miss,
-            "access": access
-        }
-
-    fp.close()
-    return single
 
 # calculate CPI, IPC, Fairness
 def calcMetrics(data, single):

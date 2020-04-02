@@ -422,3 +422,9 @@ gromacs mcf soplex
 625 638 soplex
 638 soplex
 557 638 soplex
+638 calculix soplex
+calculix soplex
+638 mcf soplex
+505 hmmer soplex
+hmmer mcf soplex
+505 638 soplex

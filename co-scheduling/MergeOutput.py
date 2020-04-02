@@ -3,6 +3,7 @@
 # the data file must named task_set_combination and PARALLEL_OUT
 
 from config.path import AUTOTEST_COMBINATION, AUTOTEST_CORUNOUT
+from utils import loadCorunResult
 import sys, json
 
 # note that the schedule result file insist of a head line with results, the head line contains a series of algorithm name separated in ' '
@@ -47,49 +48,6 @@ def loadSchedResult(filename):
 
     fp.close()
     return sched_result
-
-# note that the result file separator is '*'， so the first letter of taskName cannot be '*'
-# the taskNameSeq must consist of sorted taskNames
-# corun result is list format:
-# corun_result = {taskNameSeq: taskSet, ...}
-# taskSet = {taskName: taskAttr, ...}
-# taskAttr = {instructions: instruction_num, cycle: cycle_num, miss: miss_num, access: access_num}
-def loadCorunResult(filename):
-    fp = open(AUTOTEST_CORUNOUT, "r")
-
-    corun_result, taskNames, collector = {}, [], {}
-    for line in fp.readlines():
-        line = line.strip()
-        if len(line) <= 0:
-            continue
-        if line[0] == '*':
-            if len(collector) != 0:
-                taskNames.sort()
-                taskNameSeq = ""
-                for name in taskNames:
-                    taskNameSeq += name + " "
-                taskNameSeq = taskNameSeq[0:-1]
-                corun_result[taskNameSeq] = collector
-            taskNames, collector = [], {}
-        else:
-            taskAttr = {}
-            data = line.split(' ')
-            taskName = data.pop(0)
-            attrName = ["instructions", "cycle", "miss", "access"]
-            for i in range(len(attrName)):
-                taskAttr[attrName[i]] = int(data[i])
-            collector[taskName] = taskAttr
-            taskNames.append(taskName)
-    if len(collector) != 0:
-        taskNames.sort()
-        taskNameSeq = ""
-        for name in taskNames:
-            taskNameSeq += name + " "
-        taskNameSeq = taskNameSeq[0:-1]
-        corun_result[taskNameSeq] = collector
-
-    fp.close()
-    return corun_result
 
 # fill the sched_result with corun_result
 # mainly fill the taskAttr in sched_result
