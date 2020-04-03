@@ -14,27 +14,34 @@ def loadFromJson(json_file):
     return data
 
 # calculate CPI, IPC, Fairness
+# note that a taskSet's cycle must be a average, not sum of its tasks
 def calcMetrics(data, single):
     for scheduleObj in data:
         for taskSets in scheduleObj.values():
             # calc CPI and IPC for schedule
-            cycle_schedule = instructions_schedule = 0
+            IPC_sum, CPI_sum = 0, 0
             slowdown = []
             # calc Fairness for schedule
             for taskSet in taskSets.values():
                 for taskName in taskSet.keys():
                     taskAttr = taskSet[taskName]
-                    # calc CPI and IPC for task
-                    access = taskAttr['access']
+                    # get attribute from task
+                    # access = taskAttr['access']
                     instructions = taskAttr['instructions']
                     cycle = taskAttr['cycle']
-                    miss = taskAttr['miss']
-                    taskAttr['CPI'] = float(cycle) / instructions
-                    taskAttr['IPC'] = float(instructions) / cycle
-                    cycle_schedule += cycle
-                    instructions_schedule += instructions
+                    # miss = taskAttr['miss']
+                    taskCPI = float(cycle) / instructions
+                    taskIPC = float(instructions) / cycle
+                    taskAttr['IPC'] = taskIPC
+                    taskAttr['CPI'] = taskCPI
+
+                    # collect task's ipc and cpi
+                    IPC_sum += taskIPC
+                    CPI_sum += taskCPI
                     # calc slowdown for Fairness
-                    slow = float(cycle) / single[taskName]['cycle']
+                    singleInstructions, singleCycle = single[taskName]['instructions'], single[taskName]['cycle']
+                    singleCPI = float(singleCycle) / singleInstructions
+                    slow = float(taskCPI) / singleCPI
                     slowdown.append(slow)
             # used for get pure metrics
             # keys = []
@@ -42,8 +49,8 @@ def calcMetrics(data, single):
             #     keys.append(key)
             # for key in keys:
             #     del taskSets[key]
-            taskSets['CPI'] = float(cycle_schedule) / instructions_schedule
-            taskSets['IPC'] = float(instructions_schedule) / cycle_schedule
+            taskSets['CPI'] = CPI_sum
+            taskSets['IPC'] = IPC_sum
             taskSets['Unfairness'] = np.std(slowdown, ddof=1) / np.mean(slowdown)
 
 def save(output_file, data):

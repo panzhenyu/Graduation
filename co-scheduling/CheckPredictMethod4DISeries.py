@@ -61,13 +61,15 @@ def test4AB(strategyA, strategyB, DITaskObjs, methodList):
             result[taskNameSeq] = predicted
     return result
 
+# note that the cycle must be average cycle
 def calcRealValue(taskNameSeq, corunResult):
-        taskSet = corunResult[taskNameSeq]
-        misses, cycles = 0, 0
-        for taskAttr in taskSet.values():
-            misses += taskAttr["miss"]
-            cycles += taskAttr["cycle"]
-        return misses / cycles
+    taskSet = corunResult[taskNameSeq]
+    missCycle_sum = 0
+    for taskAttr in taskSet.values():
+        miss = taskAttr["miss"]
+        cycle = taskAttr["cycle"]
+        missCycle_sum += miss / float(cycle)
+    return missCycle_sum
 
 # save result in methodNames order
 def saveSheet(sheet, result, corunResult, methodNames):
