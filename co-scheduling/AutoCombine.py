@@ -12,15 +12,10 @@ def getAllTask(filename):
 	return taskName
 
 if __name__ == "__main__":
-    if len(sys.argv) !=2 :
+    if len(sys.argv) != 2:
         print("usage: python3 Combination.py combNum")
         sys.exit(-1)
     combNum = int(sys.argv[1])
-
     taskName = getAllTask(AUTOTEST_TASKSET)
-    nameIdMap = loadNameIdMap(TASKID_PATH)
-    idPhaseMap = loadIdPhaseMap(PHASE_PATH)
     combinations = sub(taskName, combNum)
-
-    for c in combinations:
-        taskCorun(c, nameIdMap, idPhaseMap, PROFILE_STRATEGY)
+    saveDiff(list(combinations), AUTOTEST_CURDIFF)

@@ -71,14 +71,17 @@ def loadDiff(diff_file):
     diff.close()
     return result
 
+# taskSets = [taskSet, ...]
+# taskSet = [taskName, ...]
+# taskName = str
 def saveDiff(taskSets, filename):
     diff = open(filename, "w")
     for t_set in taskSets:
         t_set_str = ""
         for taskName in t_set:
             t_set_str += taskName + " "
-            t_set_str = t_set_str[:-1] + '\n'
-            diff.write(t_set_str)
+        t_set_str = t_set_str[:-1] + '\n'
+        diff.write(t_set_str)
     diff.close()
 
 # note that the result file separator is '*'， so the first letter of taskName cannot be '*'
