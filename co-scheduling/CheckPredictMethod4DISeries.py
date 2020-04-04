@@ -8,13 +8,13 @@ import sys, xlwt
 # tasks working well in B strategy
 def loadTaskSet():
     strategyA = [
-        "502", "505", "519", "520",
+        "505", "519", "520", "521",
         "620", "625", "638", "calculix",
-        "gromacs", "lbm"
+        "lbm"
     ]
     strategyB = [
-        "557", "hmmer", "libquantum", "mcf",
-        "soplex"
+        "557", "602", "623", "libquantum",
+        "mcf", "sphinx3"
     ]
     return strategyA, strategyB
 
@@ -108,7 +108,7 @@ def saveExcel(output, resultA, resultB, resultAB, corunResult, methodList):
     
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 2:
         print("usage: python3 Check4PredictMethod output")
         sys.exit(-1)
     output = sys.argv[1]

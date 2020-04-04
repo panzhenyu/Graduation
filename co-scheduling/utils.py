@@ -77,6 +77,7 @@ def loadDiff(diff_file):
 def saveDiff(taskSets, filename):
     diff = open(filename, "w")
     for t_set in taskSets:
+        t_set.sort()
         t_set_str = ""
         for taskName in t_set:
             t_set_str += taskName + " "
@@ -140,7 +141,7 @@ def loadSingle(filename):
             continue
         raw = line.split(' ')
         taskName = raw[0]
-        instructions, cycle, miss, access = [int(x) for x in raw[1:-1]]
+        instructions, cycle, miss, access = [int(x) for x in raw[1:5]]
         single[taskName] = {
             "instructions": instructions,
             "cycle": cycle,
