@@ -109,9 +109,9 @@ def saveExcel(output, resultA, resultB, resultAB, corunResult, methodList):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("usage: python3 Check4PredictMethod CorunResultPath output")
+        print("usage: python3 Check4PredictMethod output")
         sys.exit(-1)
-    corunResultPath, output = sys.argv[1], sys.argv[2]
+    output = sys.argv[1]
     methodList = [DI4CompareImproveSelect, DI4NonStrategyImproveSelect]
 
     nameIdMap = loadNameIdMap(TASKID_PATH)
@@ -120,7 +120,7 @@ if __name__ == "__main__":
     allTask = strategyA[:]
     allTask.extend(strategyB)
     DITaskObjs = buildDITaskObject(allTask, PROFILE_HOME)
-    corunResult = loadCorunResult(corunResultPath)
+    corunResult = loadCorunResult(AUTOTEST_CORUNOUT)
     
     resultA = test4Strategy(strategyA, DITaskObjs, methodList)
     resultB = test4Strategy(strategyB, DITaskObjs, methodList)

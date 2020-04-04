@@ -1,2 +1,2 @@
-python3 AutoTest.py 10 4
+python3 AutoCombine.py 2
 python3 RunDiff.py
