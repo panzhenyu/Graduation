@@ -1,4777 +1,2629 @@
 DI4CompareImproveSelect DI4NonStrategyImproveSelect
 seq:0
-502 calculix lbm
-505 625 mcf
-519 520 557
-638 gromacs libquantum
+505 521 625
+519 638 calculix
+520 623 sphinx3
+557 602 620
 ---
-502 519 625
-505 557 mcf
-520 638 lbm
-calculix gromacs libquantum
+505 521 625
+519 638 calculix
+520 557 602
+620 623 sphinx3
 ---
 
 seq:1
-502 calculix lbm
-505 625 mcf
-519 520 557
-638 hmmer libquantum
+505 557 623
+519 625 638
+520 602 620
+521 calculix lbm
 ---
-502 519 625
-505 557 mcf
-520 638 lbm
-calculix hmmer libquantum
+505 557 623
+519 625 calculix
+520 602 620
+521 638 lbm
 ---
 
 seq:2
-502 625 lbm
-505 557 mcf
-519 520 620
-638 calculix libquantum
+505 520 602
+519 557 625
+521 620 mcf
+623 638 lbm
 ---
-502 519 557
-505 520 mcf
-620 calculix lbm
-625 638 libquantum
+505 520 602
+519 557 638
+521 620 mcf
+623 625 lbm
 ---
 
 seq:3
-502 519 520
-505 calculix lbm
-557 mcf soplex
-625 638 libquantum
----
-502 calculix lbm
-505 519 625
-520 mcf soplex
+505 520 623
+519 602 625
+521 620 lbm
 557 638 libquantum
+---
+505 520 623
+519 557 602
+521 620 lbm
+625 638 libquantum
 ---
 
 seq:4
-502 gromacs lbm
-505 625 mcf
-519 520 557
-638 hmmer libquantum
+505 520 602
+519 557 625
+521 620 mcf
+623 calculix lbm
 ---
-502 519 625
-505 557 mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 520 602
+519 557 calculix
+521 620 mcf
+623 625 lbm
 ---
 
 seq:5
-502 625 lbm
-505 557 mcf
-519 520 620
-638 gromacs libquantum
+505 520 623
+519 602 625
+521 620 lbm
+557 calculix libquantum
 ---
-502 519 557
-505 520 mcf
-620 gromacs lbm
-625 638 libquantum
+505 520 623
+519 557 602
+521 620 lbm
+625 calculix libquantum
 ---
 
 seq:6
-502 519 520
-505 gromacs lbm
-557 mcf soplex
-625 638 libquantum
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 625 lbm
 ---
-502 gromacs lbm
-505 519 625
-520 mcf soplex
-557 638 libquantum
+505 520 602
+519 557 625
+521 620 mcf
+623 lbm sphinx3
 ---
 
 seq:7
-502 625 lbm
-505 557 mcf
-519 520 620
-638 hmmer libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+521 625 libquantum
 ---
-502 519 557
-505 520 mcf
-620 hmmer lbm
-625 638 libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+557 625 libquantum
 ---
 
 seq:8
-502 519 520
-505 hmmer lbm
-557 mcf soplex
-625 638 libquantum
+505 520 623
+519 602 sphinx3
+521 620 lbm
+557 625 libquantum
 ---
-502 hmmer lbm
-505 519 625
-520 mcf soplex
-557 638 libquantum
+505 520 623
+519 557 602
+521 620 lbm
+625 libquantum sphinx3
 ---
 
 seq:9
-502 519 620
-505 625 lbm
-520 mcf soplex
-557 638 libquantum
+505 520 602
+519 557 calculix
+521 620 mcf
+623 638 lbm
 ---
-502 625 lbm
-505 519 557
-520 638 libquantum
-620 mcf soplex
+505 520 602
+519 557 638
+521 620 mcf
+623 calculix lbm
 ---
 
 seq:10
-502 557 soplex
-505 calculix mcf
-519 520 625
-638 gromacs libquantum
+505 520 623
+519 602 calculix
+521 620 lbm
+557 638 libquantum
 ---
-502 557 soplex
-505 625 mcf
-519 520 calculix
-638 gromacs libquantum
+505 520 623
+519 557 602
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:11
-502 557 soplex
-505 calculix mcf
-519 520 625
-638 hmmer libquantum
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 638 lbm
 ---
-502 557 soplex
-505 625 mcf
-519 520 calculix
-638 hmmer libquantum
+505 520 602
+519 557 638
+521 620 mcf
+623 lbm sphinx3
 ---
 
 seq:12
-502 520 soplex
-505 625 mcf
+505 623 mcf
 519 557 620
-638 calculix libquantum
+520 602 lbm
+521 638 libquantum
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-638 calculix libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+557 638 libquantum
 ---
 
 seq:13
-502 557 soplex
-505 gromacs mcf
-519 520 625
-638 hmmer libquantum
+505 520 623
+519 602 sphinx3
+521 620 lbm
+557 638 libquantum
 ---
-502 557 soplex
-505 625 mcf
-519 520 gromacs
-638 hmmer libquantum
+505 520 623
+519 557 602
+521 620 lbm
+638 libquantum sphinx3
 ---
 
 seq:14
-502 520 soplex
-505 625 mcf
-519 557 620
-638 gromacs libquantum
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 calculix lbm
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-638 gromacs libquantum
+505 520 602
+519 557 calculix
+521 620 mcf
+623 lbm sphinx3
 ---
 
 seq:15
-502 520 soplex
-505 625 mcf
+505 623 mcf
 519 557 620
-638 hmmer libquantum
+520 602 lbm
+521 calculix libquantum
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-638 hmmer libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+557 calculix libquantum
 ---
 
 seq:16
-502 calculix lbm
-505 625 mcf
-519 520 557
-gromacs hmmer libquantum
+505 520 623
+519 602 sphinx3
+521 620 lbm
+557 calculix libquantum
 ---
-502 519 625
-505 557 mcf
-520 hmmer lbm
-calculix gromacs libquantum
+505 520 623
+519 557 602
+521 620 lbm
+calculix libquantum sphinx3
 ---
 
 seq:17
-502 625 lbm
-505 557 mcf
-519 520 620
-calculix gromacs libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+521 libquantum sphinx3
 ---
-502 519 557
-505 520 mcf
-620 calculix lbm
-625 gromacs libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+557 libquantum sphinx3
 ---
 
 seq:18
-502 519 520
-505 calculix lbm
-557 mcf soplex
-625 gromacs libquantum
+505 602 mcf
+519 620 625
+520 521 lbm
+557 638 libquantum
 ---
-502 calculix lbm
-505 519 625
-520 mcf soplex
-557 gromacs libquantum
+505 602 mcf
+519 557 620
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:19
-502 625 lbm
-505 557 mcf
-519 520 620
-calculix hmmer libquantum
+505 520 602
+519 521 625
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 519 557
-505 520 mcf
-620 calculix lbm
-625 hmmer libquantum
+505 520 602
+519 521 sphinx3
+557 620 lbm
+625 638 libquantum
 ---
 
 seq:20
-502 519 520
-505 calculix lbm
-557 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 620 625
+520 521 lbm
+557 calculix libquantum
 ---
-502 calculix lbm
-505 519 625
-520 mcf soplex
-557 hmmer libquantum
+505 602 mcf
+519 557 620
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:21
-502 519 620
-505 625 lbm
-520 mcf soplex
-557 calculix libquantum
+505 520 602
+519 521 625
+557 620 lbm
+calculix libquantum sphinx3
 ---
-502 625 lbm
-505 519 557
-520 calculix libquantum
-620 mcf soplex
+505 520 602
+519 521 sphinx3
+557 620 lbm
+625 calculix libquantum
 ---
 
 seq:22
-502 625 lbm
-505 557 mcf
-519 520 620
-gromacs hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+557 625 libquantum
 ---
-502 519 557
-505 520 mcf
-620 gromacs lbm
-625 hmmer libquantum
+505 602 mcf
+519 557 620
+520 521 lbm
+625 libquantum sphinx3
 ---
 
 seq:23
-502 519 520
-505 gromacs lbm
-557 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 620 calculix
+520 521 lbm
+557 638 libquantum
 ---
-502 gromacs lbm
-505 519 625
-520 mcf soplex
-557 hmmer libquantum
+505 602 mcf
+519 557 620
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:24
-502 519 620
-505 625 lbm
-520 mcf soplex
-557 gromacs libquantum
+505 520 602
+519 521 calculix
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 625 lbm
-505 519 557
-520 gromacs libquantum
-620 mcf soplex
+505 520 602
+519 521 sphinx3
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:25
-502 519 620
-505 625 lbm
-520 mcf soplex
-557 hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+557 638 libquantum
 ---
-502 625 lbm
-505 519 557
-520 hmmer libquantum
-620 mcf soplex
+505 602 mcf
+519 557 620
+520 521 lbm
+638 libquantum sphinx3
 ---
 
 seq:26
-502 557 soplex
-505 calculix mcf
-519 520 625
-gromacs hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+557 calculix libquantum
 ---
-502 557 soplex
-505 625 mcf
-519 520 calculix
-gromacs hmmer libquantum
+505 602 mcf
+519 557 620
+520 521 lbm
+calculix libquantum sphinx3
 ---
 
 seq:27
-502 520 soplex
-505 625 mcf
-519 557 620
-calculix gromacs libquantum
+505 602 mcf
+519 623 625
+520 521 lbm
+557 638 libquantum
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-calculix gromacs libquantum
+505 602 mcf
+519 557 623
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:28
-502 520 soplex
-505 625 mcf
-519 557 620
-calculix hmmer libquantum
+505 520 602
+519 521 625
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-calculix hmmer libquantum
+505 520 602
+519 521 sphinx3
+557 623 lbm
+625 638 libquantum
 ---
 
 seq:29
-502 520 soplex
-505 625 mcf
-519 557 620
-gromacs hmmer libquantum
+505 602 mcf
+519 623 625
+520 521 lbm
+557 calculix libquantum
 ---
-502 520 soplex
-505 557 mcf
-519 620 625
-gromacs hmmer libquantum
+505 602 mcf
+519 557 623
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:30
-502 gromacs lbm
-505 calculix mcf
-519 520 557
-638 hmmer libquantum
+505 520 602
+519 521 625
+557 623 lbm
+calculix libquantum sphinx3
 ---
-502 519 calculix
-505 557 mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 520 602
+519 521 sphinx3
+557 623 lbm
+625 calculix libquantum
 ---
 
 seq:31
-502 calculix lbm
-505 557 mcf
-519 520 620
-638 gromacs libquantum
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
+557 625 libquantum
 ---
-502 519 557
-505 520 mcf
-620 638 lbm
-calculix gromacs libquantum
+505 602 mcf
+519 557 623
+520 521 lbm
+625 libquantum sphinx3
 ---
 
 seq:32
-502 519 520
-505 calculix lbm
-557 mcf soplex
-638 gromacs libquantum
----
-502 gromacs lbm
-505 519 calculix
-520 mcf soplex
+505 602 mcf
+519 623 calculix
+520 521 lbm
 557 638 libquantum
+---
+505 602 mcf
+519 557 623
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:33
-502 calculix lbm
-505 557 mcf
-519 520 620
-638 hmmer libquantum
+505 520 602
+519 521 calculix
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 519 557
-505 520 mcf
-620 638 lbm
-calculix hmmer libquantum
+505 520 602
+519 521 sphinx3
+557 623 lbm
+638 calculix libquantum
 ---
 
 seq:34
-502 519 520
-505 calculix lbm
-557 mcf soplex
-638 hmmer libquantum
----
-502 hmmer lbm
-505 519 calculix
-520 mcf soplex
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
 557 638 libquantum
+---
+505 602 mcf
+519 557 623
+520 521 lbm
+638 libquantum sphinx3
 ---
 
 seq:35
-502 519 620
-505 calculix lbm
-520 mcf soplex
-557 638 libquantum
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
+557 calculix libquantum
 ---
-502 calculix lbm
-505 519 557
-520 638 libquantum
-620 mcf soplex
+505 602 mcf
+519 557 623
+520 521 lbm
+calculix libquantum sphinx3
 ---
 
 seq:36
-502 gromacs lbm
-505 557 mcf
-519 520 620
-638 hmmer libquantum
+505 520 557
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
 ---
-502 519 557
-505 520 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 520 557
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
 ---
 
 seq:37
-502 519 520
-505 638 lbm
-557 mcf soplex
-gromacs hmmer libquantum
+505 521 mcf
+519 602 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 hmmer lbm
-505 519 gromacs
-520 mcf soplex
-557 638 libquantum
+505 521 mcf
+519 602 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:38
-502 519 620
-505 gromacs lbm
-520 mcf soplex
-557 638 libquantum
+505 521 mcf
+519 602 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 557
-520 638 libquantum
-620 mcf soplex
+505 521 mcf
+519 602 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:39
-502 519 620
-505 hmmer lbm
-520 mcf soplex
-557 638 libquantum
+505 521 mcf
+519 602 calculix
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 hmmer lbm
-505 519 557
-520 638 libquantum
-620 mcf soplex
+505 521 mcf
+519 602 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:40
-502 557 soplex
-505 gromacs mcf
-519 520 calculix
-638 hmmer libquantum
+505 520 521
+519 638 sphinx3
+557 620 mcf
+623 625 lbm
 ---
-502 557 soplex
-505 calculix mcf
-519 520 gromacs
-638 hmmer libquantum
+505 520 521
+519 625 sphinx3
+557 620 mcf
+623 638 lbm
 ---
 
 seq:41
-502 520 soplex
-505 calculix mcf
-519 557 620
-638 gromacs libquantum
+505 623 mcf
+519 620 625
+520 521 lbm
+557 638 libquantum
 ---
-502 520 soplex
-505 557 mcf
-519 620 calculix
-638 gromacs libquantum
+505 623 mcf
+519 557 620
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:42
-502 520 soplex
-505 calculix mcf
-519 557 620
-638 hmmer libquantum
+505 520 623
+519 521 625
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 557 mcf
-519 620 calculix
-638 hmmer libquantum
+505 520 623
+519 521 sphinx3
+557 620 lbm
+625 638 libquantum
 ---
 
 seq:43
-502 520 soplex
-505 gromacs mcf
-519 557 620
-638 hmmer libquantum
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+623 625 lbm
 ---
-502 520 soplex
-505 557 mcf
-519 620 gromacs
-638 hmmer libquantum
+505 520 521
+519 625 sphinx3
+557 620 mcf
+623 calculix lbm
 ---
 
 seq:44
-502 calculix lbm
-505 557 mcf
-519 520 620
-gromacs hmmer libquantum
+505 623 mcf
+519 620 625
+520 521 lbm
+557 calculix libquantum
 ---
-502 519 557
-505 520 mcf
-620 hmmer lbm
-calculix gromacs libquantum
+505 623 mcf
+519 557 620
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:45
-502 519 520
-505 calculix lbm
-557 mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 521 625
+557 620 lbm
+calculix libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 calculix
-520 mcf soplex
-557 hmmer libquantum
+505 520 623
+519 521 sphinx3
+557 620 lbm
+625 calculix libquantum
 ---
 
 seq:46
-502 519 620
-505 calculix lbm
-520 mcf soplex
-557 gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+557 625 libquantum
 ---
-502 calculix lbm
-505 519 557
-520 gromacs libquantum
-620 mcf soplex
+505 623 mcf
+519 557 620
+520 521 lbm
+625 libquantum sphinx3
 ---
 
 seq:47
-502 519 620
-505 calculix lbm
-520 mcf soplex
-557 hmmer libquantum
+505 520 521
+519 638 sphinx3
+557 620 mcf
+623 calculix lbm
 ---
-502 calculix lbm
-505 519 557
-520 hmmer libquantum
-620 mcf soplex
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+623 638 lbm
 ---
 
 seq:48
-502 519 620
-505 gromacs lbm
-520 mcf soplex
-557 hmmer libquantum
+505 623 mcf
+519 620 calculix
+520 521 lbm
+557 638 libquantum
 ---
-502 gromacs lbm
-505 519 557
-520 hmmer libquantum
-620 mcf soplex
+505 623 mcf
+519 557 620
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:49
-502 520 soplex
-505 calculix mcf
-519 557 620
-gromacs hmmer libquantum
+505 520 623
+519 521 calculix
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 557 mcf
-519 620 calculix
-gromacs hmmer libquantum
+505 520 623
+519 521 sphinx3
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:50
-502 gromacs lbm
-505 calculix mcf
-519 520 625
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+557 638 libquantum
 ---
-502 519 calculix
-505 625 mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 557 620
+520 521 lbm
+638 libquantum sphinx3
 ---
 
 seq:51
-502 calculix lbm
-505 625 mcf
-519 520 620
-638 gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+557 calculix libquantum
 ---
-502 519 625
-505 520 mcf
-620 638 lbm
-calculix gromacs libquantum
+505 623 mcf
+519 557 620
+520 521 lbm
+calculix libquantum sphinx3
 ---
 
 seq:52
-502 519 520
-505 calculix lbm
-625 mcf soplex
-638 gromacs libquantum
+505 520 557
+519 625 638
+521 calculix lbm
+620 mcf sphinx3
 ---
-502 638 lbm
-505 519 calculix
-520 mcf soplex
-625 gromacs libquantum
+505 520 557
+519 625 calculix
+521 638 lbm
+620 mcf sphinx3
 ---
 
 seq:53
-502 calculix lbm
-505 625 mcf
-519 520 620
-638 hmmer libquantum
+505 521 mcf
+519 620 calculix
+520 557 lbm
+625 638 libquantum
 ---
-502 519 625
-505 520 mcf
-620 638 lbm
-calculix hmmer libquantum
+505 521 mcf
+519 620 625
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:54
-502 519 520
-505 calculix lbm
-625 mcf soplex
-638 hmmer libquantum
+505 521 mcf
+519 620 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 638 lbm
-505 519 calculix
-520 mcf soplex
-625 hmmer libquantum
+505 521 mcf
+519 620 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:55
-502 519 620
-505 calculix lbm
-520 mcf soplex
-625 638 libquantum
+505 521 mcf
+519 620 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 calculix lbm
-505 519 625
-520 638 libquantum
-620 mcf soplex
+505 521 mcf
+519 620 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:56
-502 gromacs lbm
-505 625 mcf
-519 520 620
-638 hmmer libquantum
+505 521 mcf
+519 620 calculix
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 519 625
-505 520 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 521 mcf
+519 620 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:57
-502 519 520
-505 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 520 557
+519 625 638
+521 calculix lbm
+623 mcf sphinx3
 ---
-502 638 lbm
-505 519 gromacs
-520 mcf soplex
-625 hmmer libquantum
+505 520 557
+519 625 calculix
+521 638 lbm
+623 mcf sphinx3
 ---
 
 seq:58
-502 519 620
-505 gromacs lbm
-520 mcf soplex
+505 521 mcf
+519 623 calculix
+520 557 lbm
 625 638 libquantum
 ---
-502 gromacs lbm
-505 519 625
-520 638 libquantum
-620 mcf soplex
+505 521 mcf
+519 623 625
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:59
-502 519 620
-505 hmmer lbm
-520 mcf soplex
-625 638 libquantum
+505 520 521
+519 557 sphinx3
+623 625 lbm
+638 calculix libquantum
 ---
-502 hmmer lbm
-505 519 625
-520 638 libquantum
-620 mcf soplex
+505 520 521
+519 557 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:60
-502 625 soplex
-505 gromacs mcf
-519 520 calculix
-638 hmmer libquantum
+505 521 mcf
+519 623 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 625 soplex
-505 calculix mcf
-519 520 gromacs
-638 hmmer libquantum
+505 521 mcf
+519 623 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:61
-502 520 soplex
-505 calculix mcf
-519 620 625
-638 gromacs libquantum
+505 521 mcf
+519 623 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-519 620 calculix
-638 gromacs libquantum
+505 521 mcf
+519 623 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:62
-502 520 soplex
-505 calculix mcf
-519 620 625
-638 hmmer libquantum
+505 521 mcf
+519 623 calculix
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-519 620 calculix
-638 hmmer libquantum
+505 521 mcf
+519 623 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:63
-502 520 soplex
-505 gromacs mcf
-519 620 625
-638 hmmer libquantum
+505 623 sphinx3
+519 625 638
+520 602 620
+521 calculix lbm
 ---
-502 520 soplex
-505 625 mcf
-519 620 gromacs
-638 hmmer libquantum
+505 623 sphinx3
+519 625 calculix
+520 602 620
+521 638 lbm
 ---
 
 seq:64
-502 calculix lbm
-505 625 mcf
-519 520 620
-gromacs hmmer libquantum
+505 520 602
+519 638 sphinx3
+521 620 mcf
+623 625 lbm
 ---
-502 519 625
-505 520 mcf
-620 hmmer lbm
-calculix gromacs libquantum
+505 520 602
+519 625 sphinx3
+521 620 mcf
+623 638 lbm
 ---
 
 seq:65
-502 519 520
-505 calculix lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 521 625
+602 620 mcf
+638 libquantum sphinx3
 ---
-502 hmmer lbm
-505 519 calculix
-520 mcf soplex
-625 gromacs libquantum
+505 520 623
+519 521 sphinx3
+602 620 mcf
+625 638 libquantum
 ---
 
 seq:66
-502 519 620
-505 calculix lbm
-520 mcf soplex
-625 gromacs libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+521 638 libquantum
 ---
-502 calculix lbm
-505 519 625
-520 gromacs libquantum
-620 mcf soplex
+505 623 mcf
+519 521 620
+520 602 lbm
+625 638 libquantum
 ---
 
 seq:67
-502 519 620
-505 calculix lbm
-520 mcf soplex
-625 hmmer libquantum
+505 520 623
+519 602 625
+521 620 lbm
+638 libquantum sphinx3
 ---
-502 calculix lbm
-505 519 625
-520 hmmer libquantum
-620 mcf soplex
+505 520 623
+519 602 sphinx3
+521 620 lbm
+625 638 libquantum
 ---
 
 seq:68
-502 519 620
-505 gromacs lbm
-520 mcf soplex
-625 hmmer libquantum
+505 520 602
+519 calculix sphinx3
+521 620 mcf
+623 625 lbm
 ---
-502 gromacs lbm
-505 519 625
-520 hmmer libquantum
-620 mcf soplex
+505 520 602
+519 625 sphinx3
+521 620 mcf
+623 calculix lbm
 ---
 
 seq:69
-502 520 soplex
-505 calculix mcf
-519 620 625
-gromacs hmmer libquantum
+505 520 623
+519 521 625
+602 620 mcf
+calculix libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-519 620 calculix
-gromacs hmmer libquantum
+505 520 623
+519 521 sphinx3
+602 620 mcf
+625 calculix libquantum
 ---
 
 seq:70
-502 gromacs lbm
-505 calculix mcf
-519 520 620
-638 hmmer libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+521 calculix libquantum
 ---
-502 519 calculix
-505 520 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+625 calculix libquantum
 ---
 
 seq:71
-502 519 520
-505 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 602 625
+521 620 lbm
+calculix libquantum sphinx3
 ---
-502 638 lbm
-505 519 gromacs
-520 mcf soplex
-calculix hmmer libquantum
+505 520 623
+519 602 sphinx3
+521 620 lbm
+625 calculix libquantum
 ---
 
 seq:72
-502 519 620
-505 calculix lbm
-520 mcf soplex
-638 gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+521 625 libquantum
 ---
-502 gromacs lbm
-505 519 calculix
-520 638 libquantum
-620 mcf soplex
+505 623 mcf
+519 521 620
+520 602 lbm
+625 libquantum sphinx3
 ---
 
 seq:73
-502 519 620
-505 calculix lbm
-520 mcf soplex
-638 hmmer libquantum
+505 520 602
+519 638 sphinx3
+521 620 mcf
+623 calculix lbm
 ---
-502 hmmer lbm
-505 519 calculix
-520 638 libquantum
-620 mcf soplex
+505 520 602
+519 calculix sphinx3
+521 620 mcf
+623 638 lbm
 ---
 
 seq:74
-502 519 620
-505 638 lbm
-520 mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 521 calculix
+602 620 mcf
+638 libquantum sphinx3
 ---
-502 hmmer lbm
-505 519 gromacs
-520 638 libquantum
-620 mcf soplex
+505 520 623
+519 521 sphinx3
+602 620 mcf
+638 calculix libquantum
 ---
 
 seq:75
-502 520 soplex
-505 gromacs mcf
+505 623 mcf
 519 620 calculix
-638 hmmer libquantum
+520 602 lbm
+521 638 libquantum
 ---
-502 520 soplex
-505 calculix mcf
-519 620 gromacs
-638 hmmer libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+638 calculix libquantum
 ---
 
 seq:76
-502 519 620
-505 calculix lbm
-520 mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 602 calculix
+521 620 lbm
+638 libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 calculix
-520 hmmer libquantum
-620 mcf soplex
+505 520 623
+519 602 sphinx3
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:77
-502 gromacs lbm
-505 calculix mcf
-519 557 625
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+521 638 libquantum
 ---
-502 519 calculix
-505 625 mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+638 libquantum sphinx3
 ---
 
 seq:78
-502 calculix lbm
-505 625 mcf
-519 557 620
-638 gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+521 calculix libquantum
 ---
-502 519 625
-505 557 mcf
-620 638 lbm
-calculix gromacs libquantum
+505 623 mcf
+519 521 620
+520 602 lbm
+calculix libquantum sphinx3
 ---
 
 seq:79
-502 519 557
-505 calculix lbm
-625 mcf soplex
-638 gromacs libquantum
+505 602 mcf
+519 620 calculix
+520 521 lbm
+625 638 libquantum
 ---
-502 638 lbm
-505 519 calculix
-557 mcf soplex
-625 gromacs libquantum
+505 602 mcf
+519 620 625
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:80
-502 calculix lbm
-505 625 mcf
-519 557 620
-638 hmmer libquantum
+505 602 mcf
+519 620 625
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 519 625
-505 557 mcf
-620 638 lbm
-calculix hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:81
-502 519 557
-505 calculix lbm
-625 mcf soplex
-638 hmmer libquantum
+505 602 mcf
+519 620 625
+520 521 lbm
+calculix libquantum sphinx3
 ---
-502 638 lbm
-505 519 calculix
-557 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:82
-502 519 620
-505 calculix lbm
-557 mcf soplex
-625 638 libquantum
+505 602 mcf
+519 620 calculix
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 calculix lbm
-505 519 625
-557 638 libquantum
-620 mcf soplex
+505 602 mcf
+519 620 sphinx3
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:83
-502 gromacs lbm
-505 625 mcf
-519 557 620
-638 hmmer libquantum
+505 602 mcf
+519 623 calculix
+520 521 lbm
+625 638 libquantum
 ---
-502 519 625
-505 557 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 602 mcf
+519 623 625
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:84
-502 519 557
-505 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 602 mcf
+519 623 625
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 638 lbm
-505 519 gromacs
-557 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:85
-502 519 620
-505 gromacs lbm
-557 mcf soplex
-625 638 libquantum
+505 602 mcf
+519 623 625
+520 521 lbm
+calculix libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 625
-557 638 libquantum
-620 mcf soplex
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:86
-502 519 620
-505 hmmer lbm
-557 mcf soplex
-625 638 libquantum
+505 602 mcf
+519 623 calculix
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 hmmer lbm
-505 519 625
-557 638 libquantum
-620 mcf soplex
+505 602 mcf
+519 623 sphinx3
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:87
-502 557 soplex
-505 calculix mcf
-519 620 625
-638 gromacs libquantum
----
-502 557 soplex
-505 625 mcf
+505 623 mcf
 519 620 calculix
-638 gromacs libquantum
+520 521 lbm
+625 638 libquantum
+---
+505 623 mcf
+519 620 625
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:88
-502 557 soplex
-505 calculix mcf
+505 623 mcf
 519 620 625
-638 hmmer libquantum
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 557 soplex
-505 625 mcf
-519 620 calculix
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+625 638 libquantum
 ---
 
 seq:89
-502 557 soplex
-505 gromacs mcf
+505 623 mcf
 519 620 625
-638 hmmer libquantum
+520 521 lbm
+calculix libquantum sphinx3
 ---
-502 557 soplex
-505 625 mcf
-519 620 gromacs
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+625 calculix libquantum
 ---
 
 seq:90
-502 calculix lbm
-505 625 mcf
-519 557 620
-gromacs hmmer libquantum
+505 623 mcf
+519 620 calculix
+520 521 lbm
+638 libquantum sphinx3
 ---
-502 519 625
-505 557 mcf
-620 hmmer lbm
-calculix gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 521 lbm
+638 calculix libquantum
 ---
 
 seq:91
-502 519 557
-505 calculix lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 521 mcf
+519 620 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 hmmer lbm
-505 519 calculix
-557 mcf soplex
-625 gromacs libquantum
+505 521 mcf
+519 620 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:92
-502 519 620
-505 calculix lbm
-557 mcf soplex
-625 gromacs libquantum
+505 521 mcf
+519 623 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 calculix lbm
-505 519 625
-557 gromacs libquantum
-620 mcf soplex
+505 521 mcf
+519 623 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:93
-502 519 620
-505 calculix lbm
-557 mcf soplex
-625 hmmer libquantum
+505 520 602
+519 638 sphinx3
+557 620 mcf
+623 625 lbm
 ---
-502 calculix lbm
-505 519 625
-557 hmmer libquantum
-620 mcf soplex
+505 520 602
+519 625 sphinx3
+557 620 mcf
+623 638 lbm
 ---
 
 seq:94
-502 519 620
-505 gromacs lbm
-557 mcf soplex
-625 hmmer libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+557 638 libquantum
 ---
-502 gromacs lbm
-505 519 625
-557 hmmer libquantum
-620 mcf soplex
+505 623 mcf
+519 557 620
+520 602 lbm
+625 638 libquantum
 ---
 
 seq:95
-502 557 soplex
-505 calculix mcf
-519 620 625
-gromacs hmmer libquantum
+505 520 623
+519 602 625
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 557 soplex
-505 625 mcf
-519 620 calculix
-gromacs hmmer libquantum
+505 520 623
+519 602 sphinx3
+557 620 lbm
+625 638 libquantum
 ---
 
 seq:96
-502 gromacs lbm
-505 calculix mcf
-519 557 620
-638 hmmer libquantum
+505 520 602
+519 calculix sphinx3
+557 620 mcf
+623 625 lbm
 ---
-502 519 calculix
-505 557 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 520 602
+519 625 sphinx3
+557 620 mcf
+623 calculix lbm
 ---
 
 seq:97
-502 519 557
-505 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+557 calculix libquantum
 ---
-502 638 lbm
-505 519 gromacs
-557 mcf soplex
-calculix hmmer libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+625 calculix libquantum
 ---
 
 seq:98
-502 519 620
-505 calculix lbm
-557 mcf soplex
-638 gromacs libquantum
+505 520 623
+519 602 625
+557 620 lbm
+calculix libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 calculix
-557 638 libquantum
-620 mcf soplex
+505 520 623
+519 602 sphinx3
+557 620 lbm
+625 calculix libquantum
 ---
 
 seq:99
-502 519 620
-505 calculix lbm
-557 mcf soplex
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+557 625 libquantum
 ---
-502 hmmer lbm
-505 519 calculix
-557 638 libquantum
-620 mcf soplex
+505 623 mcf
+519 557 620
+520 602 lbm
+625 libquantum sphinx3
 ---
 
 seq:100
-502 519 620
-505 638 lbm
-557 mcf soplex
-gromacs hmmer libquantum
+505 520 602
+519 638 sphinx3
+557 620 mcf
+623 calculix lbm
 ---
-502 hmmer lbm
-505 519 gromacs
-557 638 libquantum
-620 mcf soplex
+505 520 602
+519 calculix sphinx3
+557 620 mcf
+623 638 lbm
 ---
 
 seq:101
-502 557 soplex
-505 gromacs mcf
+505 623 mcf
 519 620 calculix
-638 hmmer libquantum
+520 602 lbm
+557 638 libquantum
 ---
-502 557 soplex
-505 calculix mcf
-519 620 gromacs
-638 hmmer libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+638 calculix libquantum
 ---
 
 seq:102
-502 519 620
-505 calculix lbm
-557 mcf soplex
-gromacs hmmer libquantum
+505 520 623
+519 602 calculix
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 gromacs lbm
-505 519 calculix
-557 hmmer libquantum
-620 mcf soplex
+505 520 623
+519 602 sphinx3
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:103
-502 gromacs lbm
-505 calculix mcf
-519 620 625
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+557 638 libquantum
 ---
-502 519 calculix
-505 625 mcf
-620 638 lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+638 libquantum sphinx3
 ---
 
 seq:104
-502 519 625
-505 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+557 calculix libquantum
 ---
-502 638 lbm
-505 519 gromacs
-625 mcf soplex
-calculix hmmer libquantum
+505 623 mcf
+519 557 620
+520 602 lbm
+calculix libquantum sphinx3
 ---
 
 seq:105
-502 519 620
-505 calculix lbm
-625 mcf soplex
-638 gromacs libquantum
+505 602 mcf
+519 620 calculix
+520 557 lbm
+625 638 libquantum
 ---
-502 638 lbm
-505 519 calculix
-620 mcf soplex
-625 gromacs libquantum
+505 602 mcf
+519 620 625
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:106
-502 519 620
-505 calculix lbm
-625 mcf soplex
-638 hmmer libquantum
+505 602 mcf
+519 620 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 638 lbm
-505 519 calculix
-620 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:107
-502 519 620
-505 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 602 mcf
+519 620 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 638 lbm
-505 519 gromacs
-620 mcf soplex
-625 hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:108
-502 625 soplex
-505 gromacs mcf
+505 602 mcf
 519 620 calculix
-638 hmmer libquantum
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 625 soplex
-505 calculix mcf
-519 620 gromacs
-638 hmmer libquantum
+505 602 mcf
+519 620 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:109
-502 519 620
-505 calculix lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 602 mcf
+519 623 calculix
+520 557 lbm
+625 638 libquantum
 ---
-502 hmmer lbm
-505 519 calculix
-620 mcf soplex
-625 gromacs libquantum
+505 602 mcf
+519 623 625
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:110
-502 519 620
-505 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
+505 520 602
+519 557 sphinx3
+623 625 lbm
+638 calculix libquantum
 ---
-502 638 lbm
-505 519 gromacs
-620 mcf soplex
-calculix hmmer libquantum
+505 520 602
+519 557 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:111
-502 505 625
-520 calculix mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 602 mcf
+519 623 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 505 557
-520 625 mcf
-638 hmmer libquantum
-calculix gromacs lbm
+505 602 mcf
+519 623 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:112
-502 505 557
-520 calculix lbm
-620 625 mcf
-638 gromacs libquantum
+505 602 mcf
+519 623 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 505 520
-557 620 mcf
-625 calculix lbm
-638 gromacs libquantum
+505 602 mcf
+519 623 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:113
-502 557 soplex
-505 calculix mcf
-520 625 lbm
-638 gromacs libquantum
+505 602 mcf
+519 623 calculix
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-557 calculix lbm
-638 gromacs libquantum
+505 602 mcf
+519 623 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:114
-502 505 557
-520 calculix lbm
-620 625 mcf
-638 hmmer libquantum
+505 623 mcf
+519 620 calculix
+520 557 lbm
+625 638 libquantum
 ---
-502 505 520
-557 620 mcf
-625 calculix lbm
-638 hmmer libquantum
+505 623 mcf
+519 620 625
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:115
-502 557 soplex
-505 calculix mcf
-520 625 lbm
-638 hmmer libquantum
+505 623 mcf
+519 620 625
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-557 calculix lbm
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 557 lbm
+625 638 libquantum
 ---
 
 seq:116
-502 520 soplex
-505 625 mcf
-557 620 lbm
-638 calculix libquantum
+505 623 mcf
+519 620 625
+520 557 lbm
+calculix libquantum sphinx3
 ---
-502 620 soplex
-505 557 mcf
-520 calculix lbm
-625 638 libquantum
+505 623 mcf
+519 620 sphinx3
+520 557 lbm
+625 calculix libquantum
 ---
 
 seq:117
-502 505 557
-520 gromacs lbm
-620 625 mcf
-638 hmmer libquantum
+505 623 mcf
+519 620 calculix
+520 557 lbm
+638 libquantum sphinx3
 ---
-502 505 520
-557 620 mcf
-625 gromacs lbm
-638 hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 557 lbm
+638 calculix libquantum
 ---
 
 seq:118
-502 557 soplex
-505 gromacs mcf
-520 625 lbm
-638 hmmer libquantum
+505 557 mcf
+519 620 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 520 soplex
-505 625 mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 557 mcf
+519 620 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:119
-502 520 soplex
-505 625 mcf
-557 620 lbm
-638 gromacs libquantum
----
-502 620 soplex
 505 557 mcf
-520 gromacs lbm
+519 623 calculix
+520 lbm sphinx3
 625 638 libquantum
+---
+505 557 mcf
+519 623 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:120
-502 520 soplex
-505 625 mcf
-557 620 lbm
-638 hmmer libquantum
----
-502 620 soplex
-505 557 mcf
-520 hmmer lbm
+505 623 mcf
+519 620 calculix
+520 602 lbm
 625 638 libquantum
+---
+505 623 mcf
+519 620 625
+520 602 lbm
+638 calculix libquantum
 ---
 
 seq:121
-502 505 557
-520 calculix lbm
-620 625 mcf
-gromacs hmmer libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+638 libquantum sphinx3
 ---
-502 505 520
-557 620 mcf
-625 calculix lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+625 638 libquantum
 ---
 
 seq:122
-502 557 soplex
-505 calculix mcf
-520 625 lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 620 625
+520 602 lbm
+calculix libquantum sphinx3
 ---
-502 520 soplex
-505 625 mcf
-557 calculix lbm
-gromacs hmmer libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+625 calculix libquantum
 ---
 
 seq:123
-502 520 soplex
-505 625 mcf
-557 620 lbm
-calculix gromacs libquantum
+505 623 mcf
+519 620 calculix
+520 602 lbm
+638 libquantum sphinx3
 ---
-502 620 soplex
-505 557 mcf
-520 calculix lbm
-625 gromacs libquantum
+505 623 mcf
+519 620 sphinx3
+520 602 lbm
+638 calculix libquantum
 ---
 
 seq:124
-502 520 soplex
-505 625 mcf
-557 620 lbm
-calculix hmmer libquantum
+505 602 mcf
+519 620 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 620 soplex
-505 557 mcf
-520 calculix lbm
-625 hmmer libquantum
+505 602 mcf
+519 620 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:125
-502 520 soplex
-505 625 mcf
-557 620 lbm
-gromacs hmmer libquantum
+505 602 mcf
+519 623 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 620 soplex
-505 557 mcf
-520 gromacs lbm
-625 hmmer libquantum
+505 602 mcf
+519 623 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:126
-502 505 557
-520 gromacs lbm
-620 calculix mcf
-638 hmmer libquantum
+505 623 mcf
+519 620 calculix
+520 lbm sphinx3
+625 638 libquantum
 ---
-502 505 520
-557 620 mcf
-638 hmmer libquantum
-calculix gromacs lbm
+505 623 mcf
+519 620 625
+520 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:127
-502 557 soplex
-505 gromacs mcf
-520 calculix lbm
-638 hmmer libquantum
+505 602 mcf
+519 623 625
+521 620 lbm
+557 638 libquantum
 ---
-502 520 soplex
-505 calculix mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 521 mcf
+519 557 623
+602 620 lbm
+625 638 libquantum
 ---
 
 seq:128
-502 520 soplex
-505 calculix mcf
-557 620 lbm
-638 gromacs libquantum
+505 602 620
+519 521 625
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 620 soplex
-505 557 mcf
-520 638 lbm
-calculix gromacs libquantum
+505 602 620
+519 521 sphinx3
+557 623 lbm
+625 638 libquantum
 ---
 
 seq:129
-502 520 soplex
-505 calculix mcf
-557 620 lbm
-638 hmmer libquantum
+505 602 mcf
+519 623 625
+521 620 lbm
+557 calculix libquantum
 ---
-502 620 soplex
-505 557 mcf
-520 638 lbm
-calculix hmmer libquantum
+505 521 mcf
+519 557 623
+602 620 lbm
+625 calculix libquantum
 ---
 
 seq:130
-502 520 soplex
-505 gromacs mcf
-557 620 lbm
-638 hmmer libquantum
+505 602 620
+519 521 625
+557 623 lbm
+calculix libquantum sphinx3
 ---
-502 620 soplex
-505 557 mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 602 620
+519 521 sphinx3
+557 623 lbm
+625 calculix libquantum
 ---
 
 seq:131
-502 520 soplex
-505 calculix mcf
-557 620 lbm
-gromacs hmmer libquantum
+505 602 mcf
+519 623 sphinx3
+521 620 lbm
+557 625 libquantum
 ---
-502 620 soplex
-505 557 mcf
-520 hmmer lbm
-calculix gromacs libquantum
+505 521 mcf
+519 557 623
+602 620 lbm
+625 libquantum sphinx3
 ---
 
 seq:132
-502 505 625
-520 gromacs lbm
-620 calculix mcf
-638 hmmer libquantum
+505 602 mcf
+519 623 calculix
+521 620 lbm
+557 638 libquantum
 ---
-502 505 520
-620 625 mcf
-638 hmmer libquantum
-calculix gromacs lbm
+505 521 mcf
+519 557 623
+602 620 lbm
+638 calculix libquantum
 ---
 
 seq:133
-502 625 soplex
-505 gromacs mcf
-520 calculix lbm
-638 hmmer libquantum
+505 602 620
+519 521 calculix
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 520 soplex
-505 calculix mcf
-625 gromacs lbm
-638 hmmer libquantum
+505 602 620
+519 521 sphinx3
+557 623 lbm
+638 calculix libquantum
 ---
 
 seq:134
-502 520 soplex
-505 calculix mcf
-620 625 lbm
-638 gromacs libquantum
+505 602 mcf
+519 623 sphinx3
+521 620 lbm
+557 638 libquantum
 ---
-502 620 soplex
-505 625 mcf
-520 638 lbm
-calculix gromacs libquantum
+505 521 mcf
+519 557 623
+602 620 lbm
+638 libquantum sphinx3
 ---
 
 seq:135
-502 520 soplex
-505 calculix mcf
-620 625 lbm
-638 hmmer libquantum
+505 602 mcf
+519 623 sphinx3
+521 620 lbm
+557 calculix libquantum
 ---
-502 620 soplex
-505 625 mcf
-520 638 lbm
-calculix hmmer libquantum
+505 521 mcf
+519 557 623
+602 620 lbm
+calculix libquantum sphinx3
 ---
 
 seq:136
-502 520 soplex
-505 gromacs mcf
-620 625 lbm
-638 hmmer libquantum
+505 557 620
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
 ---
-502 620 soplex
-505 625 mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 557 620
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
 ---
 
 seq:137
-502 520 soplex
-505 calculix mcf
-620 625 lbm
-gromacs hmmer libquantum
+505 521 mcf
+519 602 625
+557 620 lbm
+638 calculix libquantum
 ---
-502 620 soplex
-505 625 mcf
-520 hmmer lbm
-calculix gromacs libquantum
+505 557 mcf
+519 602 625
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:138
-502 520 soplex
-505 gromacs mcf
-620 calculix lbm
-638 hmmer libquantum
+505 521 mcf
+519 602 625
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 620 soplex
-505 calculix mcf
-520 638 lbm
-gromacs hmmer libquantum
+505 557 mcf
+519 602 sphinx3
+521 620 lbm
+625 638 libquantum
 ---
 
 seq:139
-502 505 625
-557 gromacs lbm
-620 calculix mcf
-638 hmmer libquantum
+505 521 mcf
+519 602 625
+557 620 lbm
+calculix libquantum sphinx3
 ---
-502 505 557
-620 625 mcf
-638 hmmer libquantum
-calculix gromacs lbm
+505 557 mcf
+519 602 sphinx3
+521 620 lbm
+625 calculix libquantum
 ---
 
 seq:140
-502 calculix soplex
-505 gromacs mcf
-557 625 lbm
-638 hmmer libquantum
+505 521 mcf
+519 602 calculix
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 557 soplex
-505 calculix mcf
-625 gromacs lbm
-638 hmmer libquantum
+505 557 mcf
+519 602 sphinx3
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:141
-502 557 soplex
-505 calculix mcf
-620 625 lbm
-638 gromacs libquantum
+505 557 623
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
 ---
-502 620 soplex
-505 625 mcf
-557 calculix lbm
-638 gromacs libquantum
+505 557 623
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
 ---
 
 seq:142
-502 557 soplex
-505 calculix mcf
-620 625 lbm
-638 hmmer libquantum
+505 521 mcf
+519 602 625
+557 623 lbm
+638 calculix libquantum
 ---
-502 620 soplex
-505 625 mcf
-557 calculix lbm
-638 hmmer libquantum
+505 557 mcf
+519 602 625
+521 623 lbm
+638 calculix libquantum
 ---
 
 seq:143
-502 557 soplex
-505 gromacs mcf
-620 625 lbm
-638 hmmer libquantum
+505 521 mcf
+519 602 625
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 620 soplex
-505 625 mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 557 mcf
+519 602 sphinx3
+521 623 lbm
+625 638 libquantum
 ---
 
 seq:144
-502 557 soplex
-505 calculix mcf
-620 625 lbm
-gromacs hmmer libquantum
+505 521 mcf
+519 602 625
+557 623 lbm
+calculix libquantum sphinx3
 ---
-502 620 soplex
-505 625 mcf
-557 calculix lbm
-gromacs hmmer libquantum
+505 557 mcf
+519 602 sphinx3
+521 623 lbm
+625 calculix libquantum
 ---
 
 seq:145
-502 557 soplex
-505 gromacs mcf
-620 calculix lbm
-638 hmmer libquantum
+505 521 mcf
+519 602 calculix
+557 623 lbm
+638 libquantum sphinx3
 ---
-502 620 soplex
-505 calculix mcf
-557 gromacs lbm
-638 hmmer libquantum
+505 557 mcf
+519 602 sphinx3
+521 623 lbm
+638 calculix libquantum
 ---
 
 seq:146
-502 625 soplex
-505 gromacs mcf
-620 calculix lbm
-638 hmmer libquantum
+505 557 mcf
+519 521 625
+602 lbm sphinx3
+638 calculix libquantum
 ---
-502 620 soplex
-505 calculix mcf
-625 gromacs lbm
-638 hmmer libquantum
+505 mcf sphinx3
+519 521 625
+557 602 lbm
+638 calculix libquantum
 ---
 
 seq:147
-502 calculix mcf
-519 557 625
-520 gromacs lbm
-638 hmmer libquantum
+505 557 620
+519 625 638
+521 calculix lbm
+623 mcf sphinx3
 ---
-502 557 mcf
-519 520 calculix
-625 gromacs lbm
-638 hmmer libquantum
+505 557 620
+519 625 calculix
+521 638 lbm
+623 mcf sphinx3
 ---
 
 seq:148
-502 557 mcf
-519 520 calculix
-620 625 lbm
-638 gromacs libquantum
+505 521 mcf
+519 623 calculix
+557 620 lbm
+625 638 libquantum
 ---
-502 520 mcf
-519 620 625
-557 calculix lbm
-638 gromacs libquantum
+505 557 mcf
+519 623 625
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:149
-502 625 lbm
-519 520 557
-638 gromacs libquantum
-calculix mcf soplex
+505 521 620
+519 557 sphinx3
+623 625 lbm
+638 calculix libquantum
 ---
-502 519 557
-520 638 lbm
-625 mcf soplex
-calculix gromacs libquantum
+505 521 620
+519 557 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:150
-502 557 mcf
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
+505 521 mcf
+519 623 625
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 520 mcf
-519 620 625
-557 calculix lbm
-638 hmmer libquantum
+505 557 mcf
+519 623 sphinx3
+521 620 lbm
+625 638 libquantum
 ---
 
 seq:151
-502 625 lbm
-519 520 557
-638 hmmer libquantum
-calculix mcf soplex
+505 521 mcf
+519 623 625
+557 620 lbm
+calculix libquantum sphinx3
 ---
-502 519 557
-520 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
+505 557 mcf
+519 623 sphinx3
+521 620 lbm
+625 calculix libquantum
 ---
 
 seq:152
-502 557 lbm
-519 520 620
-625 mcf soplex
-638 calculix libquantum
+505 521 mcf
+519 623 calculix
+557 620 lbm
+638 libquantum sphinx3
 ---
-502 519 520
-557 mcf soplex
-620 calculix lbm
-625 638 libquantum
+505 557 mcf
+519 623 sphinx3
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:153
-502 557 mcf
-519 520 gromacs
-620 625 lbm
-638 hmmer libquantum
+505 557 mcf
+519 521 625
+620 lbm sphinx3
+638 calculix libquantum
 ---
-502 520 mcf
-519 620 625
-557 gromacs lbm
-638 hmmer libquantum
+505 mcf sphinx3
+519 521 625
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:154
-502 625 lbm
-519 520 557
-638 hmmer libquantum
-gromacs mcf soplex
+505 557 mcf
+519 521 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
-502 519 557
-520 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
+505 mcf sphinx3
+519 521 625
+557 623 lbm
+638 calculix libquantum
 ---
 
 seq:155
-502 557 lbm
-519 520 620
-625 mcf soplex
-638 gromacs libquantum
----
-502 519 520
-557 mcf soplex
-620 gromacs lbm
+505 602 mcf
+519 623 calculix
+521 620 lbm
 625 638 libquantum
+---
+505 521 mcf
+519 623 625
+602 620 lbm
+638 calculix libquantum
 ---
 
 seq:156
-502 557 lbm
-519 520 620
-625 mcf soplex
-638 hmmer libquantum
+505 602 mcf
+519 623 625
+521 620 lbm
+638 libquantum sphinx3
 ---
-502 519 520
-557 mcf soplex
-620 hmmer lbm
+505 521 mcf
+519 623 sphinx3
+602 620 lbm
 625 638 libquantum
 ---
 
 seq:157
-502 557 mcf
-519 520 calculix
-620 625 lbm
-gromacs hmmer libquantum
+505 602 mcf
+519 623 625
+521 620 lbm
+calculix libquantum sphinx3
 ---
-502 520 mcf
-519 620 625
-557 calculix lbm
-gromacs hmmer libquantum
+505 521 mcf
+519 623 sphinx3
+602 620 lbm
+625 calculix libquantum
 ---
 
 seq:158
-502 625 lbm
-519 520 557
-calculix mcf soplex
-gromacs hmmer libquantum
+505 602 mcf
+519 623 calculix
+521 620 lbm
+638 libquantum sphinx3
 ---
-502 519 557
-520 hmmer lbm
-625 mcf soplex
-calculix gromacs libquantum
+505 521 mcf
+519 623 sphinx3
+602 620 lbm
+638 calculix libquantum
 ---
 
 seq:159
-502 557 lbm
-519 520 620
-625 mcf soplex
-calculix gromacs libquantum
+505 521 mcf
+519 602 625
+620 lbm sphinx3
+638 calculix libquantum
 ---
-502 519 520
-557 mcf soplex
-620 calculix lbm
-625 gromacs libquantum
+505 mcf sphinx3
+519 602 625
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:160
-502 557 lbm
-519 520 620
-625 mcf soplex
-calculix hmmer libquantum
+505 521 mcf
+519 602 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
-502 519 520
-557 mcf soplex
-620 calculix lbm
-625 hmmer libquantum
+505 mcf sphinx3
+519 602 625
+521 623 lbm
+638 calculix libquantum
 ---
 
 seq:161
-502 557 lbm
-519 520 620
-625 mcf soplex
-gromacs hmmer libquantum
+505 521 mcf
+519 623 calculix
+620 lbm sphinx3
+625 638 libquantum
 ---
-502 519 520
-557 mcf soplex
-620 gromacs lbm
-625 hmmer libquantum
+505 mcf sphinx3
+519 623 625
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:162
-502 557 mcf
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
+505 602 mcf
+519 623 calculix
+557 620 lbm
+625 638 libquantum
 ---
-502 520 mcf
-519 620 calculix
-557 gromacs lbm
-638 hmmer libquantum
+505 557 mcf
+519 623 625
+602 620 lbm
+638 calculix libquantum
 ---
 
 seq:163
-502 calculix lbm
-519 520 557
-638 hmmer libquantum
-gromacs mcf soplex
+505 602 620
+519 557 sphinx3
+623 625 lbm
+638 calculix libquantum
 ---
-502 519 557
-520 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
+505 602 620
+519 557 625
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:164
-502 557 lbm
-519 520 620
-638 gromacs libquantum
-calculix mcf soplex
----
-502 519 520
-557 mcf soplex
-620 638 lbm
-calculix gromacs libquantum
----
-
-seq:165
-502 557 lbm
-519 520 620
-638 hmmer libquantum
-calculix mcf soplex
----
-502 519 520
-557 mcf soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:166
-502 557 lbm
-519 520 620
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 520
-557 mcf soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:167
-502 557 lbm
-519 520 620
-calculix mcf soplex
-gromacs hmmer libquantum
----
-502 519 520
-557 mcf soplex
-620 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:168
-502 625 mcf
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
----
-502 520 mcf
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:169
-502 calculix lbm
-519 520 625
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 625
-520 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:170
-502 625 lbm
-519 520 620
-638 gromacs libquantum
-calculix mcf soplex
----
-502 519 520
-620 638 lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:171
-502 625 lbm
-519 520 620
-638 hmmer libquantum
-calculix mcf soplex
----
-502 519 520
-620 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
----
-
-seq:172
-502 625 lbm
-519 520 620
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 520
-620 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
----
-
-seq:173
-502 625 lbm
-519 520 620
-calculix mcf soplex
-gromacs hmmer libquantum
----
-502 519 520
-620 hmmer lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:174
-502 calculix lbm
-519 520 620
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 520
-620 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:175
-502 calculix mcf
-519 557 625
-620 gromacs lbm
-638 hmmer libquantum
----
-502 557 mcf
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:176
-502 calculix lbm
-519 557 625
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 625
-557 calculix lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-
-seq:177
-502 625 lbm
-519 557 620
-638 gromacs libquantum
-calculix mcf soplex
----
-502 519 557
-620 638 lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:178
-502 625 lbm
-519 557 620
-638 hmmer libquantum
-calculix mcf soplex
----
-502 519 557
-620 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
----
-
-seq:179
-502 625 lbm
-519 557 620
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 557
-620 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
----
-
-seq:180
-502 625 lbm
-519 557 620
-calculix mcf soplex
-gromacs hmmer libquantum
----
-502 519 557
-620 hmmer lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:181
-502 calculix lbm
-519 557 620
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 557
-620 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:182
-502 calculix lbm
-519 620 625
-638 hmmer libquantum
-gromacs mcf soplex
----
-502 519 625
-620 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:183
-502 557 620
-520 gromacs mcf
-625 calculix lbm
-638 hmmer libquantum
----
-502 557 620
-520 625 mcf
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:184
-502 calculix mcf
-520 gromacs soplex
-557 625 lbm
-638 hmmer libquantum
----
-502 557 mcf
-520 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:185
-502 557 mcf
-520 calculix lbm
-620 625 soplex
-638 gromacs libquantum
----
-502 520 mcf
-557 620 soplex
-625 calculix lbm
-638 gromacs libquantum
----
-
-seq:186
-502 557 mcf
-520 calculix lbm
-620 625 soplex
-638 hmmer libquantum
----
-502 520 mcf
-557 620 soplex
-625 calculix lbm
-638 hmmer libquantum
----
-
-seq:187
-502 557 mcf
-520 gromacs lbm
-620 625 soplex
-638 hmmer libquantum
----
-502 520 mcf
-557 620 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:188
-502 557 mcf
-520 calculix lbm
-620 625 soplex
-gromacs hmmer libquantum
----
-502 520 mcf
-557 620 soplex
-625 calculix lbm
-gromacs hmmer libquantum
----
-
-seq:189
-502 557 mcf
-520 gromacs lbm
-620 calculix soplex
-638 hmmer libquantum
----
-502 520 mcf
-557 620 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:190
-502 625 mcf
-520 gromacs lbm
-620 calculix soplex
-638 hmmer libquantum
----
-502 520 mcf
-620 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:191
-502 calculix mcf
-557 625 lbm
-620 gromacs soplex
-638 hmmer libquantum
----
-502 557 mcf
-620 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:192
-505 gromacs mcf
-519 557 625
-520 calculix lbm
-638 hmmer libquantum
----
-505 625 mcf
-519 520 calculix
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:193
-505 calculix mcf
-519 520 625
+505 602 mcf
+519 623 625
 557 620 lbm
-638 gromacs libquantum
+638 libquantum sphinx3
 ---
 505 557 mcf
-519 620 625
-520 638 lbm
-calculix gromacs libquantum
----
-
-seq:194
-505 calculix lbm
-519 520 557
-625 mcf soplex
-638 gromacs libquantum
----
-505 519 calculix
-520 gromacs lbm
-557 mcf soplex
+519 623 sphinx3
+602 620 lbm
 625 638 libquantum
 ---
 
-seq:195
-505 calculix mcf
-519 520 625
+seq:165
+505 602 mcf
+519 623 625
 557 620 lbm
-638 hmmer libquantum
+calculix libquantum sphinx3
 ---
 505 557 mcf
-519 620 625
-520 638 lbm
-calculix hmmer libquantum
+519 623 sphinx3
+602 620 lbm
+625 calculix libquantum
+---
+
+seq:166
+505 602 mcf
+519 623 calculix
+557 620 lbm
+638 libquantum sphinx3
+---
+505 557 mcf
+519 623 sphinx3
+602 620 lbm
+638 calculix libquantum
+---
+
+seq:167
+505 557 mcf
+519 602 625
+620 lbm sphinx3
+638 calculix libquantum
+---
+505 mcf sphinx3
+519 602 625
+557 620 lbm
+638 calculix libquantum
+---
+
+seq:168
+505 557 mcf
+519 602 625
+623 lbm sphinx3
+638 calculix libquantum
+---
+505 mcf sphinx3
+519 602 625
+557 623 lbm
+638 calculix libquantum
+---
+
+seq:169
+505 557 mcf
+519 623 calculix
+620 lbm sphinx3
+625 638 libquantum
+---
+505 mcf sphinx3
+519 623 625
+557 620 lbm
+638 calculix libquantum
+---
+
+seq:170
+505 602 mcf
+519 623 calculix
+620 lbm sphinx3
+625 638 libquantum
+---
+505 mcf sphinx3
+519 623 625
+602 620 lbm
+638 calculix libquantum
+---
+
+seq:171
+505 521 calculix
+520 623 625
+557 638 mcf
+602 620 sphinx3
+---
+505 521 calculix
+520 602 sphinx3
+557 638 mcf
+620 623 625
+---
+
+seq:172
+505 521 625
+520 623 sphinx3
+557 602 620
+638 calculix lbm
+---
+505 521 625
+520 557 602
+620 623 sphinx3
+638 calculix lbm
+---
+
+seq:173
+505 521 625
+520 623 sphinx3
+557 602 620
+638 calculix libquantum
+---
+505 521 625
+520 557 602
+620 623 sphinx3
+638 calculix libquantum
+---
+
+seq:174
+505 602 sphinx3
+520 557 620
+521 calculix mcf
+625 638 lbm
+---
+505 602 625
+520 557 620
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:175
+505 602 sphinx3
+520 557 623
+521 calculix mcf
+625 638 lbm
+---
+505 602 625
+520 557 623
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:176
+505 623 sphinx3
+520 557 620
+521 calculix mcf
+625 638 lbm
+---
+505 623 625
+520 557 620
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:177
+505 623 sphinx3
+520 521 620
+602 638 mcf
+625 calculix lbm
+---
+505 623 625
+520 521 620
+602 calculix mcf
+638 lbm sphinx3
+---
+
+seq:178
+505 623 sphinx3
+520 557 620
+602 638 mcf
+625 calculix lbm
+---
+505 623 625
+520 557 620
+602 calculix mcf
+638 lbm sphinx3
+---
+
+seq:179
+505 602 sphinx3
+521 calculix mcf
+557 620 623
+625 638 lbm
+---
+505 602 625
+521 calculix mcf
+557 620 623
+638 lbm sphinx3
+---
+
+seq:180
+519 638 calculix
+520 623 sphinx3
+521 625 mcf
+557 602 620
+---
+519 638 calculix
+520 557 602
+521 625 mcf
+620 623 sphinx3
+---
+
+seq:181
+519 625 638
+520 602 620
+521 calculix lbm
+557 623 mcf
+---
+519 625 calculix
+520 602 620
+521 638 lbm
+557 623 mcf
+---
+
+seq:182
+519 625 638
+520 557 623
+521 602 620
+calculix lbm sphinx3
+---
+519 625 638
+520 521 602
+557 620 623
+calculix lbm sphinx3
+---
+
+seq:183
+519 625 sphinx3
+520 557 623
+521 602 620
+638 calculix libquantum
+---
+519 625 sphinx3
+520 521 602
+557 620 623
+638 calculix libquantum
+---
+
+seq:184
+519 602 625
+520 623 mcf
+521 620 lbm
+557 638 libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+625 638 libquantum
+---
+
+seq:185
+519 521 625
+520 620 623
+557 602 lbm
+638 libquantum sphinx3
+---
+519 521 sphinx3
+520 620 623
+557 602 lbm
+625 638 libquantum
+---
+
+seq:186
+519 602 625
+520 623 mcf
+521 620 lbm
+557 calculix libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+625 calculix libquantum
+---
+
+seq:187
+519 521 625
+520 620 623
+557 602 lbm
+calculix libquantum sphinx3
+---
+519 521 sphinx3
+520 620 623
+557 602 lbm
+625 calculix libquantum
+---
+
+seq:188
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+557 625 libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+625 libquantum sphinx3
+---
+
+seq:189
+519 602 calculix
+520 623 mcf
+521 620 lbm
+557 638 libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+638 calculix libquantum
+---
+
+seq:190
+519 521 calculix
+520 620 623
+557 602 lbm
+638 libquantum sphinx3
+---
+519 521 sphinx3
+520 620 623
+557 602 lbm
+638 calculix libquantum
+---
+
+seq:191
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+557 638 libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+638 libquantum sphinx3
+---
+
+seq:192
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+557 calculix libquantum
+---
+519 557 602
+520 623 mcf
+521 620 lbm
+calculix libquantum sphinx3
+---
+
+seq:193
+519 521 625
+520 602 mcf
+557 620 lbm
+638 libquantum sphinx3
+---
+519 521 sphinx3
+520 602 mcf
+557 620 lbm
+625 638 libquantum
+---
+
+seq:194
+519 521 625
+520 602 mcf
+557 620 lbm
+calculix libquantum sphinx3
+---
+519 521 sphinx3
+520 602 mcf
+557 620 lbm
+625 calculix libquantum
+---
+
+seq:195
+519 521 calculix
+520 602 mcf
+557 620 lbm
+638 libquantum sphinx3
+---
+519 521 sphinx3
+520 602 mcf
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:196
-505 calculix lbm
-519 520 557
-625 mcf soplex
-638 hmmer libquantum
+519 521 625
+520 602 mcf
+557 623 lbm
+638 libquantum sphinx3
 ---
-505 519 calculix
-520 hmmer lbm
-557 mcf soplex
+519 521 sphinx3
+520 602 mcf
+557 623 lbm
 625 638 libquantum
 ---
 
 seq:197
-505 calculix lbm
-519 520 620
-557 mcf soplex
-625 638 libquantum
+519 521 625
+520 602 mcf
+557 623 lbm
+calculix libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 638 libquantum
-620 calculix lbm
+519 521 sphinx3
+520 602 mcf
+557 623 lbm
+625 calculix libquantum
 ---
 
 seq:198
-505 gromacs mcf
-519 520 625
-557 620 lbm
-638 hmmer libquantum
+519 521 calculix
+520 602 mcf
+557 623 lbm
+638 libquantum sphinx3
 ---
-505 557 mcf
-519 620 625
-520 638 lbm
-gromacs hmmer libquantum
+519 521 sphinx3
+520 602 mcf
+557 623 lbm
+638 calculix libquantum
 ---
 
 seq:199
-505 638 lbm
-519 520 557
-625 mcf soplex
-gromacs hmmer libquantum
+519 521 625
+520 623 mcf
+557 620 lbm
+638 libquantum sphinx3
 ---
-505 519 gromacs
-520 hmmer lbm
-557 mcf soplex
+519 521 sphinx3
+520 623 mcf
+557 620 lbm
 625 638 libquantum
 ---
 
 seq:200
-505 gromacs lbm
-519 520 620
-557 mcf soplex
-625 638 libquantum
+519 521 625
+520 623 mcf
+557 620 lbm
+calculix libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 638 libquantum
-620 gromacs lbm
+519 521 sphinx3
+520 623 mcf
+557 620 lbm
+625 calculix libquantum
 ---
 
 seq:201
-505 hmmer lbm
-519 520 620
-557 mcf soplex
-625 638 libquantum
+519 521 calculix
+520 623 mcf
+557 620 lbm
+638 libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 638 libquantum
-620 hmmer lbm
+519 521 sphinx3
+520 623 mcf
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:202
-505 calculix mcf
-519 520 625
-557 620 soplex
-638 gromacs libquantum
+519 557 sphinx3
+520 521 mcf
+623 625 lbm
+638 calculix libquantum
 ---
-505 625 mcf
-519 520 calculix
-557 620 soplex
-638 gromacs libquantum
+519 557 625
+520 521 mcf
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:203
-505 calculix mcf
-519 520 625
-557 620 soplex
-638 hmmer libquantum
+519 625 638
+520 602 620
+521 calculix lbm
+623 mcf sphinx3
 ---
-505 625 mcf
-519 520 calculix
-557 620 soplex
-638 hmmer libquantum
+519 625 calculix
+520 602 620
+521 638 lbm
+623 mcf sphinx3
 ---
 
 seq:204
-505 gromacs mcf
-519 520 625
-557 620 soplex
-638 hmmer libquantum
+519 602 625
+520 623 mcf
+521 620 lbm
+638 libquantum sphinx3
 ---
-505 625 mcf
-519 520 gromacs
-557 620 soplex
-638 hmmer libquantum
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+625 638 libquantum
 ---
 
 seq:205
-505 calculix mcf
-519 520 625
-557 620 lbm
-gromacs hmmer libquantum
+519 602 625
+520 623 mcf
+521 620 lbm
+calculix libquantum sphinx3
 ---
-505 557 mcf
-519 620 625
-520 hmmer lbm
-calculix gromacs libquantum
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+625 calculix libquantum
 ---
 
 seq:206
-505 calculix lbm
-519 520 557
-625 mcf soplex
-gromacs hmmer libquantum
+519 602 calculix
+520 623 mcf
+521 620 lbm
+638 libquantum sphinx3
 ---
-505 519 calculix
-520 gromacs lbm
-557 mcf soplex
-625 hmmer libquantum
+519 602 sphinx3
+520 623 mcf
+521 620 lbm
+638 calculix libquantum
 ---
 
 seq:207
-505 calculix lbm
-519 520 620
-557 mcf soplex
-625 gromacs libquantum
+519 602 625
+520 623 mcf
+557 620 lbm
+638 libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 gromacs libquantum
-620 calculix lbm
+519 602 sphinx3
+520 623 mcf
+557 620 lbm
+625 638 libquantum
 ---
 
 seq:208
-505 calculix lbm
-519 520 620
-557 mcf soplex
-625 hmmer libquantum
+519 602 625
+520 623 mcf
+557 620 lbm
+calculix libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 hmmer libquantum
-620 calculix lbm
+519 602 sphinx3
+520 623 mcf
+557 620 lbm
+625 calculix libquantum
 ---
 
 seq:209
-505 gromacs lbm
-519 520 620
-557 mcf soplex
-625 hmmer libquantum
+519 602 calculix
+520 623 mcf
+557 620 lbm
+638 libquantum sphinx3
 ---
-505 519 625
-520 mcf soplex
-557 hmmer libquantum
-620 gromacs lbm
+519 602 sphinx3
+520 623 mcf
+557 620 lbm
+638 calculix libquantum
 ---
 
 seq:210
-505 calculix mcf
-519 520 625
-557 620 soplex
-gromacs hmmer libquantum
+519 557 sphinx3
+520 602 mcf
+623 625 lbm
+638 calculix libquantum
 ---
-505 625 mcf
-519 520 calculix
-557 620 soplex
-gromacs hmmer libquantum
+519 557 625
+520 602 mcf
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:211
-505 gromacs mcf
-519 520 calculix
-557 620 lbm
-638 hmmer libquantum
+519 521 625
+557 623 lbm
+602 620 mcf
+638 libquantum sphinx3
 ---
-505 557 mcf
-519 620 calculix
-520 638 lbm
-gromacs hmmer libquantum
+519 521 sphinx3
+557 623 lbm
+602 620 mcf
+625 638 libquantum
 ---
 
 seq:212
-505 638 lbm
-519 520 557
-calculix mcf soplex
-gromacs hmmer libquantum
+519 521 625
+557 623 lbm
+602 620 mcf
+calculix libquantum sphinx3
 ---
-505 519 gromacs
-520 638 lbm
-557 mcf soplex
-calculix hmmer libquantum
+519 521 sphinx3
+557 623 lbm
+602 620 mcf
+625 calculix libquantum
 ---
 
 seq:213
-505 calculix lbm
-519 520 620
-557 mcf soplex
-638 gromacs libquantum
+519 521 calculix
+557 623 lbm
+602 620 mcf
+638 libquantum sphinx3
 ---
-505 519 calculix
-520 mcf soplex
-557 638 libquantum
-620 gromacs lbm
+519 521 sphinx3
+557 623 lbm
+602 620 mcf
+638 calculix libquantum
 ---
 
 seq:214
-505 calculix lbm
-519 520 620
-557 mcf soplex
-638 hmmer libquantum
+519 557 sphinx3
+521 620 mcf
+623 625 lbm
+638 calculix libquantum
 ---
-505 519 calculix
-520 mcf soplex
-557 638 libquantum
-620 hmmer lbm
+519 557 625
+521 620 mcf
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:215
-505 638 lbm
-519 520 620
-557 mcf soplex
-gromacs hmmer libquantum
+519 557 sphinx3
+602 620 mcf
+623 625 lbm
+638 calculix libquantum
 ---
-505 519 gromacs
-520 mcf soplex
-557 638 libquantum
-620 hmmer lbm
+519 557 625
+602 620 mcf
+623 lbm sphinx3
+638 calculix libquantum
 ---
 
 seq:216
-505 gromacs mcf
-519 520 calculix
-557 620 soplex
-638 hmmer libquantum
+520 623 sphinx3
+521 calculix mcf
+557 602 620
+625 638 lbm
 ---
-505 calculix mcf
-519 520 gromacs
-557 620 soplex
-638 hmmer libquantum
+520 557 602
+521 calculix mcf
+620 623 sphinx3
+625 638 lbm
 ---
 
 seq:217
-505 calculix lbm
-519 520 620
-557 mcf soplex
-gromacs hmmer libquantum
+520 623 sphinx3
+521 625 mcf
+557 602 620
+638 calculix libquantum
 ---
-505 519 calculix
-520 mcf soplex
-557 hmmer libquantum
-620 gromacs lbm
+520 557 602
+521 625 mcf
+620 623 sphinx3
+638 calculix libquantum
 ---
 
 seq:218
-505 gromacs mcf
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
----
-505 625 mcf
-519 620 calculix
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:219
-505 638 lbm
-519 520 625
-calculix mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-520 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
----
-
-seq:220
-505 calculix lbm
-519 520 620
-625 mcf soplex
-638 gromacs libquantum
----
-505 519 calculix
-520 mcf soplex
-620 gromacs lbm
-625 638 libquantum
----
-
-seq:221
-505 calculix lbm
-519 520 620
-625 mcf soplex
-638 hmmer libquantum
----
-505 519 calculix
-520 mcf soplex
-620 hmmer lbm
-625 638 libquantum
----
-
-seq:222
-505 638 lbm
-519 520 620
-625 mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-520 mcf soplex
-620 hmmer lbm
-625 638 libquantum
----
-
-seq:223
-505 gromacs mcf
-519 520 calculix
-620 625 soplex
-638 hmmer libquantum
----
-505 calculix mcf
-519 520 gromacs
-620 625 soplex
-638 hmmer libquantum
----
-
-seq:224
-505 calculix lbm
-519 520 620
-625 mcf soplex
-gromacs hmmer libquantum
----
-505 519 calculix
-520 mcf soplex
-620 gromacs lbm
-625 hmmer libquantum
----
-
-seq:225
-505 638 lbm
-519 520 620
-calculix mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-520 mcf soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:226
-505 gromacs mcf
-519 557 625
-620 calculix lbm
-638 hmmer libquantum
----
-505 625 mcf
-519 620 calculix
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:227
-505 638 lbm
-519 557 625
-calculix mcf soplex
-gromacs hmmer libquantum
----
-505 519 hmmer
-557 625 lbm
-638 gromacs libquantum
-calculix mcf soplex
----
-
-seq:228
-505 calculix lbm
-519 557 620
-625 mcf soplex
-638 gromacs libquantum
----
-505 519 calculix
-557 mcf soplex
-620 gromacs lbm
-625 638 libquantum
----
-
-seq:229
-505 calculix lbm
-519 557 620
-625 mcf soplex
-638 hmmer libquantum
----
-505 519 calculix
-557 mcf soplex
-620 hmmer lbm
-625 638 libquantum
----
-
-seq:230
-505 638 lbm
-519 557 620
-625 mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-557 mcf soplex
-620 hmmer lbm
-625 638 libquantum
----
-
-seq:231
-505 calculix lbm
-519 557 620
-625 mcf soplex
-gromacs hmmer libquantum
----
-505 519 calculix
-557 mcf soplex
-620 gromacs lbm
-625 hmmer libquantum
----
-
-seq:232
-505 638 lbm
-519 557 620
-calculix mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-557 mcf soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:233
-505 638 lbm
-519 620 625
-calculix mcf soplex
-gromacs hmmer libquantum
----
-505 519 gromacs
-620 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
----
-
-seq:234
-505 620 625
-520 calculix mcf
-557 gromacs lbm
-638 hmmer libquantum
----
-505 557 620
-520 625 mcf
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:235
-505 gromacs mcf
-520 calculix soplex
-557 625 lbm
-638 hmmer libquantum
----
-505 calculix mcf
-520 557 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:236
-505 calculix mcf
-520 625 lbm
-557 620 soplex
-638 gromacs libquantum
----
-505 625 mcf
-520 620 soplex
-557 calculix lbm
-638 gromacs libquantum
----
-
-seq:237
-505 calculix mcf
-520 625 lbm
-557 620 soplex
-638 hmmer libquantum
----
-505 625 mcf
-520 620 soplex
-557 calculix lbm
-638 hmmer libquantum
----
-
-seq:238
-505 gromacs mcf
-520 625 lbm
-557 620 soplex
-638 hmmer libquantum
----
-505 625 mcf
-520 620 soplex
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:239
-505 calculix mcf
-520 625 lbm
-557 620 soplex
-gromacs hmmer libquantum
----
-505 625 mcf
-520 620 soplex
-557 calculix lbm
-gromacs hmmer libquantum
----
-
-seq:240
-505 gromacs mcf
-520 calculix lbm
-557 620 soplex
-638 hmmer libquantum
----
-505 calculix mcf
-520 620 soplex
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:241
-505 gromacs mcf
-520 calculix lbm
-620 625 soplex
-638 hmmer libquantum
----
-505 calculix mcf
-520 620 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:242
-505 gromacs mcf
-557 625 lbm
-620 calculix soplex
-638 hmmer libquantum
----
-505 calculix mcf
-557 620 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:243
-519 557 calculix
-520 gromacs lbm
-620 625 mcf
-638 hmmer libquantum
----
-519 520 calculix
-557 620 mcf
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:244
-519 557 625
-520 calculix lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-519 520 625
-557 calculix lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-
-seq:245
-519 520 625
-557 620 lbm
-638 gromacs libquantum
-calculix mcf soplex
----
-519 557 620
-520 638 lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:246
-519 520 625
-557 620 lbm
-638 hmmer libquantum
-calculix mcf soplex
----
-519 557 620
-520 638 lbm
-625 mcf soplex
-calculix hmmer libquantum
----
-
-seq:247
-519 520 625
-557 620 lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-519 557 620
-520 638 lbm
-625 mcf soplex
-gromacs hmmer libquantum
----
-
-seq:248
-519 520 625
-557 620 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-519 557 620
-520 hmmer lbm
-625 mcf soplex
-calculix gromacs libquantum
----
-
-seq:249
-519 520 calculix
-557 620 lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-519 557 620
-520 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:250
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-519 620 625
-520 638 lbm
-calculix mcf soplex
-gromacs hmmer libquantum
----
-
-seq:251
-519 557 625
-620 calculix lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-519 620 625
-557 calculix lbm
-638 hmmer libquantum
-gromacs mcf soplex
----
-
-seq:252
-520 gromacs soplex
-557 calculix lbm
-620 625 mcf
-638 hmmer libquantum
----
-520 625 soplex
-557 620 mcf
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:253
-502 505 calculix
-519 625 gromacs
-520 hmmer mcf
-557 638 lbm
----
-502 505 625
-519 557 gromacs
-520 calculix mcf
-638 hmmer lbm
----
-
-seq:254
-502 505 625
-519 557 gromacs
-520 638 lbm
-620 calculix mcf
----
-502 505 557
-519 520 gromacs
-620 625 mcf
-638 calculix lbm
----
-
-seq:255
-502 calculix soplex
-505 638 mcf
-519 557 625
-520 gromacs lbm
----
-502 557 soplex
-505 calculix mcf
-519 520 gromacs
-625 638 lbm
----
-
-seq:256
-502 505 625
-519 557 hmmer
-520 638 lbm
-620 calculix mcf
----
-502 505 557
-519 520 hmmer
-620 625 mcf
-638 calculix lbm
----
-
-seq:257
-502 calculix soplex
-505 638 mcf
-519 557 625
-520 hmmer lbm
----
-502 557 soplex
-505 calculix mcf
-519 520 hmmer
-625 638 lbm
----
-
-seq:258
-502 557 soplex
-505 638 mcf
-519 520 calculix
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 calculix
-557 638 lbm
----
-
-seq:259
-502 505 625
-519 557 hmmer
-520 638 lbm
-620 gromacs mcf
----
-502 505 557
-519 520 638
-620 625 mcf
-gromacs hmmer lbm
----
-
-seq:260
-502 gromacs soplex
-505 638 mcf
-519 557 625
-520 hmmer lbm
----
-502 557 soplex
-505 gromacs mcf
-519 520 hmmer
-625 638 lbm
----
-
-seq:261
-502 557 soplex
-505 638 mcf
-519 520 gromacs
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 gromacs
-557 638 lbm
----
-
-seq:262
-502 557 soplex
-505 638 mcf
-519 520 hmmer
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 hmmer
-557 638 lbm
----
-
-seq:263
-502 620 625
-505 520 638
-519 gromacs hmmer
-557 calculix mcf
----
-502 620 625
-505 520 hmmer
-519 638 gromacs
-557 calculix mcf
----
-
-seq:264
-502 505 625
-519 557 gromacs
-520 hmmer lbm
-620 calculix mcf
----
-502 505 557
-519 520 gromacs
-620 625 mcf
-calculix hmmer lbm
----
-
-seq:265
-502 calculix soplex
-505 hmmer mcf
-519 557 625
-520 gromacs lbm
----
-502 557 soplex
-505 calculix mcf
-519 520 gromacs
-625 hmmer lbm
----
-
-seq:266
-502 557 soplex
-505 gromacs mcf
-519 520 calculix
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 calculix
-557 gromacs lbm
----
-
-seq:267
-502 557 soplex
-505 hmmer mcf
-519 520 calculix
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 calculix
-557 hmmer lbm
----
-
-seq:268
-502 557 soplex
-505 hmmer mcf
-519 520 gromacs
-620 625 lbm
----
-502 520 soplex
-505 625 mcf
-519 620 gromacs
-557 hmmer lbm
----
-
-seq:269
-502 505 calculix
-519 557 hmmer
-520 638 lbm
-620 gromacs mcf
----
-502 505 557
-519 520 638
-620 calculix mcf
-gromacs hmmer lbm
----
-
-seq:270
-502 gromacs soplex
-505 638 mcf
-519 557 calculix
-520 hmmer lbm
----
-502 557 soplex
-505 gromacs mcf
-519 520 hmmer
-638 calculix lbm
----
-
-seq:271
-502 557 soplex
-505 638 mcf
-519 520 gromacs
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 gromacs
-557 638 lbm
----
-
-seq:272
-502 557 soplex
-505 638 mcf
-519 520 hmmer
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 hmmer
-557 638 lbm
----
-
-seq:273
-502 557 soplex
-505 638 mcf
-519 520 hmmer
-620 gromacs lbm
----
-502 520 soplex
-505 gromacs mcf
-519 620 hmmer
-557 638 lbm
----
-
-seq:274
-502 557 soplex
-505 hmmer mcf
-519 520 gromacs
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 gromacs
-557 hmmer lbm
----
-
-seq:275
-502 505 calculix
-519 625 gromacs
-520 638 lbm
-620 hmmer mcf
----
-502 505 625
-519 520 638
-620 calculix mcf
-gromacs hmmer lbm
----
-
-seq:276
-502 gromacs soplex
-505 638 mcf
-519 625 calculix
-520 hmmer lbm
----
-502 625 soplex
-505 gromacs mcf
-519 520 hmmer
-638 calculix lbm
----
-
-seq:277
-502 625 soplex
-505 638 mcf
-519 520 gromacs
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 gromacs
-625 638 lbm
----
-
-seq:278
-502 625 soplex
-505 638 mcf
-519 520 hmmer
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 hmmer
-625 638 lbm
----
-
-seq:279
-502 625 soplex
-505 638 mcf
-519 520 hmmer
-620 gromacs lbm
----
-502 520 soplex
-505 gromacs mcf
-519 620 hmmer
-625 638 lbm
----
-
-seq:280
-502 625 soplex
-505 hmmer mcf
-519 520 gromacs
-620 calculix lbm
----
-502 520 soplex
-505 calculix mcf
-519 620 gromacs
-625 hmmer lbm
----
-
-seq:281
-502 calculix soplex
-505 638 mcf
-519 520 hmmer
-620 gromacs lbm
----
-502 520 soplex
-505 gromacs mcf
-519 620 638
-calculix hmmer lbm
----
-
-seq:282
-502 505 calculix
-519 625 gromacs
-557 638 lbm
-620 hmmer mcf
----
-502 505 625
-519 557 gromacs
-620 calculix mcf
-638 hmmer lbm
----
-
-seq:283
-502 hmmer soplex
-505 638 mcf
-519 625 calculix
-557 gromacs lbm
----
-502 calculix soplex
-505 638 mcf
-519 557 625
-gromacs hmmer lbm
----
-
-seq:284
-502 calculix soplex
-505 638 mcf
-519 557 625
-620 gromacs lbm
----
-502 557 soplex
-505 calculix mcf
-519 620 gromacs
-625 638 lbm
----
-
-seq:285
-502 calculix soplex
-505 638 mcf
-519 557 625
-620 hmmer lbm
----
-502 557 soplex
-505 calculix mcf
-519 620 hmmer
-625 638 lbm
----
-
-seq:286
-502 gromacs soplex
-505 638 mcf
-519 557 625
-620 hmmer lbm
----
-502 557 soplex
-505 gromacs mcf
-519 620 hmmer
-625 638 lbm
----
-
-seq:287
-502 calculix soplex
-505 hmmer mcf
-519 557 625
-620 gromacs lbm
----
-502 557 soplex
-505 calculix mcf
-519 620 gromacs
-625 hmmer lbm
----
-
-seq:288
-502 gromacs soplex
-505 638 mcf
-519 557 calculix
-620 hmmer lbm
----
-502 557 soplex
-505 gromacs mcf
-519 620 638
-calculix hmmer lbm
----
-
-seq:289
-502 gromacs soplex
-505 638 mcf
-519 625 calculix
-620 hmmer lbm
----
-502 625 soplex
-505 gromacs mcf
-519 620 638
-calculix hmmer lbm
----
-
-seq:290
-502 620 625
-505 520 638
-557 calculix mcf
-gromacs hmmer lbm
----
-502 620 625
-505 520 gromacs
-557 calculix mcf
-638 hmmer lbm
----
-
-seq:291
-502 505 gromacs
-520 638 mcf
-557 calculix soplex
-625 hmmer lbm
----
-502 505 calculix
-520 gromacs mcf
-557 625 soplex
-638 hmmer lbm
----
-
-seq:292
-502 505 625
-520 638 soplex
-557 gromacs lbm
-620 calculix mcf
----
-502 505 557
-520 calculix soplex
-620 625 mcf
-638 gromacs lbm
----
-
-seq:293
-502 505 625
-520 638 soplex
-557 hmmer lbm
-620 calculix mcf
----
-502 505 557
-520 calculix soplex
-620 625 mcf
-638 hmmer lbm
----
-
-seq:294
-502 505 625
-520 638 soplex
-557 hmmer lbm
-620 gromacs mcf
----
-502 505 557
-520 gromacs soplex
-620 625 mcf
-638 hmmer lbm
----
-
-seq:295
-502 505 625
-520 hmmer soplex
-557 gromacs lbm
-620 calculix mcf
----
-502 505 557
-520 calculix soplex
-620 625 mcf
-gromacs hmmer lbm
----
-
-seq:296
-502 505 calculix
-520 638 soplex
-557 hmmer lbm
-620 gromacs mcf
----
-502 505 557
-520 gromacs soplex
-620 calculix mcf
-638 hmmer lbm
----
-
-seq:297
-502 505 calculix
-520 638 soplex
-620 hmmer mcf
-625 gromacs lbm
----
-502 505 625
-520 gromacs soplex
-620 calculix mcf
-638 hmmer lbm
----
-
-seq:298
-502 505 gromacs
-557 calculix soplex
-620 638 mcf
-625 hmmer lbm
----
-502 505 calculix
-557 625 soplex
-620 gromacs mcf
-638 hmmer lbm
----
-
-seq:299
-502 557 620
-519 calculix gromacs
-520 638 mcf
-625 hmmer lbm
----
-502 557 620
-519 625 calculix
-520 gromacs mcf
-638 hmmer lbm
----
-
-seq:300
-502 hmmer mcf
-519 625 calculix
-520 638 soplex
-557 gromacs lbm
----
-502 calculix mcf
-519 557 625
-520 gromacs soplex
-638 hmmer lbm
----
-
-seq:301
-502 calculix mcf
-519 557 625
-520 638 lbm
-620 gromacs soplex
----
-502 557 mcf
-519 520 gromacs
-620 625 soplex
-638 calculix lbm
----
-
-seq:302
-502 calculix mcf
-519 557 625
-520 638 lbm
-620 hmmer soplex
----
-502 557 mcf
-519 520 hmmer
-620 625 soplex
-638 calculix lbm
----
-
-seq:303
-502 gromacs mcf
-519 557 625
-520 638 lbm
-620 hmmer soplex
----
-502 557 mcf
-519 520 638
-620 625 soplex
-gromacs hmmer lbm
----
-
-seq:304
-502 calculix mcf
-519 557 625
-520 hmmer lbm
-620 gromacs soplex
----
-502 557 mcf
-519 520 gromacs
-620 625 soplex
-calculix hmmer lbm
----
-
-seq:305
-502 gromacs mcf
-519 557 calculix
-520 638 lbm
-620 hmmer soplex
----
-502 557 mcf
-519 520 638
-620 calculix soplex
-gromacs hmmer lbm
----
-
-seq:306
-502 gromacs mcf
-519 625 calculix
-520 638 lbm
-620 hmmer soplex
----
-502 625 mcf
-519 520 638
-620 calculix soplex
-gromacs hmmer lbm
----
-
-seq:307
-502 hmmer mcf
-519 625 calculix
-557 gromacs lbm
-620 638 soplex
----
-502 calculix mcf
-519 557 625
-620 gromacs soplex
-638 hmmer lbm
----
-
-seq:308
-502 620 625
-520 638 mcf
-557 gromacs soplex
-calculix hmmer lbm
----
-502 620 625
-520 gromacs mcf
-557 calculix soplex
-638 hmmer lbm
----
-
-seq:309
-505 620 calculix
-519 625 gromacs
-520 hmmer mcf
-557 638 lbm
----
-505 620 625
-519 557 gromacs
-520 calculix mcf
-638 hmmer lbm
----
-
-seq:310
-505 638 mcf
-519 625 calculix
-520 hmmer soplex
-557 gromacs lbm
----
-505 638 mcf
-519 557 625
-520 calculix soplex
-gromacs hmmer lbm
----
-
-seq:311
-505 638 mcf
-519 557 625
-520 gromacs lbm
-620 calculix soplex
----
-505 calculix mcf
-519 520 gromacs
-557 620 soplex
-625 638 lbm
----
-
-seq:312
-505 638 mcf
-519 557 625
-520 hmmer lbm
-620 calculix soplex
----
-505 calculix mcf
-519 520 hmmer
-557 620 soplex
-625 638 lbm
----
-
-seq:313
-505 638 mcf
-519 557 625
-520 hmmer lbm
-620 gromacs soplex
----
-505 gromacs mcf
-519 520 hmmer
-557 620 soplex
-625 638 lbm
----
-
-seq:314
-505 hmmer mcf
-519 557 625
-520 gromacs lbm
-620 calculix soplex
----
-505 calculix mcf
-519 520 gromacs
-557 620 soplex
-625 hmmer lbm
----
-
-seq:315
-505 638 mcf
-519 557 calculix
-520 hmmer lbm
-620 gromacs soplex
----
-505 gromacs mcf
-519 520 hmmer
-557 620 soplex
-638 calculix lbm
----
-
-seq:316
-505 638 mcf
-519 625 calculix
-520 hmmer lbm
-620 gromacs soplex
----
-505 gromacs mcf
-519 520 hmmer
-620 625 soplex
-638 calculix lbm
----
-
-seq:317
-505 638 mcf
-519 625 calculix
-557 gromacs lbm
-620 hmmer soplex
----
-505 638 mcf
-519 557 625
-620 calculix soplex
-gromacs hmmer lbm
----
-
-seq:318
-505 620 gromacs
-520 638 mcf
-557 calculix soplex
-625 hmmer lbm
----
-505 620 calculix
-520 gromacs mcf
-557 625 soplex
-638 hmmer lbm
----
-
-seq:319
-519 625 calculix
-520 638 soplex
-557 hmmer lbm
-620 gromacs mcf
----
-519 557 calculix
-520 gromacs soplex
-620 625 mcf
-638 hmmer lbm
----
-
-seq:320
-502 505 625
-519 557 calculix
-520 gromacs lbm
-638 hmmer libquantum
----
-502 505 557
-519 520 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:321
-502 505 557
-519 520 calculix
-620 625 lbm
-638 gromacs libquantum
----
-502 505 520
-519 620 625
-557 calculix lbm
-638 gromacs libquantum
----
-
-seq:322
-502 625 lbm
-505 calculix soplex
-519 520 557
-638 gromacs libquantum
----
-502 519 557
-505 625 soplex
-520 638 lbm
-calculix gromacs libquantum
----
-
-seq:323
-502 505 557
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
----
-502 505 520
-519 620 625
-557 calculix lbm
-638 hmmer libquantum
----
-
-seq:324
-502 625 lbm
-505 calculix soplex
-519 520 557
-638 hmmer libquantum
----
-502 519 557
-505 625 soplex
-520 638 lbm
-calculix hmmer libquantum
----
-
-seq:325
-502 557 lbm
-505 625 soplex
-519 520 620
+520 557 623
+521 602 620
+625 lbm sphinx3
 638 calculix libquantum
 ---
-502 519 520
-505 557 soplex
-620 calculix lbm
-625 638 libquantum
----
-
-seq:326
-502 505 557
-519 520 gromacs
-620 625 lbm
-638 hmmer libquantum
----
-502 505 520
-519 620 625
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:327
-502 625 lbm
-505 gromacs soplex
-519 520 557
-638 hmmer libquantum
----
-502 519 557
-505 625 soplex
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:328
-502 557 lbm
-505 625 soplex
-519 520 620
-638 gromacs libquantum
----
-502 519 520
-505 557 soplex
-620 gromacs lbm
-625 638 libquantum
----
-
-seq:329
-502 557 lbm
-505 625 soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 hmmer lbm
-625 638 libquantum
----
-
-seq:330
-502 505 557
-519 520 calculix
-620 625 lbm
-gromacs hmmer libquantum
----
-502 505 520
-519 620 625
-557 calculix lbm
-gromacs hmmer libquantum
----
-
-seq:331
-502 625 lbm
-505 calculix soplex
-519 520 557
-gromacs hmmer libquantum
----
-502 519 557
-505 625 soplex
-520 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:332
-502 557 lbm
-505 625 soplex
-519 520 620
-calculix gromacs libquantum
----
-502 519 520
-505 557 soplex
-620 calculix lbm
-625 gromacs libquantum
----
-
-seq:333
-502 557 lbm
-505 625 soplex
-519 520 620
-calculix hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 calculix lbm
-625 hmmer libquantum
----
-
-seq:334
-502 557 lbm
-505 625 soplex
-519 520 620
-gromacs hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 gromacs lbm
-625 hmmer libquantum
----
-
-seq:335
-502 505 557
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
----
-502 505 520
-519 620 calculix
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:336
-502 calculix lbm
-505 gromacs soplex
-519 520 557
-638 hmmer libquantum
----
-502 519 557
-505 calculix soplex
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:337
-502 557 lbm
-505 calculix soplex
-519 520 620
-638 gromacs libquantum
----
-502 519 520
-505 557 soplex
-620 638 lbm
-calculix gromacs libquantum
----
-
-seq:338
-502 557 lbm
-505 calculix soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:339
-502 557 lbm
-505 gromacs soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:340
-502 557 lbm
-505 calculix soplex
-519 520 620
-gromacs hmmer libquantum
----
-502 519 520
-505 557 soplex
-620 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:341
-502 505 625
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
----
-502 505 520
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:342
-502 calculix lbm
-505 gromacs soplex
-519 520 625
-638 hmmer libquantum
----
-502 519 625
-505 calculix soplex
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:343
-502 625 lbm
-505 calculix soplex
-519 520 620
-638 gromacs libquantum
----
-502 519 520
-505 625 soplex
-620 638 lbm
-calculix gromacs libquantum
----
-
-seq:344
-502 625 lbm
-505 calculix soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 625 soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:345
-502 625 lbm
-505 gromacs soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 625 soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:346
-502 625 lbm
-505 calculix soplex
-519 520 620
-gromacs hmmer libquantum
----
-502 519 520
-505 625 soplex
-620 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:347
-502 calculix lbm
-505 gromacs soplex
-519 520 620
-638 hmmer libquantum
----
-502 519 520
-505 calculix soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:348
-502 505 625
-519 557 calculix
-620 gromacs lbm
-638 hmmer libquantum
----
-502 505 557
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:349
-502 calculix lbm
-505 gromacs soplex
-519 557 625
-638 hmmer libquantum
----
-502 519 625
-505 calculix soplex
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:350
-502 625 lbm
-505 calculix soplex
-519 557 620
-638 gromacs libquantum
----
-502 519 557
-505 625 soplex
-620 638 lbm
-calculix gromacs libquantum
----
-
-seq:351
-502 625 lbm
-505 calculix soplex
-519 557 620
-638 hmmer libquantum
----
-502 519 557
-505 625 soplex
-620 638 lbm
-calculix hmmer libquantum
----
-
-seq:352
-502 625 lbm
-505 gromacs soplex
-519 557 620
-638 hmmer libquantum
----
-502 519 557
-505 625 soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:353
-502 625 lbm
-505 calculix soplex
-519 557 620
-gromacs hmmer libquantum
----
-502 519 557
-505 625 soplex
-620 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:354
-502 calculix lbm
-505 gromacs soplex
-519 557 620
-638 hmmer libquantum
----
-502 519 557
-505 calculix soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:355
-502 calculix lbm
-505 gromacs soplex
-519 620 625
-638 hmmer libquantum
----
-502 519 625
-505 calculix soplex
-620 638 lbm
-gromacs hmmer libquantum
----
-
-seq:356
-502 557 620
-505 520 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-502 557 620
-505 520 625
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:357
-502 505 625
-520 gromacs soplex
-557 calculix lbm
-638 hmmer libquantum
----
-502 505 557
-520 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:358
-502 505 557
-520 calculix lbm
-620 625 soplex
-638 gromacs libquantum
----
-502 505 520
-557 620 soplex
-625 calculix lbm
-638 gromacs libquantum
----
-
-seq:359
-502 505 557
-520 calculix lbm
-620 625 soplex
-638 hmmer libquantum
----
-502 505 520
-557 620 soplex
-625 calculix lbm
-638 hmmer libquantum
----
-
-seq:360
-502 505 557
-520 gromacs lbm
-620 625 soplex
-638 hmmer libquantum
----
-502 505 520
-557 620 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:361
-502 505 557
-520 calculix lbm
-620 625 soplex
-gromacs hmmer libquantum
----
-502 505 520
-557 620 soplex
-625 calculix lbm
-gromacs hmmer libquantum
----
-
-seq:362
-502 505 557
-520 gromacs lbm
-620 calculix soplex
-638 hmmer libquantum
----
-502 505 520
-557 620 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:363
-502 505 625
-520 gromacs lbm
-620 calculix soplex
-638 hmmer libquantum
----
-502 505 520
-620 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:364
-502 505 625
-557 calculix lbm
-620 gromacs soplex
-638 hmmer libquantum
----
-502 505 557
-620 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:365
-502 520 620
-519 625 calculix
-557 gromacs lbm
-638 hmmer libquantum
----
-502 520 620
-519 557 625
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:366
-502 calculix soplex
-519 557 625
-520 gromacs lbm
-638 hmmer libquantum
----
-502 557 soplex
-519 520 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:367
-502 557 soplex
-519 520 calculix
-620 625 lbm
-638 gromacs libquantum
----
-502 520 soplex
-519 620 625
-557 calculix lbm
-638 gromacs libquantum
----
-
-seq:368
-502 557 soplex
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
----
-502 520 soplex
-519 620 625
-557 calculix lbm
-638 hmmer libquantum
----
-
-seq:369
-502 557 soplex
-519 520 gromacs
-620 625 lbm
-638 hmmer libquantum
----
-502 520 soplex
-519 620 625
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:370
-502 557 soplex
-519 520 calculix
-620 625 lbm
-gromacs hmmer libquantum
----
-502 520 soplex
-519 620 625
-557 calculix lbm
-gromacs hmmer libquantum
----
-
-seq:371
-502 557 soplex
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
----
-502 520 soplex
-519 620 calculix
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:372
-502 625 soplex
-519 520 gromacs
-620 calculix lbm
-638 hmmer libquantum
----
-502 520 soplex
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:373
-502 calculix soplex
-519 557 625
-620 gromacs lbm
-638 hmmer libquantum
----
-502 557 soplex
-519 620 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:374
-502 557 620
-520 gromacs soplex
-625 calculix lbm
-638 hmmer libquantum
----
-502 557 620
-520 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:375
-505 620 625
-519 557 calculix
-520 gromacs lbm
-638 hmmer libquantum
----
-505 557 620
-519 520 calculix
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:376
-505 gromacs soplex
-519 557 625
-520 calculix lbm
-638 hmmer libquantum
----
-505 calculix soplex
-519 520 625
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:377
-505 calculix soplex
-519 520 625
-557 620 lbm
-638 gromacs libquantum
----
-505 625 soplex
-519 557 620
-520 638 lbm
-calculix gromacs libquantum
----
-
-seq:378
-505 calculix soplex
-519 520 625
-557 620 lbm
-638 hmmer libquantum
----
-505 625 soplex
-519 557 620
-520 638 lbm
-calculix hmmer libquantum
----
-
-seq:379
-505 gromacs soplex
-519 520 625
-557 620 lbm
-638 hmmer libquantum
----
-505 625 soplex
-519 557 620
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:380
-505 calculix soplex
-519 520 625
-557 620 lbm
-gromacs hmmer libquantum
----
-505 625 soplex
-519 557 620
-520 hmmer lbm
-calculix gromacs libquantum
----
-
-seq:381
-505 gromacs soplex
-519 520 calculix
-557 620 lbm
-638 hmmer libquantum
----
-505 calculix soplex
-519 557 620
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:382
-505 gromacs soplex
-519 520 calculix
-620 625 lbm
-638 hmmer libquantum
----
-505 calculix soplex
-519 620 625
-520 638 lbm
-gromacs hmmer libquantum
----
-
-seq:383
-505 gromacs soplex
-519 557 625
-620 calculix lbm
-638 hmmer libquantum
----
-505 calculix soplex
-519 620 625
-557 gromacs lbm
-638 hmmer libquantum
----
-
-seq:384
-505 620 625
-520 gromacs soplex
-557 calculix lbm
-638 hmmer libquantum
----
-505 557 620
-520 625 soplex
-638 hmmer libquantum
-calculix gromacs lbm
----
-
-seq:385
-519 557 625
-520 gromacs lbm
-620 calculix soplex
-638 hmmer libquantum
----
-519 520 calculix
-557 620 soplex
-625 gromacs lbm
-638 hmmer libquantum
----
-
-seq:386
-502 557 620
-505 520 gromacs
-519 calculix hmmer
-625 638 lbm
----
-502 557 620
-505 520 calculix
-519 625 gromacs
-638 hmmer lbm
----
-
-seq:387
-502 505 calculix
-519 625 gromacs
-520 638 soplex
-557 hmmer lbm
----
-502 505 625
-519 557 calculix
-520 gromacs soplex
-638 hmmer lbm
----
-
-seq:388
-502 505 625
-519 557 calculix
-520 638 lbm
-620 gromacs soplex
----
-502 505 557
-519 520 gromacs
-620 625 soplex
-638 calculix lbm
----
-
-seq:389
-502 505 625
-519 557 calculix
-520 638 lbm
-620 hmmer soplex
----
-502 505 557
-519 520 hmmer
-620 625 soplex
-638 calculix lbm
----
-
-seq:390
-502 505 625
-519 557 gromacs
-520 638 lbm
-620 hmmer soplex
----
-502 505 557
-519 520 638
-620 625 soplex
-gromacs hmmer lbm
----
-
-seq:391
-502 505 625
-519 557 calculix
-520 hmmer lbm
-620 gromacs soplex
----
-502 505 557
-519 520 gromacs
-620 625 soplex
-calculix hmmer lbm
----
-
-seq:392
-502 505 calculix
-519 557 gromacs
-520 638 lbm
-620 hmmer soplex
----
-502 505 557
-519 520 638
-620 calculix soplex
-gromacs hmmer lbm
----
-
-seq:393
-502 505 calculix
-519 625 gromacs
-520 638 lbm
-620 hmmer soplex
----
-502 505 625
-519 520 638
-620 calculix soplex
-gromacs hmmer lbm
----
-
-seq:394
-502 505 calculix
-519 625 gromacs
-557 hmmer lbm
-620 638 soplex
----
-502 505 625
-519 557 calculix
-620 gromacs soplex
-638 hmmer lbm
----
-
-seq:395
-502 620 625
-505 520 hmmer
-557 gromacs soplex
-638 calculix lbm
----
-502 620 625
-505 520 gromacs
-557 calculix soplex
-638 hmmer lbm
----
-
-seq:396
-502 557 620
-519 calculix gromacs
-520 638 soplex
-625 hmmer lbm
----
-502 557 620
-519 625 calculix
-520 gromacs soplex
-638 hmmer lbm
----
-
-seq:397
-505 620 calculix
-519 625 gromacs
-520 638 soplex
-557 hmmer lbm
----
-505 620 625
-519 557 calculix
-520 gromacs soplex
-638 hmmer lbm
+520 521 602
+557 620 623
+625 lbm sphinx3
+638 calculix libquantum
 ---
 
