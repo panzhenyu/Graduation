@@ -152,29 +152,29 @@ class DI(CoScheduleAlgorithm):
     def __init__(self, profile_home, coreNum=3):
         CoScheduleAlgorithm.__init__(self, coreNum)
         self.PROFILE_HOME = profile_home
-        self.DI4SelfAdaptive = DI4SelfAdaptive(self.PROFILE_HOME)
+        self.scheduler = DI4Compare(self.PROFILE_HOME)
     
     def clean(self):
-        self.DI4SelfAdaptive.clean()
+        self.scheduler.clean()
         CoScheduleAlgorithm.clean(self)
 
     def importTask(self, taskName):
-        self.DI4SelfAdaptive.importTask(taskName)
+        self.scheduler.importTask(taskName)
 
     def addTask(self, task):
-        self.DI4SelfAdaptive.addTask(task)
+        self.scheduler.addTask(task)
 
     def getTaskSet(self):
-        return self.DI4SelfAdaptive.getTaskSet()
+        return self.scheduler.getTaskSet()
 
     def solve(self, processor_num):
-        orig_tasks = self.DI4SelfAdaptive.taskSet.getTaskList()
-        tasks = self.DI4SelfAdaptive.taskSort(orig_tasks)
+        orig_tasks = self.scheduler.taskSet.getTaskList()
+        tasks = self.scheduler.taskSort(orig_tasks)
         schedule = Schedule()
 
         for i in range(processor_num):
             schedule.addTaskSet(TaskSet())
-    
+
         i, d = 0, 1
         for task in tasks:
             schedule.taskSets[i].addTask(task)
