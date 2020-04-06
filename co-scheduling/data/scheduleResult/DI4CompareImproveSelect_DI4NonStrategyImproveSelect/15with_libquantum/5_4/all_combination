@@ -1,0 +1,3061 @@
+DI4CompareImproveSelect DI4NonStrategyImproveSelect
+seq:0
+505
+519
+520 521
+623
+---
+505
+519
+520
+521 623
+---
+
+seq:1
+505
+519
+520 623
+620
+---
+505
+519
+520
+620 623
+---
+
+seq:2
+505
+519
+520 sphinx3
+620
+---
+505
+519
+520
+620 sphinx3
+---
+
+seq:3
+505
+519
+520 625
+623
+---
+505
+519
+520
+623 625
+---
+
+seq:4
+505
+519
+520 638
+623
+---
+505
+519
+520
+623 638
+---
+
+seq:5
+505
+519
+520 calculix
+623
+---
+505
+519
+520
+623 calculix
+---
+
+seq:6
+505
+519
+521 620
+623
+---
+505
+519
+521 623
+620
+---
+
+seq:7
+505
+519
+557 625
+sphinx3
+---
+505
+519
+557
+625 sphinx3
+---
+
+seq:8
+505
+519
+557 638
+sphinx3
+---
+505
+519
+557
+638 sphinx3
+---
+
+seq:9
+505
+519
+557 calculix
+sphinx3
+---
+505
+519
+557
+calculix sphinx3
+---
+
+seq:10
+505
+519
+620 625
+623
+---
+505
+519
+620
+623 625
+---
+
+seq:11
+505
+519
+620 638
+623
+---
+505
+519
+620
+623 638
+---
+
+seq:12
+505
+519
+620 calculix
+623
+---
+505
+519
+620
+623 calculix
+---
+
+seq:13
+505
+520
+521 620
+623
+---
+505
+520
+521 623
+620
+---
+
+seq:14
+505
+520 521
+623
+mcf
+---
+505
+520
+521 623
+mcf
+---
+
+seq:15
+505
+520 521
+623
+lbm
+---
+505
+520
+521 623
+lbm
+---
+
+seq:16
+505
+520 521
+623
+libquantum
+---
+505
+520
+521 623
+libquantum
+---
+
+seq:17
+505
+520
+557 625
+sphinx3
+---
+505
+520
+557
+625 sphinx3
+---
+
+seq:18
+505
+520
+557 638
+sphinx3
+---
+505
+520
+557
+638 sphinx3
+---
+
+seq:19
+505
+520
+557 calculix
+sphinx3
+---
+505
+520
+557
+calculix sphinx3
+---
+
+seq:20
+505
+520
+620 625
+623
+---
+505
+520
+620
+623 625
+---
+
+seq:21
+505
+520
+620 638
+623
+---
+505
+520
+620
+623 638
+---
+
+seq:22
+505
+520
+620 calculix
+623
+---
+505
+520
+620
+623 calculix
+---
+
+seq:23
+505
+520 623
+620
+mcf
+---
+505
+520
+620 623
+mcf
+---
+
+seq:24
+505
+520 623
+620
+lbm
+---
+505
+520
+620 623
+lbm
+---
+
+seq:25
+505
+520 623
+620
+libquantum
+---
+505
+520
+620 623
+libquantum
+---
+
+seq:26
+505
+520 sphinx3
+620
+mcf
+---
+505
+520
+620 sphinx3
+mcf
+---
+
+seq:27
+505
+520 sphinx3
+620
+lbm
+---
+505
+520
+620 sphinx3
+lbm
+---
+
+seq:28
+505
+520 sphinx3
+620
+libquantum
+---
+505
+520
+620 sphinx3
+libquantum
+---
+
+seq:29
+505
+520 625
+623
+mcf
+---
+505
+520
+623 625
+mcf
+---
+
+seq:30
+505
+520 625
+623
+lbm
+---
+505
+520
+623 625
+lbm
+---
+
+seq:31
+505
+520 625
+623
+libquantum
+---
+505
+520
+623 625
+libquantum
+---
+
+seq:32
+505
+520 638
+623
+mcf
+---
+505
+520
+623 638
+mcf
+---
+
+seq:33
+505
+520 638
+623
+lbm
+---
+505
+520
+623 638
+lbm
+---
+
+seq:34
+505
+520 638
+623
+libquantum
+---
+505
+520
+623 638
+libquantum
+---
+
+seq:35
+505
+520 calculix
+623
+mcf
+---
+505
+520
+623 calculix
+mcf
+---
+
+seq:36
+505
+520 calculix
+623
+lbm
+---
+505
+520
+623 calculix
+lbm
+---
+
+seq:37
+505
+520 calculix
+623
+libquantum
+---
+505
+520
+623 calculix
+libquantum
+---
+
+seq:38
+505
+521
+557 625
+sphinx3
+---
+505
+521
+557
+625 sphinx3
+---
+
+seq:39
+505
+521
+557 638
+sphinx3
+---
+505
+521
+557
+638 sphinx3
+---
+
+seq:40
+505
+521
+557 calculix
+sphinx3
+---
+505
+521
+557
+calculix sphinx3
+---
+
+seq:41
+505
+521 620
+623
+mcf
+---
+505
+521 623
+620
+mcf
+---
+
+seq:42
+505
+521 620
+623
+lbm
+---
+505
+521 623
+620
+lbm
+---
+
+seq:43
+505
+521 620
+623
+libquantum
+---
+505
+521 623
+620
+libquantum
+---
+
+seq:44
+505
+557 625
+602
+sphinx3
+---
+505
+557
+602
+625 sphinx3
+---
+
+seq:45
+505
+557 638
+602
+sphinx3
+---
+505
+557
+602
+638 sphinx3
+---
+
+seq:46
+505
+557 calculix
+602
+sphinx3
+---
+505
+557
+602
+calculix sphinx3
+---
+
+seq:47
+505
+557 625
+620
+sphinx3
+---
+505
+557
+620
+625 sphinx3
+---
+
+seq:48
+505
+557 638
+620
+sphinx3
+---
+505
+557
+620
+638 sphinx3
+---
+
+seq:49
+505
+557 calculix
+620
+sphinx3
+---
+505
+557
+620
+calculix sphinx3
+---
+
+seq:50
+505
+557 625
+623
+sphinx3
+---
+505
+557
+623
+625 sphinx3
+---
+
+seq:51
+505
+557 638
+623
+sphinx3
+---
+505
+557
+623
+638 sphinx3
+---
+
+seq:52
+505
+557 calculix
+623
+sphinx3
+---
+505
+557
+623
+calculix sphinx3
+---
+
+seq:53
+505
+557 625
+mcf
+sphinx3
+---
+505
+557
+625 sphinx3
+mcf
+---
+
+seq:54
+505
+557 625
+lbm
+sphinx3
+---
+505
+557
+625 sphinx3
+lbm
+---
+
+seq:55
+505
+557 625
+libquantum
+sphinx3
+---
+505
+557
+625 sphinx3
+libquantum
+---
+
+seq:56
+505
+557 638
+mcf
+sphinx3
+---
+505
+557
+638 sphinx3
+mcf
+---
+
+seq:57
+505
+557 638
+lbm
+sphinx3
+---
+505
+557
+638 sphinx3
+lbm
+---
+
+seq:58
+505
+557 638
+libquantum
+sphinx3
+---
+505
+557
+638 sphinx3
+libquantum
+---
+
+seq:59
+505
+557 calculix
+mcf
+sphinx3
+---
+505
+557
+calculix sphinx3
+mcf
+---
+
+seq:60
+505
+557 calculix
+lbm
+sphinx3
+---
+505
+557
+calculix sphinx3
+lbm
+---
+
+seq:61
+505
+557 calculix
+libquantum
+sphinx3
+---
+505
+557
+calculix sphinx3
+libquantum
+---
+
+seq:62
+505
+620 625
+623
+mcf
+---
+505
+620
+623 625
+mcf
+---
+
+seq:63
+505
+620 625
+623
+lbm
+---
+505
+620
+623 625
+lbm
+---
+
+seq:64
+505
+620 625
+623
+libquantum
+---
+505
+620
+623 625
+libquantum
+---
+
+seq:65
+505
+620 638
+623
+mcf
+---
+505
+620
+623 638
+mcf
+---
+
+seq:66
+505
+620 638
+623
+lbm
+---
+505
+620
+623 638
+lbm
+---
+
+seq:67
+505
+620 638
+623
+libquantum
+---
+505
+620
+623 638
+libquantum
+---
+
+seq:68
+505
+620 calculix
+623
+mcf
+---
+505
+620
+623 calculix
+mcf
+---
+
+seq:69
+505
+620 calculix
+623
+lbm
+---
+505
+620
+623 calculix
+lbm
+---
+
+seq:70
+505
+620 calculix
+623
+libquantum
+---
+505
+620
+623 calculix
+libquantum
+---
+
+seq:71
+519
+520
+521 620
+623
+---
+519
+520
+521 623
+620
+---
+
+seq:72
+519
+520 521
+623
+mcf
+---
+519
+520
+521 623
+mcf
+---
+
+seq:73
+519
+520 521
+623
+lbm
+---
+519
+520
+521 623
+lbm
+---
+
+seq:74
+519
+520 521
+623
+libquantum
+---
+519
+520
+521 623
+libquantum
+---
+
+seq:75
+519
+520
+557 625
+sphinx3
+---
+519
+520
+557
+625 sphinx3
+---
+
+seq:76
+519
+520
+557 638
+sphinx3
+---
+519
+520
+557
+638 sphinx3
+---
+
+seq:77
+519
+520
+557 calculix
+sphinx3
+---
+519
+520
+557
+calculix sphinx3
+---
+
+seq:78
+519
+520
+620 625
+623
+---
+519
+520
+620
+623 625
+---
+
+seq:79
+519
+520
+620 638
+623
+---
+519
+520
+620
+623 638
+---
+
+seq:80
+519
+520
+620 calculix
+623
+---
+519
+520
+620
+623 calculix
+---
+
+seq:81
+519
+520 623
+620
+mcf
+---
+519
+520
+620 623
+mcf
+---
+
+seq:82
+519
+520 623
+620
+lbm
+---
+519
+520
+620 623
+lbm
+---
+
+seq:83
+519
+520 623
+620
+libquantum
+---
+519
+520
+620 623
+libquantum
+---
+
+seq:84
+519
+520 sphinx3
+620
+mcf
+---
+519
+520
+620 sphinx3
+mcf
+---
+
+seq:85
+519
+520 sphinx3
+620
+lbm
+---
+519
+520
+620 sphinx3
+lbm
+---
+
+seq:86
+519
+520 sphinx3
+620
+libquantum
+---
+519
+520
+620 sphinx3
+libquantum
+---
+
+seq:87
+519
+520 625
+623
+mcf
+---
+519
+520
+623 625
+mcf
+---
+
+seq:88
+519
+520 625
+623
+lbm
+---
+519
+520
+623 625
+lbm
+---
+
+seq:89
+519
+520 625
+623
+libquantum
+---
+519
+520
+623 625
+libquantum
+---
+
+seq:90
+519
+520 638
+623
+mcf
+---
+519
+520
+623 638
+mcf
+---
+
+seq:91
+519
+520 638
+623
+lbm
+---
+519
+520
+623 638
+lbm
+---
+
+seq:92
+519
+520 638
+623
+libquantum
+---
+519
+520
+623 638
+libquantum
+---
+
+seq:93
+519
+520 calculix
+623
+mcf
+---
+519
+520
+623 calculix
+mcf
+---
+
+seq:94
+519
+520 calculix
+623
+lbm
+---
+519
+520
+623 calculix
+lbm
+---
+
+seq:95
+519
+520 calculix
+623
+libquantum
+---
+519
+520
+623 calculix
+libquantum
+---
+
+seq:96
+519
+521
+557 625
+sphinx3
+---
+519
+521
+557
+625 sphinx3
+---
+
+seq:97
+519
+521
+557 638
+sphinx3
+---
+519
+521
+557
+638 sphinx3
+---
+
+seq:98
+519
+521
+557 calculix
+sphinx3
+---
+519
+521
+557
+calculix sphinx3
+---
+
+seq:99
+519
+521 620
+623
+mcf
+---
+519
+521 623
+620
+mcf
+---
+
+seq:100
+519
+521 620
+623
+lbm
+---
+519
+521 623
+620
+lbm
+---
+
+seq:101
+519
+521 620
+623
+libquantum
+---
+519
+521 623
+620
+libquantum
+---
+
+seq:102
+519
+557 625
+602
+sphinx3
+---
+519
+557
+602
+625 sphinx3
+---
+
+seq:103
+519
+557 638
+602
+sphinx3
+---
+519
+557
+602
+638 sphinx3
+---
+
+seq:104
+519
+557 calculix
+602
+sphinx3
+---
+519
+557
+602
+calculix sphinx3
+---
+
+seq:105
+519
+557 625
+620
+sphinx3
+---
+519
+557
+620
+625 sphinx3
+---
+
+seq:106
+519
+557 638
+620
+sphinx3
+---
+519
+557
+620
+638 sphinx3
+---
+
+seq:107
+519
+557 calculix
+620
+sphinx3
+---
+519
+557
+620
+calculix sphinx3
+---
+
+seq:108
+519
+557 625
+623
+sphinx3
+---
+519
+557
+623
+625 sphinx3
+---
+
+seq:109
+519
+557 638
+623
+sphinx3
+---
+519
+557
+623
+638 sphinx3
+---
+
+seq:110
+519
+557 calculix
+623
+sphinx3
+---
+519
+557
+623
+calculix sphinx3
+---
+
+seq:111
+519
+557 625
+mcf
+sphinx3
+---
+519
+557
+625 sphinx3
+mcf
+---
+
+seq:112
+519
+557 625
+lbm
+sphinx3
+---
+519
+557
+625 sphinx3
+lbm
+---
+
+seq:113
+519
+557 625
+libquantum
+sphinx3
+---
+519
+557
+625 sphinx3
+libquantum
+---
+
+seq:114
+519
+557 638
+mcf
+sphinx3
+---
+519
+557
+638 sphinx3
+mcf
+---
+
+seq:115
+519
+557 638
+lbm
+sphinx3
+---
+519
+557
+638 sphinx3
+lbm
+---
+
+seq:116
+519
+557 638
+libquantum
+sphinx3
+---
+519
+557
+638 sphinx3
+libquantum
+---
+
+seq:117
+519
+557 calculix
+mcf
+sphinx3
+---
+519
+557
+calculix sphinx3
+mcf
+---
+
+seq:118
+519
+557 calculix
+lbm
+sphinx3
+---
+519
+557
+calculix sphinx3
+lbm
+---
+
+seq:119
+519
+557 calculix
+libquantum
+sphinx3
+---
+519
+557
+calculix sphinx3
+libquantum
+---
+
+seq:120
+519
+620 625
+623
+mcf
+---
+519
+620
+623 625
+mcf
+---
+
+seq:121
+519
+620 625
+623
+lbm
+---
+519
+620
+623 625
+lbm
+---
+
+seq:122
+519
+620 625
+623
+libquantum
+---
+519
+620
+623 625
+libquantum
+---
+
+seq:123
+519
+620 638
+623
+mcf
+---
+519
+620
+623 638
+mcf
+---
+
+seq:124
+519
+620 638
+623
+lbm
+---
+519
+620
+623 638
+lbm
+---
+
+seq:125
+519
+620 638
+623
+libquantum
+---
+519
+620
+623 638
+libquantum
+---
+
+seq:126
+519
+620 calculix
+623
+mcf
+---
+519
+620
+623 calculix
+mcf
+---
+
+seq:127
+519
+620 calculix
+623
+lbm
+---
+519
+620
+623 calculix
+lbm
+---
+
+seq:128
+519
+620 calculix
+623
+libquantum
+---
+519
+620
+623 calculix
+libquantum
+---
+
+seq:129
+520
+521
+557 625
+sphinx3
+---
+520
+521
+557
+625 sphinx3
+---
+
+seq:130
+520
+521
+557 638
+sphinx3
+---
+520
+521
+557
+638 sphinx3
+---
+
+seq:131
+520
+521
+557 calculix
+sphinx3
+---
+520
+521
+557
+calculix sphinx3
+---
+
+seq:132
+520
+521 620
+623
+mcf
+---
+520
+521 623
+620
+mcf
+---
+
+seq:133
+520
+521 620
+623
+lbm
+---
+520
+521 623
+620
+lbm
+---
+
+seq:134
+520
+521 620
+623
+libquantum
+---
+520
+521 623
+620
+libquantum
+---
+
+seq:135
+520 521
+623
+lbm
+mcf
+---
+520
+521 623
+lbm
+mcf
+---
+
+seq:136
+520 521
+623
+libquantum
+mcf
+---
+520
+521 623
+libquantum
+mcf
+---
+
+seq:137
+520 521
+623
+lbm
+libquantum
+---
+520
+521 623
+lbm
+libquantum
+---
+
+seq:138
+520
+557 625
+602
+sphinx3
+---
+520
+557
+602
+625 sphinx3
+---
+
+seq:139
+520
+557 638
+602
+sphinx3
+---
+520
+557
+602
+638 sphinx3
+---
+
+seq:140
+520
+557 calculix
+602
+sphinx3
+---
+520
+557
+602
+calculix sphinx3
+---
+
+seq:141
+520
+557 625
+620
+sphinx3
+---
+520
+557
+620
+625 sphinx3
+---
+
+seq:142
+520
+557 638
+620
+sphinx3
+---
+520
+557
+620
+638 sphinx3
+---
+
+seq:143
+520
+557 calculix
+620
+sphinx3
+---
+520
+557
+620
+calculix sphinx3
+---
+
+seq:144
+520
+557 625
+623
+sphinx3
+---
+520
+557
+623
+625 sphinx3
+---
+
+seq:145
+520
+557 638
+623
+sphinx3
+---
+520
+557
+623
+638 sphinx3
+---
+
+seq:146
+520
+557 calculix
+623
+sphinx3
+---
+520
+557
+623
+calculix sphinx3
+---
+
+seq:147
+520
+557 625
+mcf
+sphinx3
+---
+520
+557
+625 sphinx3
+mcf
+---
+
+seq:148
+520
+557 625
+lbm
+sphinx3
+---
+520
+557
+625 sphinx3
+lbm
+---
+
+seq:149
+520
+557 625
+libquantum
+sphinx3
+---
+520
+557
+625 sphinx3
+libquantum
+---
+
+seq:150
+520
+557 638
+mcf
+sphinx3
+---
+520
+557
+638 sphinx3
+mcf
+---
+
+seq:151
+520
+557 638
+lbm
+sphinx3
+---
+520
+557
+638 sphinx3
+lbm
+---
+
+seq:152
+520
+557 638
+libquantum
+sphinx3
+---
+520
+557
+638 sphinx3
+libquantum
+---
+
+seq:153
+520
+557 calculix
+mcf
+sphinx3
+---
+520
+557
+calculix sphinx3
+mcf
+---
+
+seq:154
+520
+557 calculix
+lbm
+sphinx3
+---
+520
+557
+calculix sphinx3
+lbm
+---
+
+seq:155
+520
+557 calculix
+libquantum
+sphinx3
+---
+520
+557
+calculix sphinx3
+libquantum
+---
+
+seq:156
+520
+620 625
+623
+mcf
+---
+520
+620
+623 625
+mcf
+---
+
+seq:157
+520
+620 625
+623
+lbm
+---
+520
+620
+623 625
+lbm
+---
+
+seq:158
+520
+620 625
+623
+libquantum
+---
+520
+620
+623 625
+libquantum
+---
+
+seq:159
+520
+620 638
+623
+mcf
+---
+520
+620
+623 638
+mcf
+---
+
+seq:160
+520
+620 638
+623
+lbm
+---
+520
+620
+623 638
+lbm
+---
+
+seq:161
+520
+620 638
+623
+libquantum
+---
+520
+620
+623 638
+libquantum
+---
+
+seq:162
+520
+620 calculix
+623
+mcf
+---
+520
+620
+623 calculix
+mcf
+---
+
+seq:163
+520
+620 calculix
+623
+lbm
+---
+520
+620
+623 calculix
+lbm
+---
+
+seq:164
+520
+620 calculix
+623
+libquantum
+---
+520
+620
+623 calculix
+libquantum
+---
+
+seq:165
+520 623
+620
+lbm
+mcf
+---
+520
+620 623
+lbm
+mcf
+---
+
+seq:166
+520 623
+620
+libquantum
+mcf
+---
+520
+620 623
+libquantum
+mcf
+---
+
+seq:167
+520 623
+620
+lbm
+libquantum
+---
+520
+620 623
+lbm
+libquantum
+---
+
+seq:168
+520 sphinx3
+620
+lbm
+mcf
+---
+520
+620 sphinx3
+lbm
+mcf
+---
+
+seq:169
+520 sphinx3
+620
+libquantum
+mcf
+---
+520
+620 sphinx3
+libquantum
+mcf
+---
+
+seq:170
+520 sphinx3
+620
+lbm
+libquantum
+---
+520
+620 sphinx3
+lbm
+libquantum
+---
+
+seq:171
+520 625
+623
+lbm
+mcf
+---
+520
+623 625
+lbm
+mcf
+---
+
+seq:172
+520 625
+623
+libquantum
+mcf
+---
+520
+623 625
+libquantum
+mcf
+---
+
+seq:173
+520 625
+623
+lbm
+libquantum
+---
+520
+623 625
+lbm
+libquantum
+---
+
+seq:174
+520 638
+623
+lbm
+mcf
+---
+520
+623 638
+lbm
+mcf
+---
+
+seq:175
+520 638
+623
+libquantum
+mcf
+---
+520
+623 638
+libquantum
+mcf
+---
+
+seq:176
+520 638
+623
+lbm
+libquantum
+---
+520
+623 638
+lbm
+libquantum
+---
+
+seq:177
+520 calculix
+623
+lbm
+mcf
+---
+520
+623 calculix
+lbm
+mcf
+---
+
+seq:178
+520 calculix
+623
+libquantum
+mcf
+---
+520
+623 calculix
+libquantum
+mcf
+---
+
+seq:179
+520 calculix
+623
+lbm
+libquantum
+---
+520
+623 calculix
+lbm
+libquantum
+---
+
+seq:180
+521
+557 625
+602
+sphinx3
+---
+521
+557
+602
+625 sphinx3
+---
+
+seq:181
+521
+557 638
+602
+sphinx3
+---
+521
+557
+602
+638 sphinx3
+---
+
+seq:182
+521
+557 calculix
+602
+sphinx3
+---
+521
+557
+602
+calculix sphinx3
+---
+
+seq:183
+521
+557 625
+620
+sphinx3
+---
+521
+557
+620
+625 sphinx3
+---
+
+seq:184
+521
+557 638
+620
+sphinx3
+---
+521
+557
+620
+638 sphinx3
+---
+
+seq:185
+521
+557 calculix
+620
+sphinx3
+---
+521
+557
+620
+calculix sphinx3
+---
+
+seq:186
+521
+557 625
+623
+sphinx3
+---
+521
+557
+623
+625 sphinx3
+---
+
+seq:187
+521
+557 638
+623
+sphinx3
+---
+521
+557
+623
+638 sphinx3
+---
+
+seq:188
+521
+557 calculix
+623
+sphinx3
+---
+521
+557
+623
+calculix sphinx3
+---
+
+seq:189
+521
+557 625
+mcf
+sphinx3
+---
+521
+557
+625 sphinx3
+mcf
+---
+
+seq:190
+521
+557 625
+lbm
+sphinx3
+---
+521
+557
+625 sphinx3
+lbm
+---
+
+seq:191
+521
+557 625
+libquantum
+sphinx3
+---
+521
+557
+625 sphinx3
+libquantum
+---
+
+seq:192
+521
+557 638
+mcf
+sphinx3
+---
+521
+557
+638 sphinx3
+mcf
+---
+
+seq:193
+521
+557 638
+lbm
+sphinx3
+---
+521
+557
+638 sphinx3
+lbm
+---
+
+seq:194
+521
+557 638
+libquantum
+sphinx3
+---
+521
+557
+638 sphinx3
+libquantum
+---
+
+seq:195
+521
+557 calculix
+mcf
+sphinx3
+---
+521
+557
+calculix sphinx3
+mcf
+---
+
+seq:196
+521
+557 calculix
+lbm
+sphinx3
+---
+521
+557
+calculix sphinx3
+lbm
+---
+
+seq:197
+521
+557 calculix
+libquantum
+sphinx3
+---
+521
+557
+calculix sphinx3
+libquantum
+---
+
+seq:198
+521 620
+623
+lbm
+mcf
+---
+521 623
+620
+lbm
+mcf
+---
+
+seq:199
+521 620
+623
+libquantum
+mcf
+---
+521 623
+620
+libquantum
+mcf
+---
+
+seq:200
+521 620
+623
+lbm
+libquantum
+---
+521 623
+620
+lbm
+libquantum
+---
+
+seq:201
+557 625
+602
+620
+sphinx3
+---
+557
+602
+620
+625 sphinx3
+---
+
+seq:202
+557 638
+602
+620
+sphinx3
+---
+557
+602
+620
+638 sphinx3
+---
+
+seq:203
+557 calculix
+602
+620
+sphinx3
+---
+557
+602
+620
+calculix sphinx3
+---
+
+seq:204
+557 625
+602
+623
+sphinx3
+---
+557
+602
+623
+625 sphinx3
+---
+
+seq:205
+557 638
+602
+623
+sphinx3
+---
+557
+602
+623
+638 sphinx3
+---
+
+seq:206
+557 calculix
+602
+623
+sphinx3
+---
+557
+602
+623
+calculix sphinx3
+---
+
+seq:207
+557 625
+602
+mcf
+sphinx3
+---
+557
+602
+625 sphinx3
+mcf
+---
+
+seq:208
+557 625
+602
+lbm
+sphinx3
+---
+557
+602
+625 sphinx3
+lbm
+---
+
+seq:209
+557 625
+602
+libquantum
+sphinx3
+---
+557
+602
+625 sphinx3
+libquantum
+---
+
+seq:210
+557 638
+602
+mcf
+sphinx3
+---
+557
+602
+638 sphinx3
+mcf
+---
+
+seq:211
+557 638
+602
+lbm
+sphinx3
+---
+557
+602
+638 sphinx3
+lbm
+---
+
+seq:212
+557 638
+602
+libquantum
+sphinx3
+---
+557
+602
+638 sphinx3
+libquantum
+---
+
+seq:213
+557 calculix
+602
+mcf
+sphinx3
+---
+557
+602
+calculix sphinx3
+mcf
+---
+
+seq:214
+557 calculix
+602
+lbm
+sphinx3
+---
+557
+602
+calculix sphinx3
+lbm
+---
+
+seq:215
+557 calculix
+602
+libquantum
+sphinx3
+---
+557
+602
+calculix sphinx3
+libquantum
+---
+
+seq:216
+557 625
+620
+623
+sphinx3
+---
+557
+620
+623
+625 sphinx3
+---
+
+seq:217
+557 638
+620
+623
+sphinx3
+---
+557
+620
+623
+638 sphinx3
+---
+
+seq:218
+557 calculix
+620
+623
+sphinx3
+---
+557
+620
+623
+calculix sphinx3
+---
+
+seq:219
+557 625
+620
+mcf
+sphinx3
+---
+557
+620
+625 sphinx3
+mcf
+---
+
+seq:220
+557 625
+620
+lbm
+sphinx3
+---
+557
+620
+625 sphinx3
+lbm
+---
+
+seq:221
+557 625
+620
+libquantum
+sphinx3
+---
+557
+620
+625 sphinx3
+libquantum
+---
+
+seq:222
+557 638
+620
+mcf
+sphinx3
+---
+557
+620
+638 sphinx3
+mcf
+---
+
+seq:223
+557 638
+620
+lbm
+sphinx3
+---
+557
+620
+638 sphinx3
+lbm
+---
+
+seq:224
+557 638
+620
+libquantum
+sphinx3
+---
+557
+620
+638 sphinx3
+libquantum
+---
+
+seq:225
+557 calculix
+620
+mcf
+sphinx3
+---
+557
+620
+calculix sphinx3
+mcf
+---
+
+seq:226
+557 calculix
+620
+lbm
+sphinx3
+---
+557
+620
+calculix sphinx3
+lbm
+---
+
+seq:227
+557 calculix
+620
+libquantum
+sphinx3
+---
+557
+620
+calculix sphinx3
+libquantum
+---
+
+seq:228
+557 625
+623
+mcf
+sphinx3
+---
+557
+623
+625 sphinx3
+mcf
+---
+
+seq:229
+557 625
+623
+lbm
+sphinx3
+---
+557
+623
+625 sphinx3
+lbm
+---
+
+seq:230
+557 625
+623
+libquantum
+sphinx3
+---
+557
+623
+625 sphinx3
+libquantum
+---
+
+seq:231
+557 638
+623
+mcf
+sphinx3
+---
+557
+623
+638 sphinx3
+mcf
+---
+
+seq:232
+557 638
+623
+lbm
+sphinx3
+---
+557
+623
+638 sphinx3
+lbm
+---
+
+seq:233
+557 638
+623
+libquantum
+sphinx3
+---
+557
+623
+638 sphinx3
+libquantum
+---
+
+seq:234
+557 calculix
+623
+mcf
+sphinx3
+---
+557
+623
+calculix sphinx3
+mcf
+---
+
+seq:235
+557 calculix
+623
+lbm
+sphinx3
+---
+557
+623
+calculix sphinx3
+lbm
+---
+
+seq:236
+557 calculix
+623
+libquantum
+sphinx3
+---
+557
+623
+calculix sphinx3
+libquantum
+---
+
+seq:237
+557 625
+lbm
+mcf
+sphinx3
+---
+557
+625 sphinx3
+lbm
+mcf
+---
+
+seq:238
+557 625
+libquantum
+mcf
+sphinx3
+---
+557
+625 sphinx3
+libquantum
+mcf
+---
+
+seq:239
+557 625
+lbm
+libquantum
+sphinx3
+---
+557
+625 sphinx3
+lbm
+libquantum
+---
+
+seq:240
+557 638
+lbm
+mcf
+sphinx3
+---
+557
+638 sphinx3
+lbm
+mcf
+---
+
+seq:241
+557 638
+libquantum
+mcf
+sphinx3
+---
+557
+638 sphinx3
+libquantum
+mcf
+---
+
+seq:242
+557 638
+lbm
+libquantum
+sphinx3
+---
+557
+638 sphinx3
+lbm
+libquantum
+---
+
+seq:243
+557 calculix
+lbm
+mcf
+sphinx3
+---
+557
+calculix sphinx3
+lbm
+mcf
+---
+
+seq:244
+557 calculix
+libquantum
+mcf
+sphinx3
+---
+557
+calculix sphinx3
+libquantum
+mcf
+---
+
+seq:245
+557 calculix
+lbm
+libquantum
+sphinx3
+---
+557
+calculix sphinx3
+lbm
+libquantum
+---
+
+seq:246
+620 625
+623
+lbm
+mcf
+---
+620
+623 625
+lbm
+mcf
+---
+
+seq:247
+620 625
+623
+libquantum
+mcf
+---
+620
+623 625
+libquantum
+mcf
+---
+
+seq:248
+620 625
+623
+lbm
+libquantum
+---
+620
+623 625
+lbm
+libquantum
+---
+
+seq:249
+620 638
+623
+lbm
+mcf
+---
+620
+623 638
+lbm
+mcf
+---
+
+seq:250
+620 638
+623
+libquantum
+mcf
+---
+620
+623 638
+libquantum
+mcf
+---
+
+seq:251
+620 638
+623
+lbm
+libquantum
+---
+620
+623 638
+lbm
+libquantum
+---
+
+seq:252
+620 calculix
+623
+lbm
+mcf
+---
+620
+623 calculix
+lbm
+mcf
+---
+
+seq:253
+620 calculix
+623
+libquantum
+mcf
+---
+620
+623 calculix
+libquantum
+mcf
+---
+
+seq:254
+620 calculix
+623
+lbm
+libquantum
+---
+620
+623 calculix
+lbm
+libquantum
+---
+

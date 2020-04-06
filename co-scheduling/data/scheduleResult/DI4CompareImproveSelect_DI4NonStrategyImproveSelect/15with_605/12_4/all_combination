@@ -1,0 +1,3265 @@
+DI4CompareImproveSelect DI4NonStrategyImproveSelect
+seq:0
+505 521 625
+519 638 calculix
+520 623 sphinx3
+557 602 620
+---
+505 521 625
+519 638 calculix
+520 557 602
+620 623 sphinx3
+---
+
+seq:1
+505 557 623
+519 625 638
+520 602 620
+521 calculix lbm
+---
+505 557 623
+519 625 calculix
+520 602 620
+521 638 lbm
+---
+
+seq:2
+505 557 623
+519 625 638
+520 521 620
+602 605 calculix
+---
+505 557 623
+519 625 638
+520 602 620
+521 605 calculix
+---
+
+seq:3
+505 520 602
+519 557 625
+521 620 mcf
+623 638 lbm
+---
+505 520 602
+519 557 638
+521 620 mcf
+623 625 lbm
+---
+
+seq:4
+505 557 623
+519 625 638
+520 521 620
+602 605 sphinx3
+---
+505 557 623
+519 638 sphinx3
+520 602 620
+521 605 625
+---
+
+seq:5
+505 520 602
+519 557 625
+521 620 mcf
+623 calculix lbm
+---
+505 520 602
+519 557 calculix
+521 620 mcf
+623 625 lbm
+---
+
+seq:6
+505 557 623
+519 625 calculix
+520 521 620
+602 605 sphinx3
+---
+505 557 623
+519 calculix sphinx3
+520 602 620
+521 605 625
+---
+
+seq:7
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 625 lbm
+---
+505 520 602
+519 557 625
+521 620 mcf
+623 lbm sphinx3
+---
+
+seq:8
+505 521 mcf
+519 602 625
+520 605 623
+557 620 lbm
+---
+505 557 mcf
+519 623 625
+520 602 605
+521 620 lbm
+---
+
+seq:9
+505 520 602
+519 557 calculix
+521 620 mcf
+623 638 lbm
+---
+505 520 602
+519 557 638
+521 620 mcf
+623 calculix lbm
+---
+
+seq:10
+505 557 623
+519 638 calculix
+520 521 620
+602 605 sphinx3
+---
+505 557 623
+519 638 sphinx3
+520 602 620
+521 605 calculix
+---
+
+seq:11
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 638 lbm
+---
+505 520 602
+519 557 638
+521 620 mcf
+623 lbm sphinx3
+---
+
+seq:12
+505 521 mcf
+519 602 638
+520 605 623
+557 620 lbm
+---
+505 557 mcf
+519 623 638
+520 602 605
+521 620 lbm
+---
+
+seq:13
+505 520 602
+519 557 sphinx3
+521 620 mcf
+623 calculix lbm
+---
+505 520 602
+519 557 calculix
+521 620 mcf
+623 lbm sphinx3
+---
+
+seq:14
+505 521 mcf
+519 602 calculix
+520 605 623
+557 620 lbm
+---
+505 557 mcf
+519 623 calculix
+520 602 605
+521 620 lbm
+---
+
+seq:15
+505 521 mcf
+519 602 sphinx3
+520 605 623
+557 620 lbm
+---
+505 557 mcf
+519 623 sphinx3
+520 602 605
+521 620 lbm
+---
+
+seq:16
+505 520 521
+519 625 638
+557 620 mcf
+602 605 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 620 mcf
+602 605 625
+---
+
+seq:17
+505 557 mcf
+519 602 638
+520 521 605
+620 625 lbm
+---
+505 625 mcf
+519 602 638
+520 521 605
+557 620 lbm
+---
+
+seq:18
+505 520 521
+519 625 calculix
+557 620 mcf
+602 605 sphinx3
+---
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+602 605 625
+---
+
+seq:19
+505 557 mcf
+519 602 calculix
+520 521 605
+620 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 521 605
+557 620 lbm
+---
+
+seq:20
+505 557 mcf
+519 602 625
+520 521 605
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 625
+520 521 605
+557 620 lbm
+---
+
+seq:21
+505 520 521
+519 638 calculix
+557 620 mcf
+602 605 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 620 mcf
+602 605 calculix
+---
+
+seq:22
+505 557 mcf
+519 602 638
+520 521 605
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+557 620 lbm
+---
+
+seq:23
+505 557 mcf
+519 602 638
+520 521 605
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 638
+520 521 605
+557 620 lbm
+---
+
+seq:24
+505 557 mcf
+519 602 calculix
+520 521 605
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 calculix
+520 521 605
+557 620 lbm
+---
+
+seq:25
+505 602 sphinx3
+519 638 calculix
+520 557 623
+521 605 625
+---
+505 602 sphinx3
+519 638 calculix
+520 521 623
+557 605 625
+---
+
+seq:26
+505 520 521
+519 625 638
+557 623 mcf
+602 605 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 623 mcf
+602 605 625
+---
+
+seq:27
+505 557 mcf
+519 602 638
+520 521 605
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+520 521 605
+557 623 lbm
+---
+
+seq:28
+505 520 521
+519 625 calculix
+557 623 mcf
+602 605 sphinx3
+---
+505 520 521
+519 calculix sphinx3
+557 623 mcf
+602 605 625
+---
+
+seq:29
+505 557 mcf
+519 602 calculix
+520 521 605
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 521 605
+557 623 lbm
+---
+
+seq:30
+505 557 mcf
+519 602 625
+520 521 605
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 625
+520 521 605
+557 623 lbm
+---
+
+seq:31
+505 520 521
+519 638 calculix
+557 623 mcf
+602 605 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 623 mcf
+602 605 calculix
+---
+
+seq:32
+505 557 mcf
+519 602 638
+520 521 605
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+557 623 lbm
+---
+
+seq:33
+505 557 mcf
+519 602 638
+520 521 605
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 638
+520 521 605
+557 623 lbm
+---
+
+seq:34
+505 557 mcf
+519 602 calculix
+520 521 605
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 calculix
+520 521 605
+557 623 lbm
+---
+
+seq:35
+505 520 557
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
+---
+505 520 557
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
+---
+
+seq:36
+505 520 557
+519 638 calculix
+521 605 625
+602 mcf sphinx3
+---
+505 520 557
+519 625 638
+521 605 calculix
+602 mcf sphinx3
+---
+
+seq:37
+505 520 557
+519 625 638
+521 calculix lbm
+602 605 sphinx3
+---
+505 520 557
+519 638 sphinx3
+521 calculix lbm
+602 605 625
+---
+
+seq:38
+505 mcf sphinx3
+519 521 638
+520 557 605
+602 625 lbm
+---
+505 625 mcf
+519 521 638
+520 557 605
+602 lbm sphinx3
+---
+
+seq:39
+505 mcf sphinx3
+519 521 calculix
+520 557 605
+602 625 lbm
+---
+505 625 mcf
+519 521 calculix
+520 557 605
+602 lbm sphinx3
+---
+
+seq:40
+505 mcf sphinx3
+519 521 638
+520 557 605
+602 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 557 605
+602 lbm sphinx3
+---
+
+seq:41
+505 520 521
+519 557 calculix
+605 620 625
+623 638 lbm
+---
+505 520 521
+519 557 638
+605 620 625
+623 calculix lbm
+---
+
+seq:42
+505 520 521
+519 638 sphinx3
+557 620 mcf
+623 625 lbm
+---
+505 520 521
+519 625 sphinx3
+557 620 mcf
+623 638 lbm
+---
+
+seq:43
+505 520 521
+519 625 638
+557 620 mcf
+605 623 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 620 mcf
+605 623 625
+---
+
+seq:44
+505 557 mcf
+519 521 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 521 605
+557 620 lbm
+---
+
+seq:45
+505 520 521
+519 557 625
+605 620 sphinx3
+623 638 lbm
+---
+505 520 521
+519 557 638
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:46
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+623 625 lbm
+---
+505 520 521
+519 625 sphinx3
+557 620 mcf
+623 calculix lbm
+---
+
+seq:47
+505 520 521
+519 625 calculix
+557 620 mcf
+605 623 sphinx3
+---
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+605 623 625
+---
+
+seq:48
+505 557 mcf
+519 521 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 521 605
+557 620 lbm
+---
+
+seq:49
+505 520 521
+519 557 625
+605 620 sphinx3
+623 calculix lbm
+---
+505 520 521
+519 557 calculix
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:50
+505 557 mcf
+519 521 625
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 625
+520 521 605
+557 620 lbm
+---
+
+seq:51
+505 520 521
+519 638 sphinx3
+557 620 mcf
+623 calculix lbm
+---
+505 520 521
+519 calculix sphinx3
+557 620 mcf
+623 638 lbm
+---
+
+seq:52
+505 520 521
+519 638 calculix
+557 620 mcf
+605 623 sphinx3
+---
+505 520 521
+519 638 sphinx3
+557 620 mcf
+605 623 calculix
+---
+
+seq:53
+505 557 mcf
+519 521 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 521 605
+557 620 lbm
+---
+
+seq:54
+505 520 521
+519 557 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 520 521
+519 557 638
+605 620 sphinx3
+623 calculix lbm
+---
+
+seq:55
+505 557 mcf
+519 521 638
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 638
+520 521 605
+557 620 lbm
+---
+
+seq:56
+505 557 mcf
+519 521 calculix
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 calculix
+520 521 605
+557 620 lbm
+---
+
+seq:57
+505 520 557
+519 625 638
+521 calculix lbm
+620 mcf sphinx3
+---
+505 520 557
+519 625 calculix
+521 638 lbm
+620 mcf sphinx3
+---
+
+seq:58
+505 520 557
+519 638 calculix
+521 605 sphinx3
+620 625 mcf
+---
+505 520 557
+519 625 638
+521 605 calculix
+620 mcf sphinx3
+---
+
+seq:59
+505 625 mcf
+519 521 638
+520 557 605
+620 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 557 605
+620 625 lbm
+---
+
+seq:60
+505 520 557
+519 625 638
+521 calculix lbm
+605 620 sphinx3
+---
+505 520 557
+519 638 sphinx3
+521 calculix lbm
+605 620 625
+---
+
+seq:61
+505 mcf sphinx3
+519 521 638
+520 557 605
+620 625 lbm
+---
+505 625 mcf
+519 521 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:62
+505 mcf sphinx3
+519 521 calculix
+520 557 605
+620 625 lbm
+---
+505 625 mcf
+519 521 calculix
+520 557 605
+620 lbm sphinx3
+---
+
+seq:63
+505 mcf sphinx3
+519 521 638
+520 557 605
+620 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:64
+505 520 557
+519 625 638
+521 calculix lbm
+623 mcf sphinx3
+---
+505 520 557
+519 625 calculix
+521 638 lbm
+623 mcf sphinx3
+---
+
+seq:65
+505 520 557
+519 638 calculix
+521 605 625
+623 mcf sphinx3
+---
+505 520 557
+519 625 638
+521 605 calculix
+623 mcf sphinx3
+---
+
+seq:66
+505 625 mcf
+519 521 638
+520 557 605
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 557 605
+623 625 lbm
+---
+
+seq:67
+505 520 557
+519 625 638
+521 calculix lbm
+605 623 sphinx3
+---
+505 520 557
+519 638 sphinx3
+521 calculix lbm
+605 623 625
+---
+
+seq:68
+505 mcf sphinx3
+519 521 638
+520 557 605
+623 625 lbm
+---
+505 625 mcf
+519 521 638
+520 557 605
+623 lbm sphinx3
+---
+
+seq:69
+505 mcf sphinx3
+519 521 calculix
+520 557 605
+623 625 lbm
+---
+505 625 mcf
+519 521 calculix
+520 557 605
+623 lbm sphinx3
+---
+
+seq:70
+505 mcf sphinx3
+519 521 638
+520 557 605
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 557 605
+623 lbm sphinx3
+---
+
+seq:71
+505 623 sphinx3
+519 625 638
+520 602 620
+521 calculix lbm
+---
+505 623 sphinx3
+519 625 calculix
+520 602 620
+521 638 lbm
+---
+
+seq:72
+505 623 sphinx3
+519 625 638
+520 521 620
+602 605 calculix
+---
+505 623 sphinx3
+519 625 638
+520 602 620
+521 605 calculix
+---
+
+seq:73
+505 520 602
+519 638 sphinx3
+521 620 mcf
+623 625 lbm
+---
+505 520 602
+519 625 sphinx3
+521 620 mcf
+623 638 lbm
+---
+
+seq:74
+505 520 602
+519 625 638
+521 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 638 sphinx3
+521 620 mcf
+605 623 625
+---
+
+seq:75
+505 521 mcf
+519 602 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 602 605
+521 620 lbm
+---
+
+seq:76
+505 520 602
+519 calculix sphinx3
+521 620 mcf
+623 625 lbm
+---
+505 520 602
+519 625 sphinx3
+521 620 mcf
+623 calculix lbm
+---
+
+seq:77
+505 520 602
+519 625 calculix
+521 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 calculix sphinx3
+521 620 mcf
+605 623 625
+---
+
+seq:78
+505 521 mcf
+519 602 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 602 605
+521 620 lbm
+---
+
+seq:79
+505 521 mcf
+519 602 625
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 625
+520 602 605
+521 620 lbm
+---
+
+seq:80
+505 520 602
+519 638 sphinx3
+521 620 mcf
+623 calculix lbm
+---
+505 520 602
+519 calculix sphinx3
+521 620 mcf
+623 638 lbm
+---
+
+seq:81
+505 520 602
+519 638 calculix
+521 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 638 sphinx3
+521 620 mcf
+605 623 calculix
+---
+
+seq:82
+505 521 mcf
+519 602 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 602 605
+521 620 lbm
+---
+
+seq:83
+505 521 mcf
+519 602 638
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 638
+520 602 605
+521 620 lbm
+---
+
+seq:84
+505 521 mcf
+519 602 calculix
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 calculix
+520 602 605
+521 620 lbm
+---
+
+seq:85
+505 625 mcf
+519 602 638
+520 521 605
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+620 625 lbm
+---
+
+seq:86
+505 520 521
+519 625 calculix
+602 638 lbm
+605 620 sphinx3
+---
+505 520 521
+519 638 sphinx3
+602 calculix lbm
+605 620 625
+---
+
+seq:87
+505 mcf sphinx3
+519 602 638
+520 521 605
+620 625 lbm
+---
+505 625 mcf
+519 602 638
+520 521 605
+620 lbm sphinx3
+---
+
+seq:88
+505 mcf sphinx3
+519 602 calculix
+520 521 605
+620 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 521 605
+620 lbm sphinx3
+---
+
+seq:89
+505 mcf sphinx3
+519 602 638
+520 521 605
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+620 lbm sphinx3
+---
+
+seq:90
+505 625 mcf
+519 602 638
+520 521 605
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+623 625 lbm
+---
+
+seq:91
+505 520 521
+519 625 calculix
+602 638 lbm
+605 623 sphinx3
+---
+505 520 521
+519 638 sphinx3
+602 calculix lbm
+605 623 625
+---
+
+seq:92
+505 mcf sphinx3
+519 602 638
+520 521 605
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+520 521 605
+623 lbm sphinx3
+---
+
+seq:93
+505 mcf sphinx3
+519 602 calculix
+520 521 605
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 521 605
+623 lbm sphinx3
+---
+
+seq:94
+505 mcf sphinx3
+519 602 638
+520 521 605
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 521 605
+623 lbm sphinx3
+---
+
+seq:95
+505 625 mcf
+519 521 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 521 605
+620 625 lbm
+---
+
+seq:96
+505 520 521
+519 625 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 520 521
+519 calculix sphinx3
+605 620 625
+623 638 lbm
+---
+
+seq:97
+505 mcf sphinx3
+519 521 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 521 605
+620 lbm sphinx3
+---
+
+seq:98
+505 mcf sphinx3
+519 521 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 521 605
+620 lbm sphinx3
+---
+
+seq:99
+505 mcf sphinx3
+519 521 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 521 605
+620 lbm sphinx3
+---
+
+seq:100
+505 625 mcf
+519 521 638
+520 605 sphinx3
+620 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 605 sphinx3
+620 625 lbm
+---
+
+seq:101
+505 625 mcf
+519 521 638
+520 605 sphinx3
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+520 605 sphinx3
+623 625 lbm
+---
+
+seq:102
+505 623 sphinx3
+519 625 638
+520 557 620
+602 605 calculix
+---
+505 623 sphinx3
+519 638 calculix
+520 602 620
+557 605 625
+---
+
+seq:103
+505 520 602
+519 557 calculix
+605 620 625
+623 638 lbm
+---
+505 520 602
+519 557 638
+605 620 625
+623 calculix lbm
+---
+
+seq:104
+505 520 602
+519 638 sphinx3
+557 620 mcf
+623 625 lbm
+---
+505 520 602
+519 625 sphinx3
+557 620 mcf
+623 638 lbm
+---
+
+seq:105
+505 520 602
+519 625 638
+557 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 638 sphinx3
+557 620 mcf
+605 623 625
+---
+
+seq:106
+505 557 mcf
+519 602 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 602 605
+557 620 lbm
+---
+
+seq:107
+505 520 602
+519 557 625
+605 620 sphinx3
+623 638 lbm
+---
+505 520 602
+519 557 638
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:108
+505 520 602
+519 calculix sphinx3
+557 620 mcf
+623 625 lbm
+---
+505 520 602
+519 625 sphinx3
+557 620 mcf
+623 calculix lbm
+---
+
+seq:109
+505 520 602
+519 625 calculix
+557 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 calculix sphinx3
+557 620 mcf
+605 623 625
+---
+
+seq:110
+505 557 mcf
+519 602 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 602 605
+557 620 lbm
+---
+
+seq:111
+505 520 602
+519 557 625
+605 620 sphinx3
+623 calculix lbm
+---
+505 520 602
+519 557 calculix
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:112
+505 557 mcf
+519 602 625
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 625
+520 602 605
+557 620 lbm
+---
+
+seq:113
+505 520 602
+519 638 sphinx3
+557 620 mcf
+623 calculix lbm
+---
+505 520 602
+519 calculix sphinx3
+557 620 mcf
+623 638 lbm
+---
+
+seq:114
+505 520 602
+519 638 calculix
+557 620 mcf
+605 623 sphinx3
+---
+505 520 602
+519 638 sphinx3
+557 620 mcf
+605 623 calculix
+---
+
+seq:115
+505 557 mcf
+519 602 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 602 605
+557 620 lbm
+---
+
+seq:116
+505 520 602
+519 557 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 520 602
+519 557 638
+605 620 sphinx3
+623 calculix lbm
+---
+
+seq:117
+505 557 mcf
+519 602 638
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 638
+520 602 605
+557 620 lbm
+---
+
+seq:118
+505 557 mcf
+519 602 calculix
+520 605 623
+620 lbm sphinx3
+---
+505 mcf sphinx3
+519 623 calculix
+520 602 605
+557 620 lbm
+---
+
+seq:119
+505 625 mcf
+519 602 638
+520 557 605
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 557 605
+620 625 lbm
+---
+
+seq:120
+505 520 557
+519 625 calculix
+602 638 lbm
+605 620 sphinx3
+---
+505 520 557
+519 638 sphinx3
+602 calculix lbm
+605 620 625
+---
+
+seq:121
+505 mcf sphinx3
+519 602 638
+520 557 605
+620 625 lbm
+---
+505 625 mcf
+519 602 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:122
+505 mcf sphinx3
+519 602 calculix
+520 557 605
+620 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 557 605
+620 lbm sphinx3
+---
+
+seq:123
+505 mcf sphinx3
+519 602 638
+520 557 605
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:124
+505 625 mcf
+519 602 638
+520 557 605
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 557 605
+623 625 lbm
+---
+
+seq:125
+505 520 557
+519 625 calculix
+602 638 lbm
+605 623 sphinx3
+---
+505 520 557
+519 638 sphinx3
+602 calculix lbm
+605 623 625
+---
+
+seq:126
+505 mcf sphinx3
+519 602 638
+520 557 605
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+520 557 605
+623 lbm sphinx3
+---
+
+seq:127
+505 mcf sphinx3
+519 602 calculix
+520 557 605
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+520 557 605
+623 lbm sphinx3
+---
+
+seq:128
+505 mcf sphinx3
+519 602 638
+520 557 605
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 557 605
+623 lbm sphinx3
+---
+
+seq:129
+505 625 mcf
+519 557 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 557 605
+620 625 lbm
+---
+
+seq:130
+505 520 557
+519 625 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 520 557
+519 calculix sphinx3
+605 620 625
+623 638 lbm
+---
+
+seq:131
+505 mcf sphinx3
+519 557 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:132
+505 mcf sphinx3
+519 557 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 557 605
+620 lbm sphinx3
+---
+
+seq:133
+505 mcf sphinx3
+519 557 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 557 605
+620 lbm sphinx3
+---
+
+seq:134
+505 625 mcf
+519 557 638
+520 605 sphinx3
+620 calculix lbm
+---
+505 calculix mcf
+519 557 638
+520 605 sphinx3
+620 625 lbm
+---
+
+seq:135
+505 625 mcf
+519 557 calculix
+520 605 sphinx3
+623 638 lbm
+---
+505 calculix mcf
+519 557 638
+520 605 sphinx3
+623 625 lbm
+---
+
+seq:136
+505 625 mcf
+519 602 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 602 605
+620 625 lbm
+---
+
+seq:137
+505 520 602
+519 625 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 520 602
+519 calculix sphinx3
+605 620 625
+623 638 lbm
+---
+
+seq:138
+505 mcf sphinx3
+519 602 638
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 638
+520 602 605
+620 lbm sphinx3
+---
+
+seq:139
+505 mcf sphinx3
+519 602 calculix
+520 605 623
+620 625 lbm
+---
+505 625 mcf
+519 623 calculix
+520 602 605
+620 lbm sphinx3
+---
+
+seq:140
+505 mcf sphinx3
+519 602 638
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 602 605
+620 lbm sphinx3
+---
+
+seq:141
+505 625 mcf
+519 602 638
+520 605 sphinx3
+620 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 605 sphinx3
+620 625 lbm
+---
+
+seq:142
+505 625 mcf
+519 602 638
+520 605 sphinx3
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+520 605 sphinx3
+623 625 lbm
+---
+
+seq:143
+505 625 mcf
+519 638 sphinx3
+520 605 623
+620 calculix lbm
+---
+505 calculix mcf
+519 623 638
+520 605 sphinx3
+620 625 lbm
+---
+
+seq:144
+505 602 sphinx3
+519 638 calculix
+521 605 625
+557 620 623
+---
+505 602 sphinx3
+519 638 calculix
+521 620 623
+557 605 625
+---
+
+seq:145
+505 521 620
+519 625 638
+557 623 mcf
+602 605 sphinx3
+---
+505 521 620
+519 638 sphinx3
+557 623 mcf
+602 605 625
+---
+
+seq:146
+505 557 mcf
+519 602 638
+521 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+521 605 620
+557 623 lbm
+---
+
+seq:147
+505 521 620
+519 625 calculix
+557 623 mcf
+602 605 sphinx3
+---
+505 521 620
+519 calculix sphinx3
+557 623 mcf
+602 605 625
+---
+
+seq:148
+505 557 mcf
+519 602 calculix
+521 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+521 605 620
+557 623 lbm
+---
+
+seq:149
+505 557 mcf
+519 602 625
+521 605 620
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 625
+521 605 620
+557 623 lbm
+---
+
+seq:150
+505 521 620
+519 638 calculix
+557 623 mcf
+602 605 sphinx3
+---
+505 521 620
+519 638 sphinx3
+557 623 mcf
+602 605 calculix
+---
+
+seq:151
+505 557 mcf
+519 602 638
+521 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+521 605 620
+557 623 lbm
+---
+
+seq:152
+505 557 mcf
+519 602 638
+521 605 620
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 638
+521 605 620
+557 623 lbm
+---
+
+seq:153
+505 557 mcf
+519 602 calculix
+521 605 620
+623 lbm sphinx3
+---
+505 mcf sphinx3
+519 602 calculix
+521 605 620
+557 623 lbm
+---
+
+seq:154
+505 557 620
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
+---
+505 557 620
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
+---
+
+seq:155
+505 557 620
+519 638 calculix
+521 605 625
+602 mcf sphinx3
+---
+505 557 620
+519 625 638
+521 605 calculix
+602 mcf sphinx3
+---
+
+seq:156
+505 557 620
+519 625 638
+521 calculix lbm
+602 605 sphinx3
+---
+505 557 620
+519 638 sphinx3
+521 calculix lbm
+602 605 625
+---
+
+seq:157
+505 mcf sphinx3
+519 521 638
+557 605 620
+602 625 lbm
+---
+505 625 mcf
+519 521 638
+557 605 620
+602 lbm sphinx3
+---
+
+seq:158
+505 mcf sphinx3
+519 521 calculix
+557 605 620
+602 625 lbm
+---
+505 625 mcf
+519 521 calculix
+557 605 620
+602 lbm sphinx3
+---
+
+seq:159
+505 mcf sphinx3
+519 521 638
+557 605 620
+602 calculix lbm
+---
+505 calculix mcf
+519 521 638
+557 605 620
+602 lbm sphinx3
+---
+
+seq:160
+505 557 623
+519 625 638
+521 calculix lbm
+602 mcf sphinx3
+---
+505 557 623
+519 625 calculix
+521 638 lbm
+602 mcf sphinx3
+---
+
+seq:161
+505 557 623
+519 638 calculix
+521 605 625
+602 mcf sphinx3
+---
+505 557 623
+519 625 638
+521 605 calculix
+602 mcf sphinx3
+---
+
+seq:162
+505 557 623
+519 625 638
+521 calculix lbm
+602 605 sphinx3
+---
+505 557 623
+519 638 sphinx3
+521 calculix lbm
+602 605 625
+---
+
+seq:163
+505 mcf sphinx3
+519 521 638
+557 605 623
+602 625 lbm
+---
+505 625 mcf
+519 521 638
+557 605 623
+602 lbm sphinx3
+---
+
+seq:164
+505 mcf sphinx3
+519 521 calculix
+557 605 623
+602 625 lbm
+---
+505 625 mcf
+519 521 calculix
+557 605 623
+602 lbm sphinx3
+---
+
+seq:165
+505 mcf sphinx3
+519 521 638
+557 605 623
+602 calculix lbm
+---
+505 calculix mcf
+519 521 638
+557 605 623
+602 lbm sphinx3
+---
+
+seq:166
+505 calculix mcf
+519 638 sphinx3
+521 625 lbm
+557 602 605
+---
+505 calculix mcf
+519 557 638
+521 625 lbm
+602 605 sphinx3
+---
+
+seq:167
+505 557 620
+519 625 638
+521 calculix lbm
+623 mcf sphinx3
+---
+505 557 620
+519 625 calculix
+521 638 lbm
+623 mcf sphinx3
+---
+
+seq:168
+505 557 620
+519 638 calculix
+521 605 625
+623 mcf sphinx3
+---
+505 557 620
+519 625 638
+521 605 calculix
+623 mcf sphinx3
+---
+
+seq:169
+505 625 mcf
+519 521 638
+557 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+557 605 620
+623 625 lbm
+---
+
+seq:170
+505 557 620
+519 625 638
+521 calculix lbm
+605 623 sphinx3
+---
+505 557 620
+519 638 sphinx3
+521 calculix lbm
+605 623 625
+---
+
+seq:171
+505 mcf sphinx3
+519 521 638
+557 605 620
+623 625 lbm
+---
+505 625 mcf
+519 521 638
+557 605 620
+623 lbm sphinx3
+---
+
+seq:172
+505 mcf sphinx3
+519 521 calculix
+557 605 620
+623 625 lbm
+---
+505 625 mcf
+519 521 calculix
+557 605 620
+623 lbm sphinx3
+---
+
+seq:173
+505 mcf sphinx3
+519 521 638
+557 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+557 605 620
+623 lbm sphinx3
+---
+
+seq:174
+505 625 mcf
+519 602 638
+521 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+521 605 620
+623 625 lbm
+---
+
+seq:175
+505 521 620
+519 625 calculix
+602 638 lbm
+605 623 sphinx3
+---
+505 521 620
+519 638 sphinx3
+602 calculix lbm
+605 623 625
+---
+
+seq:176
+505 mcf sphinx3
+519 602 638
+521 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+521 605 620
+623 lbm sphinx3
+---
+
+seq:177
+505 mcf sphinx3
+519 602 calculix
+521 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+521 605 620
+623 lbm sphinx3
+---
+
+seq:178
+505 mcf sphinx3
+519 602 638
+521 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+521 605 620
+623 lbm sphinx3
+---
+
+seq:179
+505 625 mcf
+519 521 638
+605 620 sphinx3
+623 calculix lbm
+---
+505 calculix mcf
+519 521 638
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:180
+505 625 mcf
+519 602 638
+557 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+557 605 620
+623 625 lbm
+---
+
+seq:181
+505 557 620
+519 625 calculix
+602 638 lbm
+605 623 sphinx3
+---
+505 557 620
+519 638 sphinx3
+602 calculix lbm
+605 623 625
+---
+
+seq:182
+505 mcf sphinx3
+519 602 638
+557 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 638
+557 605 620
+623 lbm sphinx3
+---
+
+seq:183
+505 mcf sphinx3
+519 602 calculix
+557 605 620
+623 625 lbm
+---
+505 625 mcf
+519 602 calculix
+557 605 620
+623 lbm sphinx3
+---
+
+seq:184
+505 mcf sphinx3
+519 602 638
+557 605 620
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+557 605 620
+623 lbm sphinx3
+---
+
+seq:185
+505 625 mcf
+519 557 calculix
+605 620 sphinx3
+623 638 lbm
+---
+505 calculix mcf
+519 557 638
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:186
+505 625 mcf
+519 602 638
+605 620 sphinx3
+623 calculix lbm
+---
+505 calculix mcf
+519 602 638
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:187
+505 521 calculix
+520 623 625
+557 638 mcf
+602 620 sphinx3
+---
+505 521 calculix
+520 602 sphinx3
+557 638 mcf
+620 623 625
+---
+
+seq:188
+505 521 625
+520 623 sphinx3
+557 602 620
+638 calculix lbm
+---
+505 521 625
+520 557 602
+620 623 sphinx3
+638 calculix lbm
+---
+
+seq:189
+505 521 calculix
+520 623 625
+557 602 620
+605 638 sphinx3
+---
+505 521 calculix
+520 557 602
+605 625 638
+620 623 sphinx3
+---
+
+seq:190
+505 623 625
+520 521 620
+557 calculix lbm
+602 605 638
+---
+505 623 625
+520 602 620
+521 605 calculix
+557 638 lbm
+---
+
+seq:191
+505 623 sphinx3
+520 521 620
+557 625 lbm
+602 605 638
+---
+505 623 sphinx3
+520 602 620
+521 605 625
+557 638 lbm
+---
+
+seq:192
+505 623 sphinx3
+520 521 620
+557 625 lbm
+602 605 calculix
+---
+505 623 sphinx3
+520 602 620
+521 605 625
+557 calculix lbm
+---
+
+seq:193
+505 623 sphinx3
+520 521 620
+557 calculix lbm
+602 605 638
+---
+505 623 sphinx3
+520 602 620
+521 605 calculix
+557 638 lbm
+---
+
+seq:194
+505 602 sphinx3
+520 557 620
+521 calculix mcf
+625 638 lbm
+---
+505 602 625
+520 557 620
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:195
+505 602 sphinx3
+520 521 620
+557 605 638
+625 calculix lbm
+---
+505 602 625
+520 521 620
+557 605 calculix
+638 lbm sphinx3
+---
+
+seq:196
+505 602 sphinx3
+520 557 623
+521 calculix mcf
+625 638 lbm
+---
+505 602 625
+520 557 623
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:197
+505 602 625
+520 623 sphinx3
+521 calculix mcf
+557 605 638
+---
+505 602 625
+520 557 623
+521 calculix mcf
+605 638 sphinx3
+---
+
+seq:198
+505 602 sphinx3
+520 557 623
+521 605 638
+625 calculix lbm
+---
+505 602 625
+520 521 623
+557 605 calculix
+638 lbm sphinx3
+---
+
+seq:199
+505 520 sphinx3
+521 605 638
+557 calculix lbm
+602 625 mcf
+---
+505 520 sphinx3
+521 605 calculix
+557 638 lbm
+602 625 mcf
+---
+
+seq:200
+505 623 sphinx3
+520 557 620
+521 calculix mcf
+625 638 lbm
+---
+505 623 625
+520 557 620
+521 calculix mcf
+638 lbm sphinx3
+---
+
+seq:201
+505 623 calculix
+520 557 620
+521 625 mcf
+605 638 sphinx3
+---
+505 623 625
+520 557 620
+521 calculix mcf
+605 638 sphinx3
+---
+
+seq:202
+505 623 sphinx3
+520 521 620
+557 605 638
+625 calculix lbm
+---
+505 623 625
+520 521 620
+557 605 calculix
+638 lbm sphinx3
+---
+
+seq:203
+505 520 sphinx3
+521 605 638
+557 calculix lbm
+620 625 mcf
+---
+505 520 sphinx3
+521 605 calculix
+557 638 lbm
+620 625 mcf
+---
+
+seq:204
+505 520 sphinx3
+521 605 638
+557 calculix lbm
+623 625 mcf
+---
+505 520 sphinx3
+521 605 calculix
+557 638 lbm
+623 625 mcf
+---
+
+seq:205
+505 623 sphinx3
+520 521 620
+602 638 mcf
+625 calculix lbm
+---
+505 623 625
+520 521 620
+602 calculix mcf
+638 lbm sphinx3
+---
+
+seq:206
+505 623 sphinx3
+520 521 620
+602 605 638
+625 calculix lbm
+---
+505 623 625
+520 602 620
+521 605 calculix
+638 lbm sphinx3
+---
+
+seq:207
+505 623 sphinx3
+520 557 620
+602 638 mcf
+625 calculix lbm
+---
+505 623 625
+520 557 620
+602 calculix mcf
+638 lbm sphinx3
+---
+
+seq:208
+505 623 sphinx3
+520 557 620
+602 605 638
+625 calculix lbm
+---
+505 623 625
+520 602 620
+557 605 calculix
+638 lbm sphinx3
+---
+
+seq:209
+505 602 sphinx3
+521 calculix mcf
+557 620 623
+625 638 lbm
+---
+505 602 625
+521 calculix mcf
+557 620 623
+638 lbm sphinx3
+---
+
+seq:210
+505 602 625
+521 calculix mcf
+557 605 638
+620 623 sphinx3
+---
+505 602 625
+521 calculix mcf
+557 620 623
+605 638 sphinx3
+---
+
+seq:211
+505 602 sphinx3
+521 605 638
+557 620 623
+625 calculix lbm
+---
+505 602 625
+521 620 623
+557 605 calculix
+638 lbm sphinx3
+---
+
+seq:212
+505 620 sphinx3
+521 605 638
+557 calculix lbm
+602 625 mcf
+---
+505 620 sphinx3
+521 605 calculix
+557 638 lbm
+602 625 mcf
+---
+
+seq:213
+505 623 sphinx3
+521 605 638
+557 calculix lbm
+602 625 mcf
+---
+505 623 sphinx3
+521 605 calculix
+557 638 lbm
+602 625 mcf
+---
+
+seq:214
+505 620 sphinx3
+521 605 638
+557 calculix lbm
+623 625 mcf
+---
+505 620 sphinx3
+521 605 calculix
+557 638 lbm
+623 625 mcf
+---
+
+seq:215
+519 638 calculix
+520 623 sphinx3
+521 625 mcf
+557 602 620
+---
+519 638 calculix
+520 557 602
+521 625 mcf
+620 623 sphinx3
+---
+
+seq:216
+519 625 638
+520 602 620
+521 calculix lbm
+557 623 mcf
+---
+519 625 calculix
+520 602 620
+521 638 lbm
+557 623 mcf
+---
+
+seq:217
+519 625 638
+520 521 620
+557 623 mcf
+602 605 calculix
+---
+519 625 638
+520 602 620
+521 605 calculix
+557 623 mcf
+---
+
+seq:218
+519 625 638
+520 557 623
+521 602 620
+calculix lbm sphinx3
+---
+519 625 638
+520 521 602
+557 620 623
+calculix lbm sphinx3
+---
+
+seq:219
+519 638 calculix
+520 623 sphinx3
+521 602 620
+557 605 625
+---
+519 638 calculix
+520 521 602
+557 620 623
+605 625 sphinx3
+---
+
+seq:220
+519 557 638
+520 602 620
+521 calculix lbm
+605 623 625
+---
+519 557 638
+520 620 623
+521 calculix lbm
+602 605 625
+---
+
+seq:221
+519 625 638
+520 521 620
+557 623 mcf
+602 605 sphinx3
+---
+519 638 sphinx3
+520 602 620
+521 605 625
+557 623 mcf
+---
+
+seq:222
+519 557 638
+520 602 620
+521 625 lbm
+605 623 sphinx3
+---
+519 557 638
+520 620 623
+521 625 lbm
+602 605 sphinx3
+---
+
+seq:223
+519 625 calculix
+520 521 620
+557 623 mcf
+602 605 sphinx3
+---
+519 calculix sphinx3
+520 602 620
+521 605 625
+557 623 mcf
+---
+
+seq:224
+519 557 calculix
+520 602 620
+521 625 lbm
+605 623 sphinx3
+---
+519 557 calculix
+520 620 623
+521 625 lbm
+602 605 sphinx3
+---
+
+seq:225
+519 638 calculix
+520 521 620
+557 623 mcf
+602 605 sphinx3
+---
+519 638 sphinx3
+520 602 620
+521 605 calculix
+557 623 mcf
+---
+
+seq:226
+519 557 638
+520 602 620
+521 calculix lbm
+605 623 sphinx3
+---
+519 557 638
+520 620 623
+521 calculix lbm
+602 605 sphinx3
+---
+
+seq:227
+519 625 638
+520 521 620
+557 calculix lbm
+602 605 sphinx3
+---
+519 638 sphinx3
+520 602 620
+521 605 625
+557 calculix lbm
+---
+
+seq:228
+519 638 calculix
+520 557 623
+521 605 625
+602 mcf sphinx3
+---
+519 638 calculix
+520 521 623
+557 605 sphinx3
+602 625 mcf
+---
+
+seq:229
+519 625 638
+520 521 623
+557 calculix lbm
+602 605 sphinx3
+---
+519 638 sphinx3
+520 602 623
+521 605 625
+557 calculix lbm
+---
+
+seq:230
+519 625 638
+520 557 mcf
+521 calculix lbm
+602 605 sphinx3
+---
+519 638 sphinx3
+520 557 mcf
+521 calculix lbm
+602 605 625
+---
+
+seq:231
+519 557 calculix
+520 521 mcf
+605 620 625
+623 638 lbm
+---
+519 557 638
+520 521 mcf
+605 620 625
+623 calculix lbm
+---
+
+seq:232
+519 625 638
+520 521 620
+557 calculix lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 620 623
+521 605 625
+557 calculix lbm
+---
+
+seq:233
+519 557 625
+520 521 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 557 638
+520 521 mcf
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:234
+519 557 625
+520 521 mcf
+605 620 sphinx3
+623 calculix lbm
+---
+519 557 calculix
+520 521 mcf
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:235
+519 557 calculix
+520 521 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 557 638
+520 521 mcf
+605 620 sphinx3
+623 calculix lbm
+---
+
+seq:236
+519 625 638
+520 557 mcf
+521 calculix lbm
+605 620 sphinx3
+---
+519 638 sphinx3
+520 557 mcf
+521 calculix lbm
+605 620 625
+---
+
+seq:237
+519 625 638
+520 557 mcf
+521 calculix lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 557 mcf
+521 calculix lbm
+605 623 625
+---
+
+seq:238
+519 625 638
+520 602 620
+521 calculix lbm
+623 mcf sphinx3
+---
+519 625 calculix
+520 602 620
+521 638 lbm
+623 mcf sphinx3
+---
+
+seq:239
+519 625 638
+520 521 620
+602 605 calculix
+623 mcf sphinx3
+---
+519 625 638
+520 602 620
+521 605 calculix
+623 mcf sphinx3
+---
+
+seq:240
+519 625 638
+520 602 620
+521 calculix lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 620 623
+521 calculix lbm
+602 605 625
+---
+
+seq:241
+519 625 calculix
+520 521 mcf
+602 638 lbm
+605 620 sphinx3
+---
+519 638 sphinx3
+520 521 mcf
+602 calculix lbm
+605 620 625
+---
+
+seq:242
+519 625 calculix
+520 521 mcf
+602 638 lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 521 mcf
+602 calculix lbm
+605 623 625
+---
+
+seq:243
+519 625 calculix
+520 521 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 calculix sphinx3
+520 521 mcf
+605 620 625
+623 638 lbm
+---
+
+seq:244
+519 625 638
+520 557 620
+602 605 calculix
+623 mcf sphinx3
+---
+519 638 calculix
+520 602 620
+557 605 sphinx3
+623 625 mcf
+---
+
+seq:245
+519 557 calculix
+520 602 mcf
+605 620 625
+623 638 lbm
+---
+519 557 638
+520 602 mcf
+605 620 625
+623 calculix lbm
+---
+
+seq:246
+519 625 638
+520 602 620
+557 calculix lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 620 623
+557 625 lbm
+602 605 calculix
+---
+
+seq:247
+519 557 625
+520 602 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 557 638
+520 602 mcf
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:248
+519 557 625
+520 602 mcf
+605 620 sphinx3
+623 calculix lbm
+---
+519 557 calculix
+520 602 mcf
+605 620 sphinx3
+623 625 lbm
+---
+
+seq:249
+519 557 calculix
+520 602 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 557 638
+520 602 mcf
+605 620 sphinx3
+623 calculix lbm
+---
+
+seq:250
+519 625 calculix
+520 557 mcf
+602 638 lbm
+605 620 sphinx3
+---
+519 638 sphinx3
+520 557 mcf
+602 calculix lbm
+605 620 625
+---
+
+seq:251
+519 625 calculix
+520 557 mcf
+602 638 lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+520 557 mcf
+602 calculix lbm
+605 623 625
+---
+
+seq:252
+519 625 calculix
+520 557 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 calculix sphinx3
+520 557 mcf
+605 620 625
+623 638 lbm
+---
+
+seq:253
+519 625 calculix
+520 602 mcf
+605 620 sphinx3
+623 638 lbm
+---
+519 calculix sphinx3
+520 602 mcf
+605 620 625
+623 638 lbm
+---
+
+seq:254
+519 638 calculix
+521 605 625
+557 620 623
+602 mcf sphinx3
+---
+519 638 calculix
+521 620 623
+557 605 sphinx3
+602 625 mcf
+---
+
+seq:255
+519 625 638
+521 620 623
+557 calculix lbm
+602 605 sphinx3
+---
+519 638 sphinx3
+521 605 625
+557 calculix lbm
+602 620 623
+---
+
+seq:256
+519 625 638
+521 calculix lbm
+557 620 mcf
+602 605 sphinx3
+---
+519 638 sphinx3
+521 calculix lbm
+557 620 mcf
+602 605 625
+---
+
+seq:257
+519 625 638
+521 calculix lbm
+557 623 mcf
+602 605 sphinx3
+---
+519 638 sphinx3
+521 calculix lbm
+557 623 mcf
+602 605 625
+---
+
+seq:258
+519 625 638
+521 calculix lbm
+557 620 mcf
+605 623 sphinx3
+---
+519 638 sphinx3
+521 calculix lbm
+557 620 mcf
+605 623 625
+---
+
+seq:259
+519 625 calculix
+521 620 mcf
+602 638 lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+521 620 mcf
+602 calculix lbm
+605 623 625
+---
+
+seq:260
+519 625 calculix
+557 620 mcf
+602 638 lbm
+605 623 sphinx3
+---
+519 638 sphinx3
+557 620 mcf
+602 calculix lbm
+605 623 625
+---
+
+seq:261
+520 623 sphinx3
+521 calculix mcf
+557 602 620
+625 638 lbm
+---
+520 557 602
+521 calculix mcf
+620 623 sphinx3
+625 638 lbm
+---
+
+seq:262
+520 623 625
+521 calculix mcf
+557 602 620
+605 638 sphinx3
+---
+520 557 602
+521 638 mcf
+605 625 calculix
+620 623 sphinx3
+---
+
+seq:263
+520 521 620
+557 calculix lbm
+602 605 638
+623 625 mcf
+---
+520 602 620
+521 605 calculix
+557 638 lbm
+623 625 mcf
+---
+
+seq:264
+520 623 sphinx3
+521 602 620
+557 605 638
+625 calculix lbm
+---
+520 521 602
+557 620 623
+605 calculix sphinx3
+625 638 lbm
+---
+
+seq:265
+520 521 620
+557 625 lbm
+602 605 638
+623 mcf sphinx3
+---
+520 602 620
+521 605 625
+557 638 lbm
+623 mcf sphinx3
+---
+
+seq:266
+520 521 620
+557 625 lbm
+602 605 calculix
+623 mcf sphinx3
+---
+520 602 620
+521 605 625
+557 calculix lbm
+623 mcf sphinx3
+---
+
+seq:267
+520 521 620
+557 calculix lbm
+602 605 638
+623 mcf sphinx3
+---
+520 602 620
+521 605 calculix
+557 638 lbm
+623 mcf sphinx3
+---
+
+seq:268
+520 557 623
+521 605 calculix
+602 625 mcf
+638 lbm sphinx3
+---
+520 521 623
+557 605 625
+602 calculix mcf
+638 lbm sphinx3
+---
+
+seq:269
+520 521 620
+602 605 calculix
+623 625 mcf
+638 lbm sphinx3
+---
+520 602 620
+521 605 calculix
+623 625 mcf
+638 lbm sphinx3
+---
+
+seq:270
+520 557 620
+602 605 calculix
+623 625 mcf
+638 lbm sphinx3
+---
+520 602 620
+557 605 625
+623 calculix mcf
+638 lbm sphinx3
+---
+
+seq:271
+521 605 calculix
+557 620 623
+602 625 mcf
+638 lbm sphinx3
+---
+521 620 623
+557 605 625
+602 calculix mcf
+638 lbm sphinx3
+---
+
