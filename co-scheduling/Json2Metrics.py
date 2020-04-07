@@ -3,7 +3,7 @@
 
 import json, sys
 import numpy as np
-from utils import loadSingle
+from utils import loadSingle, sub
 from config.path import CO_SCHEDULING_HOME
 
 def loadFromJson(json_file):
@@ -13,14 +13,24 @@ def loadFromJson(json_file):
     fp.close()
     return data
 
+# speedup = [taskSpeedUp, ...]
+# taskSpeedUp = float
+def calcFairness(speedup):
+    combs = sub(speedup, 2)
+    rate = []
+    for comb in combs:
+        min_val, max_val = min(comb), max(comb)
+        rate.append(min_val / max_val)
+    return min(rate)
+
 # calculate CPI, IPC, Fairness
 # note that a taskSet's cycle must be a average, not sum of its tasks
 def calcMetrics(data, single):
     for scheduleObj in data:
         for taskSets in scheduleObj.values():
             # calc CPI and IPC for schedule
-            IPC_sum, CPI_sum = 0, 0
-            slowdown = []
+            IPC_sum, CPI_sum,  = 0, 0
+            slowdown, speedup = [], []
             # calc Fairness for schedule
             for taskSet in taskSets.values():
                 for taskName in taskSet.keys():
@@ -41,8 +51,11 @@ def calcMetrics(data, single):
                     # calc slowdown for Fairness
                     singleInstructions, singleCycle = single[taskName]['instructions'], single[taskName]['cycle']
                     singleCPI = float(singleCycle) / singleInstructions
+                    singleIPC = float(singleInstructions) / float(singleCycle)
                     slow = float(taskCPI) / singleCPI
                     slowdown.append(slow)
+                    # collect task's speedup
+                    speedup.append(taskIPC/singleIPC)
             # used for get pure metrics
             # keys = []
             # for key in taskSets.keys():
@@ -51,7 +64,9 @@ def calcMetrics(data, single):
             #     del taskSets[key]
             taskSets['CPI'] = CPI_sum
             taskSets['IPC'] = IPC_sum
-            taskSets['Unfairness'] = np.std(slowdown, ddof=1) / np.mean(slowdown)
+            taskSets['speedup'] = sum(speedup)
+            taskSets['fairness'] = calcFairness(speedup)
+            taskSets['unfairness'] = np.std(slowdown, ddof=1) / np.mean(slowdown)
 
 def save(output_file, data):
     fp = open(output_file, "w")

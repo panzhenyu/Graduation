@@ -63,7 +63,7 @@ if __name__ == "__main__":
         sys.exit(-1)
     jsonFile = sys.argv[1]
     outputFile = sys.argv[2]
-    collectedMetrics = ["IPC", "Unfairness"]
+    collectedMetrics = ["IPC", "speedup", "unfairness", "fairness"]
 
     raw_data = loadPureMetrics(jsonFile)
     if len(raw_data) == 0:
