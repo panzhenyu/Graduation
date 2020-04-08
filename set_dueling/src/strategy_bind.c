@@ -125,11 +125,11 @@ int main(int argc, char *argv[])
 	if(!strcmp(argv[1], "A"))
 	{
 		puts("begin to bind strategy A");
-		bind(POLICY_A_START, POLICY_A_END);
+		bind(POLICY_B_START, POLICY_B_END);
 	}
 	else if(!strcmp(argv[1], "B"))
 	{
 		puts("begin to bind strategy B");
-		bind(POLICY_B_START, POLICY_B_END);
+		bind(POLICY_A_START, POLICY_A_END);
 	}
 }
