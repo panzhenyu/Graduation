@@ -121,8 +121,7 @@ if __name__ == "__main__":
     DITaskObjs = buildDITaskObject(allTask, PROFILE_HOME)
     corunResult = loadCorunResult(AUTOTEST_CORUNOUT)
     methodNames = [x.name for x in methodList]
-    print(strategyA)
-    print(strategyB)
+
     results = {
         "AA": getAllValues(sub(strategyA, 2), DITaskObjs, methodList, corunResult),
         "BB": getAllValues(sub(strategyB, 2), DITaskObjs, methodList, corunResult),
