@@ -29,7 +29,7 @@ def getTaskNameSeq(taskNames):
 # taskNames is a list of taskName
 # return a dict:
 # result = {methodName: value, ...}
-def predictedValues(taskNames, DITaskObjs, methodList):
+def calcPredictedValues(taskNames, DITaskObjs, methodList):
     result = {}
     for method in methodList:
         schedule, tasks = method(""), []
@@ -37,28 +37,6 @@ def predictedValues(taskNames, DITaskObjs, methodList):
             tasks.append(DITaskObjs[name])
         predicted = schedule.predict(tasks)
         result[method.name] = predicted
-    return result
-
-# result is in dict format:
-# result = {taskNameSeq: predictedValues}
-# predictedValues = {methodName: value, ...}
-def test4Strategy(strategy, DITaskObjs, methodList):
-    result = {}
-    comb = sub(strategy, 2)
-    for taskNames in comb:
-        taskNameSeq = getTaskNameSeq(taskNames)
-        predicted = predictedValues(taskNames, DITaskObjs, methodList)
-        result[taskNameSeq] = predicted
-    return result
-
-def test4AB(strategyA, strategyB, DITaskObjs, methodList):
-    result = {}
-    for taskA in strategyA:
-        for taskB in strategyB:
-            taskNames = [taskA, taskB]
-            taskNameSeq = getTaskNameSeq(taskNames)
-            predicted = predictedValues(taskNames, DITaskObjs, methodList)
-            result[taskNameSeq] = predicted
     return result
 
 # note that the cycle must be average cycle
@@ -71,8 +49,26 @@ def calcRealValue(taskNameSeq, corunResult):
         missCycle_sum += miss / float(cycle)
     return missCycle_sum
 
+# comb = [taskNames, ...]
+# taskNames = [taskName, ...]
+# result is in dict format:
+# result = {taskNameSeq: values}
+# values = {"predicted": predictedValues, "real": realValue}
+# predictedValues = {methodName: value, ...}
+# realValue = float
+def getAllValues(combs, DITaskObjs, methodList, corunResult):
+    result = {}
+    for taskNames in combs:
+        taskNameSeq = getTaskNameSeq(taskNames)
+        predicted = calcPredictedValues(taskNames, DITaskObjs, methodList)
+        real = calcRealValue(taskNameSeq, corunResult)
+        result[taskNameSeq] = {}
+        result[taskNameSeq]['predicted'] = predicted
+        result[taskNameSeq]['real'] = real
+    return result
+
 # save result in methodNames order
-def saveSheet(sheet, result, corunResult, methodNames):
+def saveSheet(sheet, result, methodNames):
     headLine = ['seq', 'taskNameSeq', 'real']
     for methodName in methodNames:
         headLine.append(methodName)
@@ -81,8 +77,8 @@ def saveSheet(sheet, result, corunResult, methodNames):
 
     seq = 1
     for taskNameSeq in result.keys():
-        predictedValues = result[taskNameSeq]
-        real = calcRealValue(taskNameSeq, corunResult)
+        values = result[taskNameSeq]
+        predictedValues, real = values['predicted'], values['real']
         line = [seq, taskNameSeq, real]
         for methodName in methodNames:
             line.append(predictedValues[methodName])
@@ -90,22 +86,24 @@ def saveSheet(sheet, result, corunResult, methodNames):
             sheet.write(seq, i, line[i])
         seq += 1
 
-def saveExcel(output, resultA, resultB, resultAB, corunResult, methodList):
-    methodNames = []
-    for method in methodList:
-        methodNames.append(method.name)
+def merge2(_list1, _list2):
+    result = []
+    for elem1 in _list1:
+        for elem2 in _list2:
+            if elem1 != elem2:
+                result.append([elem1, elem2])
+    return result
 
-    workbook = xlwt.Workbook(encoding='utf-8')
-    sheetA = workbook.add_sheet("A")
-    sheetB = workbook.add_sheet("B")
-    sheetAB = workbook.add_sheet("AB")
-
-    saveSheet(sheetA, resultA, corunResult, methodNames)
-    saveSheet(sheetB, resultB, corunResult, methodNames)
-    saveSheet(sheetAB, resultAB, corunResult, methodNames)
-
-    workbook.save(output)
-    
+def merge3(_list1, _list2, _list3):
+    result = []
+    for elem1 in _list1:
+        for elem2 in _list2:
+            if elem1 == elem2:
+                continue
+            for elem3 in _list3:
+                if elem3 != elem1 and elem3 != elem2:
+                    result.append([elem1, elem2, elem3])
+    return result
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -122,9 +120,23 @@ if __name__ == "__main__":
     allTask.extend(strategyB)
     DITaskObjs = buildDITaskObject(allTask, PROFILE_HOME)
     corunResult = loadCorunResult(AUTOTEST_CORUNOUT)
-    
-    resultA = test4Strategy(strategyA, DITaskObjs, methodList)
-    resultB = test4Strategy(strategyB, DITaskObjs, methodList)
-    resultAB = test4AB(strategyA, strategyB, DITaskObjs, methodList)
+    methodNames = [x.name for x in methodList]
+    print(strategyA)
+    print(strategyB)
+    results = {
+        "AA": getAllValues(sub(strategyA, 2), DITaskObjs, methodList, corunResult),
+        "BB": getAllValues(sub(strategyB, 2), DITaskObjs, methodList, corunResult),
+        "AB": getAllValues(merge2(strategyA, strategyB), DITaskObjs, methodList, corunResult),
+        "AAA": getAllValues(sub(strategyA, 3), DITaskObjs, methodList, corunResult),
+        "BBB": getAllValues(sub(strategyB, 3), DITaskObjs, methodList, corunResult),
+        "AAB": getAllValues(merge3(strategyA, strategyA, strategyB), DITaskObjs, methodList, corunResult),
+        "ABB": getAllValues(merge3(strategyA, strategyB, strategyB), DITaskObjs, methodList, corunResult)
+    }
 
-    saveExcel(output, resultA, resultB, resultAB, corunResult, methodList)
+    workbook = xlwt.Workbook(encoding='utf-8')
+    for sheetName in results.keys():
+        data = results[sheetName]
+        sheet = workbook.add_sheet(sheetName)
+        saveSheet(sheet, data, methodNames)
+    workbook.save(output)
+
