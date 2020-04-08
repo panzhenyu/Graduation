@@ -10,15 +10,6 @@ from src.algorithm import *
 from utils import *
 import sys
 
-def getAllTask(filename):
-	taskName = []
-	fp = open(filename, "r")
-	for line in fp.readlines():
-		line = line.strip()
-		if len(line) != 0:
-			taskName.append(line)
-	return taskName
-
 def getDISeriesResult(scheduleAlgorithm, tasks, processor_num, DITaskObjs):
 	diSeries = scheduleAlgorithm("")
 	for task in tasks:

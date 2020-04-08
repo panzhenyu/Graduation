@@ -6,16 +6,16 @@ import sys, xlwt
 # this function return two taskSet: strategyA, strategyB
 # tasks working well in A strategy
 # tasks working well in B strategy
-def loadTaskSet():
-    strategyA = [
-        "505", "519", "520", "521",
-        "620", "625", "638", "calculix",
-        "lbm"
-    ]
-    strategyB = [
-        "557", "602", "623", "libquantum",
-        "mcf", "sphinx3"
-    ]
+def divTaskSetAsDIProfile(taskNames):
+    taskObjs = buildDITaskObject(taskNames, CO_SCHEDULING_HOME + "/profile")
+    strategyA, strategyB = [], []
+    for name in taskNames:
+        profile = taskObjs[name].profile
+        if profile.miss_A < profile.miss_B:
+            strategyA.append(name)
+        else:
+            strategyB.append(name)
+    del taskObjs
     return strategyA, strategyB
 
 def getTaskNameSeq(taskNames):
@@ -109,14 +109,15 @@ def saveExcel(output, resultA, resultB, resultAB, corunResult, methodList):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("usage: python3 Check4PredictMethod output")
+        print("usage: python3 thisfile output")
         sys.exit(-1)
     output = sys.argv[1]
     methodList = [DI4CompareImproveSelect, DI4NonStrategyImproveSelect]
 
     nameIdMap = loadNameIdMap(TASKID_PATH)
     idPhaseMap = loadIdPhaseMap(PHASE_PATH)
-    strategyA, strategyB = loadTaskSet()
+    taskNames = getAllTask(AUTOTEST_TASKSET)
+    strategyA, strategyB = divTaskSetAsDIProfile(taskNames)
     allTask = strategyA[:]
     allTask.extend(strategyB)
     DITaskObjs = buildDITaskObject(allTask, PROFILE_HOME)

@@ -152,6 +152,18 @@ def loadSingle(filename):
     fp.close()
     return single
 
+# used to get CO_SCHEDULING_HOME/input/task_set
+def getAllTask(filename):
+    taskName = []
+    fp = open(filename, "r")
+    for line in fp.readlines():
+        line = line.strip()
+        if len(line) != 0:
+            taskName.append(line)
+    return taskName
+
+# tasks = [taskName, ...]
+# return a dict: {taskName: taskProfileObj, ...}
 def buildDITaskObject(tasks, profile_home):
     result = {}
     di = DI(profile_home)
