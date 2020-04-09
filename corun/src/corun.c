@@ -222,10 +222,12 @@ int task_corunning(struct corun_param *param)
 	}
 	for(i = 0; i < num_task; i++)
 		sem_post(mutex);
+/*
 	if(param->time == 0)
-        usleep(param->time * 1000);
-    else
-	   waitpid(-1, NULL, 0);
+		usleep(param->time * 1000);
+	else
+*/
+	waitpid(-1, NULL, 0);
 	for(i = 0; i < num_task; i++)
 		disable_all_event_counter(events[i]);
 	printf("all child process have finished!\n");
@@ -294,10 +296,10 @@ void corun_param_show(struct corun_param *param)
 
 int main(int argc, char *argv[])
 {
-    if(!pin_cpu(0))
-        puts("failed to pin cpu 0");
-    else
-        puts("succeed to pin cpu 0");
+	if(!pin_cpu(0))
+		puts("!!!failed to pin cpu 0");
+	else
+		puts("succeed to pin cpu 0");
 
 	event_counter_initialize();
 	printf("event_counter_initialize done\n");
