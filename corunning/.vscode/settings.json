@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "jsonanalyser.h": "c",
+        "string.h": "c",
+        "process.h": "c",
+        "corun.h": "c"
+    }
+}
